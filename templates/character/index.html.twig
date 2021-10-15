@@ -1,0 +1,94 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Character {% endblock %}
+
+{% block body %}
+    <div class="row mt-4">
+        <div class="col col-8 ">
+            <div class="card character">
+                <div class="character-header d-flex justify-content-center">
+                    <div class="character-header-title">
+                        Character
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="row p-2">
+                        <div class="col-7">
+                            <div class="character-equipment">
+                                <div class="equipment-slot hand1">Hand1</div>
+                                <div class="equipment-slot ring1">Ring1</div>
+                                <div class="equipment-slot head">Head</div>
+                                <div class="equipment-slot ring2">Ring2</div>
+                                <div class="equipment-slot hand2">Hand2</div>
+
+                                <div class="equipment-slot tors">Tors</div>
+                                <div class="equipment-slot body">Body</div>
+                                <div class="equipment-slot arm">Arm</div>
+                                <div class="equipment-slot leg">Leg</div>
+                                <div class="equipment-slot amulet">Amulet</div>
+                                <div class="equipment-slot artifact">Artifact</div>
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#primary" id="primary-tab" type="button" role="tab">Primary</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#secondary" id="secondary-tab" type="button" role="tab">Secondary</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane show active character-info" id="primary"  role="tabpanel" aria-labelledby="primary-tab">
+                                    <div class="character-name">RobynHood</div>
+                                    <div class="character-class">Ranger</div>
+                                    <div class="hr"></div>
+                                    <h3>Параметри</h3>
+
+                                    <ul class="list-group">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Жизни
+                                            <span class="badge bg-primary rounded-pill">14</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Енергия
+                                            <span class="badge bg-primary rounded-pill">2</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Интелект
+                                            <span class="badge bg-primary rounded-pill">1</span>
+                                        </li>
+                                    </ul>
+                                    <div>Жизни </div>
+                                    <div>Енергия</div>
+                                    <div>Сила</div>
+                                    <div>Интелект</div>
+                                    <div>Ловкость</div>
+                                    <div class="hr"></div>
+                                    <h3>Защита</h3>
+
+                                    <div class="hr"></div>
+
+                                    <h3>Общее</h3>
+
+                                    <div>Урон</div>
+                                    <div>Скорость атаки</div>
+                                    <div>ДПС</div>
+                                </div>
+                                <div class="tab-pane" id="secondary" role="tabpanel" aria-labelledby="secondary-tab">
+                                    Secondary
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col col-4">
+            <div class="card">
+                <header>Items</header>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
