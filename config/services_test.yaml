@@ -1,0 +1,3 @@
+services:
+    App\Http\FinanceApiInterface:
+        class: App\Http\FakeYahooFinanceApiClient
