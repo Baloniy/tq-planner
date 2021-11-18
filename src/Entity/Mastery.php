@@ -6,7 +6,7 @@ namespace App\Entity;
 
 use App\Repository\MasteryRepository;
 use Doctrine\ORM\Mapping as ORM;
-use Doctrine\ORM\Mapping\Column;
+use Doctrine\Common\Collections\ArrayCollection;
 
 #[ORM\Entity(repositoryClass: MasteryRepository::class)]
 class Mastery
@@ -15,6 +15,9 @@ class Mastery
     #[ORM\GeneratedValue]
     #[ORM\Column(type: 'integer')]
     private int $id;
+
+    #[ORM\OneToMany(mappedBy: 'mastery', targetEntity: Skill::class)]
+    private ArrayCollection $skills;
 
     #[ORM\Column(type: 'string', length: 255)]
     private string $name;
@@ -28,12 +31,16 @@ class Mastery
     #[ORM\Column(type: 'text', nullable: true)]
     private ?string $description;
 
-    #[Column(type: "datetime", length: 255, nullable: false)]
+    #[ORM\Column(type: 'json', nullable: true)]
+    private ?array $properties;
+
+    #[ORM\Column(type: "datetime", length: 255, nullable: false)]
     private \DateTimeInterface $created_at;
 
     public function __construct()
     {
         $this->created_at = new \DateTime();
+        $this->skills = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -89,8 +96,23 @@ class Mastery
         return $this;
     }
 
+    public function getProperties(): ?array
+    {
+        return $this->properties;
+    }
+
+    public function setProperties(?array $properties): void
+    {
+        $this->properties = $properties;
+    }
+
     public function getCreatedAt(): ?\DateTimeInterface
     {
         return $this->created_at;
+    }
+
+    public function getSkills(): ArrayCollection
+    {
+        return $this->skills;
     }
 }

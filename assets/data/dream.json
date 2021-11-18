@@ -1,0 +1,294 @@
+{
+
+    "xtagSkillDreamName002": {
+        "description": "Энергия разума наполняет ваше оружие и наделяет его способностью вызывать колебания, дробящие кости врагов. Назначьте это умение на левую кнопку мыши.",
+        "name": "Резонанс",
+        "properties": [
+            {
+                "offensiveLife": "15 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+30% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "19 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+36% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "23 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+42% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "27 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+48% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "31 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+54% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "36 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+60% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "42 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+66% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "49 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+72% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "57 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+78% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "66 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+84% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "76 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+90% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "87 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+96% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "99 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+102% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "112 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+108% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "127 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+114% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "144 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+120% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            }
+        ],
+        "tag": "xtagSkillDreamName002"
+    },
+    "xtagSkillDreamName003": {
+        "description": "Ментальная энергия вашего врага возгорается и вырывается наружу, нанося урон всем, кто находится рядом с ним.",
+        "name": "Ментальный ожог",
+        "properties": [
+            {
+                "offensiveSlowLightning": "36 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "9.0% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+8% урона Demons",
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            },
+            {
+                "offensiveSlowLightning": "57 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "14.2% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage": [
+                    "+12% урона Demons"
+                ],
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            },
+            {
+                "offensiveSlowLightning": "70 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "17.5% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage": [
+                    "+16% урона Demons"
+                ],
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            },
+            {
+                "offensiveSlowLightning": "84 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "21.1% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage": [
+                    "+20% урона Demons"
+                ],
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            },
+            {
+                "offensiveSlowLightning": "100 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "24.9% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage": [
+                    "+24% урона Demons"
+                ],
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            },
+            {
+                "offensiveSlowLightning": "116 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "28.9% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage": [
+                    "+28% урона Demons"
+                ],
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            },
+            {
+                "offensiveSlowLightning": "132 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "33.1% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage": [
+                    "+32% урона Demons"
+                ],
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            },
+            {
+                "offensiveSlowLightning": "150 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "37.6% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage": [
+                    "+36% урона Demons"
+                ],
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            },
+            {
+                "offensiveSlowLightning": "170 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "42.4% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage": [
+                    "+40% урона Demons"
+                ],
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            },
+            {
+                "offensiveSlowLightning": "190 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "47.4% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage": [
+                    "+44% урона Demons"
+                ],
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            },
+            {
+                "offensiveSlowLightning": "211 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "52.8% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage": [
+                    "+48% урона Demons"
+                ],
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            },
+            {
+                "offensiveSlowLightning": "234 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "58.4% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage": [
+                    "+52% урона Demons"
+                ],
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            }
+        ],
+        "tag": "xtagSkillDreamName003"
+    },
+    "xtagSkillDreamName004-1": {
+        "description": "В направлении к противникам распространяется волна искажения, вызывающая разрывы в ткани реальности и наносящая огромный урон телу и разуму врагов.",
+        "name": "Волна искажения",
+        "properties": [
+            {
+                "offensivePhysical": "10 ед. физического урона",
+                "offensiveSlowTotalSpeed": "15.0% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 36"
+            },
+            {
+                "offensivePhysical": "15 ед. физического урона",
+                "offensiveSlowTotalSpeed": "20.6% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 40"
+            },
+            {
+                "offensivePhysical": "21 ед. физического урона",
+                "offensiveSlowTotalSpeed": "25.9% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 44"
+            },
+            {
+                "offensivePhysical": "27 ед. физического урона",
+                "offensiveSlowTotalSpeed": "30.8% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 48"
+            },
+            {
+                "offensivePhysical": "37 ед. физического урона",
+                "offensiveSlowTotalSpeed": "35.2% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 52"
+            },
+            {
+                "offensivePhysical": "55 ед. физического урона",
+                "offensiveSlowTotalSpeed": "39.4% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 56"
+            },
+            {
+                "offensivePhysical": "66 ед. физического урона",
+                "offensiveSlowTotalSpeed": "43.1% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 60"
+            },
+            {
+                "offensivePhysical": "78 ед. физического урона",
+                "offensiveSlowTotalSpeed": "46.5% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 64"
+            },
+            {
+                "offensivePhysical": "92 ед. физического урона",
+                "offensiveSlowTotalSpeed": "49.5% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 68"
+            },
+            {
+                "offensivePhysical": "106 ед. физического урона",
+                "offensiveSlowTotalSpeed": "52.1% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 72"
+            },
+            {
+                "offensivePhysical": "122 ед. физического урона",
+                "offensiveSlowTotalSpeed": "54.4% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 76"
+            },
+            {
+                "offensivePhysical": "140 ед. физического урона",
+                "offensiveSlowTotalSpeed": "56.2% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 80"
+            },
+            {
+                "offensivePhysical": "164 ед. физического урона",
+                "offensiveSlowTotalSpeed": "57.8% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 84"
+            },
+            {
+                "offensivePhysical": "191 ед. физического урона",
+                "offensiveSlowTotalSpeed": "58.9% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 88"
+            },
+            {
+                "offensivePhysical": "223 ед. физического урона",
+                "offensiveSlowTotalSpeed": "59.6% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 92"
+            },
+            {
+                "offensivePhysical": "259 ед. физического урона",
+                "offensiveSlowTotalSpeed": "60.0% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 96"
+            }
+        ],
+        "tag": "xtagSkillDreamName004-1"
+    }
+}
