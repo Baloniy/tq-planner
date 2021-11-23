@@ -10,7 +10,7 @@ use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
-use Symfony\Component\HttpKernel\KernelInterface;
+use App\Service\ParseSkillsService;
 
 #[AsCommand(
     name: 'app:parse-skills',
@@ -20,9 +20,8 @@ class ParseSkillsCommand extends Command
 {
 
     public function __construct(
-        private KernelInterface $kernel,
-    )
-    {
+        private ParseSkillsService $parseSkillsService
+    ) {
         parent::__construct();
     }
 
@@ -33,14 +32,22 @@ class ParseSkillsCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-
         $io = new SymfonyStyle($input, $output);
+
         $filename = $input->getArgument('filename');
         if ($filename) {
             $io->note(sprintf('You passed an argument: %s', $filename));
         }
 
-        $message = "";
+        $message = "Skills parsed successfully!";
+
+        try {
+            $this->parseSkillsService->parse($filename);
+        } catch (\Exception $exception) {
+            $message = $exception->getMessage();
+        }
+
+        $output->write($message);
 
         return Command::SUCCESS;
     }

@@ -1,0 +1,179 @@
+{
+
+    "tagSkillName017": {
+        "description": "Годы тренировок с мечом, топором и палицей позволяют атаковать быстрее и наносить более точные удары, а также довольно метко их бросать.",
+        "name": "Мастерство владения оружием",
+        "tier": 1,
+        "type": "Passive",
+        "maximum_level": 6,
+        "cooldown": "none",
+        "icon": "",
+        "properties": [
+            {
+                "characterAttackSpeedModifier": "+5% скорости атаки",
+                "characterOffensiveAbility": "+62 ед. наступательной способности"
+            },
+            {
+                "characterAttackSpeedModifier": "+8% скорости атаки",
+                "characterOffensiveAbility": "+94 ед. наступательной способности"
+            },
+            {
+                "characterAttackSpeedModifier": "+10% скорости атаки",
+                "characterOffensiveAbility": "+126 ед. наступательной способности"
+            },
+            {
+                "characterAttackSpeedModifier": "+12% скорости атаки",
+                "characterOffensiveAbility": "+158 ед. наступательной способности"
+            },
+            {
+                "characterAttackSpeedModifier": "+14% скорости атаки",
+                "characterOffensiveAbility": "+190 ед. наступательной способности"
+            },
+            {
+                "characterAttackSpeedModifier": "+16% скорости атаки",
+                "characterOffensiveAbility": "+222 ед. наступательной способности"
+            },
+            {
+                "characterAttackSpeedModifier": "+18% скорости атаки",
+                "characterOffensiveAbility": "+254 ед. наступательной способности"
+            },
+            {
+                "characterAttackSpeedModifier": "+20% скорости атаки",
+                "characterOffensiveAbility": "+286 ед. наступательной способности"
+            },
+            {
+                "characterAttackSpeedModifier": "+22% скорости атаки",
+                "characterOffensiveAbility": "+318 ед. наступательной способности"
+            },
+            {
+                "characterAttackSpeedModifier": "+25% скорости атаки",
+                "characterOffensiveAbility": "+350 ед. наступательной способности"
+            }
+        ],
+        "tag": "tagSkillName017"
+    },
+    "tagSkillName128": {
+        "description": "Состояние повышенной боеготовности, которое позволяет герою и его союзникам быстрее реагировать на вражеские атаки.",
+        "name": "Боевой инстинкт",
+        "tier": 1,
+        "type": "Sustained",
+        "maximum_level": 12,
+        "cooldown": "4 Seconds",
+        "icon": "",
+        "properties": [
+            {
+                "characterDefensiveAbility": "+25 ед. оборонительной способности",
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "defensiveProtection": "4 ед. защиты",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 5.0 метра(ов)"
+            },
+            {
+                "characterDefensiveAbility": "+40 ед. оборонительной способности",
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "defensiveProtection": "6 ед. защиты",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 6.0 метра(ов)"
+            },
+            {
+                "characterDefensiveAbility": "+55 ед. оборонительной способности",
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "defensiveProtection": "8 ед. защиты",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 7.0 метра(ов)"
+            },
+            {
+                "characterDefensiveAbility": "+70 ед. оборонительной способности",
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "defensiveProtection": "11 ед. защиты",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 8.0 метра(ов)"
+            },
+            {
+                "characterDefensiveAbility": "+90 ед. оборонительной способности",
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "defensiveProtection": "14 ед. защиты",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 9.0 метра(ов)"
+            },
+            {
+                "characterDefensiveAbility": "+105 ед. оборонительной способности",
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "defensiveProtection": "17 ед. защиты",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 10.0 метра(ов)"
+            },
+            {
+                "characterDefensiveAbility": "+115 ед. оборонительной способности",
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "defensiveProtection": "20 ед. защиты",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 11.0 метра(ов)"
+            },
+            {
+                "characterDefensiveAbility": "+130 ед. оборонительной способности",
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "defensiveProtection": "24 ед. защиты",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "characterDefensiveAbility": "+140 ед. оборонительной способности",
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "defensiveProtection": "28 ед. защиты",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 13.0 метра(ов)"
+            },
+            {
+                "characterDefensiveAbility": "+160 ед. оборонительной способности",
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "defensiveProtection": "32 ед. защиты",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 14.0 метра(ов)"
+            },
+            {
+                "characterDefensiveAbility": "+170 ед. оборонительной способности",
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "defensiveProtection": "36 ед. защиты",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 15.0 метра(ов)"
+            },
+            {
+                "characterDefensiveAbility": "+180 ед. оборонительной способности",
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "defensiveProtection": "40 ед. защиты",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 16.0 метра(ов)"
+            },
+            {
+                "characterDefensiveAbility": "+195 ед. оборонительной способности",
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "defensiveProtection": "44 ед. защиты",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 16.0 метра(ов)"
+            },
+            {
+                "characterDefensiveAbility": "+205 ед. оборонительной способности",
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "defensiveProtection": "48 ед. защиты",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 16.0 метра(ов)"
+            },
+            {
+                "characterDefensiveAbility": "+225 ед. оборонительной способности",
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "defensiveProtection": "53 ед. защиты",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 16.0 метра(ов)"
+            },
+            {
+                "characterDefensiveAbility": "+238 ед. оборонительной способности",
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "defensiveProtection": "58 ед. защиты",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 16.0 метра(ов)"
+            }
+        ],
+        "tag": "tagSkillName128"
+    }
+}

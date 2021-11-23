@@ -1,0 +1,1710 @@
+{
+    "tagSkillName017": {
+        "description": "Годы тренировок с мечом, топором и палицей позволяют атаковать быстрее и наносить более точные удары, а также довольно метко их бросать.",
+        "name": "Мастерство владения оружием",
+        "tier": 1,
+        "type": "Passive",
+        "maximum_level": 6,
+        "cooldown": "none",
+        "icon": "",
+        "properties": [
+            {
+                "characterAttackSpeedModifier": "+5% скорости атаки",
+                "characterOffensiveAbility": "+62 ед. наступательной способности"
+            },
+            {
+                "characterAttackSpeedModifier": "+8% скорости атаки",
+                "characterOffensiveAbility": "+94 ед. наступательной способности"
+            },
+            {
+                "characterAttackSpeedModifier": "+10% скорости атаки",
+                "characterOffensiveAbility": "+126 ед. наступательной способности"
+            },
+            {
+                "characterAttackSpeedModifier": "+12% скорости атаки",
+                "characterOffensiveAbility": "+158 ед. наступательной способности"
+            },
+            {
+                "characterAttackSpeedModifier": "+14% скорости атаки",
+                "characterOffensiveAbility": "+190 ед. наступательной способности"
+            },
+            {
+                "characterAttackSpeedModifier": "+16% скорости атаки",
+                "characterOffensiveAbility": "+222 ед. наступательной способности"
+            },
+            {
+                "characterAttackSpeedModifier": "+18% скорости атаки",
+                "characterOffensiveAbility": "+254 ед. наступательной способности"
+            },
+            {
+                "characterAttackSpeedModifier": "+20% скорости атаки",
+                "characterOffensiveAbility": "+286 ед. наступательной способности"
+            },
+            {
+                "characterAttackSpeedModifier": "+22% скорости атаки",
+                "characterOffensiveAbility": "+318 ед. наступательной способности"
+            },
+            {
+                "characterAttackSpeedModifier": "+25% скорости атаки",
+                "characterOffensiveAbility": "+350 ед. наступательной способности"
+            }
+        ],
+        "tag": "tagSkillName017"
+    },
+
+    "tagSkillName002": {
+        "description": "Получив удар от противника, герой может впасть в боевую ярость, которая на короткое время добавляет силы его ударам и увеличивает наступательную способность.",
+        "name": "Боевая ярость",
+        "tier": 1,
+        "type": "Passive",
+        "maximum_level": 12,
+        "cooldown": "12 Seconds",
+        "icon": "",
+        "properties": [
+            {
+                "characterOffensiveAbilityModifier": "+33% наступательной способности",
+                "offensivePhysical": "8 ед. физического урона",
+                "skillActiveDuration": "Длительность 10.0 секунд(а)",
+                "skillCooldownTime": "12.0сек. перезарядки"
+            },
+            {
+                "characterOffensiveAbilityModifier": "+33% наступательной способности",
+                "offensivePhysical": "14 ед. физического урона",
+                "skillActiveDuration": "Длительность 10.0 секунд(а)",
+                "skillCooldownTime": "12.0сек. перезарядки"
+            },
+            {
+                "characterOffensiveAbilityModifier": "+33% наступательной способности",
+                "offensivePhysical": "20 ед. физического урона",
+                "skillActiveDuration": "Длительность 10.0 секунд(а)",
+                "skillCooldownTime": "12.0сек. перезарядки"
+            },
+            {
+                "characterOffensiveAbilityModifier": "+33% наступательной способности",
+                "offensivePhysical": "26 ед. физического урона",
+                "skillActiveDuration": "Длительность 10.0 секунд(а)",
+                "skillCooldownTime": "12.0сек. перезарядки"
+            },
+            {
+                "characterOffensiveAbilityModifier": "+33% наступательной способности",
+                "offensivePhysical": "33 ед. физического урона",
+                "skillActiveDuration": "Длительность 10.0 секунд(а)",
+                "skillCooldownTime": "12.0сек. перезарядки"
+            },
+            {
+                "characterOffensiveAbilityModifier": "+33% наступательной способности",
+                "offensivePhysical": "40 ед. физического урона",
+                "skillActiveDuration": "Длительность 10.0 секунд(а)",
+                "skillCooldownTime": "12.0сек. перезарядки"
+            },
+            {
+                "characterOffensiveAbilityModifier": "+33% наступательной способности",
+                "offensivePhysical": "46 ед. физического урона",
+                "skillActiveDuration": "Длительность 10.0 секунд(а)",
+                "skillCooldownTime": "12.0сек. перезарядки"
+            },
+            {
+                "characterOffensiveAbilityModifier": "+33% наступательной способности",
+                "offensivePhysical": "54 ед. физического урона",
+                "skillActiveDuration": "Длительность 10.0 секунд(а)",
+                "skillCooldownTime": "12.0сек. перезарядки"
+            },
+            {
+                "characterOffensiveAbilityModifier": "+33% наступательной способности",
+                "offensivePhysical": "61 ед. физического урона",
+                "skillActiveDuration": "Длительность 10.0 секунд(а)",
+                "skillCooldownTime": "12.0сек. перезарядки"
+            },
+            {
+                "characterOffensiveAbilityModifier": "+33% наступательной способности",
+                "offensivePhysical": "68 ед. физического урона",
+                "skillActiveDuration": "Длительность 10.0 секунд(а)",
+                "skillCooldownTime": "12.0сек. перезарядки"
+            },
+            {
+                "characterOffensiveAbilityModifier": "+33% наступательной способности",
+                "offensivePhysical": "75 ед. физического урона",
+                "skillActiveDuration": "Длительность 10.0 секунд(а)",
+                "skillCooldownTime": "12.0сек. перезарядки"
+            },
+            {
+                "characterOffensiveAbilityModifier": "+33% наступательной способности",
+                "offensivePhysical": "84 ед. физического урона",
+                "skillActiveDuration": "Длительность 10.0 секунд(а)",
+                "skillCooldownTime": "12.0сек. перезарядки"
+            },
+            {
+                "characterOffensiveAbilityModifier": "+33% наступательной способности",
+                "offensivePhysical": "91 ед. физического урона",
+                "skillActiveDuration": "Длительность 10.0 секунд(а)",
+                "skillCooldownTime": "12.0сек. перезарядки"
+            },
+            {
+                "characterOffensiveAbilityModifier": "+33% наступательной способности",
+                "offensivePhysical": "98 ед. физического урона",
+                "skillActiveDuration": "Длительность 10.0 секунд(а)",
+                "skillCooldownTime": "12.0сек. перезарядки"
+            },
+            {
+                "characterOffensiveAbilityModifier": "+33% наступательной способности",
+                "offensivePhysical": "106 ед. физического урона",
+                "skillActiveDuration": "Длительность 10.0 секунд(а)",
+                "skillCooldownTime": "12.0сек. перезарядки"
+            },
+            {
+                "characterOffensiveAbilityModifier": "+33% наступательной способности",
+                "offensivePhysical": "115 ед. физического урона",
+                "skillActiveDuration": "Длительность 10.0 секунд(а)",
+                "skillCooldownTime": "12.0сек. перезарядки"
+            }
+        ],
+        "tag": "tagSkillName002"
+    },
+    "tagSkillName003": {
+        "description": "Даёт герою шанс нанести критический удар в состоянии боевой ярости.",
+        "name": "Сокрушительный удар",
+        "tier": 3,
+        "type": "Modifier",
+        "maximum_level": 12,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "tagSkillName002",
+        "properties": [
+            {
+                "offensivePhysical": "25.0% шанс на 25-51 ед. физического урона"
+            },
+            {
+                "offensivePhysical": "25.0% шанс на 45-76 ед. физического урона"
+            },
+            {
+                "offensivePhysical": "25.0% шанс на 66-101 ед. физического урона"
+            },
+            {
+                "offensivePhysical": "25.0% шанс на 87-126 ед. физического урона"
+            },
+            {
+                "offensivePhysical": "25.0% шанс на 108-151 ед. физического урона"
+            },
+            {
+                "offensivePhysical": "25.0% шанс на 130-177 ед. физического урона"
+            },
+            {
+                "offensivePhysical": "25.0% шанс на 152-203 ед. физического урона"
+            },
+            {
+                "offensivePhysical": "25.0% шанс на 174-229 ед. физического урона"
+            },
+            {
+                "offensivePhysical": "25.0% шанс на 197-256 ед. физического урона"
+            },
+            {
+                "offensivePhysical": "25.0% шанс на 220-283 ед. физического урона"
+            },
+            {
+                "offensivePhysical": "25.0% шанс на 243-310 ед. физического урона"
+            },
+            {
+                "offensivePhysical": "25.0% шанс на 267-338 ед. физического урона"
+            },
+            {
+                "offensivePhysical": "25.0% шанс на 291-366 ед. физического урона"
+            },
+            {
+                "offensivePhysical": "25.0% шанс на 315-394 ед. физического урона"
+            },
+            {
+                "offensivePhysical": "25.0% шанс на 340-423 ед. физического урона"
+            },
+            {
+                "offensivePhysical": "25.0% шанс на 365-452 ед. физического урона"
+            }
+        ],
+        "tag": "tagSkillName003"
+    },
+    "tagSkillName004": {
+        "description": "Даёт герою шанс нанести контрудар по противнику в состоянии боевой ярости.",
+        "name": "Контрудар",
+        "tier": 5,
+        "type": "Modifier",
+        "maximum_level": 12,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "tagSkillName003",
+        "properties": [
+            {
+                "retaliationPhysical": "15.0% шанс на 54-93 ед. ответного урона"
+            },
+            {
+                "retaliationPhysical": "15.0% шанс на 60-105 ед. ответного урона"
+            },
+            {
+                "retaliationPhysical": "15.0% шанс на 69-117 ед. ответного урона"
+            },
+            {
+                "retaliationPhysical": "15.0% шанс на 75-129 ед. ответного урона"
+            },
+            {
+                "retaliationPhysical": "15.0% шанс на 90-153 ед. ответного урона"
+            },
+            {
+                "retaliationPhysical": "15.0% шанс на 99-168 ед. ответного урона"
+            },
+            {
+                "retaliationPhysical": "15.0% шанс на 105-192 ед. ответного урона"
+            },
+            {
+                "retaliationPhysical": "15.0% шанс на 114-213 ед. ответного урона"
+            },
+            {
+                "retaliationPhysical": "15.0% шанс на 120-231 ед. ответного урона"
+            },
+            {
+                "retaliationPhysical": "15.0% шанс на 135-267 ед. ответного урона"
+            },
+            {
+                "retaliationPhysical": "15.0% шанс на 144-294 ед. ответного урона"
+            },
+            {
+                "retaliationPhysical": "15.0% шанс на 150-324 ед. ответного урона"
+            },
+            {
+                "retaliationPhysical": "15.0% шанс на 159-357 ед. ответного урона"
+            },
+            {
+                "retaliationPhysical": "15.0% шанс на 165-387 ед. ответного урона"
+            },
+            {
+                "retaliationPhysical": "15.0% шанс на 183-429 ед. ответного урона"
+            },
+            {
+                "retaliationPhysical": "15.0% шанс на 195-468 ед. ответного урона"
+            }
+        ],
+        "tag": "tagSkillName004"
+    },
+
+    "tagSkillName005-3": {
+        "description": "Если использовать яростный натиск вместо обычной атаки, то сила удара героя будет увеличиваться с каждым попаданием по противнику. С каждым ударом эффективность яростного натиска повышается, пока не достигнет максимального уровня умения. Если перестать атаковать, сила яростного натиска быстро исчезает.  Назначьте это умение вместо обычной атаки.",
+        "name": "Яростный натиск",
+        "tier": 1,
+        "type": "Active",
+        "maximum_level": 8,
+        "cooldown": "none",
+        "icon": "",
+        "properties": [
+            {
+                "offensivePhysicalModifier": "+10% физического урона",
+                "skillManaCost": "Расход энергии 1"
+            },
+            {
+                "offensivePhysicalModifier": "+15% физического урона",
+                "skillManaCost": "Расход энергии 1"
+            },
+            {
+                "offensivePhysicalModifier": "+19% физического урона",
+                "skillManaCost": "Расход энергии 1"
+            },
+            {
+                "offensivePhysicalModifier": "+26% физического урона",
+                "skillManaCost": "Расход энергии 1"
+            },
+            {
+                "offensivePhysicalModifier": "+31% физического урона",
+                "skillManaCost": "Расход энергии 1"
+            },
+            {
+                "offensivePhysicalModifier": "+37% физического урона",
+                "skillManaCost": "Расход энергии 1"
+            },
+            {
+                "offensivePhysicalModifier": "+42% физического урона",
+                "skillManaCost": "Расход энергии 1"
+            },
+            {
+                "offensivePhysicalModifier": "+50% физического урона",
+                "skillManaCost": "Расход энергии 1"
+            },
+            {
+                "offensivePhysicalModifier": "+55% физического урона",
+                "skillManaCost": "Расход энергии 1"
+            },
+            {
+                "offensivePhysicalModifier": "+63% физического урона",
+                "skillManaCost": "Расход энергии 1"
+            },
+            {
+                "offensivePhysicalModifier": "+69% физического урона",
+                "skillManaCost": "Расход энергии 1"
+            },
+            {
+                "offensivePhysicalModifier": "+75% физического урона",
+                "skillManaCost": "Расход энергии 1"
+            }
+        ],
+        "tag": "tagSkillName005-3"
+    },
+    "tagSkillName007": {
+        "description": "Полное пренебрежение всем в горячке боя позволяет герою не обращать внимания на физический и проникающий урон.",
+        "name": "Пренебрежение болью",
+        "tier": 2,
+        "type": "Modifier",
+        "maximum_level": 6,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "tagSkillName005-3",
+        "properties": [
+            {
+                "defensivePhysical": "3% сопротивление физическому урону",
+                "defensivePierce": "3% сопротивление проникающему урону"
+            },
+            {
+                "defensivePhysical": "6% сопротивление физическому урону",
+                "defensivePierce": "6% сопротивление проникающему урону"
+            },
+            {
+                "defensivePhysical": "8% сопротивление физическому урону",
+                "defensivePierce": "8% сопротивление проникающему урону"
+            },
+            {
+                "defensivePhysical": "10% сопротивление физическому урону",
+                "defensivePierce": "10% сопротивление проникающему урону"
+            },
+            {
+                "defensivePhysical": "12% сопротивление физическому урону",
+                "defensivePierce": "12% сопротивление проникающему урону"
+            },
+            {
+                "defensivePhysical": "15% сопротивление физическому урону",
+                "defensivePierce": "15% сопротивление проникающему урону"
+            },
+            {
+                "defensivePhysical": "16% сопротивление физическому урону",
+                "defensivePierce": "16% сопротивление проникающему урону"
+            },
+            {
+                "defensivePhysical": "17% сопротивление физическому урону",
+                "defensivePierce": "17% сопротивление проникающему урону"
+            },
+            {
+                "defensivePhysical": "18% сопротивление физическому урону",
+                "defensivePierce": "18% сопротивление проникающему урону"
+            },
+            {
+                "defensivePhysical": "20% сопротивление физическому урону",
+                "defensivePierce": "20% сопротивление проникающему урону"
+            }
+        ],
+        "tag": "tagSkillName007"
+    },
+    "tagSkillName011": {
+        "description": "Удар по ногам противника на короткое время лишает его способности бегать и делает более уязвимым.",
+        "name": "Подрезать сухожилия",
+        "tier": 4,
+        "type": "Modifier",
+        "maximum_level": 6,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "tagSkillName007",
+        "properties": [
+            {
+                "offensiveSlowDefensiveAbility": "8.0% уменьшения оборонительной способности на 3.0 секунд(ы)",
+                "offensiveSlowDefensiveReduction": "16.0 ед. уменьшения брони на 6.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "10.0% замедления перемещения на 5.0 секунд(ы)"
+            },
+            {
+                "offensiveSlowDefensiveAbility": "12.0% уменьшения оборонительной способности на 3.0 секунд(ы)",
+                "offensiveSlowDefensiveReduction": "24.0 ед. уменьшения брони на 6.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "15.0% замедления перемещения на 5.0 секунд(ы)"
+            },
+            {
+                "offensiveSlowDefensiveAbility": "16.0% уменьшения оборонительной способности на 3.0 секунд(ы)",
+                "offensiveSlowDefensiveReduction": "32.0 ед. уменьшения брони на 6.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "20.0% замедления перемещения на 5.0 секунд(ы)"
+            },
+            {
+                "offensiveSlowDefensiveAbility": "20.0% уменьшения оборонительной способности на 3.0 секунд(ы)",
+                "offensiveSlowDefensiveReduction": "40.0 ед. уменьшения брони на 6.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "25.0% замедления перемещения на 5.0 секунд(ы)"
+            },
+            {
+                "offensiveSlowDefensiveAbility": "24.0% уменьшения оборонительной способности на 3.0 секунд(ы)",
+                "offensiveSlowDefensiveReduction": "48.0 ед. уменьшения брони на 6.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "30.0% замедления перемещения на 5.0 секунд(ы)"
+            },
+            {
+                "offensiveSlowDefensiveAbility": "28.0% уменьшения оборонительной способности на 3.0 секунд(ы)",
+                "offensiveSlowDefensiveReduction": "56.0 ед. уменьшения брони на 6.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "35.0% замедления перемещения на 5.0 секунд(ы)"
+            },
+            {
+                "offensiveSlowDefensiveAbility": "32.0% уменьшения оборонительной способности на 3.0 секунд(ы)",
+                "offensiveSlowDefensiveReduction": "64.0 ед. уменьшения брони на 6.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "40.0% замедления перемещения на 5.0 секунд(ы)"
+            },
+            {
+                "offensiveSlowDefensiveAbility": "36.0% уменьшения оборонительной способности на 3.0 секунд(ы)",
+                "offensiveSlowDefensiveReduction": "72.0 ед. уменьшения брони на 6.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "45.0% замедления перемещения на 5.0 секунд(ы)"
+            },
+            {
+                "offensiveSlowDefensiveAbility": "40.0% уменьшения оборонительной способности на 3.0 секунд(ы)",
+                "offensiveSlowDefensiveReduction": "80.0 ед. уменьшения брони на 6.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "50.0% замедления перемещения на 5.0 секунд(ы)"
+            },
+            {
+                "offensiveSlowDefensiveAbility": "44.0% уменьшения оборонительной способности на 3.0 секунд(ы)",
+                "offensiveSlowDefensiveReduction": "90.0 ед. уменьшения брони на 6.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "55.0% замедления перемещения на 5.0 секунд(ы)"
+            }
+        ],
+        "tag": "tagSkillName011"
+    },
+    "tagSkillName006": {
+        "description": "С каждым ударом герой начинает атаковать и двигаться всё быстрее и быстрее.",
+        "name": "Рвение",
+        "tier": 6,
+        "type": "Modifier",
+        "maximum_level": 6,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "tagSkillName011",
+        "properties": [
+            {
+                "characterAttackSpeedModifier": "+6% скорости атаки",
+                "characterRunSpeedModifier": "+6% скорости перемещения"
+            },
+            {
+                "characterAttackSpeedModifier": "+8% скорости атаки",
+                "characterRunSpeedModifier": "+8% скорости перемещения"
+            },
+            {
+                "characterAttackSpeedModifier": "+10% скорости атаки",
+                "characterRunSpeedModifier": "+10% скорости перемещения"
+            },
+            {
+                "characterAttackSpeedModifier": "+12% скорости атаки",
+                "characterRunSpeedModifier": "+12% скорости перемещения"
+            },
+            {
+                "characterAttackSpeedModifier": "+14% скорости атаки",
+                "characterRunSpeedModifier": "+14% скорости перемещения"
+            },
+            {
+                "characterAttackSpeedModifier": "+16% скорости атаки",
+                "characterRunSpeedModifier": "+16% скорости перемещения"
+            },
+            {
+                "characterAttackSpeedModifier": "+18% скорости атаки",
+                "characterRunSpeedModifier": "+18% скорости перемещения"
+            },
+            {
+                "characterAttackSpeedModifier": "+20% скорости атаки",
+                "characterRunSpeedModifier": "+20% скорости перемещения"
+            },
+            {
+                "characterAttackSpeedModifier": "+22% скорости атаки",
+                "characterRunSpeedModifier": "+22% скорости перемещения"
+            },
+            {
+                "characterAttackSpeedModifier": "+25% скорости атаки",
+                "characterRunSpeedModifier": "+25% скорости перемещения"
+            }
+        ],
+        "tag": "tagSkillName006"
+    },
+
+    "tagSkillName010": {
+        "description": "Вы учитесь сражаться, держа по оружию в каждой руке и периодически совершая двойные атаки или броски.",
+        "name": "Владение двумя клинками",
+        "tier": 2,
+        "type": "Modifier",
+        "maximum_level": 6,
+        "cooldown": "none",
+        "icon": "",
+        "properties": [
+            {
+                "offensivePhysical": "10 ед. физического урона",
+                "skillChanceWeight": "12% шанс на использование умения"
+            },
+            {
+                "offensivePhysical": "10 ед. физического урона",
+                "skillChanceWeight": "14% шанс на использование умения"
+            },
+            {
+                "offensivePhysical": "10 ед. физического урона",
+                "skillChanceWeight": "16% шанс на использование умения"
+            },
+            {
+                "offensivePhysical": "10 ед. физического урона",
+                "skillChanceWeight": "18% шанс на использование умения"
+            },
+            {
+                "offensivePhysical": "10 ед. физического урона",
+                "skillChanceWeight": "20% шанс на использование умения"
+            },
+            {
+                "offensivePhysical": "10 ед. физического урона",
+                "skillChanceWeight": "22% шанс на использование умения"
+            },
+            {
+                "offensivePhysical": "10 ед. физического урона",
+                "skillChanceWeight": "24% шанс на использование умения"
+            },
+            {
+                "offensivePhysical": "10 ед. физического урона",
+                "skillChanceWeight": "26% шанс на использование умения"
+            },
+            {
+                "offensivePhysical": "10 ед. физического урона",
+                "skillChanceWeight": "28% шанс на использование умения"
+            },
+            {
+                "offensivePhysical": "10 ед. физического урона",
+                "skillChanceWeight": "30% шанс на использование умения"
+            }
+        ],
+        "tag": "tagSkillName010"
+    },
+    "tagSkillName012": {
+        "description": "Приём владения двумя клинками, увеличивающий урон на 50%.",
+        "name": "Рассечение",
+        "tier": 3,
+        "type": "Passive",
+        "maximum_level": 6,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "tagSkillName010",
+        "properties": [
+            {
+                "offensivePhysicalModifier": "+50% физического урона",
+                "skillChanceWeight": "3% шанс на использование умения"
+            },
+            {
+                "offensivePhysicalModifier": "+50% физического урона",
+                "skillChanceWeight": "4% шанс на использование умения"
+            },
+            {
+                "offensivePhysicalModifier": "+50% физического урона",
+                "skillChanceWeight": "6% шанс на использование умения"
+            },
+            {
+                "offensivePhysicalModifier": "+50% физического урона",
+                "skillChanceWeight": "7% шанс на использование умения"
+            },
+            {
+                "offensivePhysicalModifier": "+50% физического урона",
+                "skillChanceWeight": "9% шанс на использование умения"
+            },
+            {
+                "offensivePhysicalModifier": "+50% физического урона",
+                "skillChanceWeight": "10% шанс на использование умения"
+            },
+            {
+                "offensivePhysicalModifier": "+50% физического урона",
+                "skillChanceWeight": "11% шанс на использование умения"
+            },
+            {
+                "offensivePhysicalModifier": "+50% физического урона",
+                "skillChanceWeight": "12% шанс на использование умения"
+            },
+            {
+                "offensivePhysicalModifier": "+50% физического урона",
+                "skillChanceWeight": "13% шанс на использование умения"
+            },
+            {
+                "offensivePhysicalModifier": "+50% физического урона",
+                "skillChanceWeight": "15% шанс на использование умения"
+            }
+        ],
+        "tag": "tagSkillName012"
+    },
+    "tagSkillName009": {
+        "description": "Приём позволяет использовать два клинка как ножницы, чтобы поразить до двух близстоящих противников.",
+        "name": "Секущий удар",
+        "tier": 4,
+        "type": "Passive",
+        "maximum_level": 6,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "tagSkillName012",
+        "properties": [
+            {
+                "offensiveSlowBleeding": "22 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "skillChanceWeight": "3% шанс на использование умения",
+                "skillTargetAngle": "Угол атаки 90 градусов",
+                "skillTargetNumber": "Количество целей 2 "
+            },
+            {
+                "offensiveSlowBleeding": "45 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "skillChanceWeight": "4% шанс на использование умения",
+                "skillTargetAngle": "Угол атаки 90 градусов",
+                "skillTargetNumber": "Количество целей 2 "
+            },
+            {
+                "offensiveSlowBleeding": "60 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "skillChanceWeight": "6% шанс на использование умения",
+                "skillTargetAngle": "Угол атаки 90 градусов",
+                "skillTargetNumber": "Количество целей 2 "
+            },
+            {
+                "offensiveSlowBleeding": "75 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "skillChanceWeight": "7% шанс на использование умения",
+                "skillTargetAngle": "Угол атаки 90 градусов",
+                "skillTargetNumber": "Количество целей 2 "
+            },
+            {
+                "offensiveSlowBleeding": "97 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "skillChanceWeight": "9% шанс на использование умения",
+                "skillTargetAngle": "Угол атаки 90 градусов",
+                "skillTargetNumber": "Количество целей 2 "
+            },
+            {
+                "offensiveSlowBleeding": "120 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "skillChanceWeight": "10% шанс на использование умения",
+                "skillTargetAngle": "Угол атаки 90 градусов",
+                "skillTargetNumber": "Количество целей 2 "
+            },
+            {
+                "offensiveSlowBleeding": "149 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "skillChanceWeight": "11% шанс на использование умения",
+                "skillTargetAngle": "Угол атаки 90 градусов",
+                "skillTargetNumber": "Количество целей 2 "
+            },
+            {
+                "offensiveSlowBleeding": "179 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "skillChanceWeight": "12% шанс на использование умения",
+                "skillTargetAngle": "Угол атаки 90 градусов",
+                "skillTargetNumber": "Количество целей 2 "
+            },
+            {
+                "offensiveSlowBleeding": "217 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "skillChanceWeight": "13% шанс на использование умения",
+                "skillTargetAngle": "Угол атаки 90 градусов",
+                "skillTargetNumber": "Количество целей 2 "
+            },
+            {
+                "offensiveSlowBleeding": "261 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "skillChanceWeight": "15% шанс на использование умения",
+                "skillTargetAngle": "Угол атаки 90 градусов",
+                "skillTargetNumber": "Количество целей 2 "
+            }
+        ],
+        "tag": "tagSkillName009"
+    },
+    "tagSkillName008": {
+        "description": "Приём владения двумя клинками, позволяющий поражать до трех близстоящих противников.",
+        "name": "Буйство",
+        "tier": 6,
+        "type": "Passive",
+        "maximum_level": 6,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "tagSkillName009",
+        "properties": [
+            {
+                "offensiveSlowBleeding": "17 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillChanceWeight": "3% шанс на использование умения",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 3 "
+            },
+            {
+                "offensiveSlowBleeding": "35 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillChanceWeight": "4% шанс на использование умения",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 3 "
+            },
+            {
+                "offensiveSlowBleeding": "48 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillChanceWeight": "6% шанс на использование умения",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 3 "
+            },
+            {
+                "offensiveSlowBleeding": "61 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillChanceWeight": "7% шанс на использование умения",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 3 "
+            },
+            {
+                "offensiveSlowBleeding": "78 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillChanceWeight": "9% шанс на использование умения",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 3 "
+            },
+            {
+                "offensiveSlowBleeding": "96 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillChanceWeight": "10% шанс на использование умения",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 3 "
+            },
+            {
+                "offensiveSlowBleeding": "119 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillChanceWeight": "11% шанс на использование умения",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 3 "
+            },
+            {
+                "offensiveSlowBleeding": "141 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillChanceWeight": "12% шанс на использование умения",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 3 "
+            },
+            {
+                "offensiveSlowBleeding": "169 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillChanceWeight": "13% шанс на использование умения",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 3 "
+            },
+            {
+                "offensiveSlowBleeding": "202 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillChanceWeight": "15% шанс на использование умения",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 3 "
+            }
+        ],
+        "tag": "tagSkillName008"
+    },
+
+    "tagSkillName192-1": {
+        "description": "Даже в самой надёжной броне есть изъяны; лучший способ остаться в живых - уклоняться от ударов.",
+        "name": "Уклонение",
+        "tier": 2,
+        "type": "Passive",
+        "maximum_level": 6,
+        "cooldown": "none",
+        "icon": "",
+        "properties": [
+            {
+                "characterDodgePercent": "3% шанс уклониться от атаки"
+            },
+            {
+                "characterDodgePercent": "6% шанс уклониться от атаки"
+            },
+            {
+                "characterDodgePercent": "8% шанс уклониться от атаки"
+            },
+            {
+                "characterDodgePercent": "10% шанс уклониться от атаки"
+            },
+            {
+                "characterDodgePercent": "12% шанс уклониться от атаки"
+            },
+            {
+                "characterDodgePercent": "15% шанс уклониться от атаки"
+            },
+            {
+                "characterDodgePercent": "18% шанс уклониться от атаки"
+            },
+            {
+                "characterDodgePercent": "21% шанс уклониться от атаки"
+            },
+            {
+                "characterDodgePercent": "23% шанс уклониться от атаки"
+            },
+            {
+                "characterDodgePercent": "25% шанс уклониться от атаки"
+            },
+            {
+                "characterDodgePercent": "27% шанс уклониться от атаки"
+            },
+            {
+                "characterDodgePercent": "30% шанс уклониться от атаки"
+            }
+        ],
+        "tag": "tagSkillName192-1"
+    },
+
+    "tagSkillName016": {
+        "description": "Победный зов боевого горна ненадолго оглушает противников.",
+        "name": "Боевой горн",
+        "tier": 2,
+        "type": "Active",
+        "maximum_level": 10,
+        "cooldown": "18 Seconds",
+        "icon": "",
+        "properties": [
+            {
+                "offensiveStun": "1.5-3.0 секунд(ы) оглушения",
+                "skillCooldownTime": "18.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 52",
+                "skillTargetRadius": "Радиус 8.0 метра(ов)"
+            },
+            {
+                "offensiveStun": "1.5-3.5 секунд(ы) оглушения",
+                "skillCooldownTime": "18.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 54",
+                "skillTargetRadius": "Радиус 8.4 метра(ов)"
+            },
+            {
+                "offensiveStun": "1.5-3.9 секунд(ы) оглушения",
+                "skillCooldownTime": "18.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 56",
+                "skillTargetRadius": "Радиус 8.8 метра(ов)"
+            },
+            {
+                "offensiveStun": "1.5-4.3 секунд(ы) оглушения",
+                "skillCooldownTime": "18.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 58",
+                "skillTargetRadius": "Радиус 9.2 метра(ов)"
+            },
+            {
+                "offensiveStun": "1.5-4.6 секунд(ы) оглушения",
+                "skillCooldownTime": "18.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 60",
+                "skillTargetRadius": "Радиус 9.6 метра(ов)"
+            },
+            {
+                "offensiveStun": "1.5-5.0 секунд(ы) оглушения",
+                "skillCooldownTime": "18.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 62",
+                "skillTargetRadius": "Радиус 10.0 метра(ов)"
+            },
+            {
+                "offensiveStun": "1.5-5.3 секунд(ы) оглушения",
+                "skillCooldownTime": "18.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 64",
+                "skillTargetRadius": "Радиус 10.4 метра(ов)"
+            },
+            {
+                "offensiveStun": "1.5-5.6 секунд(ы) оглушения",
+                "skillCooldownTime": "18.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 66",
+                "skillTargetRadius": "Радиус 10.8 метра(ов)"
+            },
+            {
+                "offensiveStun": "1.5-6.0 секунд(ы) оглушения",
+                "skillCooldownTime": "18.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 68",
+                "skillTargetRadius": "Радиус 11.2 метра(ов)"
+            },
+            {
+                "offensiveStun": "1.5-6.5 секунд(ы) оглушения",
+                "skillCooldownTime": "18.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 70",
+                "skillTargetRadius": "Радиус 11.6 метра(ов)"
+            },
+            {
+                "offensiveStun": "1.5-6.7 секунд(ы) оглушения",
+                "skillCooldownTime": "18.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 72",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "offensiveStun": "1.5-6.9 секунд(ы) оглушения",
+                "skillCooldownTime": "18.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 74",
+                "skillTargetRadius": "Радиус 12.4 метра(ов)"
+            },
+            {
+                "offensiveStun": "1.5-7.2 секунд(ы) оглушения",
+                "skillCooldownTime": "18.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 76",
+                "skillTargetRadius": "Радиус 12.8 метра(ов)"
+            },
+            {
+                "offensiveStun": "1.5-7.5 секунд(ы) оглушения",
+                "skillCooldownTime": "18.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 78",
+                "skillTargetRadius": "Радиус 13.2 метра(ов)"
+            }
+        ],
+        "tag": "tagSkillName016"
+    },
+    "tagSkillName138": {
+        "description": "Герой трубит в боевой горн, возвещая о печальной судьбе врагов, заставляя их падать духом и защищаться менее умело.",
+        "name": "Горн рока",
+        "tier": 5,
+        "type": "Modifier",
+        "maximum_level": 6,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "tagSkillName016",
+        "properties": [
+            {
+                "offensivePercentCurrentLife": "9% уменьшение жизни противника",
+                "offensiveSlowDefensiveReduction": "24.0 ед. уменьшения брони на 10.0 секунд(ы)",
+                "offensiveTotalResistanceReductionAbsolute": "25.0 ед. уменьшения сопротивлений",
+                "skillManaCost": "Расход энергии 20"
+            },
+            {
+                "offensivePercentCurrentLife": "12% уменьшение жизни противника",
+                "offensiveSlowDefensiveReduction": "32.0 ед. уменьшения брони на 10.0 секунд(ы)",
+                "offensiveTotalResistanceReductionAbsolute": "29.0 ед. уменьшения сопротивлений",
+                "skillManaCost": "Расход энергии 20"
+            },
+            {
+                "offensivePercentCurrentLife": "15% уменьшение жизни противника",
+                "offensiveSlowDefensiveReduction": "40.0 ед. уменьшения брони на 10.0 секунд(ы)",
+                "offensiveTotalResistanceReductionAbsolute": "33.0 ед. уменьшения сопротивлений",
+                "skillManaCost": "Расход энергии 20"
+            },
+            {
+                "offensivePercentCurrentLife": "18% уменьшение жизни противника",
+                "offensiveSlowDefensiveReduction": "48.0 ед. уменьшения брони на 10.0 секунд(ы)",
+                "offensiveTotalResistanceReductionAbsolute": "37.0 ед. уменьшения сопротивлений",
+                "skillManaCost": "Расход энергии 20"
+            },
+            {
+                "offensivePercentCurrentLife": "21% уменьшение жизни противника",
+                "offensiveSlowDefensiveReduction": "56.0 ед. уменьшения брони на 10.0 секунд(ы)",
+                "offensiveTotalResistanceReductionAbsolute": "43.0 ед. уменьшения сопротивлений",
+                "skillManaCost": "Расход энергии 20"
+            },
+            {
+                "offensivePercentCurrentLife": "25% уменьшение жизни противника",
+                "offensiveSlowDefensiveReduction": "66.0 ед. уменьшения брони на 10.0 секунд(ы)",
+                "offensiveTotalResistanceReductionAbsolute": "47.0 ед. уменьшения сопротивлений",
+                "skillManaCost": "Расход энергии 20"
+            },
+            {
+                "offensivePercentCurrentLife": "27% уменьшение жизни противника",
+                "offensiveSlowDefensiveReduction": "72.0 ед. уменьшения брони на 10.0 секунд(ы)",
+                "offensiveTotalResistanceReductionAbsolute": "51.0 ед. уменьшения сопротивлений",
+                "skillManaCost": "Расход энергии 20"
+            },
+            {
+                "offensivePercentCurrentLife": "30% уменьшение жизни противника",
+                "offensiveSlowDefensiveReduction": "80.0 ед. уменьшения брони на 10.0 секунд(ы)",
+                "offensiveTotalResistanceReductionAbsolute": "55.0 ед. уменьшения сопротивлений",
+                "skillManaCost": "Расход энергии 20"
+            },
+            {
+                "offensivePercentCurrentLife": "33% уменьшение жизни противника",
+                "offensiveSlowDefensiveReduction": "90.0 ед. уменьшения брони на 10.0 секунд(ы)",
+                "offensiveTotalResistanceReductionAbsolute": "59.0 ед. уменьшения сопротивлений",
+                "skillManaCost": "Расход энергии 20"
+            },
+            {
+                "offensivePercentCurrentLife": "36% уменьшение жизни противника",
+                "offensiveSlowDefensiveReduction": "100.0 ед. уменьшения брони на 10.0 секунд(ы)",
+                "offensiveTotalResistanceReductionAbsolute": "65.0 ед. уменьшения сопротивлений",
+                "skillManaCost": "Расход энергии 20"
+            }
+        ],
+        "tag": "tagSkillName138"
+    },
+
+    "tagSkillName014": {
+        "description": "Сокрушительный круговой удар, поражающий до четырех противников. Поначалу урон от этого приёма слабее, чем от обычного удара, но повышение уровня умения повышает его эффективность.",
+        "name": "Вихрь",
+        "tier": 3,
+        "type": "Active",
+        "maximum_level": 8,
+        "cooldown": "8 Seconds",
+        "icon": "",
+        "properties": [
+            {
+                "characterRunSpeedModifier": "+300% скорости перемещения",
+                "offensivePhysicalModifier": "-28% физического урона",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 65",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 4 "
+            },
+            {
+                "characterRunSpeedModifier": "+300% скорости перемещения",
+                "offensivePhysicalModifier": "-21% физического урона",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 68",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 4 "
+            },
+            {
+                "characterRunSpeedModifier": "+300% скорости перемещения",
+                "offensivePhysicalModifier": "-14% физического урона",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 71",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 4 "
+            },
+            {
+                "characterRunSpeedModifier": "+300% скорости перемещения",
+                "offensivePhysicalModifier": "-7% физического урона",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 74",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 4 "
+            },
+            {
+                "characterRunSpeedModifier": "+300% скорости перемещения",
+                "offensivePhysicalModifier": "+7% физического урона",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 77",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 4 "
+            },
+            {
+                "characterRunSpeedModifier": "+300% скорости перемещения",
+                "offensivePhysicalModifier": "+14% физического урона",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 80",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 4 "
+            },
+            {
+                "characterRunSpeedModifier": "+300% скорости перемещения",
+                "offensivePhysicalModifier": "+21% физического урона",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 83",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 4 "
+            },
+            {
+                "characterRunSpeedModifier": "+300% скорости перемещения",
+                "offensivePhysicalModifier": "+28% физического урона",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 86",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 4 "
+            },
+            {
+                "characterRunSpeedModifier": "+300% скорости перемещения",
+                "offensivePhysicalModifier": "+35% физического урона",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 89",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 4 "
+            },
+            {
+                "characterRunSpeedModifier": "+300% скорости перемещения",
+                "offensivePhysicalModifier": "+42% физического урона",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 92",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 4 "
+            },
+            {
+                "characterRunSpeedModifier": "+300% скорости перемещения",
+                "offensivePhysicalModifier": "+49% физического урона",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 95",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 4 "
+            },
+            {
+                "characterRunSpeedModifier": "+300% скорости перемещения",
+                "offensivePhysicalModifier": "+49% физического урона",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 98",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 4 "
+            }
+        ],
+        "tag": "tagSkillName014"
+    },
+    "tagSkillName015": {
+        "description": "Вихрь теперь наносит урон кровотечением и поражает больше врагов. Требуется хотя бы один меч, топор или копье.",
+        "name": "Ланцет",
+        "tier": 5,
+        "type": "Modifier",
+        "maximum_level": 8,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "tagSkillName014",
+        "properties": [
+            {
+                "offensiveSlowBleeding": "76 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 12",
+                "skillTargetNumber": "Количество целей 1 "
+            },
+            {
+                "offensiveSlowBleeding": "94 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 14",
+                "skillTargetNumber": "Количество целей 1 "
+            },
+            {
+                "offensiveSlowBleeding": "112 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 17",
+                "skillTargetNumber": "Количество целей 2 "
+            },
+            {
+                "offensiveSlowBleeding": "132 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 19",
+                "skillTargetNumber": "Количество целей 2 "
+            },
+            {
+                "offensiveSlowBleeding": "148 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 21",
+                "skillTargetNumber": "Количество целей 2 "
+            },
+            {
+                "offensiveSlowBleeding": "171 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 24",
+                "skillTargetNumber": "Количество целей 3 "
+            },
+            {
+                "offensiveSlowBleeding": "195 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 26",
+                "skillTargetNumber": "Количество целей 3 "
+            },
+            {
+                "offensiveSlowBleeding": "219 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 28",
+                "skillTargetNumber": "Количество целей 3 "
+            },
+            {
+                "offensiveSlowBleeding": "244 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 31",
+                "skillTargetNumber": "Количество целей 4 "
+            },
+            {
+                "offensiveSlowBleeding": "269 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 33",
+                "skillTargetNumber": "Количество целей 4 "
+            },
+            {
+                "offensiveSlowBleeding": "299 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 35",
+                "skillTargetNumber": "Количество целей 4 "
+            },
+            {
+                "offensiveSlowBleeding": "330 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 38",
+                "skillTargetNumber": "Количество целей 5 "
+            }
+        ],
+        "tag": "tagSkillName015"
+    },
+
+    "tagSkillName174": {
+        "description": "Герой устанавливает боевое знамя, вселяющее отвагу в сердца союзников.",
+        "name": "Боевое знамя",
+        "tier": 3,
+        "type": "Active",
+        "maximum_level": 10,
+        "cooldown": "60 Seconds",
+        "icon": "",
+        "properties": [
+            {
+                "characterOffensiveAbility": "+16 ед. наступательной способности",
+                "offensivePhysical": "12 ед. физического урона",
+                "skillActiveDuration": "Длительность 20.0 секунд(а)",
+                "skillDamageAbsorptionPercent": "12% поглощение урона",
+                "skillManaCostReduction": "-50% расхода энергии",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)",
+                "augmentAllLevel": "+1 очка(ов) ко всем умениям"
+            },
+            {
+                "characterOffensiveAbility": "+24 ед. наступательной способности",
+                "offensivePhysical": "25 ед. физического урона",
+                "skillActiveDuration": "Длительность 26.0 секунд(а)",
+                "skillDamageAbsorptionPercent": "15% поглощение урона",
+                "skillManaCostReduction": "-50% расхода энергии",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)",
+                "augmentAllLevel": "+1 очка(ов) ко всем умениям"
+            },
+            {
+                "characterOffensiveAbility": "+32 ед. наступательной способности",
+                "offensivePhysical": "39 ед. физического урона",
+                "skillActiveDuration": "Длительность 32.0 секунд(а)",
+                "skillDamageAbsorptionPercent": "18% поглощение урона",
+                "skillManaCostReduction": "-50% расхода энергии",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)",
+                "augmentAllLevel": "+1 очка(ов) ко всем умениям"
+            },
+            {
+                "characterOffensiveAbility": "+40 ед. наступательной способности",
+                "offensivePhysical": "54 ед. физического урона",
+                "skillActiveDuration": "Длительность 38.0 секунд(а)",
+                "skillDamageAbsorptionPercent": "21% поглощение урона",
+                "skillManaCostReduction": "-50% расхода энергии",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)",
+                "augmentAllLevel": "+1 очка(ов) ко всем умениям"
+            },
+            {
+                "characterOffensiveAbility": "+48 ед. наступательной способности",
+                "offensivePhysical": "70 ед. физического урона",
+                "skillActiveDuration": "Длительность 44.0 секунд(а)",
+                "skillDamageAbsorptionPercent": "23% поглощение урона",
+                "skillManaCostReduction": "-50% расхода энергии",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)",
+                "augmentAllLevel": "+1 очка(ов) ко всем умениям"
+            },
+            {
+                "characterOffensiveAbility": "+56 ед. наступательной способности",
+                "offensivePhysical": "87 ед. физического урона",
+                "skillActiveDuration": "Длительность 50.0 секунд(а)",
+                "skillDamageAbsorptionPercent": "25% поглощение урона",
+                "skillManaCostReduction": "-50% расхода энергии",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)",
+                "augmentAllLevel": "+1 очка(ов) ко всем умениям"
+            },
+            {
+                "characterOffensiveAbility": "+64 ед. наступательной способности",
+                "offensivePhysical": "105 ед. физического урона",
+                "skillActiveDuration": "Длительность 56.0 секунд(а)",
+                "skillDamageAbsorptionPercent": "28% поглощение урона",
+                "skillManaCostReduction": "-50% расхода энергии",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)",
+                "augmentAllLevel": "+1 очка(ов) ко всем умениям"
+            },
+            {
+                "characterOffensiveAbility": "+72 ед. наступательной способности",
+                "offensivePhysical": "124 ед. физического урона",
+                "skillActiveDuration": "Длительность 62.0 секунд(а)",
+                "skillDamageAbsorptionPercent": "30% поглощение урона",
+                "skillManaCostReduction": "-50% расхода энергии",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)",
+                "augmentAllLevel": "+1 очка(ов) ко всем умениям"
+            },
+            {
+                "characterOffensiveAbility": "+80 ед. наступательной способности",
+                "offensivePhysical": "144 ед. физического урона",
+                "skillActiveDuration": "Длительность 68.0 секунд(а)",
+                "skillDamageAbsorptionPercent": "33% поглощение урона",
+                "skillManaCostReduction": "-50% расхода энергии",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)",
+                "augmentAllLevel": "+1 очка(ов) ко всем умениям"
+            },
+            {
+                "characterOffensiveAbility": "+88 ед. наступательной способности",
+                "offensivePhysical": "166 ед. физического урона",
+                "skillActiveDuration": "Длительность 74.0 секунд(а)",
+                "skillDamageAbsorptionPercent": "36% поглощение урона",
+                "skillManaCostReduction": "-50% расхода энергии",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)",
+                "augmentAllLevel": "+1 очка(ов) ко всем умениям"
+            },
+            {
+                "characterOffensiveAbility": "+96 ед. наступательной способности",
+                "offensivePhysical": "190 ед. физического урона",
+                "skillActiveDuration": "Длительность 80.0 секунд(а)",
+                "skillDamageAbsorptionPercent": "38% поглощение урона",
+                "skillManaCostReduction": "-50% расхода энергии",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)",
+                "augmentAllLevel": "+1 очка(ов) ко всем умениям"
+            },
+            {
+                "characterOffensiveAbility": "+104 ед. наступательной способности",
+                "offensivePhysical": "216 ед. физического урона",
+                "skillActiveDuration": "Длительность 86.0 секунд(а)",
+                "skillDamageAbsorptionPercent": "40% поглощение урона",
+                "skillManaCostReduction": "-50% расхода энергии",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)",
+                "augmentAllLevel": "+1 очка(ов) ко всем умениям"
+            },
+            {
+                "characterOffensiveAbility": "+112 ед. наступательной способности",
+                "offensivePhysical": "244 ед. физического урона",
+                "skillActiveDuration": "Длительность 92.0 секунд(а)",
+                "skillDamageAbsorptionPercent": "42% поглощение урона",
+                "skillManaCostReduction": "-50% расхода энергии",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)",
+                "augmentAllLevel": "+1 очка(ов) ко всем умениям"
+            },
+            {
+                "characterOffensiveAbility": "+120 ед. наступательной способности",
+                "offensivePhysical": "274 ед. физического урона",
+                "skillActiveDuration": "Длительность 98.0 секунд(а)",
+                "skillDamageAbsorptionPercent": "45% поглощение урона",
+                "skillManaCostReduction": "-50% расхода энергии",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)",
+                "augmentAllLevel": "+1 очка(ов) ко всем умениям"
+            }
+        ],
+        "tag": "tagSkillName174"
+    },
+    "tagSkillName179": {
+        "description": "Осознавая неизбежность вашей победы, враги теряют надежду, и их удары становятся слабее.",
+        "name": "Триумф",
+        "tier": 5,
+        "type": "Modifier",
+        "maximum_level": 6,
+        "cooldown": "None",
+        "icon": "",
+        "parent": "tagSkillName174",
+        "properties": [
+            {
+                "defensivePhysical": "-15% сопротивление физическому урону",
+                "defensiveStun": "-50% сопротивление оглушению",
+                "offensivePhysicalModifier": "-15% физического урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensivePhysical": "-20% сопротивление физическому урону",
+                "defensiveStun": "-50% сопротивление оглушению",
+                "offensivePhysicalModifier": "-20% физического урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensivePhysical": "-25% сопротивление физическому урону",
+                "defensiveStun": "-50% сопротивление оглушению",
+                "offensivePhysicalModifier": "-25% физического урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensivePhysical": "-30% сопротивление физическому урону",
+                "defensiveStun": "-50% сопротивление оглушению",
+                "offensivePhysicalModifier": "-30% физического урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensivePhysical": "-35% сопротивление физическому урону",
+                "defensiveStun": "-50% сопротивление оглушению",
+                "offensivePhysicalModifier": "-35% физического урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensivePhysical": "-40% сопротивление физическому урону",
+                "defensiveStun": "-50% сопротивление оглушению",
+                "offensivePhysicalModifier": "-40% физического урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensivePhysical": "-45% сопротивление физическому урону",
+                "defensiveStun": "-50% сопротивление оглушению",
+                "offensivePhysicalModifier": "-45% физического урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensivePhysical": "-50% сопротивление физическому урону",
+                "defensiveStun": "-50% сопротивление оглушению",
+                "offensivePhysicalModifier": "-50% физического урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensivePhysical": "-55% сопротивление физическому урону",
+                "defensiveStun": "-50% сопротивление оглушению",
+                "offensivePhysicalModifier": "-55% физического урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensivePhysical": "-60% сопротивление физическому урону",
+                "defensiveStun": "-50% сопротивление оглушению",
+                "offensivePhysicalModifier": "-60% физического урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            }
+        ],
+        "tag": "tagSkillName179"
+    },
+
+    "tagSkillName139": {
+        "description": "Зловещий зов этого древнего горна призывает с Елисейских полей героев древности, чтобы они снова сразились с врагами.",
+        "name": "Горн предков",
+        "tier": 6,
+        "type": "Active",
+        "maximum_level": 16,
+        "cooldown": "300 Seconds",
+        "icon": "",
+        "properties": [
+            {
+                "skillCooldownTime": "300.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 225"
+            }
+        ],
+        "summons": [
+            {
+                "characterLife": "150 жизнь",
+                "characterMana": "300 энергия",
+                "spawnObjectsTimeToLive": "Время жизни 24.0 секунд(ы)"
+            },
+            {
+                "characterLife": "180 жизнь",
+                "characterMana": "300 энергия",
+                "spawnObjectsTimeToLive": "Время жизни 24.0 секунд(ы)"
+            },
+            {
+                "characterLife": "210 жизнь",
+                "characterMana": "300 энергия",
+                "spawnObjectsTimeToLive": "Время жизни 24.0 секунд(ы)"
+            },
+            {
+                "characterLife": "240 жизнь",
+                "characterMana": "300 энергия",
+                "spawnObjectsTimeToLive": "Время жизни 24.0 секунд(ы)"
+            },
+            {
+                "characterLife": "270 жизнь",
+                "characterMana": "300 энергия",
+                "spawnObjectsTimeToLive": "Время жизни 24.0 секунд(ы)"
+            },
+            {
+                "characterLife": "300 жизнь",
+                "characterMana": "300 энергия",
+                "spawnObjectsTimeToLive": "Время жизни 24.0 секунд(ы)"
+            },
+            {
+                "characterLife": "330 жизнь",
+                "characterMana": "300 энергия",
+                "spawnObjectsTimeToLive": "Время жизни 24.0 секунд(ы)"
+            },
+            {
+                "characterLife": "360 жизнь",
+                "characterMana": "300 энергия",
+                "spawnObjectsTimeToLive": "Время жизни 24.0 секунд(ы)"
+            },
+            {
+                "characterLife": "390 жизнь",
+                "characterMana": "300 энергия",
+                "spawnObjectsTimeToLive": "Время жизни 24.0 секунд(ы)"
+            },
+            {
+                "characterLife": "420 жизнь",
+                "characterMana": "300 энергия",
+                "spawnObjectsTimeToLive": "Время жизни 24.0 секунд(ы)"
+            },
+            {
+                "characterLife": "450 жизнь",
+                "characterMana": "300 энергия",
+                "spawnObjectsTimeToLive": "Время жизни 24.0 секунд(ы)"
+            },
+            {
+                "characterLife": "480 жизнь",
+                "characterMana": "300 энергия",
+                "spawnObjectsTimeToLive": "Время жизни 24.0 секунд(ы)"
+            },
+            {
+                "characterLife": "510 жизнь",
+                "characterMana": "300 энергия",
+                "spawnObjectsTimeToLive": "Время жизни 24.0 секунд(ы)"
+            },
+            {
+                "characterLife": "540 жизнь",
+                "characterMana": "300 энергия",
+                "spawnObjectsTimeToLive": "Время жизни 24.0 секунд(ы)"
+            },
+            {
+                "characterLife": "570 жизнь",
+                "characterMana": "300 энергия",
+                "spawnObjectsTimeToLive": "Время жизни 24.0 секунд(ы)"
+            },
+            {
+                "characterLife": "600 жизнь",
+                "characterMana": "300 энергия",
+                "spawnObjectsTimeToLive": "Время жизни 24.0 секунд(ы)"
+            },
+            {
+                "characterLife": "630 жизнь",
+                "characterMana": "300 энергия",
+                "spawnObjectsTimeToLive": "Время жизни 24.0 секунд(ы)"
+            },
+            {
+                "characterLife": "660 жизнь",
+                "characterMana": "300 энергия",
+                "spawnObjectsTimeToLive": "Время жизни 24.0 секунд(ы)"
+            },
+            {
+                "characterLife": "690 жизнь",
+                "characterMana": "300 энергия",
+                "spawnObjectsTimeToLive": "Время жизни 24.0 секунд(ы)"
+            },
+            {
+                "characterLife": "720 жизнь",
+                "characterMana": "300 энергия",
+                "spawnObjectsTimeToLive": "Время жизни 24.0 секунд(ы)"
+            }
+        ],
+        "tag": "tagSkillName139"
+    },
+    "x3tagSkillWarfareLastingLegacy": {
+        "description": "Вы глубоко ощущаете связь с предками, так что их духи дольше остаются с вами.",
+        "name": "Многовековое наследие",
+        "tier": 7,
+        "type": "Modifier",
+        "maximum_level": 6,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "tagSkillName139",
+        "properties": [
+            {
+                "skillLifeTime": "4 сек"
+            },
+            {
+                "skillLifeTime": "7 сек"
+            },
+            {
+                "skillLifeTime": "10 сек"
+            },
+            {
+                "skillLifeTime": "13 сек"
+            },
+            {
+                "skillLifeTime": "17 сек"
+            },
+            {
+                "skillLifeTime": "21 сек"
+            },
+            {
+                "skillLifeTime": "25 сек"
+            },
+            {
+                "skillLifeTime": "29 сек"
+            },
+            {
+                "skillLifeTime": "23 сек"
+            },
+            {
+                "skillLifeTime": "36 сек"
+            }
+        ],
+        "tag": "x3tagSkillWarfareLastingLegacy"
+    },
+
+
+    "x3tagSkillWarfareLineSlam": {
+        "description": "Нанесите удар сокрушительной силы по прямой, мешая всем находящимся на линии удара врагам атаковать и применять заклинания.",
+        "name": "Сокрушительный рывок",
+        "tier": 7,
+        "type": "Active",
+        "maximum_level": 12,
+        "cooldown": "none",
+        "icon": "",
+        "properties": [
+            {
+                "offensiveDisruption": "1.0-1.5 секунд(ы) снятия умений",
+                "offensivePercentCurrentLife": "20% уменьшение жизни противника",
+                "offensivePhysical": "60-80 ед. физического урона",
+                "offensiveProjectileFumble": "70.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "offensiveStun": "1.0-2.0 секунд(ы) оглушения",
+                "skillCooldownTime": "7.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 80"
+            },
+            {
+                "offensiveDisruption": "1.2-1.8 секунд(ы) снятия умений",
+                "offensivePercentCurrentLife": "20% уменьшение жизни противника",
+                "offensivePhysical": "81-101 ед. физического урона",
+                "offensiveProjectileFumble": "70.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "offensiveStun": "1.0-2.0 секунд(ы) оглушения",
+                "skillCooldownTime": "7.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 86"
+            },
+            {
+                "offensiveDisruption": "1.4-2.1 секунд(ы) снятия умений",
+                "offensivePercentCurrentLife": "20% уменьшение жизни противника",
+                "offensivePhysical": "103-123 ед. физического урона",
+                "offensiveProjectileFumble": "70.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "offensiveStun": "1.0-2.0 секунд(ы) оглушения",
+                "skillCooldownTime": "7.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 92"
+            },
+            {
+                "offensiveDisruption": "1.6-2.4 секунд(ы) снятия умений",
+                "offensivePercentCurrentLife": "20% уменьшение жизни противника",
+                "offensivePhysical": "126-146 ед. физического урона",
+                "offensiveProjectileFumble": "70.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "offensiveStun": "1.0-2.0 секунд(ы) оглушения",
+                "skillCooldownTime": "7.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 98"
+            },
+            {
+                "offensiveDisruption": "1.8-2.7 секунд(ы) снятия умений",
+                "offensivePercentCurrentLife": "20% уменьшение жизни противника",
+                "offensivePhysical": "150-170 ед. физического урона",
+                "offensiveProjectileFumble": "70.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "offensiveStun": "1.0-2.0 секунд(ы) оглушения",
+                "skillCooldownTime": "7.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 104"
+            },
+            {
+                "offensiveDisruption": "2.0-3.0 секунд(ы) снятия умений",
+                "offensivePercentCurrentLife": "20% уменьшение жизни противника",
+                "offensivePhysical": "175-195 ед. физического урона",
+                "offensiveProjectileFumble": "70.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "offensiveStun": "1.0-2.0 секунд(ы) оглушения",
+                "skillCooldownTime": "7.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 110"
+            },
+            {
+                "offensiveDisruption": "2.2-3.3 секунд(ы) снятия умений",
+                "offensivePercentCurrentLife": "20% уменьшение жизни противника",
+                "offensivePhysical": "201-221 ед. физического урона",
+                "offensiveProjectileFumble": "70.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "offensiveStun": "1.0-2.0 секунд(ы) оглушения",
+                "skillCooldownTime": "7.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 116"
+            },
+            {
+                "offensiveDisruption": "2.4-3.6 секунд(ы) снятия умений",
+                "offensivePercentCurrentLife": "20% уменьшение жизни противника",
+                "offensivePhysical": "228-248 ед. физического урона",
+                "offensiveProjectileFumble": "70.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "offensiveStun": "1.0-2.0 секунд(ы) оглушения",
+                "skillCooldownTime": "7.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 122"
+            },
+            {
+                "offensiveDisruption": "2.6-3.9 секунд(ы) снятия умений",
+                "offensivePercentCurrentLife": "20% уменьшение жизни противника",
+                "offensivePhysical": "256-276 ед. физического урона",
+                "offensiveProjectileFumble": "70.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "offensiveStun": "1.0-2.0 секунд(ы) оглушения",
+                "skillCooldownTime": "7.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 128"
+            },
+            {
+                "offensiveDisruption": "2.8-4.2 секунд(ы) снятия умений",
+                "offensivePercentCurrentLife": "20% уменьшение жизни противника",
+                "offensivePhysical": "285-305 ед. физического урона",
+                "offensiveProjectileFumble": "70.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "offensiveStun": "1.0-2.0 секунд(ы) оглушения",
+                "skillCooldownTime": "7.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 134"
+            },
+            {
+                "offensiveDisruption": "3.0-4.5 секунд(ы) снятия умений",
+                "offensivePercentCurrentLife": "20% уменьшение жизни противника",
+                "offensivePhysical": "315-335 ед. физического урона",
+                "offensiveProjectileFumble": "70.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "offensiveStun": "1.0-2.0 секунд(ы) оглушения",
+                "skillCooldownTime": "7.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 140"
+            },
+            {
+                "offensiveDisruption": "3.2-4.8 секунд(ы) снятия умений",
+                "offensivePercentCurrentLife": "20% уменьшение жизни противника",
+                "offensivePhysical": "346-366 ед. физического урона",
+                "offensiveProjectileFumble": "70.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "offensiveStun": "1.0-2.0 секунд(ы) оглушения",
+                "skillCooldownTime": "7.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 146"
+            },
+            {
+                "offensiveDisruption": "3.4-5.1 секунд(ы) снятия умений",
+                "offensivePercentCurrentLife": "20% уменьшение жизни противника",
+                "offensivePhysical": "378-398 ед. физического урона",
+                "offensiveProjectileFumble": "70.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "offensiveStun": "1.0-2.0 секунд(ы) оглушения",
+                "skillCooldownTime": "7.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 152"
+            },
+            {
+                "offensiveDisruption": "3.6-5.4 секунд(ы) снятия умений",
+                "offensivePercentCurrentLife": "20% уменьшение жизни противника",
+                "offensivePhysical": "411-431 ед. физического урона",
+                "offensiveProjectileFumble": "70.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "offensiveStun": "1.0-2.0 секунд(ы) оглушения",
+                "skillCooldownTime": "7.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 158"
+            },
+            {
+                "offensiveDisruption": "3.8-5.7 секунд(ы) снятия умений",
+                "offensivePercentCurrentLife": "20% уменьшение жизни противника",
+                "offensivePhysical": "445-465 ед. физического урона",
+                "offensiveProjectileFumble": "70.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "offensiveStun": "1.0-2.0 секунд(ы) оглушения",
+                "skillCooldownTime": "7.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 164"
+            },
+            {
+                "offensiveDisruption": "4.0-6.0 секунд(ы) снятия умений",
+                "offensivePercentCurrentLife": "20% уменьшение жизни противника",
+                "offensivePhysical": "480-500 ед. физического урона",
+                "offensiveProjectileFumble": "70.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "offensiveStun": "1.0-2.0 секунд(ы) оглушения",
+                "skillCooldownTime": "7.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 170"
+            }
+        ],
+        "tag": "x3tagSkillWarfareLineSlam"
+    }
+}
