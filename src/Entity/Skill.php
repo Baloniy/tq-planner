@@ -49,8 +49,16 @@ class Skill
     #[ORM\Column(type: 'json', nullable: true)]
     private ?array $properties;
 
+    #[ORM\Column(type: 'json', nullable: true)]
+    private ?array $summons;
+
     #[ORM\Column(type: "datetime", length: 255, nullable: false)]
     private \DateTimeInterface $created_at;
+
+    public function __construct()
+    {
+        $this->created_at = new \DateTime();
+    }
 
     public function getId(): ?int
     {
@@ -175,5 +183,15 @@ class Skill
     public function setCreatedAt(\DateTimeInterface $created_at): void
     {
         $this->created_at = $created_at;
+    }
+
+    public function getSummons(): ?array
+    {
+        return $this->summons;
+    }
+
+    public function setSummons(?array $summons): void
+    {
+        $this->summons = $summons;
     }
 }

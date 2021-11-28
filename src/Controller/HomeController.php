@@ -15,6 +15,8 @@ class HomeController extends AbstractController
     #[Route(path: '/', name: 'home')]
     public function index(MasteryRepository $masteryRepository): Response
     {
+        $masteries = $masteryRepository->findAll();
+        $skills = $masteries[0]->getSkills();
         return $this->render('home/index.html.twig', [
             'masteries' => [],
         ]);
@@ -23,7 +25,7 @@ class HomeController extends AbstractController
     #[Route(path: '/parsing', name: 'parsing')]
     public function parseAction(ParseSkillsService $parseSkillsService)
     {
-        $parseSkillsService->parse('dream-test.json');
+        $parseSkillsService->parse('dream.json');
 
         return $this->render('home/index.html.twig', [
             'masteries' => [],

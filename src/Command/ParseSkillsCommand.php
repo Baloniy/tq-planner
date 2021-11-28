@@ -27,7 +27,7 @@ class ParseSkillsCommand extends Command
 
     protected function configure(): void
     {
-        $this->addArgument('filename', InputArgument::REQUIRED, 'json file');
+        $this->addArgument('filename', InputArgument::REQUIRED, 'json file name');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int
@@ -39,7 +39,7 @@ class ParseSkillsCommand extends Command
             $io->note(sprintf('You passed an argument: %s', $filename));
         }
 
-        $message = "Skills parsed successfully!";
+        $message = "Skills parsed successfully!\n";
 
         try {
             $this->parseSkillsService->parse($filename);

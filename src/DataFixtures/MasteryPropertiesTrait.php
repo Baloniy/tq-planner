@@ -192,6 +192,47 @@ trait MasteryPropertiesTrait
 
     private function getStormProperties(): array
     {
-        return [];
+        return [
+            (object)["level" => 1, "dexterity" =>  1, "intelligence" => 3, "life" => 21, "mana" => 15],
+            (object)["level" => 2, "dexterity" =>  2, "intelligence" => 6, "life" => 42, "mana" => 30],
+            (object)["level" => 3, "dexterity" =>  3, "intelligence" => 9, "life" => 63, "mana" => 45],
+            (object)["level" => 4, "dexterity" =>  4, "intelligence" => 12, "life" => 84, "mana" => 60],
+            (object)["level" => 5, "dexterity" =>  5, "intelligence" => 15, "life" => 105, "mana" => 75],
+            (object)["level" => 6, "dexterity" =>  6, "intelligence" => 18, "life" => 126, "mana" => 90],
+            (object)["level" => 7, "dexterity" =>  7, "intelligence" => 21, "life" => 147, "mana" => 105],
+            (object)["level" => 8, "dexterity" =>  8, "intelligence" => 24, "life" => 168, "mana" => 120],
+            (object)["level" => 9, "dexterity" =>  9, "intelligence" => 27, "life" => 189, "mana" => 135],
+            (object)["level" => 10, "dexterity" => 10, "intelligence" => 30, "life" => 210, "mana" => 150],
+            (object)["level" => 11, "dexterity" => 11, "intelligence" => 33, "life" => 231, "mana" => 165],
+            (object)["level" => 12, "dexterity" => 12, "intelligence" => 36, "life" => 252, "mana" => 180],
+            (object)["level" => 13, "dexterity" => 13, "intelligence" => 39, "life" => 273, "mana" => 195],
+            (object)["level" => 14, "dexterity" => 14, "intelligence" => 42, "life" => 294, "mana" => 210],
+            (object)["level" => 15, "dexterity" => 15, "intelligence" => 45, "life" => 315, "mana" => 225],
+            (object)["level" => 16, "dexterity" => 16, "intelligence" => 48, "life" => 336, "mana" => 240],
+            (object)["level" => 17, "dexterity" => 17, "intelligence" => 51, "life" => 357, "mana" => 255],
+            (object)["level" => 18, "dexterity" => 18, "intelligence" => 54, "life" => 378, "mana" => 270],
+            (object)["level" => 19, "dexterity" => 19, "intelligence" => 57, "life" => 399, "mana" => 285],
+            (object)["level" => 20, "dexterity" => 20, "intelligence" => 60, "life" => 420, "mana" => 300],
+            (object)["level" => 21, "dexterity" => 21, "intelligence" => 63, "life" => 441, "mana" => 315],
+            (object)["level" => 22, "dexterity" => 22, "intelligence" => 66, "life" => 462, "mana" => 330],
+            (object)["level" => 23, "dexterity" => 23, "intelligence" => 69, "life" => 483, "mana" => 345],
+            (object)["level" => 24, "dexterity" => 24, "intelligence" => 72, "life" => 504, "mana" => 360],
+            (object)["level" => 25, "dexterity" => 25, "intelligence" => 75, "life" => 525, "mana" => 375],
+            (object)["level" => 26, "dexterity" => 26, "intelligence" => 78, "life" => 546, "mana" => 390],
+            (object)["level" => 27, "dexterity" => 27, "intelligence" => 81, "life" => 567, "mana" => 405],
+            (object)["level" => 28, "dexterity" => 28, "intelligence" => 84, "life" => 588, "mana" => 420],
+            (object)["level" => 29, "dexterity" => 29, "intelligence" => 87, "life" => 609, "mana" => 435],
+            (object)["level" => 30, "dexterity" => 30, "intelligence" => 90, "life" => 630, "mana" => 450],
+            (object)["level" => 31, "dexterity" => 31, "intelligence" => 93, "life" => 651, "mana" => 465],
+            (object)["level" => 32, "dexterity" => 32, "intelligence" => 96, "life" => 672, "mana" => 480],
+            (object)["level" => 33, "dexterity" => 33, "intelligence" => 99, "life" => 693, "mana" => 495],
+            (object)["level" => 34, "dexterity" => 34, "intelligence" => 102, "life" => 714, "mana" => 510],
+            (object)["level" => 35, "dexterity" => 35, "intelligence" => 105, "life" => 735, "mana" => 525],
+            (object)["level" => 36, "dexterity" => 36, "intelligence" => 108, "life" => 756, "mana" => 540],
+            (object)["level" => 37, "dexterity" => 37, "intelligence" => 111, "life" => 777, "mana" => 555],
+            (object)["level" => 38, "dexterity" => 38, "intelligence" => 114, "life" => 798, "mana" => 570],
+            (object)["level" => 39, "dexterity" => 39, "intelligence" => 117, "life" => 819, "mana" => 585],
+            (object)["level" => 40, "dexterity" => 40, "intelligence" => 120, "life" => 840, "mana" => 600]
+        ];
     }
 }

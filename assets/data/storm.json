@@ -1,251 +1,4 @@
 {
-    "tagSkillName018": {
-        "description": "Герой обретает ясность мыслей и внутреннюю сосредоточенность, необходимые для того, чтобы освободиться от земных забот и научиться управлять погодой.",
-        "name": "Силы воздуха",
-        "properties": [
-            {
-                "characterDexterity": "+1 ед. ловкости",
-                "characterIntelligence": "+3 ед. интеллекта",
-                "characterLife": "+21 ед. жизни",
-                "characterMana": "+15 ед. энергии"
-            },
-            {
-                "characterDexterity": "+2 ед. ловкости",
-                "characterIntelligence": "+6 ед. интеллекта",
-                "characterLife": "+42 ед. жизни",
-                "characterMana": "+30 ед. энергии"
-            },
-            {
-                "characterDexterity": "+3 ед. ловкости",
-                "characterIntelligence": "+9 ед. интеллекта",
-                "characterLife": "+63 ед. жизни",
-                "characterMana": "+45 ед. энергии"
-            },
-            {
-                "characterDexterity": "+4 ед. ловкости",
-                "characterIntelligence": "+12 ед. интеллекта",
-                "characterLife": "+84 ед. жизни",
-                "characterMana": "+60 ед. энергии"
-            },
-            {
-                "characterDexterity": "+5 ед. ловкости",
-                "characterIntelligence": "+15 ед. интеллекта",
-                "characterLife": "+105 ед. жизни",
-                "characterMana": "+75 ед. энергии"
-            },
-            {
-                "characterDexterity": "+6 ед. ловкости",
-                "characterIntelligence": "+18 ед. интеллекта",
-                "characterLife": "+126 ед. жизни",
-                "characterMana": "+90 ед. энергии"
-            },
-            {
-                "characterDexterity": "+7 ед. ловкости",
-                "characterIntelligence": "+21 ед. интеллекта",
-                "characterLife": "+147 ед. жизни",
-                "characterMana": "+105 ед. энергии"
-            },
-            {
-                "characterDexterity": "+8 ед. ловкости",
-                "characterIntelligence": "+24 ед. интеллекта",
-                "characterLife": "+168 ед. жизни",
-                "characterMana": "+120 ед. энергии"
-            },
-            {
-                "characterDexterity": "+9 ед. ловкости",
-                "characterIntelligence": "+27 ед. интеллекта",
-                "characterLife": "+189 ед. жизни",
-                "characterMana": "+135 ед. энергии"
-            },
-            {
-                "characterDexterity": "+10 ед. ловкости",
-                "characterIntelligence": "+30 ед. интеллекта",
-                "characterLife": "+210 ед. жизни",
-                "characterMana": "+150 ед. энергии"
-            },
-            {
-                "characterDexterity": "+11 ед. ловкости",
-                "characterIntelligence": "+33 ед. интеллекта",
-                "characterLife": "+231 ед. жизни",
-                "characterMana": "+165 ед. энергии"
-            },
-            {
-                "characterDexterity": "+12 ед. ловкости",
-                "characterIntelligence": "+36 ед. интеллекта",
-                "characterLife": "+252 ед. жизни",
-                "characterMana": "+180 ед. энергии"
-            },
-            {
-                "characterDexterity": "+13 ед. ловкости",
-                "characterIntelligence": "+39 ед. интеллекта",
-                "characterLife": "+273 ед. жизни",
-                "characterMana": "+195 ед. энергии"
-            },
-            {
-                "characterDexterity": "+14 ед. ловкости",
-                "characterIntelligence": "+42 ед. интеллекта",
-                "characterLife": "+294 ед. жизни",
-                "characterMana": "+210 ед. энергии"
-            },
-            {
-                "characterDexterity": "+15 ед. ловкости",
-                "characterIntelligence": "+45 ед. интеллекта",
-                "characterLife": "+315 ед. жизни",
-                "characterMana": "+225 ед. энергии"
-            },
-            {
-                "characterDexterity": "+16 ед. ловкости",
-                "characterIntelligence": "+48 ед. интеллекта",
-                "characterLife": "+336 ед. жизни",
-                "characterMana": "+240 ед. энергии"
-            },
-            {
-                "characterDexterity": "+17 ед. ловкости",
-                "characterIntelligence": "+51 ед. интеллекта",
-                "characterLife": "+357 ед. жизни",
-                "characterMana": "+255 ед. энергии"
-            },
-            {
-                "characterDexterity": "+18 ед. ловкости",
-                "characterIntelligence": "+54 ед. интеллекта",
-                "characterLife": "+378 ед. жизни",
-                "characterMana": "+270 ед. энергии"
-            },
-            {
-                "characterDexterity": "+19 ед. ловкости",
-                "characterIntelligence": "+57 ед. интеллекта",
-                "characterLife": "+399 ед. жизни",
-                "characterMana": "+285 ед. энергии"
-            },
-            {
-                "characterDexterity": "+20 ед. ловкости",
-                "characterIntelligence": "+60 ед. интеллекта",
-                "characterLife": "+420 ед. жизни",
-                "characterMana": "+300 ед. энергии"
-            },
-            {
-                "characterDexterity": "+21 ед. ловкости",
-                "characterIntelligence": "+63 ед. интеллекта",
-                "characterLife": "+441 ед. жизни",
-                "characterMana": "+315 ед. энергии"
-            },
-            {
-                "characterDexterity": "+22 ед. ловкости",
-                "characterIntelligence": "+66 ед. интеллекта",
-                "characterLife": "+462 ед. жизни",
-                "characterMana": "+330 ед. энергии"
-            },
-            {
-                "characterDexterity": "+23 ед. ловкости",
-                "characterIntelligence": "+69 ед. интеллекта",
-                "characterLife": "+483 ед. жизни",
-                "characterMana": "+345 ед. энергии"
-            },
-            {
-                "characterDexterity": "+24 ед. ловкости",
-                "characterIntelligence": "+72 ед. интеллекта",
-                "characterLife": "+504 ед. жизни",
-                "characterMana": "+360 ед. энергии"
-            },
-            {
-                "characterDexterity": "+25 ед. ловкости",
-                "characterIntelligence": "+75 ед. интеллекта",
-                "characterLife": "+525 ед. жизни",
-                "characterMana": "+375 ед. энергии"
-            },
-            {
-                "characterDexterity": "+26 ед. ловкости",
-                "characterIntelligence": "+78 ед. интеллекта",
-                "characterLife": "+546 ед. жизни",
-                "characterMana": "+390 ед. энергии"
-            },
-            {
-                "characterDexterity": "+27 ед. ловкости",
-                "characterIntelligence": "+81 ед. интеллекта",
-                "characterLife": "+567 ед. жизни",
-                "characterMana": "+405 ед. энергии"
-            },
-            {
-                "characterDexterity": "+28 ед. ловкости",
-                "characterIntelligence": "+84 ед. интеллекта",
-                "characterLife": "+588 ед. жизни",
-                "characterMana": "+420 ед. энергии"
-            },
-            {
-                "characterDexterity": "+29 ед. ловкости",
-                "characterIntelligence": "+87 ед. интеллекта",
-                "characterLife": "+609 ед. жизни",
-                "characterMana": "+435 ед. энергии"
-            },
-            {
-                "characterDexterity": "+30 ед. ловкости",
-                "characterIntelligence": "+90 ед. интеллекта",
-                "characterLife": "+630 ед. жизни",
-                "characterMana": "+450 ед. энергии"
-            },
-            {
-                "characterDexterity": "+31 ед. ловкости",
-                "characterIntelligence": "+93 ед. интеллекта",
-                "characterLife": "+651 ед. жизни",
-                "characterMana": "+465 ед. энергии"
-            },
-            {
-                "characterDexterity": "+32 ед. ловкости",
-                "characterIntelligence": "+96 ед. интеллекта",
-                "characterLife": "+672 ед. жизни",
-                "characterMana": "+480 ед. энергии"
-            },
-            {
-                "characterDexterity": "+33 ед. ловкости",
-                "characterIntelligence": "+99 ед. интеллекта",
-                "characterLife": "+693 ед. жизни",
-                "characterMana": "+495 ед. энергии"
-            },
-            {
-                "characterDexterity": "+34 ед. ловкости",
-                "characterIntelligence": "+102 ед. интеллекта",
-                "characterLife": "+714 ед. жизни",
-                "characterMana": "+510 ед. энергии"
-            },
-            {
-                "characterDexterity": "+35 ед. ловкости",
-                "characterIntelligence": "+105 ед. интеллекта",
-                "characterLife": "+735 ед. жизни",
-                "characterMana": "+525 ед. энергии"
-            },
-            {
-                "characterDexterity": "+36 ед. ловкости",
-                "characterIntelligence": "+108 ед. интеллекта",
-                "characterLife": "+756 ед. жизни",
-                "characterMana": "+540 ед. энергии"
-            },
-            {
-                "characterDexterity": "+37 ед. ловкости",
-                "characterIntelligence": "+111 ед. интеллекта",
-                "characterLife": "+777 ед. жизни",
-                "characterMana": "+555 ед. энергии"
-            },
-            {
-                "characterDexterity": "+38 ед. ловкости",
-                "characterIntelligence": "+114 ед. интеллекта",
-                "characterLife": "+798 ед. жизни",
-                "characterMana": "+570 ед. энергии"
-            },
-            {
-                "characterDexterity": "+39 ед. ловкости",
-                "characterIntelligence": "+117 ед. интеллекта",
-                "characterLife": "+819 ед. жизни",
-                "characterMana": "+585 ед. энергии"
-            },
-            {
-                "characterDexterity": "+40 ед. ловкости",
-                "characterIntelligence": "+120 ед. интеллекта",
-                "characterLife": "+840 ед. жизни",
-                "characterMana": "+600 ед. энергии"
-            }
-        ],
-        "tag": "tagSkillName018"
-    },
     "tagSkillName022": {
         "description": "С рук героя срываются острые осколки льда, которые наносят урон холодом и временно замедляют противника.",
         "name": "Льдинки",
@@ -1755,894 +1508,304 @@
         ],
         "summons": [
             {
-                "abilities": [
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 1
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 1,
-                        "unnamed-4": 1
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 1,
-                        "unnamed-4": 2
-                    }
-                ],
-                "classification": "Common",
-                "level": [
-                    1,
-                    31,
-                    51
-                ],
-                "name": "Плазменный сгусток",
-                "properties": {
-                    "characterLife": "153 жизнь",
-                    "characterMana": "186 энергия",
-                    "defensiveCold": "15% сопротивление холоду",
-                    "defensiveFire": "15% сопротивление огню",
-                    "defensiveFreeze": "100% уменьшение длительности заморозки",
-                    "defensiveLife": "100% сопротивление урону здоровью",
-                    "defensiveLightning": "15% сопротивление молниям",
-                    "defensivePetrify": "100% уменьшение длительности окаменения",
-                    "defensivePhysical": "30% сопротивление физическому урону",
-                    "defensivePierce": "30% сопротивление проникающему урону",
-                    "defensivePoison": "100% сопротивление яду",
-                    "defensiveStun": "100% сопротивление оглушению",
-                    "defensiveTrap": "100% уменьшение времени в ловушке"
-                },
-                "race": "Magical",
-                "tag": "tagMonsterName037"
+                "characterLife": "153 жизнь",
+                "characterMana": "186 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
             },
             {
-                "abilities": [
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 2
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 2,
-                        "unnamed-4": 1
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 2,
-                        "unnamed-4": 2
-                    }
-                ],
-                "classification": "Common",
-                "level": [
-                    2,
-                    32,
-                    52
-                ],
-                "name": "Плазменный сгусток",
-                "properties": {
-                    "characterLife": "165 жизнь",
-                    "characterMana": "195 энергия",
-                    "defensiveCold": "15% сопротивление холоду",
-                    "defensiveFire": "15% сопротивление огню",
-                    "defensiveFreeze": "100% уменьшение длительности заморозки",
-                    "defensiveLife": "100% сопротивление урону здоровью",
-                    "defensiveLightning": "15% сопротивление молниям",
-                    "defensivePetrify": "100% уменьшение длительности окаменения",
-                    "defensivePhysical": "30% сопротивление физическому урону",
-                    "defensivePierce": "30% сопротивление проникающему урону",
-                    "defensivePoison": "100% сопротивление яду",
-                    "defensiveStun": "100% сопротивление оглушению",
-                    "defensiveTrap": "100% уменьшение времени в ловушке"
-                },
-                "race": "Magical",
-                "tag": "tagMonsterName037"
+                "characterLife": "165 жизнь",
+                "characterMana": "195 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
             },
             {
-                "abilities": [
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 3
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 3,
-                        "unnamed-4": 1
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 3,
-                        "unnamed-4": 2
-                    }
-                ],
-                "classification": "Common",
-                "level": [
-                    3,
-                    33,
-                    53
-                ],
-                "name": "Плазменный сгусток",
-                "properties": {
-                    "characterLife": "177 жизнь",
-                    "characterMana": "204 энергия",
-                    "defensiveCold": "15% сопротивление холоду",
-                    "defensiveFire": "15% сопротивление огню",
-                    "defensiveFreeze": "100% уменьшение длительности заморозки",
-                    "defensiveLife": "100% сопротивление урону здоровью",
-                    "defensiveLightning": "15% сопротивление молниям",
-                    "defensivePetrify": "100% уменьшение длительности окаменения",
-                    "defensivePhysical": "30% сопротивление физическому урону",
-                    "defensivePierce": "30% сопротивление проникающему урону",
-                    "defensivePoison": "100% сопротивление яду",
-                    "defensiveStun": "100% сопротивление оглушению",
-                    "defensiveTrap": "100% уменьшение времени в ловушке"
-                },
-                "race": "Magical",
-                "tag": "tagMonsterName037"
+                "characterLife": "177 жизнь",
+                "characterMana": "204 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
             },
             {
-                "abilities": [
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 4
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 4,
-                        "unnamed-4": 1
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 4,
-                        "unnamed-4": 2
-                    }
-                ],
-                "classification": "Common",
-                "level": [
-                    4,
-                    34
-                ],
-                "name": "Плазменный сгусток",
-                "properties": {
-                    "characterLife": "189 жизнь",
-                    "characterMana": "213 энергия",
-                    "defensiveCold": "15% сопротивление холоду",
-                    "defensiveFire": "15% сопротивление огню",
-                    "defensiveFreeze": "100% уменьшение длительности заморозки",
-                    "defensiveLife": "100% сопротивление урону здоровью",
-                    "defensiveLightning": "15% сопротивление молниям",
-                    "defensivePetrify": "100% уменьшение длительности окаменения",
-                    "defensivePhysical": "30% сопротивление физическому урону",
-                    "defensivePierce": "30% сопротивление проникающему урону",
-                    "defensivePoison": "100% сопротивление яду",
-                    "defensiveStun": "100% сопротивление оглушению",
-                    "defensiveTrap": "100% уменьшение времени в ловушке"
-                },
-                "race": "Magical",
-                "tag": "tagMonsterName037"
+                "characterLife": "189 жизнь",
+                "characterMana": "213 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
             },
             {
-                "abilities": [
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 5,
-                        "tagSkillName235": 1
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 5,
-                        "tagSkillName235": 1,
-                        "unnamed-4": 1
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 5,
-                        "tagSkillName235": 1,
-                        "unnamed-4": 2
-                    }
-                ],
-                "classification": "Common",
-                "level": [
-                    5,
-                    35,
-                    55
-                ],
-                "name": "Плазменный сгусток",
-                "properties": {
-                    "characterLife": "201 жизнь",
-                    "characterMana": "222 энергия",
-                    "defensiveCold": "15% сопротивление холоду",
-                    "defensiveFire": "15% сопротивление огню",
-                    "defensiveFreeze": "100% уменьшение длительности заморозки",
-                    "defensiveLife": "100% сопротивление урону здоровью",
-                    "defensiveLightning": "15% сопротивление молниям",
-                    "defensivePetrify": "100% уменьшение длительности окаменения",
-                    "defensivePhysical": "30% сопротивление физическому урону",
-                    "defensivePierce": "30% сопротивление проникающему урону",
-                    "defensivePoison": "100% сопротивление яду",
-                    "defensiveStun": "100% сопротивление оглушению",
-                    "defensiveTrap": "100% уменьшение времени в ловушке"
-                },
-                "race": "Magical",
-                "tag": "tagMonsterName037"
+                "characterLife": "201 жизнь",
+                "characterMana": "222 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
             },
             {
-                "abilities": [
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 6,
-                        "tagSkillName235": 2
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 6,
-                        "tagSkillName235": 2,
-                        "unnamed-4": 1
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 6,
-                        "tagSkillName235": 2,
-                        "unnamed-4": 2
-                    }
-                ],
-                "classification": "Common",
-                "level": [
-                    6,
-                    36,
-                    56
-                ],
-                "name": "Плазменный сгусток",
-                "properties": {
-                    "characterLife": "213 жизнь",
-                    "characterMana": "231 энергия",
-                    "defensiveCold": "15% сопротивление холоду",
-                    "defensiveFire": "15% сопротивление огню",
-                    "defensiveFreeze": "100% уменьшение длительности заморозки",
-                    "defensiveLife": "100% сопротивление урону здоровью",
-                    "defensiveLightning": "15% сопротивление молниям",
-                    "defensivePetrify": "100% уменьшение длительности окаменения",
-                    "defensivePhysical": "30% сопротивление физическому урону",
-                    "defensivePierce": "30% сопротивление проникающему урону",
-                    "defensivePoison": "100% сопротивление яду",
-                    "defensiveStun": "100% сопротивление оглушению",
-                    "defensiveTrap": "100% уменьшение времени в ловушке"
-                },
-                "race": "Magical",
-                "tag": "tagMonsterName037"
+                "characterLife": "213 жизнь",
+                "characterMana": "231 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
             },
             {
-                "abilities": [
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 7,
-                        "tagSkillName235": 3
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 7,
-                        "tagSkillName235": 3,
-                        "unnamed-4": 1
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 7,
-                        "tagSkillName235": 3,
-                        "unnamed-4": 2
-                    }
-                ],
-                "classification": "Common",
-                "level": [
-                    7,
-                    37,
-                    57
-                ],
-                "name": "Плазменный сгусток",
-                "properties": {
-                    "characterLife": "225 жизнь",
-                    "characterMana": "240 энергия",
-                    "defensiveCold": "15% сопротивление холоду",
-                    "defensiveFire": "15% сопротивление огню",
-                    "defensiveFreeze": "100% уменьшение длительности заморозки",
-                    "defensiveLife": "100% сопротивление урону здоровью",
-                    "defensiveLightning": "15% сопротивление молниям",
-                    "defensivePetrify": "100% уменьшение длительности окаменения",
-                    "defensivePhysical": "30% сопротивление физическому урону",
-                    "defensivePierce": "30% сопротивление проникающему урону",
-                    "defensivePoison": "100% сопротивление яду",
-                    "defensiveStun": "100% сопротивление оглушению",
-                    "defensiveTrap": "100% уменьшение времени в ловушке"
-                },
-                "race": "Magical",
-                "tag": "tagMonsterName037"
+                "characterLife": "225 жизнь",
+                "characterMana": "240 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
             },
             {
-                "abilities": [
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 8,
-                        "tagSkillName235": 4
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 8,
-                        "tagSkillName235": 4,
-                        "unnamed-4": 1
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 8,
-                        "tagSkillName235": 4,
-                        "unnamed-4": 2
-                    }
-                ],
-                "classification": "Common",
-                "level": [
-                    8,
-                    38,
-                    58
-                ],
-                "name": "Плазменный сгусток",
-                "properties": {
-                    "characterLife": "237 жизнь",
-                    "characterMana": "249 энергия",
-                    "defensiveCold": "15% сопротивление холоду",
-                    "defensiveFire": "15% сопротивление огню",
-                    "defensiveFreeze": "100% уменьшение длительности заморозки",
-                    "defensiveLife": "100% сопротивление урону здоровью",
-                    "defensiveLightning": "15% сопротивление молниям",
-                    "defensivePetrify": "100% уменьшение длительности окаменения",
-                    "defensivePhysical": "30% сопротивление физическому урону",
-                    "defensivePierce": "30% сопротивление проникающему урону",
-                    "defensivePoison": "100% сопротивление яду",
-                    "defensiveStun": "100% сопротивление оглушению",
-                    "defensiveTrap": "100% уменьшение времени в ловушке"
-                },
-                "race": "Magical",
-                "tag": "tagMonsterName037"
+                "characterLife": "237 жизнь",
+                "characterMana": "249 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
             },
             {
-                "abilities": [
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 9,
-                        "tagSkillName235": 5
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 9,
-                        "tagSkillName235": 5,
-                        "unnamed-4": 1
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 9,
-                        "tagSkillName235": 5,
-                        "unnamed-4": 2
-                    }
-                ],
-                "classification": "Common",
-                "level": [
-                    9,
-                    39,
-                    59
-                ],
-                "name": "Плазменный сгусток",
-                "properties": {
-                    "characterLife": "249 жизнь",
-                    "characterMana": "258 энергия",
-                    "defensiveCold": "15% сопротивление холоду",
-                    "defensiveFire": "15% сопротивление огню",
-                    "defensiveFreeze": "100% уменьшение длительности заморозки",
-                    "defensiveLife": "100% сопротивление урону здоровью",
-                    "defensiveLightning": "15% сопротивление молниям",
-                    "defensivePetrify": "100% уменьшение длительности окаменения",
-                    "defensivePhysical": "30% сопротивление физическому урону",
-                    "defensivePierce": "30% сопротивление проникающему урону",
-                    "defensivePoison": "100% сопротивление яду",
-                    "defensiveStun": "100% сопротивление оглушению",
-                    "defensiveTrap": "100% уменьшение времени в ловушке"
-                },
-                "race": "Magical",
-                "tag": "tagMonsterName037"
+                "characterLife": "249 жизнь",
+                "characterMana": "258 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
             },
             {
-                "abilities": [
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 10,
-                        "tagSkillName235": 6,
-                        "x3tagSkillStormArcingChaos": 5
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 10,
-                        "tagSkillName235": 6,
-                        "unnamed-4": 1,
-                        "x3tagSkillStormArcingChaos": 5
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 10,
-                        "tagSkillName235": 6,
-                        "unnamed-4": 2,
-                        "x3tagSkillStormArcingChaos": 5
-                    }
-                ],
-                "classification": "Common",
-                "level": [
-                    10,
-                    40,
-                    60
-                ],
-                "name": "ARCS",
-                "properties": {
-                    "characterLife": "261 жизнь",
-                    "characterMana": "267 энергия",
-                    "defensiveCold": "15% сопротивление холоду",
-                    "defensiveFire": "15% сопротивление огню",
-                    "defensiveFreeze": "100% уменьшение длительности заморозки",
-                    "defensiveLife": "100% сопротивление урону здоровью",
-                    "defensiveLightning": "15% сопротивление молниям",
-                    "defensivePetrify": "100% уменьшение длительности окаменения",
-                    "defensivePhysical": "30% сопротивление физическому урону",
-                    "defensivePierce": "30% сопротивление проникающему урону",
-                    "defensivePoison": "100% сопротивление яду",
-                    "defensiveStun": "100% сопротивление оглушению",
-                    "defensiveTrap": "100% уменьшение времени в ловушке"
-                },
-                "race": "Magical",
-                "tag": "ARCS"
+                "characterLife": "261 жизнь",
+                "characterMana": "267 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
             },
             {
-                "abilities": [
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 11,
-                        "tagSkillName235": 7
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 11,
-                        "tagSkillName235": 7,
-                        "unnamed-4": 1
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 11,
-                        "tagSkillName235": 7,
-                        "unnamed-4": 2
-                    }
-                ],
-                "classification": "Common",
-                "level": [
-                    11,
-                    41,
-                    61
-                ],
-                "name": "Плазменный сгусток",
-                "properties": {
-                    "characterLife": "273 жизнь",
-                    "characterMana": "276 энергия",
-                    "defensiveCold": "15% сопротивление холоду",
-                    "defensiveFire": "15% сопротивление огню",
-                    "defensiveFreeze": "100% уменьшение длительности заморозки",
-                    "defensiveLife": "100% сопротивление урону здоровью",
-                    "defensiveLightning": "15% сопротивление молниям",
-                    "defensivePetrify": "100% уменьшение длительности окаменения",
-                    "defensivePhysical": "30% сопротивление физическому урону",
-                    "defensivePierce": "30% сопротивление проникающему урону",
-                    "defensivePoison": "100% сопротивление яду",
-                    "defensiveStun": "100% сопротивление оглушению",
-                    "defensiveTrap": "100% уменьшение времени в ловушке"
-                },
-                "race": "Magical",
-                "tag": "tagMonsterName037"
+                "characterLife": "273 жизнь",
+                "characterMana": "276 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
             },
             {
-                "abilities": [
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 12,
-                        "tagSkillName235": 8
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 12,
-                        "tagSkillName235": 8,
-                        "unnamed-4": 1
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 12,
-                        "tagSkillName235": 8,
-                        "unnamed-4": 2
-                    }
-                ],
-                "classification": "Common",
-                "level": [
-                    12,
-                    41,
-                    62
-                ],
-                "name": "Плазменный сгусток",
-                "properties": {
-                    "characterLife": "285 жизнь",
-                    "characterMana": "285 энергия",
-                    "defensiveCold": "15% сопротивление холоду",
-                    "defensiveFire": "15% сопротивление огню",
-                    "defensiveFreeze": "100% уменьшение длительности заморозки",
-                    "defensiveLife": "100% сопротивление урону здоровью",
-                    "defensiveLightning": "15% сопротивление молниям",
-                    "defensivePetrify": "100% уменьшение длительности окаменения",
-                    "defensivePhysical": "30% сопротивление физическому урону",
-                    "defensivePierce": "30% сопротивление проникающему урону",
-                    "defensivePoison": "100% сопротивление яду",
-                    "defensiveStun": "100% сопротивление оглушению",
-                    "defensiveTrap": "100% уменьшение времени в ловушке"
-                },
-                "race": "Magical",
-                "tag": "tagMonsterName037"
+                "characterLife": "285 жизнь",
+                "characterMana": "285 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
             },
             {
-                "abilities": [
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 13,
-                        "tagSkillName235": 9
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 13,
-                        "tagSkillName235": 9,
-                        "unnamed-4": 1
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 13,
-                        "tagSkillName235": 9,
-                        "unnamed-4": 2
-                    }
-                ],
-                "classification": "Common",
-                "level": [
-                    13,
-                    43,
-                    63
-                ],
-                "name": "Плазменный сгусток",
-                "properties": {
-                    "characterLife": "297 жизнь",
-                    "characterMana": "294 энергия",
-                    "defensiveCold": "15% сопротивление холоду",
-                    "defensiveFire": "15% сопротивление огню",
-                    "defensiveFreeze": "100% уменьшение длительности заморозки",
-                    "defensiveLife": "100% сопротивление урону здоровью",
-                    "defensiveLightning": "15% сопротивление молниям",
-                    "defensivePetrify": "100% уменьшение длительности окаменения",
-                    "defensivePhysical": "30% сопротивление физическому урону",
-                    "defensivePierce": "30% сопротивление проникающему урону",
-                    "defensivePoison": "100% сопротивление яду",
-                    "defensiveStun": "100% сопротивление оглушению",
-                    "defensiveTrap": "100% уменьшение времени в ловушке"
-                },
-                "race": "Magical",
-                "tag": "tagMonsterName037"
+                "characterLife": "297 жизнь",
+                "characterMana": "294 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
             },
             {
-                "abilities": [
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 14,
-                        "tagSkillName235": 10
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 14,
-                        "tagSkillName235": 10,
-                        "unnamed-4": 1
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 14,
-                        "tagSkillName235": 10,
-                        "unnamed-4": 2
-                    }
-                ],
-                "classification": "Common",
-                "level": [
-                    14,
-                    44,
-                    64
-                ],
-                "name": "Плазменный сгусток",
-                "properties": {
-                    "characterLife": "309 жизнь",
-                    "characterMana": "303 энергия",
-                    "defensiveCold": "15% сопротивление холоду",
-                    "defensiveFire": "15% сопротивление огню",
-                    "defensiveFreeze": "100% уменьшение длительности заморозки",
-                    "defensiveLife": "100% сопротивление урону здоровью",
-                    "defensiveLightning": "15% сопротивление молниям",
-                    "defensivePetrify": "100% уменьшение длительности окаменения",
-                    "defensivePhysical": "30% сопротивление физическому урону",
-                    "defensivePierce": "30% сопротивление проникающему урону",
-                    "defensivePoison": "100% сопротивление яду",
-                    "defensiveStun": "100% сопротивление оглушению",
-                    "defensiveTrap": "100% уменьшение времени в ловушке"
-                },
-                "race": "Magical",
-                "tag": "tagMonsterName037"
+                "characterLife": "309 жизнь",
+                "characterMana": "303 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
             },
             {
-                "abilities": [
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 15,
-                        "tagSkillName235": 11
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 15,
-                        "tagSkillName235": 11,
-                        "unnamed-4": 1
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 15,
-                        "tagSkillName235": 11,
-                        "unnamed-4": 2
-                    }
-                ],
-                "classification": "Common",
-                "level": [
-                    15,
-                    45,
-                    65
-                ],
-                "name": "Плазменный сгусток",
-                "properties": {
-                    "characterLife": "321 жизнь",
-                    "characterMana": "312 энергия",
-                    "defensiveCold": "15% сопротивление холоду",
-                    "defensiveFire": "15% сопротивление огню",
-                    "defensiveFreeze": "100% уменьшение длительности заморозки",
-                    "defensiveLife": "100% сопротивление урону здоровью",
-                    "defensiveLightning": "15% сопротивление молниям",
-                    "defensivePetrify": "100% уменьшение длительности окаменения",
-                    "defensivePhysical": "30% сопротивление физическому урону",
-                    "defensivePierce": "30% сопротивление проникающему урону",
-                    "defensivePoison": "100% сопротивление яду",
-                    "defensiveStun": "100% сопротивление оглушению",
-                    "defensiveTrap": "100% уменьшение времени в ловушке"
-                },
-                "race": "Magical",
-                "tag": "tagMonsterName037"
+                "characterLife": "321 жизнь",
+                "characterMana": "312 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
             },
             {
-                "abilities": [
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 16,
-                        "tagSkillName235": 12
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 16,
-                        "tagSkillName235": 12,
-                        "unnamed-4": 1
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 16,
-                        "tagSkillName235": 12,
-                        "unnamed-4": 2
-                    }
-                ],
-                "classification": "Common",
-                "level": [
-                    16,
-                    46,
-                    66
-                ],
-                "name": "Плазменный сгусток",
-                "properties": {
-                    "characterLife": "333 жизнь",
-                    "characterMana": "321 энергия",
-                    "defensiveCold": "15% сопротивление холоду",
-                    "defensiveFire": "15% сопротивление огню",
-                    "defensiveFreeze": "100% уменьшение длительности заморозки",
-                    "defensiveLife": "100% сопротивление урону здоровью",
-                    "defensiveLightning": "15% сопротивление молниям",
-                    "defensivePetrify": "100% уменьшение длительности окаменения",
-                    "defensivePhysical": "30% сопротивление физическому урону",
-                    "defensivePierce": "30% сопротивление проникающему урону",
-                    "defensivePoison": "100% сопротивление яду",
-                    "defensiveStun": "100% сопротивление оглушению",
-                    "defensiveTrap": "100% уменьшение времени в ловушке"
-                },
-                "race": "Magical",
-                "tag": "tagMonsterName037"
+                "characterLife": "333 жизнь",
+                "characterMana": "321 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
             },
             {
-                "abilities": [
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 17,
-                        "tagSkillName235": 13
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 17,
-                        "tagSkillName235": 13,
-                        "unnamed-4": 1
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 17,
-                        "tagSkillName235": 13,
-                        "unnamed-4": 2
-                    }
-                ],
-                "classification": "Common",
-                "level": [
-                    17,
-                    47,
-                    67
-                ],
-                "name": "Плазменный сгусток",
-                "properties": {
-                    "characterLife": "345 жизнь",
-                    "characterMana": "330 энергия",
-                    "defensiveCold": "15% сопротивление холоду",
-                    "defensiveFire": "15% сопротивление огню",
-                    "defensiveFreeze": "100% уменьшение длительности заморозки",
-                    "defensiveLife": "100% сопротивление урону здоровью",
-                    "defensiveLightning": "15% сопротивление молниям",
-                    "defensivePetrify": "100% уменьшение длительности окаменения",
-                    "defensivePhysical": "30% сопротивление физическому урону",
-                    "defensivePierce": "30% сопротивление проникающему урону",
-                    "defensivePoison": "100% сопротивление яду",
-                    "defensiveStun": "100% сопротивление оглушению",
-                    "defensiveTrap": "100% уменьшение времени в ловушке"
-                },
-                "race": "Magical",
-                "tag": "tagMonsterName037"
+                "characterLife": "345 жизнь",
+                "characterMana": "330 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
             },
             {
-                "abilities": [
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 18,
-                        "tagSkillName235": 14
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 18,
-                        "tagSkillName235": 14,
-                        "unnamed-4": 1
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 18,
-                        "tagSkillName235": 14,
-                        "unnamed-4": 2
-                    }
-                ],
-                "classification": "Common",
-                "level": [
-                    18,
-                    48,
-                    68
-                ],
-                "name": "Плазменный сгусток",
-                "properties": {
-                    "characterLife": "357 жизнь",
-                    "characterMana": "339 энергия",
-                    "defensiveCold": "15% сопротивление холоду",
-                    "defensiveFire": "15% сопротивление огню",
-                    "defensiveFreeze": "100% уменьшение длительности заморозки",
-                    "defensiveLife": "100% сопротивление урону здоровью",
-                    "defensiveLightning": "15% сопротивление молниям",
-                    "defensivePetrify": "100% уменьшение длительности окаменения",
-                    "defensivePhysical": "30% сопротивление физическому урону",
-                    "defensivePierce": "30% сопротивление проникающему урону",
-                    "defensivePoison": "100% сопротивление яду",
-                    "defensiveStun": "100% сопротивление оглушению",
-                    "defensiveTrap": "100% уменьшение времени в ловушке"
-                },
-                "race": "Magical",
-                "tag": "tagMonsterName037"
+                "characterLife": "357 жизнь",
+                "characterMana": "339 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
             },
             {
-                "abilities": [
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 19,
-                        "tagSkillName235": 15
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 19,
-                        "tagSkillName235": 15,
-                        "unnamed-4": 1
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 19,
-                        "tagSkillName235": 15,
-                        "unnamed-4": 2
-                    }
-                ],
-                "classification": "Common",
-                "level": [
-                    19,
-                    49,
-                    69
-                ],
-                "name": "Плазменный сгусток",
-                "properties": {
-                    "characterLife": "373 жизнь",
-                    "characterMana": "348 энергия",
-                    "defensiveCold": "15% сопротивление холоду",
-                    "defensiveFire": "15% сопротивление огню",
-                    "defensiveFreeze": "100% уменьшение длительности заморозки",
-                    "defensiveLife": "100% сопротивление урону здоровью",
-                    "defensiveLightning": "15% сопротивление молниям",
-                    "defensivePetrify": "100% уменьшение длительности окаменения",
-                    "defensivePhysical": "30% сопротивление физическому урону",
-                    "defensivePierce": "30% сопротивление проникающему урону",
-                    "defensivePoison": "100% сопротивление яду",
-                    "defensiveStun": "100% сопротивление оглушению",
-                    "defensiveTrap": "100% уменьшение времени в ловушке"
-                },
-                "race": "Magical",
-                "tag": "tagMonsterName037"
+                "characterLife": "373 жизнь",
+                "characterMana": "348 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
             },
             {
-                "abilities": [
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 20,
-                        "tagSkillName235": 16
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 20,
-                        "tagSkillName235": 16,
-                        "unnamed-4": 1
-                    },
-                    {
-                        "tagSkillName192": 99,
-                        "tagSkillName219": 20,
-                        "tagSkillName235": 16,
-                        "unnamed-4": 2
-                    }
-                ],
-                "classification": "Common",
-                "level": [
-                    20,
-                    50,
-                    70
-                ],
-                "name": "Плазменный сгусток",
-                "properties": {
-                    "characterLife": "395 жизнь",
-                    "characterMana": "357 энергия",
-                    "defensiveCold": "15% сопротивление холоду",
-                    "defensiveFire": "15% сопротивление огню",
-                    "defensiveFreeze": "100% уменьшение длительности заморозки",
-                    "defensiveLife": "100% сопротивление урону здоровью",
-                    "defensiveLightning": "15% сопротивление молниям",
-                    "defensivePetrify": "100% уменьшение длительности окаменения",
-                    "defensivePhysical": "30% сопротивление физическому урону",
-                    "defensivePierce": "30% сопротивление проникающему урону",
-                    "defensivePoison": "100% сопротивление яду",
-                    "defensiveStun": "100% сопротивление оглушению",
-                    "defensiveTrap": "100% уменьшение времени в ловушке"
-                },
-                "race": "Magical",
-                "tag": "tagMonsterName037"
+                "characterLife": "395 жизнь",
+                "characterMana": "357 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
             }
         ],
         "tag": "tagSkillName149"
@@ -2657,100 +1820,101 @@
         "icon": "",
         "parent": "tagSkillName149",
         "properties": [
-           {
-            "skillManaCost": "расход энергии 30", 
-            "skillCooldownTime": "длительность 30 секунд", 
-            "skillTargetRadius": "радиус 14 метров", 
-            "offensiveElemental": "+30% урона силами природы", 
-            "defensiveCold": "12% сопротивление холоду", 
-            "defensiveLightning": "12% сопротивление молниям"
-           },
-           {
-            "skillManaCost": "расход энергии 30", 
-            "skillCooldownTime": "длительность 32 секунд", 
-            "skillTargetRadius": "радиус 14 метров", 
-            "offensiveElemental": "+40% урона силами природы", 
-            "defensiveCold": "15% сопротивление холоду", 
-            "defensiveLightning": "15% сопротивление молниям"
-           },
-           {
-            "skillManaCost": "расход энергии 30", 
-            "skillCooldownTime": "длительность 35 секунд", 
-            "skillTargetRadius": "радиус 14 метров", 
-            "offensiveElemental": "+50% урона силами природы", 
-            "defensiveCold": "18% сопротивление холоду", 
-            "defensiveLightning": "18% сопротивление молниям"
-           },
-           {
-            "skillManaCost": "расход энергии 30", 
-            "skillCooldownTime": "длительность 37 секунд", 
-            "skillTargetRadius": "радиус 14 метров", 
-            "offensiveElemental": "+60% урона силами природы", 
-            "defensiveCold": "21% сопротивление холоду", 
-            "defensiveLightning": "21% сопротивление молниям"
-           },
-           {
-            "skillManaCost": "расход энергии 30", 
-            "skillCooldownTime": "длительность 39 секунд", 
-            "skillTargetRadius": "радиус 14 метров", 
-            "offensiveElemental": "+70% урона силами природы", 
-            "defensiveCold": "24% сопротивление холоду", 
-            "defensiveLightning": "24% сопротивление молниям"
-           },
-           {
-            "skillManaCost": "расход энергии 30", 
-            "skillCooldownTime": "длительность 42 секунд", 
-            "skillTargetRadius": "радиус 14 метров", 
-            "offensiveElemental": "+80% урона силами природы", 
-            "defensiveCold": "27% сопротивление холоду", 
-            "defensiveLightning": "27% сопротивление молниям"
-           },
-           {
-            "skillManaCost": "расход энергии 30", 
-            "skillCooldownTime": "длительность 44 секунд", 
-            "skillTargetRadius": "радиус 14 метров", 
-            "offensiveElemental": "+90% урона силами природы", 
-            "defensiveCold": "30% сопротивление холоду", 
-            "defensiveLightning": "30% сопротивление молниям"
-           },
-           {
-            "skillManaCost": "расход энергии 30", 
-            "skillCooldownTime": "длительность 46 секунд", 
-            "skillTargetRadius": "радиус 14 метров", 
-            "offensiveElemental": "+100% урона силами природы", 
-            "defensiveCold": "33% сопротивление холоду", 
-            "defensiveLightning": "33% сопротивление молниям"
-           },
-           {
-            "skillManaCost": "расход энергии 30", 
-            "skillCooldownTime": "длительность 48 секунд", 
-            "skillTargetRadius": "радиус 14 метров", 
-            "offensiveElemental": "+120% урона силами природы", 
-            "defensiveCold": "36% сопротивление холоду", 
-            "defensiveLightning": "36% сопротивление молниям"
-           },   {
-            "skillManaCost": "расход энергии 30", 
-            "skillCooldownTime": "длительность 50 секунд", 
-            "skillTargetRadius": "радиус 14 метров", 
-            "offensiveElemental": "+130% урона силами природы", 
-            "defensiveCold": "39% сопротивление холоду", 
-            "defensiveLightning": "39% сопротивление молниям"
-           },   {
-            "skillManaCost": "расход энергии 30", 
-            "skillCooldownTime": "длительность 53 секунд", 
-            "skillTargetRadius": "радиус 14 метров", 
-            "offensiveElemental": "+140% урона силами природы", 
-            "defensiveCold": "42% сопротивление холоду", 
-            "defensiveLightning": "42% сопротивление молниям"
-           },   {
-            "skillManaCost": "расход энергии 30", 
-            "skillCooldownTime": "длительность 56 секунд", 
-            "skillTargetRadius": "радиус 14 метров", 
-            "offensiveElemental": "+150% урона силами природы", 
-            "defensiveCold": "45% сопротивление холоду", 
-            "defensiveLightning": "45% сопротивление молниям"
-           }
-        ]
+            {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 30 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+30% урона силами природы",
+                "defensiveCold": "12% сопротивление холоду",
+                "defensiveLightning": "12% сопротивление молниям"
+            },
+            {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 32 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+40% урона силами природы",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveLightning": "15% сопротивление молниям"
+            },
+            {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 35 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+50% урона силами природы",
+                "defensiveCold": "18% сопротивление холоду",
+                "defensiveLightning": "18% сопротивление молниям"
+            },
+            {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 37 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+60% урона силами природы",
+                "defensiveCold": "21% сопротивление холоду",
+                "defensiveLightning": "21% сопротивление молниям"
+            },
+            {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 39 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+70% урона силами природы",
+                "defensiveCold": "24% сопротивление холоду",
+                "defensiveLightning": "24% сопротивление молниям"
+            },
+            {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 42 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+80% урона силами природы",
+                "defensiveCold": "27% сопротивление холоду",
+                "defensiveLightning": "27% сопротивление молниям"
+            },
+            {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 44 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+90% урона силами природы",
+                "defensiveCold": "30% сопротивление холоду",
+                "defensiveLightning": "30% сопротивление молниям"
+            },
+            {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 46 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+100% урона силами природы",
+                "defensiveCold": "33% сопротивление холоду",
+                "defensiveLightning": "33% сопротивление молниям"
+            },
+            {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 48 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+120% урона силами природы",
+                "defensiveCold": "36% сопротивление холоду",
+                "defensiveLightning": "36% сопротивление молниям"
+            },   {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 50 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+130% урона силами природы",
+                "defensiveCold": "39% сопротивление холоду",
+                "defensiveLightning": "39% сопротивление молниям"
+            },   {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 53 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+140% урона силами природы",
+                "defensiveCold": "42% сопротивление холоду",
+                "defensiveLightning": "42% сопротивление молниям"
+            },   {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 56 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+150% урона силами природы",
+                "defensiveCold": "45% сопротивление холоду",
+                "defensiveLightning": "45% сопротивление молниям"
+            }
+        ],
+        "tag": "tagSkillName149-2"
     },
     "x3tagSkillStormArcingChaos": {
         "description": "Усиливает способность \"Гром\" Сгустка, разветвляя его молнии.",
@@ -2831,9 +1995,9 @@
                     "offensiveCold": "5 ед. урона от холода"
                 },
                 "petBonus": {
-                    "chance": "Шанс одного из следующего:", 
-                    "offensiveCold": "2 ед. урона от холода", 
-                    "offensiveLightning": "1-11 ед. урона от молний"    
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "2 ед. урона от холода",
+                    "offensiveLightning": "1-11 ед. урона от молний"
                 }
             },
             {
@@ -2844,9 +2008,9 @@
                     "offensiveCold": "4 ед. урона от холода"
                 },
                 "petBonus": {
-                    "chance": "Шанс одного из следующего:", 
-                    "offensiveCold": "8 ед. урона от холода", 
-                    "offensiveLightning": "2-14 ед. урона от молний"    
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "8 ед. урона от холода",
+                    "offensiveLightning": "2-14 ед. урона от молний"
                 }
             },
             {
@@ -2857,9 +2021,9 @@
                     "offensiveCold": "11 ед. урона от холода"
                 },
                 "petBonus": {
-                    "chance": "Шанс одного из следующего:", 
-                    "offensiveCold": "5 ед. урона от холода", 
-                    "offensiveLightning": "3-17 ед. урона от молний"    
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "5 ед. урона от холода",
+                    "offensiveLightning": "3-17 ед. урона от молний"
                 }
             },
             {
@@ -2870,9 +2034,9 @@
                     "offensiveCold": "15 ед. урона от холода"
                 },
                 "petBonus": {
-                    "chance": "Шанс одного из следующего:", 
-                    "offensiveCold": "8 ед. урона от холода", 
-                    "offensiveLightning": "4-19 ед. урона от молний"    
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "8 ед. урона от холода",
+                    "offensiveLightning": "4-19 ед. урона от молний"
                 }
             },
             {
@@ -2883,9 +2047,9 @@
                     "offensiveCold": "18 ед. урона от холода"
                 },
                 "petBonus": {
-                    "chance": "Шанс одного из следующего:", 
-                    "offensiveCold": "9 ед. урона от холода", 
-                    "offensiveLightning": "5-22 ед. урона от молний"    
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "9 ед. урона от холода",
+                    "offensiveLightning": "5-22 ед. урона от молний"
                 }
             },
             {
@@ -2896,9 +2060,9 @@
                     "offensiveCold": "21 ед. урона от холода"
                 },
                 "petBonus": {
-                    "chance": "Шанс одного из следующего:", 
-                    "offensiveCold": "11 ед. урона от холода", 
-                    "offensiveLightning": "6-25 ед. урона от молний"    
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "11 ед. урона от холода",
+                    "offensiveLightning": "6-25 ед. урона от молний"
                 }
             },
             {
@@ -2909,9 +2073,9 @@
                     "offensiveCold": "24 ед. урона от холода"
                 },
                 "petBonus": {
-                    "chance": "Шанс одного из следующего:", 
-                    "offensiveCold": "12 ед. урона от холода", 
-                    "offensiveLightning": "7-28 ед. урона от молний"    
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "12 ед. урона от холода",
+                    "offensiveLightning": "7-28 ед. урона от молний"
                 }
             },
             {
@@ -2922,9 +2086,9 @@
                     "offensiveCold": "29 ед. урона от холода"
                 },
                 "petBonus": {
-                    "chance": "Шанс одного из следующего:", 
-                    "offensiveCold": "14 ед. урона от холода", 
-                    "offensiveLightning": "8-31 ед. урона от молний"    
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "14 ед. урона от холода",
+                    "offensiveLightning": "8-31 ед. урона от молний"
                 }
             },
             {
@@ -2935,9 +2099,9 @@
                     "offensiveCold": "32 ед. урона от холода"
                 },
                 "petBonus": {
-                    "chance": "Шанс одного из следующего:", 
-                    "offensiveCold": "16 ед. урона от холода", 
-                    "offensiveLightning": "9-34 ед. урона от молний"    
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "16 ед. урона от холода",
+                    "offensiveLightning": "9-34 ед. урона от молний"
                 }
             },
             {
@@ -2948,9 +2112,9 @@
                     "offensiveCold": "35 ед. урона от холода"
                 },
                 "petBonus": {
-                    "chance": "Шанс одного из следующего:", 
-                    "offensiveCold": "17 ед. урона от холода", 
-                    "offensiveLightning": "10-38 ед. урона от молний"    
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "17 ед. урона от холода",
+                    "offensiveLightning": "10-38 ед. урона от молний"
                 }
             },
             {
@@ -2961,9 +2125,9 @@
                     "offensiveCold": "40 ед. урона от холода"
                 },
                 "petBonus": {
-                    "chance": "Шанс одного из следующего:", 
-                    "offensiveCold": "19 ед. урона от холода", 
-                    "offensiveLightning": "11-42 ед. урона от молний"    
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "19 ед. урона от холода",
+                    "offensiveLightning": "11-42 ед. урона от молний"
                 }
             },
             {
@@ -2974,9 +2138,9 @@
                     "offensiveCold": "43 ед. урона от холода"
                 },
                 "petBonus": {
-                    "chance": "Шанс одного из следующего:", 
-                    "offensiveCold": "21 ед. урона от холода", 
-                    "offensiveLightning": "12-46 ед. урона от молний"    
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "21 ед. урона от холода",
+                    "offensiveLightning": "12-46 ед. урона от молний"
                 }
             },
             {
@@ -2987,9 +2151,9 @@
                     "offensiveCold": "47 ед. урона от холода"
                 },
                 "petBonus": {
-                    "chance": "Шанс одного из следующего:", 
-                    "offensiveCold": "23 ед. урона от холода", 
-                    "offensiveLightning": "13-50 ед. урона от молний"    
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "23 ед. урона от холода",
+                    "offensiveLightning": "13-50 ед. урона от молний"
                 }
             },
             {
@@ -3000,9 +2164,9 @@
                     "offensiveCold": "53 ед. урона от холода"
                 },
                 "petBonus": {
-                    "chance": "Шанс одного из следующего:", 
-                    "offensiveCold": "26 ед. урона от холода", 
-                    "offensiveLightning": "14-54 ед. урона от молний"    
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "26 ед. урона от холода",
+                    "offensiveLightning": "14-54 ед. урона от молний"
                 }
             }
         ],

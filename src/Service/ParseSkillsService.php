@@ -7,6 +7,7 @@ namespace App\Service;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Symfony\Component\HttpKernel\KernelInterface;
+use App\Entity\{Mastery, Skill};
 use stdClass;
 
 class ParseSkillsService
@@ -63,6 +64,10 @@ class ParseSkillsService
                 $skill->parent = $skillItem['parent'];
             }
 
+            if (isset($skillItem['summons'])) {
+                $skill->summons = $skillItem['summons'];
+            }
+
             $skillProperties = [];
             $skillLevel = 1;
             foreach ($skillItem['properties'] as $kk => $properties) {
@@ -92,13 +97,13 @@ class ParseSkillsService
             $skills[] = $skill;
         }
 
-        dd($skills);
+        $this->save($skills, $filename);
     }
 
     private function getFileContent(string $filename): array
     {
         $projectDir = $this->kernel->getProjectDir();
-        $masteryUrl = $projectDir.DIRECTORY_SEPARATOR."assets/data".DIRECTORY_SEPARATOR.$filename;
+        $masteryUrl = $projectDir.DIRECTORY_SEPARATOR."assets/data".DIRECTORY_SEPARATOR.$filename.'.json';
 
         if (!file_exists($masteryUrl)) {
             throw new NotFoundHttpException("File $filename does not exist!\n");
@@ -114,17 +119,47 @@ class ParseSkillsService
         return implode('_', array_map('strtolower',$parts));
     }
 
-    private function save(array $data)
+    private function save(array $skills, string $slug)
     {
         $this->em->beginTransaction();
 
         try {
 
-        } catch (\Exception $exception) {
-            throw ;
-        }
-        foreach ($data as $item) {
+            $mastery = $this->em->getRepository(Mastery::class)->findOneBy(['slug' => $slug]);
+            if (!$mastery) {
+                throw new NotFoundHttpException("Mastery with $slug does not exist!");
+            }
 
+            foreach ($skills as $skill) {
+
+                $skillItem = new Skill();
+                $skillItem->setMastery($mastery);
+                $skillItem->setName($skill->name);
+                $skillItem->setTier($skill->tier);
+                $skillItem->setType($skill->type);
+                $skillItem->setMaximumLevel($skill->maximum_level);
+                $skillItem->setCoolDown($skill->cooldown);
+                $skillItem->setTag($skill->tag);
+                $skillItem->setDescription($skill->description);
+
+                if (isset($skill->parent)) {
+                    $skillItem->setParent($skill->parent);
+                }
+
+                if (isset($skill->summons)) {
+                    $skillItem->setSummons($skill->summons);
+                }
+
+                $skillItem->setProperties($skill->properties);
+
+                $this->em->persist($skillItem);
+            }
+
+            $this->em->flush();
+            $this->em->commit();
+        } catch (\Exception $exception) {
+            $this->em->rollback();
+            throw $exception;
         }
     }
 }
