@@ -1,0 +1,2553 @@
+{
+    "tagSkillName022": {
+        "description": "С рук героя срываются острые осколки льда, которые наносят урон холодом и временно замедляют противника.",
+        "name": "Льдинки",
+        "tier": 1,
+        "type": "Active",
+        "maximum_level": 12,
+        "cooldown": "none",
+        "icon": "",
+        "properties": [
+            {
+                "offensiveCold": "16-25 ед. урона от холода",
+                "offensiveSlowTotalSpeed": "15.0% замедления на 1.5 секунд(ы)",
+                "projectileLaunchNumber": "1 снаряд(а)",
+                "skillManaCost": "Расход энергии 18"
+            },
+            {
+                "offensiveCold": "20-31 ед. урона от холода",
+                "offensiveSlowTotalSpeed": "15.0% замедления на 1.5 секунд(ы)",
+                "projectileLaunchNumber": "1 снаряд(а)",
+                "skillManaCost": "Расход энергии 20"
+            },
+            {
+                "offensiveCold": "23-36 ед. урона от холода",
+                "offensiveSlowTotalSpeed": "15.0% замедления на 1.5 секунд(ы)",
+                "projectileLaunchNumber": "1 снаряд(а)",
+                "skillManaCost": "Расход энергии 22"
+            },
+            {
+                "offensiveCold": "28-43 ед. урона от холода",
+                "offensiveSlowTotalSpeed": "15.0% замедления на 1.5 секунд(ы)",
+                "projectileLaunchNumber": "1 снаряд(а)",
+                "skillManaCost": "Расход энергии 24"
+            },
+            {
+                "offensiveCold": "32-47 ед. урона от холода",
+                "offensiveSlowTotalSpeed": "15.0% замедления на 1.5 секунд(ы)",
+                "projectileLaunchNumber": "1 снаряд(а)",
+                "skillManaCost": "Расход энергии 26"
+            },
+            {
+                "offensiveCold": "36-53 ед. урона от холода",
+                "offensiveSlowTotalSpeed": "15.0% замедления на 1.5 секунд(ы)",
+                "projectileLaunchNumber": "1 снаряд(а)",
+                "skillManaCost": "Расход энергии 28"
+            },
+            {
+                "offensiveCold": "39-58 ед. урона от холода",
+                "offensiveSlowTotalSpeed": "15.0% замедления на 1.5 секунд(ы)",
+                "projectileLaunchNumber": "1 снаряд(а)",
+                "skillManaCost": "Расход энергии 30"
+            },
+            {
+                "offensiveCold": "44-64 ед. урона от холода",
+                "offensiveSlowTotalSpeed": "15.0% замедления на 1.5 секунд(ы)",
+                "projectileLaunchNumber": "1 снаряд(а)",
+                "skillManaCost": "Расход энергии 32"
+            },
+            {
+                "offensiveCold": "48-68 ед. урона от холода",
+                "offensiveSlowTotalSpeed": "15.0% замедления на 1.5 секунд(ы)",
+                "projectileLaunchNumber": "1 снаряд(а)",
+                "skillManaCost": "Расход энергии 34"
+            },
+            {
+                "offensiveCold": "52-73 ед. урона от холода",
+                "offensiveSlowTotalSpeed": "15.0% замедления на 1.5 секунд(ы)",
+                "projectileLaunchNumber": "1 снаряд(а)",
+                "skillManaCost": "Расход энергии 36"
+            },
+            {
+                "offensiveCold": "55-77 ед. урона от холода",
+                "offensiveSlowTotalSpeed": "15.0% замедления на 1.5 секунд(ы)",
+                "projectileLaunchNumber": "1 снаряд(а)",
+                "skillManaCost": "Расход энергии 38"
+            },
+            {
+                "offensiveCold": "60-83 ед. урона от холода",
+                "offensiveSlowTotalSpeed": "15.0% замедления на 1.5 секунд(ы)",
+                "projectileLaunchNumber": "1 снаряд(а)",
+                "skillManaCost": "Расход энергии 40"
+            },
+            {
+                "offensiveCold": "66-90 ед. урона от холода",
+                "offensiveSlowTotalSpeed": "15.0% замедления на 1.5 секунд(ы)",
+                "projectileLaunchNumber": "1 снаряд(а)",
+                "skillManaCost": "Расход энергии 42"
+            },
+            {
+                "offensiveCold": "73-98 ед. урона от холода",
+                "offensiveSlowTotalSpeed": "15.0% замедления на 1.5 секунд(ы)",
+                "projectileLaunchNumber": "1 снаряд(а)",
+                "skillManaCost": "Расход энергии 44"
+            },
+            {
+                "offensiveCold": "81-107 ед. урона от холода",
+                "offensiveSlowTotalSpeed": "15.0% замедления на 1.5 секунд(ы)",
+                "projectileLaunchNumber": "1 снаряд(а)",
+                "skillManaCost": "Расход энергии 46"
+            },
+            {
+                "offensiveCold": "90-118 ед. урона от холода",
+                "offensiveSlowTotalSpeed": "15.0% замедления на 1.5 секунд(ы)",
+                "projectileLaunchNumber": "1 снаряд(а)",
+                "skillManaCost": "Расход энергии 48"
+            }
+        ],
+        "tag": "tagSkillName022"
+    },
+    "tagSkillName023": {
+        "description": "Увеличивает наносимый урон и скорость льдинок, а также даёт шанс, что льдинка пробьёт цель насквозь и полетит дальше.",
+        "name": "Разгон",
+        "tier": 3,
+        "type": "Modifier",
+        "maximum_level": 8,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "tagSkillName022",
+        "properties": [
+            {
+                "offensiveColdModifier": "+10% урона от холода",
+                "projectilePiercing": "18.0% шанс пробить врагов навылет",
+                "skillManaCost": "Расход энергии 2",
+                "skillProjectileSpeedModifier": "15% скорости полёта снарядов"
+            },
+            {
+                "offensiveColdModifier": "+16% урона от холода",
+                "projectilePiercing": "24.0% шанс пробить врагов навылет",
+                "skillManaCost": "Расход энергии 2",
+                "skillProjectileSpeedModifier": "20% скорости полёта снарядов"
+            },
+            {
+                "offensiveColdModifier": "+22% урона от холода",
+                "projectilePiercing": "30.0% шанс пробить врагов навылет",
+                "skillManaCost": "Расход энергии 3",
+                "skillProjectileSpeedModifier": "25% скорости полёта снарядов"
+            },
+            {
+                "offensiveColdModifier": "+28% урона от холода",
+                "projectilePiercing": "36.0% шанс пробить врагов навылет",
+                "skillManaCost": "Расход энергии 3",
+                "skillProjectileSpeedModifier": "30% скорости полёта снарядов"
+            },
+            {
+                "offensiveColdModifier": "+34% урона от холода",
+                "projectilePiercing": "42.0% шанс пробить врагов навылет",
+                "skillManaCost": "Расход энергии 3",
+                "skillProjectileSpeedModifier": "35% скорости полёта снарядов"
+            },
+            {
+                "offensiveColdModifier": "+40% урона от холода",
+                "projectilePiercing": "48.0% шанс пробить врагов навылет",
+                "skillManaCost": "Расход энергии 4",
+                "skillProjectileSpeedModifier": "40% скорости полёта снарядов"
+            },
+            {
+                "offensiveColdModifier": "+46% урона от холода",
+                "projectilePiercing": "54.0% шанс пробить врагов навылет",
+                "skillManaCost": "Расход энергии 4",
+                "skillProjectileSpeedModifier": "45% скорости полёта снарядов"
+            },
+            {
+                "offensiveColdModifier": "+52% урона от холода",
+                "projectilePiercing": "60.0% шанс пробить врагов навылет",
+                "skillManaCost": "Расход энергии 4",
+                "skillProjectileSpeedModifier": "50% скорости полёта снарядов"
+            },
+            {
+                "offensiveColdModifier": "+58% урона от холода",
+                "projectilePiercing": "66.0% шанс пробить врагов навылет",
+                "skillManaCost": "Расход энергии 5",
+                "skillProjectileSpeedModifier": "55% скорости полёта снарядов"
+            },
+            {
+                "offensiveColdModifier": "+64% урона от холода",
+                "projectilePiercing": "72.0% шанс пробить врагов навылет",
+                "skillManaCost": "Расход энергии 5",
+                "skillProjectileSpeedModifier": "60% скорости полёта снарядов"
+            },
+            {
+                "offensiveColdModifier": "+70% урона от холода",
+                "projectilePiercing": "78.0% шанс пробить врагов навылет",
+                "skillManaCost": "Расход энергии 5",
+                "skillProjectileSpeedModifier": "65% скорости полёта снарядов"
+            },
+            {
+                "offensiveColdModifier": "+76% урона от холода",
+                "projectilePiercing": "85.0% шанс пробить врагов навылет",
+                "skillManaCost": "Расход энергии 5",
+                "skillProjectileSpeedModifier": "70% скорости полёта снарядов"
+            }
+        ],
+        "tag": "tagSkillName023"
+    },
+    "tagSkillName024": {
+        "description": "Увеличивает число льдинок, превращая их в смертоносную ледяную струю.",
+        "name": "Струя",
+        "tier": 5,
+        "type": "Modifier",
+        "maximum_level": 8,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "tagSkillName023",
+        "properties": [
+            {
+                "offensiveSlowCold": "24 ед. урона обжигающего холода в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 14"
+            },
+            {
+                "offensiveSlowCold": "42 ед. урона обжигающего холода в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 16"
+            },
+            {
+                "offensiveSlowCold": "57 ед. урона обжигающего холода в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 22"
+            },
+            {
+                "offensiveSlowCold": "78 ед. урона обжигающего холода в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 24"
+            },
+            {
+                "offensiveSlowCold": "102 ед. урона обжигающего холода в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 30"
+            },
+            {
+                "offensiveSlowCold": "126 ед. урона обжигающего холода в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 32"
+            },
+            {
+                "offensiveSlowCold": "153 ед. урона обжигающего холода в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 34"
+            },
+            {
+                "offensiveSlowCold": "186 ед. урона обжигающего холода в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 40"
+            },
+            {
+                "offensiveSlowCold": "222 ед. урона обжигающего холода в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 42"
+            },
+            {
+                "offensiveSlowCold": "267 ед. урона обжигающего холода в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 44"
+            },
+            {
+                "offensiveSlowCold": "315 ед. урона обжигающего холода в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 46"
+            },
+            {
+                "offensiveSlowCold": "369 ед. урона обжигающего холода в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 52"
+            }
+        ],
+        "tag": "tagSkillName024"
+    },
+    "tagSkillName156": {
+        "description": "Импульс отрицательной энергии рассеивает вредоносные заклятья на союзниках. При попадании в противников импульс рассеивает наложенные на них благоприятные заклинания и сжигает часть их энергии. Эта атака наносит дополнительный урон магическим существам.",
+        "name": "Антимагия",
+        "tier": 2,
+        "type": "Active",
+        "maximum_level": 6,
+        "cooldown": "none",
+        "icon": "",
+        "properties": [
+            {
+                "offensiveManaDrain": "24% уменьшение энергии",
+                "offensivePhysical": "10 ед. физического урона",
+                "projectileExplosionRadius": "Радиус 6.0 метра(ов)",
+                "racialBonusPercentDamage": "+50% урона Magical",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 32"
+            },
+            {
+                "offensiveManaDrain": "32% уменьшение энергии",
+                "offensivePhysical": "20 ед. физического урона",
+                "projectileExplosionRadius": "Радиус 6.0 метра(ов)",
+                "racialBonusPercentDamage": "+50% урона Magical",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 34"
+            },
+            {
+                "offensiveManaDrain": "40% уменьшение энергии",
+                "offensivePhysical": "30 ед. физического урона",
+                "projectileExplosionRadius": "Радиус 6.0 метра(ов)",
+                "racialBonusPercentDamage": "+50% урона Magical",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 36"
+            },
+            {
+                "offensiveManaDrain": "50% уменьшение энергии",
+                "offensivePhysical": "40 ед. физического урона",
+                "projectileExplosionRadius": "Радиус 6.0 метра(ов)",
+                "racialBonusPercentDamage": "+50% урона Magical",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 38"
+            },
+            {
+                "offensiveManaDrain": "58% уменьшение энергии",
+                "offensivePhysical": "50 ед. физического урона",
+                "projectileExplosionRadius": "Радиус 6.0 метра(ов)",
+                "racialBonusPercentDamage": "+50% урона Magical",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 40"
+            },
+            {
+                "offensiveManaDrain": "66% уменьшение энергии",
+                "offensivePhysical": "60 ед. физического урона",
+                "projectileExplosionRadius": "Радиус 6.0 метра(ов)",
+                "racialBonusPercentDamage": "+50% урона Magical",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 42"
+            },
+            {
+                "offensiveManaDrain": "74% уменьшение энергии",
+                "offensivePhysical": "70 ед. физического урона",
+                "projectileExplosionRadius": "Радиус 6.0 метра(ов)",
+                "racialBonusPercentDamage": "+50% урона Magical",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 44"
+            },
+            {
+                "offensiveManaDrain": "84% уменьшение энергии",
+                "offensivePhysical": "80 ед. физического урона",
+                "projectileExplosionRadius": "Радиус 6.0 метра(ов)",
+                "racialBonusPercentDamage": "+50% урона Magical",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 46"
+            },
+            {
+                "offensiveManaDrain": "92% уменьшение энергии",
+                "offensivePhysical": "90 ед. физического урона",
+                "projectileExplosionRadius": "Радиус 6.0 метра(ов)",
+                "racialBonusPercentDamage": "+50% урона Magical",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 48"
+            },
+            {
+                "offensiveManaDrain": "100% уменьшение энергии",
+                "offensivePhysical": "100 ед. физического урона",
+                "projectileExplosionRadius": "Радиус 6.0 метра(ов)",
+                "racialBonusPercentDamage": "+50% урона Magical",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 50"
+            }
+        ],
+        "tag": "tagSkillName156"
+    },
+    "tagSkillName157": {
+        "description": "Наносит урон противникам, сжигая их энергию, и рассеивает наложенные на них благоприятные заклятия антимагией.",
+        "name": "Магическое потрясение",
+        "tier": 3,
+        "type": "Modifier",
+        "maximum_level": 8,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "tagSkillName156",
+        "properties": [
+            {
+                "offensiveDisruption": "3.0 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "9 ед. урона электрическим разрядом в течении 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 14"
+            },
+            {
+                "offensiveDisruption": "3.6 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "13 ед. урона электрическим разрядом в течении 3.6 секунд(ы)",
+                "skillManaCost": "Расход энергии 16"
+            },
+            {
+                "offensiveDisruption": "4.2 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "18 ед. урона электрическим разрядом в течении 4.2 секунд(ы)",
+                "skillManaCost": "Расход энергии 18"
+            },
+            {
+                "offensiveDisruption": "4.8 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "23 ед. урона электрическим разрядом в течении 4.8 секунд(ы)",
+                "skillManaCost": "Расход энергии 20"
+            },
+            {
+                "offensiveDisruption": "5.4 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "29 ед. урона электрическим разрядом в течении 5.4 секунд(ы)",
+                "skillManaCost": "Расход энергии 22"
+            },
+            {
+                "offensiveDisruption": "6.0 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "36 ед. урона электрическим разрядом в течении 6.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 24"
+            },
+            {
+                "offensiveDisruption": "6.6 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "44 ед. урона электрическим разрядом в течении 6.6 секунд(ы)",
+                "skillManaCost": "Расход энергии 26"
+            },
+            {
+                "offensiveDisruption": "7.2 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "52 ед. урона электрическим разрядом в течении 7.2 секунд(ы)",
+                "skillManaCost": "Расход энергии 28"
+            },
+            {
+                "offensiveDisruption": "7.8 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "61 ед. урона электрическим разрядом в течении 7.8 секунд(ы)",
+                "skillManaCost": "Расход энергии 30"
+            },
+            {
+                "offensiveDisruption": "8.4 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "71 ед. урона электрическим разрядом в течении 8.4 секунд(ы)",
+                "skillManaCost": "Расход энергии 32"
+            }
+        ],
+        "tag": "tagSkillName157"
+    },
+    "tagSkillName025-1": {
+        "description": "Позволяет герою призывать молнию на головы врагов.",
+        "name": "Молния",
+        "tier": 4,
+        "type": "Active",
+        "maximum_level": 12,
+        "cooldown": "none",
+        "icon": "",
+        "properties": [
+            {
+                "offensiveLightning": "51-109 ед. урона от молний",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 80",
+                "skillTargetRadius": "Радиус 0.5 метра(ов)"
+            },
+            {
+                "offensiveLightning": "63-133 ед. урона от молний",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 88",
+                "skillTargetRadius": "Радиус 0.6 метра(ов)"
+            },
+            {
+                "offensiveLightning": "74-156 ед. урона от молний",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 96",
+                "skillTargetRadius": "Радиус 0.7 метра(ов)"
+            },
+            {
+                "offensiveLightning": "86-178 ед. урона от молний",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 104",
+                "skillTargetRadius": "Радиус 0.8 метра(ов)"
+            },
+            {
+                "offensiveLightning": "97-202 ед. урона от молний",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 112",
+                "skillTargetRadius": "Радиус 0.9 метра(ов)"
+            },
+            {
+                "offensiveLightning": "109-225 ед. урона от молний",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 120",
+                "skillTargetRadius": "Радиус 1.0 метра(ов)"
+            },
+            {
+                "offensiveLightning": "120-247 ед. урона от молний",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 128",
+                "skillTargetRadius": "Радиус 1.1 метра(ов)"
+            },
+            {
+                "offensiveLightning": "132-271 ед. урона от молний",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 136",
+                "skillTargetRadius": "Радиус 1.2 метра(ов)"
+            },
+            {
+                "offensiveLightning": "143-294 ед. урона от молний",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 144",
+                "skillTargetRadius": "Радиус 1.3 метра(ов)"
+            },
+            {
+                "offensiveLightning": "155-316 ед. урона от молний",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 152",
+                "skillTargetRadius": "Радиус 1.4 метра(ов)"
+            },
+            {
+                "offensiveLightning": "166-340 ед. урона от молний",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 160",
+                "skillTargetRadius": "Радиус 1.5 метра(ов)"
+            },
+            {
+                "offensiveLightning": "178-363 ед. урона от молний",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 168",
+                "skillTargetRadius": "Радиус 1.6 метра(ов)"
+            },
+            {
+                "offensiveLightning": "189-386 ед. урона от молний",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 176",
+                "skillTargetRadius": "Радиус 1.7 метра(ов)"
+            },
+            {
+                "offensiveLightning": "203-413 ед. урона от молний",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 184",
+                "skillTargetRadius": "Радиус 1.8 метра(ов)"
+            },
+            {
+                "offensiveLightning": "218-446 ед. урона от молний",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 192",
+                "skillTargetRadius": "Радиус 1.9 метра(ов)"
+            },
+            {
+                "offensiveLightning": "239-486 ед. урона от молний",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 200",
+                "skillTargetRadius": "Радиус 2.0 метра(ов)"
+            }
+        ],
+        "tag": "tagSkillName025-1"
+    },
+    "tagSkillName026-1": {
+        "description": "Молния поражает врагов, находящихся поблизости от первоначальной цели.",
+        "name": "Цепная молния",
+        "tier": 6,
+        "type": "Modifier",
+        "maximum_level": 12,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "tagSkillName025-1",
+        "properties": [
+            {
+                "offensiveLightning": "31-53 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "41-69 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "53-84 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "65-101 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "74-115 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "86-130 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "96-145 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "107-163 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "117-177 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "128-192 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "138-207 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "150-226 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "164-245 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "179-268 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "197-293 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "217-324 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            }
+        ],
+        "tag": "tagSkillName026-1"
+    },
+    "tagSkillName020-1": {
+        "description": "Герой метает сгусток электрической энергии, который наносит урон и оглушает противников на небольшой площади.",
+        "name": "Шаровая молния",
+        "tier": 2,
+        "type": "Active",
+        "maximum_level": 12,
+        "cooldown": "none",
+        "icon": "",
+        "properties": [
+            {
+                "offensiveLightning": "14-32 ед. урона от молний",
+                "offensiveSlowDefensiveAbility": "25.0% уменьшения оборонительной способности на 1.5 секунд(ы)",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.8 метра(ов)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 50",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLightning": "22-45 ед. урона от молний",
+                "offensiveSlowDefensiveAbility": "25.0% уменьшения оборонительной способности на 1.5 секунд(ы)",
+                "offensiveStun": "1.8 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.8 метра(ов)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 53",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLightning": "32-56 ед. урона от молний",
+                "offensiveSlowDefensiveAbility": "25.0% уменьшения оборонительной способности на 1.5 секунд(ы)",
+                "offensiveStun": "2.1 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.8 метра(ов)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 56",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLightning": "44-71 ед. урона от молний",
+                "offensiveSlowDefensiveAbility": "25.0% уменьшения оборонительной способности на 1.5 секунд(ы)",
+                "offensiveStun": "2.5 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.8 метра(ов)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 59",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLightning": "52-82 ед. урона от молний",
+                "offensiveSlowDefensiveAbility": "25.0% уменьшения оборонительной способности на 1.5 секунд(ы)",
+                "offensiveStun": "2.8 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.8 метра(ов)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 62",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLightning": "60-95 ед. урона от молний",
+                "offensiveSlowDefensiveAbility": "25.0% уменьшения оборонительной способности на 1.5 секунд(ы)",
+                "offensiveStun": "3.1 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.8 метра(ов)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 65",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLightning": "70-106 ед. урона от молний",
+                "offensiveSlowDefensiveAbility": "25.0% уменьшения оборонительной способности на 1.5 секунд(ы)",
+                "offensiveStun": "3.4 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.8 метра(ов)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 68",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLightning": "82-121 ед. урона от молний",
+                "offensiveSlowDefensiveAbility": "25.0% уменьшения оборонительной способности на 1.5 секунд(ы)",
+                "offensiveStun": "3.8 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.8 метра(ов)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 71",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLightning": "90-132 ед. урона от молний",
+                "offensiveSlowDefensiveAbility": "25.0% уменьшения оборонительной способности на 1.5 секунд(ы)",
+                "offensiveStun": "4.1 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.8 метра(ов)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 74",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLightning": "98-145 ед. урона от молний",
+                "offensiveSlowDefensiveAbility": "25.0% уменьшения оборонительной способности на 1.5 секунд(ы)",
+                "offensiveStun": "4.4 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.8 метра(ов)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 77",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLightning": "108-156 ед. урона от молний",
+                "offensiveSlowDefensiveAbility": "25.0% уменьшения оборонительной способности на 1.5 секунд(ы)",
+                "offensiveStun": "4.7 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.8 метра(ов)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 80",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLightning": "120-171 ед. урона от молний",
+                "offensiveSlowDefensiveAbility": "25.0% уменьшения оборонительной способности на 1.5 секунд(ы)",
+                "offensiveStun": "5.1 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.8 метра(ов)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 83",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLightning": "128-182 ед. урона от молний",
+                "offensiveSlowDefensiveAbility": "25.0% уменьшения оборонительной способности на 1.5 секунд(ы)",
+                "offensiveStun": "5.1 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.8 метра(ов)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 86",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLightning": "136-195 ед. урона от молний",
+                "offensiveSlowDefensiveAbility": "25.0% уменьшения оборонительной способности на 1.5 секунд(ы)",
+                "offensiveStun": "5.1 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.8 метра(ов)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 89",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLightning": "146-206 ед. урона от молний",
+                "offensiveSlowDefensiveAbility": "25.0% уменьшения оборонительной способности на 1.5 секунд(ы)",
+                "offensiveStun": "5.1 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.8 метра(ов)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 92",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLightning": "158-221 ед. урона от молний",
+                "offensiveSlowDefensiveAbility": "25.0% уменьшения оборонительной способности на 1.5 секунд(ы)",
+                "offensiveStun": "5.1 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.8 метра(ов)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 95",
+                "skillProjectileNumber": "1 снаряд(а)"
+            }
+        ],
+        "tag": "tagSkillName020-1"
+    },
+    "tagSkillName021": {
+        "description": "Усиливает мощность шаровой молнии, которая при ударе распадается на фрагменты. Каждый фрагмент шаровой молнии при попадании во врага наносит урон от молний и оглушает его.",
+        "name": "Ударная волна",
+        "tier": 4,
+        "type": "Modifier",
+        "maximum_level": 8,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "tagSkillName020-1",
+        "properties": [
+            {
+                "offensiveLightning": "6-22 ед. урона от молний",
+                "offensiveStun": "1.0 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.5 метра(ов)",
+                "skillManaCost": "Расход энергии 14"
+            },
+            {
+                "offensiveLightning": "12-32 ед. урона от молний",
+                "offensiveStun": "1.2 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.5 метра(ов)",
+                "skillManaCost": "Расход энергии 15"
+            },
+            {
+                "offensiveLightning": "18-44 ед. урона от молний",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.5 метра(ов)",
+                "skillManaCost": "Расход энергии 16"
+            },
+            {
+                "offensiveLightning": "24-54 ед. урона от молний",
+                "offensiveStun": "1.7 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.5 метра(ов)",
+                "skillManaCost": "Расход энергии 18"
+            },
+            {
+                "offensiveLightning": "30-64 ед. урона от молний",
+                "offensiveStun": "1.9 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.5 метра(ов)",
+                "skillManaCost": "Расход энергии 19"
+            },
+            {
+                "offensiveLightning": "36-76 ед. урона от молний",
+                "offensiveStun": "2.3 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.5 метра(ов)",
+                "skillManaCost": "Расход энергии 20"
+            },
+            {
+                "offensiveLightning": "42-86 ед. урона от молний",
+                "offensiveStun": "2.5 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.5 метра(ов)",
+                "skillManaCost": "Расход энергии 22"
+            },
+            {
+                "offensiveLightning": "48-96 ед. урона от молний",
+                "offensiveStun": "2.8 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.5 метра(ов)",
+                "skillManaCost": "Расход энергии 23"
+            },
+            {
+                "offensiveLightning": "54-110 ед. урона от молний",
+                "offensiveStun": "3.1 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.5 метра(ов)",
+                "skillManaCost": "Расход энергии 24"
+            },
+            {
+                "offensiveLightning": "60-124 ед. урона от молний",
+                "offensiveStun": "3.5 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.5 метра(ов)",
+                "skillManaCost": "Расход энергии 26"
+            },
+            {
+                "offensiveLightning": "68-140 ед. урона от молний",
+                "offensiveStun": "3.9 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.5 метра(ов)",
+                "skillManaCost": "Расход энергии 27"
+            },
+            {
+                "offensiveLightning": "78-160 ед. урона от молний",
+                "offensiveStun": "4.5 секунд(ы) оглушения",
+                "projectileExplosionRadius": "Радиус 1.5 метра(ов)",
+                "skillManaCost": "Расход энергии 28"
+            }
+        ],
+        "tag": "tagSkillName021"
+    },
+    "tagSkillName204": {
+        "description": "Вмораживает противника в кусок льда, не давая ему сдвинуться с места, но в то же время мешает нанести ему урон.",
+        "name": "Заморозка",
+        "tier": 3,
+        "type": "Active",
+        "maximum_level": 8,
+        "cooldown": "none",
+        "icon": "",
+        "properties": [
+            {
+                "defensivePhysical": "-100% сопротивление физическому урону",
+                "offensiveSlowCold": "3 ед. урона обжигающего холода в течении 1.0 секунд(ы)",
+                "skillActiveDuration": "Длительность 3.0 секунд(а)",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "70% поглощение урона",
+                "skillManaCost": "Расход энергии 63",
+                "skillTargetRadius": "Радиус 1.8 метра(ов)"
+            },
+            {
+                "defensivePhysical": "-100% сопротивление физическому урону",
+                "offensiveSlowCold": "6 ед. урона обжигающего холода в течении 1.0 секунд(ы)",
+                "skillActiveDuration": "Длительность 3.4 секунд(а)",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "70% поглощение урона",
+                "skillManaCost": "Расход энергии 66",
+                "skillTargetRadius": "Радиус 2.2 метра(ов)"
+            },
+            {
+                "defensivePhysical": "-100% сопротивление физическому урону",
+                "offensiveSlowCold": "9 ед. урона обжигающего холода в течении 1.0 секунд(ы)",
+                "skillActiveDuration": "Длительность 3.8 секунд(а)",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "70% поглощение урона",
+                "skillManaCost": "Расход энергии 69",
+                "skillTargetRadius": "Радиус 2.6 метра(ов)"
+            },
+            {
+                "defensivePhysical": "-100% сопротивление физическому урону",
+                "offensiveSlowCold": "12 ед. урона обжигающего холода в течении 1.0 секунд(ы)",
+                "skillActiveDuration": "Длительность 4.2 секунд(а)",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "70% поглощение урона",
+                "skillManaCost": "Расход энергии 72",
+                "skillTargetRadius": "Радиус 3.0 метра(ов)"
+            },
+            {
+                "defensivePhysical": "-100% сопротивление физическому урону",
+                "offensiveSlowCold": "15 ед. урона обжигающего холода в течении 1.0 секунд(ы)",
+                "skillActiveDuration": "Длительность 4.6 секунд(а)",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "70% поглощение урона",
+                "skillManaCost": "Расход энергии 75",
+                "skillTargetRadius": "Радиус 3.4 метра(ов)"
+            },
+            {
+                "defensivePhysical": "-100% сопротивление физическому урону",
+                "offensiveSlowCold": "18 ед. урона обжигающего холода в течении 1.0 секунд(ы)",
+                "skillActiveDuration": "Длительность 5.0 секунд(а)",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "70% поглощение урона",
+                "skillManaCost": "Расход энергии 78",
+                "skillTargetRadius": "Радиус 3.8 метра(ов)"
+            },
+            {
+                "defensivePhysical": "-100% сопротивление физическому урону",
+                "offensiveSlowCold": "21 ед. урона обжигающего холода в течении 1.0 секунд(ы)",
+                "skillActiveDuration": "Длительность 5.4 секунд(а)",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "70% поглощение урона",
+                "skillManaCost": "Расход энергии 81",
+                "skillTargetRadius": "Радиус 4.2 метра(ов)"
+            },
+            {
+                "defensivePhysical": "-100% сопротивление физическому урону",
+                "offensiveSlowCold": "24 ед. урона обжигающего холода в течении 1.0 секунд(ы)",
+                "skillActiveDuration": "Длительность 5.8 секунд(а)",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "70% поглощение урона",
+                "skillManaCost": "Расход энергии 84",
+                "skillTargetRadius": "Радиус 4.6 метра(ов)"
+            },
+            {
+                "defensivePhysical": "-100% сопротивление физическому урону",
+                "offensiveSlowCold": "27 ед. урона обжигающего холода в течении 1.0 секунд(ы)",
+                "skillActiveDuration": "Длительность 6.2 секунд(а)",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "70% поглощение урона",
+                "skillManaCost": "Расход энергии 87",
+                "skillTargetRadius": "Радиус 5.0 метра(ов)"
+            },
+            {
+                "defensivePhysical": "-100% сопротивление физическому урону",
+                "offensiveSlowCold": "30 ед. урона обжигающего холода в течении 1.0 секунд(ы)",
+                "skillActiveDuration": "Длительность 6.6 секунд(а)",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "70% поглощение урона",
+                "skillManaCost": "Расход энергии 90",
+                "skillTargetRadius": "Радиус 5.4 метра(ов)"
+            },
+            {
+                "defensivePhysical": "-100% сопротивление физическому урону",
+                "offensiveSlowCold": "33 ед. урона обжигающего холода в течении 1.0 секунд(ы)",
+                "skillActiveDuration": "Длительность 7.0 секунд(а)",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "70% поглощение урона",
+                "skillManaCost": "Расход энергии 93",
+                "skillTargetRadius": "Радиус 5.8 метра(ов)"
+            },
+            {
+                "defensivePhysical": "-100% сопротивление физическому урону",
+                "offensiveSlowCold": "36 ед. урона обжигающего холода в течении 1.0 секунд(ы)",
+                "skillActiveDuration": "Длительность 7.5 секунд(а)",
+                "skillCooldownTime": "8.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "70% поглощение урона",
+                "skillManaCost": "Расход энергии 96",
+                "skillTargetRadius": "Радиус 6.2 метра(ов)"
+            }
+        ],
+        "tag": "tagSkillName204"
+    },
+    "tagSkillName151-1": {
+        "description": "Создаёт в указанной зоне ураган, который уменьшает точность стрельбы захваченных им врагов.",
+        "name": "Шквал",
+        "tier": 3,
+        "type": "Active",
+        "maximum_level": 12,
+        "cooldown": "none",
+        "icon": "",
+        "properties": [
+            {
+                "offensiveLightning": "30.0% шанс на 3-21 ед. урона от молний",
+                "offensiveProjectileFumble": "50.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "projectileExplosionRadius": "Радиус 4.0 метра(ов)",
+                "skillActiveDuration": "Длительность 6.0 секунд(а)",
+                "skillCooldownTime": "5.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 54"
+            },
+            {
+                "offensiveLightning": "38.0% шанс на 7-25 ед. урона от молний",
+                "offensiveProjectileFumble": "55.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "projectileExplosionRadius": "Радиус 4.8 метра(ов)",
+                "skillActiveDuration": "Длительность 6.0 секунд(а)",
+                "skillCooldownTime": "5.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 57"
+            },
+            {
+                "offensiveLightning": "45.0% шанс на 11-29 ед. урона от молний",
+                "offensiveProjectileFumble": "60.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "projectileExplosionRadius": "Радиус 5.6 метра(ов)",
+                "skillActiveDuration": "Длительность 6.0 секунд(а)",
+                "skillCooldownTime": "5.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 60"
+            },
+            {
+                "offensiveLightning": "51.0% шанс на 14-32 ед. урона от молний",
+                "offensiveProjectileFumble": "65.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "projectileExplosionRadius": "Радиус 6.3 метра(ов)",
+                "skillActiveDuration": "Длительность 6.0 секунд(а)",
+                "skillCooldownTime": "5.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 64"
+            },
+            {
+                "offensiveLightning": "57.0% шанс на 18-36 ед. урона от молний",
+                "offensiveProjectileFumble": "70.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "projectileExplosionRadius": "Радиус 6.9 метра(ов)",
+                "skillActiveDuration": "Длительность 6.0 секунд(а)",
+                "skillCooldownTime": "5.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 67"
+            },
+            {
+                "offensiveLightning": "62.0% шанс на 22-40 ед. урона от молний",
+                "offensiveProjectileFumble": "75.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "projectileExplosionRadius": "Радиус 7.5 метра(ов)",
+                "skillActiveDuration": "Длительность 6.0 секунд(а)",
+                "skillCooldownTime": "5.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 70"
+            },
+            {
+                "offensiveLightning": "67.0% шанс на 25-43 ед. урона от молний",
+                "offensiveProjectileFumble": "80.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "projectileExplosionRadius": "Радиус 8.0 метра(ов)",
+                "skillActiveDuration": "Длительность 6.0 секунд(а)",
+                "skillCooldownTime": "5.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 74"
+            },
+            {
+                "offensiveLightning": "71.0% шанс на 29-47 ед. урона от молний",
+                "offensiveProjectileFumble": "85.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "projectileExplosionRadius": "Радиус 8.5 метра(ов)",
+                "skillActiveDuration": "Длительность 6.0 секунд(а)",
+                "skillCooldownTime": "5.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 77"
+            },
+            {
+                "offensiveLightning": "75.0% шанс на 33-51 ед. урона от молний",
+                "offensiveProjectileFumble": "90.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "projectileExplosionRadius": "Радиус 9.0 метра(ов)",
+                "skillActiveDuration": "Длительность 6.0 секунд(а)",
+                "skillCooldownTime": "5.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 80"
+            },
+            {
+                "offensiveLightning": "79.0% шанс на 36-54 ед. урона от молний",
+                "offensiveProjectileFumble": "95.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "projectileExplosionRadius": "Радиус 9.4 метра(ов)",
+                "skillActiveDuration": "Длительность 6.0 секунд(а)",
+                "skillCooldownTime": "5.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 84"
+            },
+            {
+                "offensiveLightning": "82.0% шанс на 40-58 ед. урона от молний",
+                "offensiveProjectileFumble": "100.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "projectileExplosionRadius": "Радиус 9.8 метра(ов)",
+                "skillActiveDuration": "Длительность 6.0 секунд(а)",
+                "skillCooldownTime": "5.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 87"
+            },
+            {
+                "offensiveLightning": "85.0% шанс на 44-62 ед. урона от молний",
+                "offensiveProjectileFumble": "100.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "projectileExplosionRadius": "Радиус 10.2 метра(ов)",
+                "skillActiveDuration": "Длительность 6.0 секунд(а)",
+                "skillCooldownTime": "5.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 90"
+            },
+            {
+                "offensiveLightning": "88.0% шанс на 47-65 ед. урона от молний",
+                "offensiveProjectileFumble": "100.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "projectileExplosionRadius": "Радиус 10.6 метра(ов)",
+                "skillActiveDuration": "Длительность 6.0 секунд(а)",
+                "skillCooldownTime": "5.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 94"
+            },
+            {
+                "offensiveLightning": "91.0% шанс на 51-69 ед. урона от молний",
+                "offensiveProjectileFumble": "100.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "projectileExplosionRadius": "Радиус 11.0 метра(ов)",
+                "skillActiveDuration": "Длительность 6.0 секунд(а)",
+                "skillCooldownTime": "5.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 97"
+            },
+            {
+                "offensiveLightning": "94.0% шанс на 55-73 ед. урона от молний",
+                "offensiveProjectileFumble": "100.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "projectileExplosionRadius": "Радиус 11.0 метра(ов)",
+                "skillActiveDuration": "Длительность 6.0 секунд(а)",
+                "skillCooldownTime": "5.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 100"
+            },
+            {
+                "offensiveLightning": "97.0% шанс на 58-76 ед. урона от молний",
+                "offensiveProjectileFumble": "100.0% шанс на неудачный вражеский выстрел на 1.0 секунд(ы)",
+                "projectileExplosionRadius": "Радиус 11.0 метра(ов)",
+                "skillActiveDuration": "Длительность 6.0 секунд(а)",
+                "skillCooldownTime": "5.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 104"
+            }
+        ],
+        "tag": "tagSkillName151-1"
+    },
+    "tagSkillName215": {
+        "description": "Уменьшает видимость внутри шквала, что мешает противникам точно стрелять и наносить удары, а также защищаться.",
+        "name": "Туман",
+        "tier": 4,
+        "type": "Modifier",
+        "maximum_level": 6,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "tagSkillName151-1",
+        "properties": [
+            {
+                "offensiveSlowOffensiveAbility": "10.0% уменьшения наступательной способности",
+                "offensiveTotalDamageReductionPercent": "10.0% уменьшение урона на 6.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "10.0% уменьшение сопротивлений на 6.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 6"
+            },
+            {
+                "offensiveSlowOffensiveAbility": "14.0% уменьшения наступательной способности",
+                "offensiveTotalDamageReductionPercent": "14.0% уменьшение урона на 6.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "14.0% уменьшение сопротивлений на 6.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 7"
+            },
+            {
+                "offensiveSlowOffensiveAbility": "18.0% уменьшения наступательной способности",
+                "offensiveTotalDamageReductionPercent": "18.0% уменьшение урона на 6.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "18.0% уменьшение сопротивлений на 6.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 8"
+            },
+            {
+                "offensiveSlowOffensiveAbility": "22.0% уменьшения наступательной способности",
+                "offensiveTotalDamageReductionPercent": "22.0% уменьшение урона на 6.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "22.0% уменьшение сопротивлений на 6.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 9"
+            },
+            {
+                "offensiveSlowOffensiveAbility": "26.0% уменьшения наступательной способности",
+                "offensiveTotalDamageReductionPercent": "26.0% уменьшение урона на 6.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "26.0% уменьшение сопротивлений на 6.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 10"
+            },
+            {
+                "offensiveSlowOffensiveAbility": "30.0% уменьшения наступательной способности",
+                "offensiveTotalDamageReductionPercent": "30.0% уменьшение урона на 6.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "30.0% уменьшение сопротивлений на 6.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 11"
+            },
+            {
+                "offensiveSlowOffensiveAbility": "33.0% уменьшения наступательной способности",
+                "offensiveTotalDamageReductionPercent": "33.0% уменьшение урона на 6.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "33.0% уменьшение сопротивлений на 6.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 12"
+            },
+            {
+                "offensiveSlowOffensiveAbility": "37.0% уменьшения наступательной способности",
+                "offensiveTotalDamageReductionPercent": "37.0% уменьшение урона на 6.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "37.0% уменьшение сопротивлений на 6.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 13"
+            },
+            {
+                "offensiveSlowOffensiveAbility": "41.0% уменьшения наступательной способности",
+                "offensiveTotalDamageReductionPercent": "41.0% уменьшение урона на 6.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "41.0% уменьшение сопротивлений на 6.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 14"
+            },
+            {
+                "offensiveSlowOffensiveAbility": "45.0% уменьшения наступательной способности",
+                "offensiveTotalDamageReductionPercent": "45.0% уменьшение урона на 6.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "45.0% уменьшение сопротивлений на 6.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 15"
+            }
+        ],
+        "tag": "tagSkillName215"
+    },
+    "tagSkillName019": {
+        "description": "При задействовании этой способности каждый полученный героем удар может выпустить на свободу яростный шквал.",
+        "name": "Грозовой шквал",
+        "tier": 5,
+        "type": "Sustained",
+        "maximum_level": 12,
+        "cooldown": "none",
+        "icon": "",
+        "properties": [
+            {
+                "characterManaLimitReserve": "150 ед. энергии снимается на поддержку умения",
+                "offensiveCold": "25 ед. урона от холода",
+                "offensiveLightning": "3-43 ед. урона от молний",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 5.0 метра(ов)"
+            },
+            {
+                "characterManaLimitReserve": "150 ед. энергии снимается на поддержку умения",
+                "offensiveCold": "30 ед. урона от холода",
+                "offensiveLightning": "9-50 ед. урона от молний",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 5.0 метра(ов)"
+            },
+            {
+                "characterManaLimitReserve": "150 ед. энергии снимается на поддержку умения",
+                "offensiveCold": "36 ед. урона от холода",
+                "offensiveLightning": "15-57 ед. урона от молний",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 5.0 метра(ов)"
+            },
+            {
+                "characterManaLimitReserve": "150 ед. энергии снимается на поддержку умения",
+                "offensiveCold": "43 ед. урона от холода",
+                "offensiveLightning": "23-66 ед. урона от молний",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 5.0 метра(ов)"
+            },
+            {
+                "characterManaLimitReserve": "150 ед. энергии снимается на поддержку умения",
+                "offensiveCold": "49 ед. урона от холода",
+                "offensiveLightning": "30-73 ед. урона от молний",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 5.0 метра(ов)"
+            },
+            {
+                "characterManaLimitReserve": "150 ед. энергии снимается на поддержку умения",
+                "offensiveCold": "54 ед. урона от холода",
+                "offensiveLightning": "37-80 ед. урона от молний",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 5.0 метра(ов)"
+            },
+            {
+                "characterManaLimitReserve": "150 ед. энергии снимается на поддержку умения",
+                "offensiveCold": "60 ед. урона от холода",
+                "offensiveLightning": "43-87 ед. урона от молний",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 5.0 метра(ов)"
+            },
+            {
+                "characterManaLimitReserve": "150 ед. энергии снимается на поддержку умения",
+                "offensiveCold": "67 ед. урона от холода",
+                "offensiveLightning": "50-96 ед. урона от молний",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 5.0 метра(ов)"
+            },
+            {
+                "characterManaLimitReserve": "150 ед. энергии снимается на поддержку умения",
+                "offensiveCold": "73 ед. урона от холода",
+                "offensiveLightning": "56-104 ед. урона от молний",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 5.0 метра(ов)"
+            },
+            {
+                "characterManaLimitReserve": "150 ед. энергии снимается на поддержку умения",
+                "offensiveCold": "80 ед. урона от холода",
+                "offensiveLightning": "63-112 ед. урона от молний",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 5.0 метра(ов)"
+            },
+            {
+                "characterManaLimitReserve": "150 ед. энергии снимается на поддержку умения",
+                "offensiveCold": "88 ед. урона от холода",
+                "offensiveLightning": "69-123 ед. урона от молний",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 5.0 метра(ов)"
+            },
+            {
+                "characterManaLimitReserve": "150 ед. энергии снимается на поддержку умения",
+                "offensiveCold": "97 ед. урона от холода",
+                "offensiveLightning": "77-134 ед. урона от молний",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 5.0 метра(ов)"
+            },
+            {
+                "characterManaLimitReserve": "150 ед. энергии снимается на поддержку умения",
+                "offensiveCold": "107 ед. урона от холода",
+                "offensiveLightning": "85-148 ед. урона от молний",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 5.0 метра(ов)"
+            },
+            {
+                "characterManaLimitReserve": "150 ед. энергии снимается на поддержку умения",
+                "offensiveCold": "118 ед. урона от холода",
+                "offensiveLightning": "95-161 ед. урона от молний",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 5.0 метра(ов)"
+            },
+            {
+                "characterManaLimitReserve": "150 ед. энергии снимается на поддержку умения",
+                "offensiveCold": "130 ед. урона от холода",
+                "offensiveLightning": "107-177 ед. урона от молний",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 5.0 метра(ов)"
+            },
+            {
+                "characterManaLimitReserve": "150 ед. энергии снимается на поддержку умения",
+                "offensiveCold": "145 ед. урона от холода",
+                "offensiveLightning": "123-197 ед. урона от молний",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "6.0сек. перезарядки",
+                "skillTargetRadius": "Радиус 5.0 метра(ов)"
+            }
+        ],
+        "tag": "tagSkillName019"
+    },
+    "tagSkillName180": {
+        "description": "Создаёт энергетический щит, полностью защищающий от стихийных магических атак.",
+        "name": "Энергетический щит",
+        "tier": 4,
+        "type": "Active",
+        "maximum_level": 12,
+        "cooldown": "none",
+        "icon": "",
+        "properties": [
+            {
+                "skillActiveDuration": "Длительность 100.0 секунд(а)",
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "10% поглощение урона (холода, молний)",
+                "skillManaCost": "Расход энергии 60"
+            },
+            {
+                "skillActiveDuration": "Длительность 100.0 секунд(а)",
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "15% поглощение урона (холода, молний)",
+                "skillManaCost": "Расход энергии 64"
+            },
+            {
+                "skillActiveDuration": "Длительность 100.0 секунд(а)",
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "20% поглощение урона (холода, молний)",
+                "skillManaCost": "Расход энергии 68"
+            },
+            {
+                "skillActiveDuration": "Длительность 100.0 секунд(а)",
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "25% поглощение урона (холода, молний)",
+                "skillManaCost": "Расход энергии 72"
+            },
+            {
+                "skillActiveDuration": "Длительность 100.0 секунд(а)",
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "30% поглощение урона (холода, молний)",
+                "skillManaCost": "Расход энергии 76"
+            },
+            {
+                "skillActiveDuration": "Длительность 100.0 секунд(а)",
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "35% поглощение урона (холода, молний)",
+                "skillManaCost": "Расход энергии 80"
+            },
+            {
+                "skillActiveDuration": "Длительность 100.0 секунд(а)",
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "40% поглощение урона (холода, молний)",
+                "skillManaCost": "Расход энергии 84"
+            },
+            {
+                "skillActiveDuration": "Длительность 100.0 секунд(а)",
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "45% поглощение урона (холода, молний)",
+                "skillManaCost": "Расход энергии 88"
+            },
+            {
+                "skillActiveDuration": "Длительность 100.0 секунд(а)",
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "50% поглощение урона (холода, молний)",
+                "skillManaCost": "Расход энергии 92"
+            },
+            {
+                "skillActiveDuration": "Длительность 100.0 секунд(а)",
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "55% поглощение урона (холода, молний)",
+                "skillManaCost": "Расход энергии 96"
+            },
+            {
+                "skillActiveDuration": "Длительность 100.0 секунд(а)",
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "60% поглощение урона (холода, молний)",
+                "skillManaCost": "Расход энергии 100"
+            },
+            {
+                "skillActiveDuration": "Длительность 100.0 секунд(а)",
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "65% поглощение урона (холода, молний)",
+                "skillManaCost": "Расход энергии 104"
+            },
+            {
+                "skillActiveDuration": "Длительность 100.0 секунд(а)",
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "70% поглощение урона (холода, молний)",
+                "skillManaCost": "Расход энергии 108"
+            },
+            {
+                "skillActiveDuration": "Длительность 100.0 секунд(а)",
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "75% поглощение урона (холода, молний)",
+                "skillManaCost": "Расход энергии 112"
+            },
+            {
+                "skillActiveDuration": "Длительность 100.0 секунд(а)",
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "80% поглощение урона (холода, молний)",
+                "skillManaCost": "Расход энергии 116"
+            },
+            {
+                "skillActiveDuration": "Длительность 100.0 секунд(а)",
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillDamageAbsorptionPercent": "85% поглощение урона (холода, молний)",
+                "skillManaCost": "Расход энергии 120"
+            }
+        ],
+        "tag": "tagSkillName180"
+    },
+    "tagSkillName181": {
+        "description": "Энергетический щит начинает отражать часть поглощённого урона обратно на врага.",
+        "name": "Отражение",
+        "tier": 6,
+        "type": "Modifier",
+        "maximum_level": 8,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "tagSkillName180",
+        "properties": [
+            {
+                "defensiveReflect": "25.0% шанс на 50% отражение урона",
+                "skillManaCost": "Расход энергии 30"
+            },
+            {
+                "defensiveReflect": "26.0% шанс на 66% отражение урона",
+                "skillManaCost": "Расход энергии 30"
+            },
+            {
+                "defensiveReflect": "27.0% шанс на 82% отражение урона",
+                "skillManaCost": "Расход энергии 30"
+            },
+            {
+                "defensiveReflect": "28.0% шанс на 98% отражение урона",
+                "skillManaCost": "Расход энергии 30"
+            },
+            {
+                "defensiveReflect": "29.0% шанс на 114% отражение урона",
+                "skillManaCost": "Расход энергии 30"
+            },
+            {
+                "defensiveReflect": "30.0% шанс на 130% отражение урона",
+                "skillManaCost": "Расход энергии 30"
+            },
+            {
+                "defensiveReflect": "30.0% шанс на 146% отражение урона",
+                "skillManaCost": "Расход энергии 30"
+            },
+            {
+                "defensiveReflect": "31.0% шанс на 162% отражение урона",
+                "skillManaCost": "Расход энергии 30"
+            },
+            {
+                "defensiveReflect": "31.0% шанс на 180% отражение урона",
+                "skillManaCost": "Расход энергии 30"
+            },
+            {
+                "defensiveReflect": "32.0% шанс на 200% отражение урона",
+                "skillManaCost": "Расход энергии 30"
+            },
+            {
+                "defensiveReflect": "32.0% шанс на 220% отражение урона",
+                "skillManaCost": "Расход энергии 30"
+            },
+            {
+                "defensiveReflect": "33.0% шанс на 242% отражение урона",
+                "skillManaCost": "Расход энергии 30"
+            }
+        ],
+        "tag": "tagSkillName181"
+    },
+    "tagSkillName149": {
+        "description": "Герой призывает плазменный шар, который помогает ему в битве с врагами.",
+        "name": "Плазменный сгусток",
+        "tier": 5,
+        "type": "Active",
+        "maximum_level": 16,
+        "cooldown": "none",
+        "icon": "",
+        "properties": [
+            {
+                "skillCooldownTime": "20.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 200"
+            }
+        ],
+        "summons": [
+            {
+                "characterLife": "153 жизнь",
+                "characterMana": "186 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
+            },
+            {
+                "characterLife": "165 жизнь",
+                "characterMana": "195 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
+            },
+            {
+                "characterLife": "177 жизнь",
+                "characterMana": "204 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
+            },
+            {
+                "characterLife": "189 жизнь",
+                "characterMana": "213 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
+            },
+            {
+                "characterLife": "201 жизнь",
+                "characterMana": "222 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
+            },
+            {
+                "characterLife": "213 жизнь",
+                "characterMana": "231 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
+            },
+            {
+                "characterLife": "225 жизнь",
+                "characterMana": "240 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
+            },
+            {
+                "characterLife": "237 жизнь",
+                "characterMana": "249 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
+            },
+            {
+                "characterLife": "249 жизнь",
+                "characterMana": "258 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
+            },
+            {
+                "characterLife": "261 жизнь",
+                "characterMana": "267 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
+            },
+            {
+                "characterLife": "273 жизнь",
+                "characterMana": "276 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
+            },
+            {
+                "characterLife": "285 жизнь",
+                "characterMana": "285 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
+            },
+            {
+                "characterLife": "297 жизнь",
+                "characterMana": "294 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
+            },
+            {
+                "characterLife": "309 жизнь",
+                "characterMana": "303 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
+            },
+            {
+                "characterLife": "321 жизнь",
+                "characterMana": "312 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
+            },
+            {
+                "characterLife": "333 жизнь",
+                "characterMana": "321 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
+            },
+            {
+                "characterLife": "345 жизнь",
+                "characterMana": "330 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
+            },
+            {
+                "characterLife": "357 жизнь",
+                "characterMana": "339 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
+            },
+            {
+                "characterLife": "373 жизнь",
+                "characterMana": "348 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
+            },
+            {
+                "characterLife": "395 жизнь",
+                "characterMana": "357 энергия",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveFire": "15% сопротивление огню",
+                "defensiveFreeze": "100% уменьшение длительности заморозки",
+                "defensiveLife": "100% сопротивление урону здоровью",
+                "defensiveLightning": "15% сопротивление молниям",
+                "defensivePetrify": "100% уменьшение длительности окаменения",
+                "defensivePhysical": "30% сопротивление физическому урону",
+                "defensivePierce": "30% сопротивление проникающему урону",
+                "defensivePoison": "100% сопротивление яду",
+                "defensiveStun": "100% сопротивление оглушению",
+                "defensiveTrap": "100% уменьшение времени в ловушке"
+            }
+        ],
+        "tag": "tagSkillName149"
+    },
+    "tagSkillName149-2": {
+        "description": "Способность плазменного сгустка на короткое время увеличивать наносимый союзниками урон холодом и молниями, и защищать их от воздействия этих стихий.",
+        "name": "Глаз Бури",
+        "tier": 6,
+        "type": "Modifier",
+        "maximum_level": 8,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "tagSkillName149",
+        "properties": [
+            {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 30 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+30% урона силами природы",
+                "defensiveCold": "12% сопротивление холоду",
+                "defensiveLightning": "12% сопротивление молниям"
+            },
+            {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 32 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+40% урона силами природы",
+                "defensiveCold": "15% сопротивление холоду",
+                "defensiveLightning": "15% сопротивление молниям"
+            },
+            {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 35 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+50% урона силами природы",
+                "defensiveCold": "18% сопротивление холоду",
+                "defensiveLightning": "18% сопротивление молниям"
+            },
+            {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 37 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+60% урона силами природы",
+                "defensiveCold": "21% сопротивление холоду",
+                "defensiveLightning": "21% сопротивление молниям"
+            },
+            {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 39 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+70% урона силами природы",
+                "defensiveCold": "24% сопротивление холоду",
+                "defensiveLightning": "24% сопротивление молниям"
+            },
+            {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 42 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+80% урона силами природы",
+                "defensiveCold": "27% сопротивление холоду",
+                "defensiveLightning": "27% сопротивление молниям"
+            },
+            {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 44 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+90% урона силами природы",
+                "defensiveCold": "30% сопротивление холоду",
+                "defensiveLightning": "30% сопротивление молниям"
+            },
+            {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 46 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+100% урона силами природы",
+                "defensiveCold": "33% сопротивление холоду",
+                "defensiveLightning": "33% сопротивление молниям"
+            },
+            {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 48 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+120% урона силами природы",
+                "defensiveCold": "36% сопротивление холоду",
+                "defensiveLightning": "36% сопротивление молниям"
+            },   {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 50 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+130% урона силами природы",
+                "defensiveCold": "39% сопротивление холоду",
+                "defensiveLightning": "39% сопротивление молниям"
+            },   {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 53 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+140% урона силами природы",
+                "defensiveCold": "42% сопротивление холоду",
+                "defensiveLightning": "42% сопротивление молниям"
+            },   {
+                "skillManaCost": "расход энергии 30",
+                "skillCooldownTime": "длительность 56 секунд",
+                "skillTargetRadius": "радиус 14 метров",
+                "offensiveElemental": "+150% урона силами природы",
+                "defensiveCold": "45% сопротивление холоду",
+                "defensiveLightning": "45% сопротивление молниям"
+            }
+        ],
+        "tag": "tagSkillName149-2"
+    },
+    "x3tagSkillStormArcingChaos": {
+        "description": "Усиливает способность \"Гром\" Сгустка, разветвляя его молнии.",
+        "name": "Дуговой разряд",
+        "tier": 7,
+        "type": "Modifier",
+        "maximum_level": 8,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "tagSkillName149-2",
+        "properties": [
+            {
+                "offensiveLightning": "30-105 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "40-133 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "50-162 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "61-192 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "71-223 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "82-255 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "93-288 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "105-322 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "116-357 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "128-393 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "140-430 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            },
+            {
+                "offensiveLightning": "153-468 ед. урона от молний",
+                "offensiveStun": "0.5 секунд(ы) оглушения"
+            }
+        ],
+        "tag": "x3tagSkillStormArcingChaos"
+    },
+
+    "tagSkillName027-11": {
+        "description": "Эта способность наполняет героя мощью бури, позволяя его оружию наносить урон холодом и молниями.",
+        "name": "Грозовой ореол",
+        "tier": 1,
+        "type": "Sustained",
+        "maximum_level": 10,
+        "cooldown": "none",
+        "icon": "",
+        "properties": [
+            {
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "offensiveGlobalChance": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveLightning": "1-21 ед. урона от молний",
+                    "offensiveCold": "5 ед. урона от холода"
+                },
+                "petBonus": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "2 ед. урона от холода",
+                    "offensiveLightning": "1-11 ед. урона от молний"
+                }
+            },
+            {
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "offensiveGlobalChance": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveLightning": "3-27 ед. урона от молний",
+                    "offensiveCold": "4 ед. урона от холода"
+                },
+                "petBonus": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "8 ед. урона от холода",
+                    "offensiveLightning": "2-14 ед. урона от молний"
+                }
+            },
+            {
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "offensiveGlobalChance": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveLightning": "5-33 ед. урона от молний",
+                    "offensiveCold": "11 ед. урона от холода"
+                },
+                "petBonus": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "5 ед. урона от холода",
+                    "offensiveLightning": "3-17 ед. урона от молний"
+                }
+            },
+            {
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "offensiveGlobalChance": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveLightning": "7-38 ед. урона от молний",
+                    "offensiveCold": "15 ед. урона от холода"
+                },
+                "petBonus": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "8 ед. урона от холода",
+                    "offensiveLightning": "4-19 ед. урона от молний"
+                }
+            },
+            {
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "offensiveGlobalChance": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveLightning": "9-44 ед. урона от молний",
+                    "offensiveCold": "18 ед. урона от холода"
+                },
+                "petBonus": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "9 ед. урона от холода",
+                    "offensiveLightning": "5-22 ед. урона от молний"
+                }
+            },
+            {
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "offensiveGlobalChance": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveLightning": "11-50 ед. урона от молний",
+                    "offensiveCold": "21 ед. урона от холода"
+                },
+                "petBonus": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "11 ед. урона от холода",
+                    "offensiveLightning": "6-25 ед. урона от молний"
+                }
+            },
+            {
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "offensiveGlobalChance": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveLightning": "13-55 ед. урона от молний",
+                    "offensiveCold": "24 ед. урона от холода"
+                },
+                "petBonus": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "12 ед. урона от холода",
+                    "offensiveLightning": "7-28 ед. урона от молний"
+                }
+            },
+            {
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "offensiveGlobalChance": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveLightning": "15-61 ед. урона от молний",
+                    "offensiveCold": "29 ед. урона от холода"
+                },
+                "petBonus": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "14 ед. урона от холода",
+                    "offensiveLightning": "8-31 ед. урона от молний"
+                }
+            },
+            {
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "offensiveGlobalChance": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveLightning": "17-67 ед. урона от молний",
+                    "offensiveCold": "32 ед. урона от холода"
+                },
+                "petBonus": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "16 ед. урона от холода",
+                    "offensiveLightning": "9-34 ед. урона от молний"
+                }
+            },
+            {
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "offensiveGlobalChance": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveLightning": "19-75 ед. урона от молний",
+                    "offensiveCold": "35 ед. урона от холода"
+                },
+                "petBonus": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "17 ед. урона от холода",
+                    "offensiveLightning": "10-38 ед. урона от молний"
+                }
+            },
+            {
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "offensiveGlobalChance": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveLightning": "21-82 ед. урона от молний",
+                    "offensiveCold": "40 ед. урона от холода"
+                },
+                "petBonus": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "19 ед. урона от холода",
+                    "offensiveLightning": "11-42 ед. урона от молний"
+                }
+            },
+            {
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "offensiveGlobalChance": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveLightning": "23-91 ед. урона от молний",
+                    "offensiveCold": "43 ед. урона от холода"
+                },
+                "petBonus": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "21 ед. урона от холода",
+                    "offensiveLightning": "12-46 ед. урона от молний"
+                }
+            },
+            {
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "offensiveGlobalChance": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveLightning": "25-98 ед. урона от молний",
+                    "offensiveCold": "47 ед. урона от холода"
+                },
+                "petBonus": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "23 ед. урона от холода",
+                    "offensiveLightning": "13-50 ед. урона от молний"
+                }
+            },
+            {
+                "characterManaLimitReserve": "75 ед. энергии снимается на поддержку умения",
+                "offensiveGlobalChance": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveLightning": "27-107 ед. урона от молний",
+                    "offensiveCold": "53 ед. урона от холода"
+                },
+                "petBonus": {
+                    "chance": "Шанс одного из следующего:",
+                    "offensiveCold": "26 ед. урона от холода",
+                    "offensiveLightning": "14-54 ед. урона от молний"
+                }
+            }
+        ],
+        "tag": "tagSkillName027-11"
+    },
+    "tagSkillName028": {
+        "description": "Во время действия грозового ореола воздух вокруг героя сильно охлаждается, замедляя нападающих врагов.",
+        "name": "Конус холода",
+        "tier": 2,
+        "type": "Modifier",
+        "maximum_level": 8,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "tagSkillName027-11",
+        "properties": [
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveColdModifier": "+10% урона от холода",
+                "offensiveSlowColdModifier": "+10% урона обжигающего холода",
+                "retaliationSlowAttackSpeed": "10.0% ответного урона, замедляющего атаку на 3.0 секунд(ы)",
+                "retaliationSlowRunSpeed": "10.0% ответного урона, замедляющего перемещение на 3.0 секунд(ы)"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveColdModifier": "+16% урона от холода",
+                "offensiveSlowColdModifier": "+16% урона обжигающего холода",
+                "retaliationSlowAttackSpeed": "15.0% ответного урона, замедляющего атаку на 3.0 секунд(ы)",
+                "retaliationSlowRunSpeed": "15.0% ответного урона, замедляющего перемещение на 3.0 секунд(ы)"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveColdModifier": "+22% урона от холода",
+                "offensiveSlowColdModifier": "+22% урона обжигающего холода",
+                "retaliationSlowAttackSpeed": "19.0% ответного урона, замедляющего атаку на 3.0 секунд(ы)",
+                "retaliationSlowRunSpeed": "19.0% ответного урона, замедляющего перемещение на 3.0 секунд(ы)"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveColdModifier": "+28% урона от холода",
+                "offensiveSlowColdModifier": "+28% урона обжигающего холода",
+                "retaliationSlowAttackSpeed": "24.0% ответного урона, замедляющего атаку на 3.0 секунд(ы)",
+                "retaliationSlowRunSpeed": "24.0% ответного урона, замедляющего перемещение на 3.0 секунд(ы)"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveColdModifier": "+34% урона от холода",
+                "offensiveSlowColdModifier": "+34% урона обжигающего холода",
+                "retaliationSlowAttackSpeed": "27.0% ответного урона, замедляющего атаку на 3.0 секунд(ы)",
+                "retaliationSlowRunSpeed": "27.0% ответного урона, замедляющего перемещение на 3.0 секунд(ы)"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveColdModifier": "+40% урона от холода",
+                "offensiveSlowColdModifier": "+40% урона обжигающего холода",
+                "retaliationSlowAttackSpeed": "31.0% ответного урона, замедляющего атаку на 3.0 секунд(ы)",
+                "retaliationSlowRunSpeed": "31.0% ответного урона, замедляющего перемещение на 3.0 секунд(ы)"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveColdModifier": "+46% урона от холода",
+                "offensiveSlowColdModifier": "+46% урона обжигающего холода",
+                "retaliationSlowAttackSpeed": "34.0% ответного урона, замедляющего атаку на 3.0 секунд(ы)",
+                "retaliationSlowRunSpeed": "34.0% ответного урона, замедляющего перемещение на 3.0 секунд(ы)"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveColdModifier": "+52% урона от холода",
+                "offensiveSlowColdModifier": "+52% урона обжигающего холода",
+                "retaliationSlowAttackSpeed": "38.0% ответного урона, замедляющего атаку на 3.0 секунд(ы)",
+                "retaliationSlowRunSpeed": "38.0% ответного урона, замедляющего перемещение на 3.0 секунд(ы)"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveColdModifier": "+58% урона от холода",
+                "offensiveSlowColdModifier": "+58% урона обжигающего холода",
+                "retaliationSlowAttackSpeed": "41.0% ответного урона, замедляющего атаку на 3.0 секунд(ы)",
+                "retaliationSlowRunSpeed": "41.0% ответного урона, замедляющего перемещение на 3.0 секунд(ы)"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveColdModifier": "+64% урона от холода",
+                "offensiveSlowColdModifier": "+64% урона обжигающего холода",
+                "retaliationSlowAttackSpeed": "43.0% ответного урона, замедляющего атаку на 3.0 секунд(ы)",
+                "retaliationSlowRunSpeed": "43.0% ответного урона, замедляющего перемещение на 3.0 секунд(ы)"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveColdModifier": "+70% урона от холода",
+                "offensiveSlowColdModifier": "+70% урона обжигающего холода",
+                "retaliationSlowAttackSpeed": "46.0% ответного урона, замедляющего атаку на 3.0 секунд(ы)",
+                "retaliationSlowRunSpeed": "46.0% ответного урона, замедляющего перемещение на 3.0 секунд(ы)"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveColdModifier": "+76% урона от холода",
+                "offensiveSlowColdModifier": "+76% урона обжигающего холода",
+                "retaliationSlowAttackSpeed": "50.0% ответного урона, замедляющего атаку на 3.0 секунд(ы)",
+                "retaliationSlowRunSpeed": "50.0% ответного урона, замедляющего перемещение на 3.0 секунд(ы)"
+            }
+        ],
+        "tag": "tagSkillName028"
+    },
+    "tagSkillName029": {
+        "description": "Во время действия грозового ореола в герое накапливается электрический заряд, который разряжается во врагов, коснувшихся его своим оружием.",
+        "name": "Статический заряд",
+        "tier": 4,
+        "type": "Modifier",
+        "maximum_level": 12,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "tagSkillName028",
+        "properties": [
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveLightningModifier": "+10% урона от молний",
+                "offensiveSlowLightningModifier": "+10% урона электрическим разрядом",
+                "retaliationLightning": "15.0% шанс на 54 ед. ответного урона молнией"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveLightningModifier": "+16% урона от молний",
+                "offensiveSlowLightningModifier": "+16% урона электрическим разрядом",
+                "retaliationLightning": "15.0% шанс на 66 ед. ответного урона молнией"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveLightningModifier": "+22% урона от молний",
+                "offensiveSlowLightningModifier": "+22% урона электрическим разрядом",
+                "retaliationLightning": "15.0% шанс на 78 ед. ответного урона молнией"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveLightningModifier": "+28% урона от молний",
+                "offensiveSlowLightningModifier": "+28% урона электрическим разрядом",
+                "retaliationLightning": "15.0% шанс на 90 ед. ответного урона молнией"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveLightningModifier": "+34% урона от молний",
+                "offensiveSlowLightningModifier": "+34% урона электрическим разрядом",
+                "retaliationLightning": "15.0% шанс на 102 ед. ответного урона молнией"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveLightningModifier": "+40% урона от молний",
+                "offensiveSlowLightningModifier": "+40% урона электрическим разрядом",
+                "retaliationLightning": "15.0% шанс на 114 ед. ответного урона молнией"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveLightningModifier": "+46% урона от молний",
+                "offensiveSlowLightningModifier": "+46% урона электрическим разрядом",
+                "retaliationLightning": "15.0% шанс на 126 ед. ответного урона молнией"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveLightningModifier": "+52% урона от молний",
+                "offensiveSlowLightningModifier": "+52% урона электрическим разрядом",
+                "retaliationLightning": "15.0% шанс на 138 ед. ответного урона молнией"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveLightningModifier": "+58% урона от молний",
+                "offensiveSlowLightningModifier": "+58% урона электрическим разрядом",
+                "retaliationLightning": "15.0% шанс на 150 ед. ответного урона молнией"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveLightningModifier": "+64% урона от молний",
+                "offensiveSlowLightningModifier": "+64% урона электрическим разрядом",
+                "retaliationLightning": "15.0% шанс на 162 ед. ответного урона молнией"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveLightningModifier": "+70% урона от молний",
+                "offensiveSlowLightningModifier": "+70% урона электрическим разрядом",
+                "retaliationLightning": "15.0% шанс на 174 ед. ответного урона молнией"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveLightningModifier": "+76% урона от молний",
+                "offensiveSlowLightningModifier": "+76% урона электрическим разрядом",
+                "retaliationLightning": "15.0% шанс на 186 ед. ответного урона молнией"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveLightningModifier": "+82% урона от молний",
+                "offensiveSlowLightningModifier": "+82% урона электрическим разрядом",
+                "retaliationLightning": "15.0% шанс на 200 ед. ответного урона молнией"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveLightningModifier": "+88% урона от молний",
+                "offensiveSlowLightningModifier": "+88% урона электрическим разрядом",
+                "retaliationLightning": "15.0% шанс на 216 ед. ответного урона молнией"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveLightningModifier": "+94% урона от молний",
+                "offensiveSlowLightningModifier": "+94% урона электрическим разрядом",
+                "retaliationLightning": "15.0% шанс на 233 ед. ответного урона молнией"
+            },
+            {
+                "characterManaLimitReserve": "25 ед. энергии снимается на поддержку умения",
+                "offensiveLightningModifier": "+100% урона от молний",
+                "offensiveSlowLightningModifier": "+100% урона электрическим разрядом",
+                "retaliationLightning": "15.0% шанс на 251 ед. ответного урона молнией"
+            }
+        ],
+        "tag": "tagSkillName029"
+    },
+    "x3tagSkillStormFlash": {
+        "description": "Перемещайтесь между врагами со скоростью молнии, уменьшая вероятность пропустить удар. {}{}Назначьте это умение на левую кнопку мыши.",
+        "name": "Молниеносный рывок",
+        "tier": 7,
+        "type": "Modifier",
+        "maximum_level": 6,
+        "cooldown": "none",
+        "icon": "",
+        "properties": [
+            {
+                "characterDeflectProjectile": "10% шанс уклониться от летящих снарядов",
+                "characterDodgePercent": "10% шанс уклониться от атаки",
+                "characterRunSpeedModifier": "+444% скорости перемещения",
+                "offensiveGlobalChance": {
+                    "chance": "5.0% шанс на: ",
+                    "properties": {
+                        "offensiveFreeze": "1.0 секунд(ы) заморозки",
+                        "offensiveLightning": "20 ед. урона от молний",
+                        "offensiveTotalDamageModifier": "+200% общего урона"
+                    }
+                },
+                "skillCooldownTime": "0.7сек. перезарядки",
+                "skillManaCost": "Расход энергии 20",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "characterDeflectProjectile": "20% шанс уклониться от летящих снарядов",
+                "characterDodgePercent": "20% шанс уклониться от атаки",
+                "characterRunSpeedModifier": "+444% скорости перемещения",
+                "offensiveGlobalChance": {
+                    "chance": "8.0% шанс на: ",
+                    "properties": {
+                        "offensiveFreeze": "1.0 секунд(ы) заморозки",
+                        "offensiveLightning": "20 ед. урона от молний",
+                        "offensiveTotalDamageModifier": "+200% общего урона"
+                    }
+                },
+                "skillCooldownTime": "0.7сек. перезарядки",
+                "skillManaCost": "Расход энергии 20",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "characterDeflectProjectile": "29% шанс уклониться от летящих снарядов",
+                "characterDodgePercent": "29% шанс уклониться от атаки",
+                "characterRunSpeedModifier": "+444% скорости перемещения",
+                "offensiveGlobalChance": {
+                    "chance": "11.0% шанс на: ",
+                    "properties": {
+                        "offensiveFreeze": "1.0 секунд(ы) заморозки",
+                        "offensiveLightning": "20 ед. урона от молний",
+                        "offensiveTotalDamageModifier": "+200% общего урона"
+                    }
+                },
+                "skillCooldownTime": "0.7сек. перезарядки",
+                "skillManaCost": "Расход энергии 20",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "characterDeflectProjectile": "38% шанс уклониться от летящих снарядов",
+                "characterDodgePercent": "38% шанс уклониться от атаки",
+                "characterRunSpeedModifier": "+444% скорости перемещения",
+                "offensiveGlobalChance": {
+                    "chance": "14.0% шанс на: ",
+                    "properties": {
+                        "offensiveFreeze": "1.0 секунд(ы) заморозки",
+                        "offensiveLightning": "20 ед. урона от молний",
+                        "offensiveTotalDamageModifier": "+200% общего урона"
+                    }
+                },
+                "skillCooldownTime": "0.7сек. перезарядки",
+                "skillManaCost": "Расход энергии 20",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "characterDeflectProjectile": "46% шанс уклониться от летящих снарядов",
+                "characterDodgePercent": "46% шанс уклониться от атаки",
+                "characterRunSpeedModifier": "+444% скорости перемещения",
+                "offensiveGlobalChance": {
+                    "chance": "17.0% шанс на: ",
+                    "properties": {
+                        "offensiveFreeze": "1.0 секунд(ы) заморозки",
+                        "offensiveLightning": "20 ед. урона от молний",
+                        "offensiveTotalDamageModifier": "+200% общего урона"
+                    }
+                },
+                "skillCooldownTime": "0.7сек. перезарядки",
+                "skillManaCost": "Расход энергии 20",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "characterDeflectProjectile": "54% шанс уклониться от летящих снарядов",
+                "characterDodgePercent": "54% шанс уклониться от атаки",
+                "characterRunSpeedModifier": "+444% скорости перемещения",
+                "offensiveGlobalChance": {
+                    "chance": "20.0% шанс на: ",
+                    "properties": {
+                        "offensiveFreeze": "1.0 секунд(ы) заморозки",
+                        "offensiveLightning": "20 ед. урона от молний",
+                        "offensiveTotalDamageModifier": "+200% общего урона"
+                    }
+                },
+                "skillCooldownTime": "0.7сек. перезарядки",
+                "skillManaCost": "Расход энергии 20",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "characterDeflectProjectile": "61% шанс уклониться от летящих снарядов",
+                "characterDodgePercent": "61% шанс уклониться от атаки",
+                "characterRunSpeedModifier": "+444% скорости перемещения",
+                "offensiveGlobalChance": {
+                    "chance": "23.0% шанс на: ",
+                    "properties": {
+                        "offensiveFreeze": "1.0 секунд(ы) заморозки",
+                        "offensiveLightning": "20 ед. урона от молний",
+                        "offensiveTotalDamageModifier": "+200% общего урона"
+                    }
+                },
+                "skillCooldownTime": "0.7сек. перезарядки",
+                "skillManaCost": "Расход энергии 20",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "characterDeflectProjectile": "68% шанс уклониться от летящих снарядов",
+                "characterDodgePercent": "68% шанс уклониться от атаки",
+                "characterRunSpeedModifier": "+444% скорости перемещения",
+                "offensiveGlobalChance": {
+                    "chance": "26.0% шанс на: ",
+                    "properties": {
+                        "offensiveFreeze": "1.0 секунд(ы) заморозки",
+                        "offensiveLightning": "20 ед. урона от молний",
+                        "offensiveTotalDamageModifier": "+200% общего урона"
+                    }
+                },
+                "skillCooldownTime": "0.7сек. перезарядки",
+                "skillManaCost": "Расход энергии 20",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "characterDeflectProjectile": "74% шанс уклониться от летящих снарядов",
+                "characterDodgePercent": "74% шанс уклониться от атаки",
+                "characterRunSpeedModifier": "+444% скорости перемещения",
+                "offensiveGlobalChance": {
+                    "chance": "29.0% шанс на: ",
+                    "properties": {
+                        "offensiveFreeze": "1.0 секунд(ы) заморозки",
+                        "offensiveLightning": "20 ед. урона от молний",
+                        "offensiveTotalDamageModifier": "+200% общего урона"
+                    }
+                },
+                "skillCooldownTime": "0.7сек. перезарядки",
+                "skillManaCost": "Расход энергии 20",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "characterDeflectProjectile": "80% шанс уклониться от летящих снарядов",
+                "characterDodgePercent": "80% шанс уклониться от атаки",
+                "characterRunSpeedModifier": "+444% скорости перемещения",
+                "offensiveGlobalChance": {
+                    "chance": "32.0% шанс на: ",
+                    "properties": {
+                        "offensiveFreeze": "1.0 секунд(ы) заморозки",
+                        "offensiveLightning": "20 ед. урона от молний",
+                        "offensiveTotalDamageModifier": "+200% общего урона"
+                    }
+                },
+                "skillCooldownTime": "0.7сек. перезарядки",
+                "skillManaCost": "Расход энергии 20",
+                "skillProjectileNumber": "1 снаряд(а)"
+            }
+        ],
+        "tag": "x3tagSkillStormFlash"
+    }
+}

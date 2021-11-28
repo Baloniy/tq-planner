@@ -1,0 +1,2960 @@
+{
+    "xtagSkillDreamName015": {
+        "description": "Враги засыпают и не предпринимают никаких действий пока не проснутся или не будут атакованы.",
+        "name": "Пески снов",
+        "tier": 1,
+        "type": "Active",
+        "maximum_level": 8,
+        "cooldown": "4 Seconds",
+        "icon": "",
+        "properties": [
+            {
+                "offensiveSleep": "2.5-4.0 сек. сна",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 25"
+            },
+            {
+                "offensiveSleep": "3.0-4.8 сек. сна",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 30"
+            },
+            {
+                "offensiveSleep": "3.5-5.6 сек. сна",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 35"
+            },
+            {
+                "offensiveSleep": "3.9-6.4 сек. сна",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 40"
+            },
+            {
+                "offensiveSleep": "4.3-7.2 сек. сна",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 45"
+            },
+            {
+                "offensiveSleep": "4.7-8.0 сек. сна",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 50"
+            },
+            {
+                "offensiveSleep": "5.0-8.8 сек. сна",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 55"
+            },
+            {
+                "offensiveSleep": "5.3-9.6 сек. сна",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 60"
+            },
+            {
+                "offensiveSleep": "5.6-10.4 сек. сна",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 65"
+            },
+            {
+                "offensiveSleep": "5.9-11.2 сек. сна",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 70"
+            },
+            {
+                "offensiveSleep": "6.2-12.0 сек. сна",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 75"
+            },
+            {
+                "offensiveSleep": "6.4-12.8 сек. сна",
+                "skillCooldownTime": "4.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 80"
+            }
+        ],
+        "tag": "xtagSkillDreamName015"
+    },
+
+    "xtagSkillDreamName002": {
+        "description": "Энергия разума наполняет ваше оружие и наделяет его способностью вызывать колебания, дробящие кости врагов. Назначьте это умение на левую кнопку мыши.",
+        "name": "Резонанс",
+        "tier": 1,
+        "type": "Active",
+        "maximum_level": 12,
+        "cooldown": "none",
+        "icon": "",
+        "properties": [
+            {
+                "offensiveLife": "15 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+30% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "19 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+36% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "23 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+42% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "27 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+48% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "31 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+54% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "36 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+60% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "42 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+66% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "49 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+72% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "57 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+78% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "66 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+84% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "76 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+90% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "87 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+96% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "99 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+102% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "112 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+108% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "127 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+114% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveLife": "144 ед. урона здоровью",
+                "offensiveTotalDamageModifier": "+120% общего урона",
+                "skillProjectileNumber": "1 снаряд(а)"
+            }
+        ],
+        "tag": "xtagSkillDreamName002"
+    },
+    "xtagSkillDreamName003": {
+        "description": "Ментальная энергия вашего врага возгорается и вырывается наружу, нанося урон всем, кто находится рядом с ним.",
+        "name": "Ментальный ожог",
+        "tier": 3,
+        "type": "Modifier",
+        "maximum_level": 8,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "xtagSkillDreamName002",
+        "properties": [
+            {
+                "offensiveSlowLightning": "36 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "9.0% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+8% урона Demons",
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            },
+            {
+                "offensiveSlowLightning": "57 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "14.2% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+12% урона Demons",
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            },
+            {
+                "offensiveSlowLightning": "70 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "17.5% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+16% урона Demons",
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            },
+            {
+                "offensiveSlowLightning": "84 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "21.1% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage":"+20% урона Demons",
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            },
+            {
+                "offensiveSlowLightning": "100 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "24.9% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+24% урона Demons",
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            },
+            {
+                "offensiveSlowLightning": "116 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "28.9% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+28% урона Demons",
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            },
+            {
+                "offensiveSlowLightning": "132 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "33.1% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+32% урона Demons",
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            },
+            {
+                "offensiveSlowLightning": "150 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "37.6% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+36% урона Demons",
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            },
+            {
+                "offensiveSlowLightning": "170 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "42.4% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+40% урона Demons",
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            },
+            {
+                "offensiveSlowLightning": "190 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "47.4% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+44% урона Demons",
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            },
+            {
+                "offensiveSlowLightning": "211 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "52.8% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+48% урона Demons",
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            },
+            {
+                "offensiveSlowLightning": "234 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveSlowRunSpeed": "58.4% замедления перемещения на 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+52% урона Demons",
+                "skillTargetRadius": "Радиус 3.5 метра(ов)"
+            }
+        ],
+        "tag": "xtagSkillDreamName003"
+    },
+    "x3tagSkillDreamStaffBeam": {
+        "description": "Увеличьте концентрацию ментальной энергии вашего магического посоха, чтобы провести серию быстрых атак. {}{}Работает только с посохами.",
+        "name": "Ментальный луч",
+        "tier": 7,
+        "type": "Modifier",
+        "maximum_level": 6,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "xtagSkillDreamName003",
+        "properties": [
+            {
+                "projectilePiercing": "10.0% шанс пробить врагов навылет",
+                "skillProjectileSpeedModifier": "10% скорости полёта снарядов"
+            },
+            {
+                "projectilePiercing": "20.0% шанс пробить врагов навылет",
+                "skillProjectileSpeedModifier": "20% скорости полёта снарядов"
+            },
+            {
+                "projectilePiercing": "30.0% шанс пробить врагов навылет",
+                "skillProjectileSpeedModifier": "30% скорости полёта снарядов"
+            },
+            {
+                "projectilePiercing": "40.0% шанс пробить врагов навылет",
+                "skillProjectileSpeedModifier": "40% скорости полёта снарядов"
+            },
+            {
+                "projectilePiercing": "50.0% шанс пробить врагов навылет",
+                "skillProjectileSpeedModifier": "50% скорости полёта снарядов"
+            },
+            {
+                "projectilePiercing": "60.0% шанс пробить врагов навылет",
+                "skillProjectileSpeedModifier": "60% скорости полёта снарядов"
+            },
+            {
+                "projectilePiercing": "70.0% шанс пробить врагов навылет",
+                "skillProjectileSpeedModifier": "70% скорости полёта снарядов"
+            },
+            {
+                "projectilePiercing": "80.0% шанс пробить врагов навылет",
+                "skillProjectileSpeedModifier": "80% скорости полёта снарядов"
+            },
+            {
+                "projectilePiercing": "90.0% шанс пробить врагов навылет",
+                "skillProjectileSpeedModifier": "90% скорости полёта снарядов"
+            },
+            {
+                "projectilePiercing": "100.0% шанс пробить врагов навылет",
+                "skillProjectileSpeedModifier": "100% скорости полёта снарядов"
+            }
+        ],
+        "tag": "x3tagSkillDreamStaffBeam"
+    },
+
+    "xtagSkillDreamName004-1": {
+        "description": "В направлении к противникам распространяется волна искажения, вызывающая разрывы в ткани реальности и наносящая огромный урон телу и разуму врагов.",
+        "name": "Волна искажения",
+        "tier": 1,
+        "type": "Active",
+        "maximum_level": 12,
+        "cooldown": "5 Seconds",
+        "icon": "",
+        "properties": [
+            {
+                "offensivePhysical": "10 ед. физического урона",
+                "offensiveSlowTotalSpeed": "15.0% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 36"
+            },
+            {
+                "offensivePhysical": "15 ед. физического урона",
+                "offensiveSlowTotalSpeed": "20.6% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 40"
+            },
+            {
+                "offensivePhysical": "21 ед. физического урона",
+                "offensiveSlowTotalSpeed": "25.9% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 44"
+            },
+            {
+                "offensivePhysical": "27 ед. физического урона",
+                "offensiveSlowTotalSpeed": "30.8% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 48"
+            },
+            {
+                "offensivePhysical": "37 ед. физического урона",
+                "offensiveSlowTotalSpeed": "35.2% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 52"
+            },
+            {
+                "offensivePhysical": "55 ед. физического урона",
+                "offensiveSlowTotalSpeed": "39.4% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 56"
+            },
+            {
+                "offensivePhysical": "66 ед. физического урона",
+                "offensiveSlowTotalSpeed": "43.1% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 60"
+            },
+            {
+                "offensivePhysical": "78 ед. физического урона",
+                "offensiveSlowTotalSpeed": "46.5% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 64"
+            },
+            {
+                "offensivePhysical": "92 ед. физического урона",
+                "offensiveSlowTotalSpeed": "49.5% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 68"
+            },
+            {
+                "offensivePhysical": "106 ед. физического урона",
+                "offensiveSlowTotalSpeed": "52.1% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 72"
+            },
+            {
+                "offensivePhysical": "122 ед. физического урона",
+                "offensiveSlowTotalSpeed": "54.4% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 76"
+            },
+            {
+                "offensivePhysical": "140 ед. физического урона",
+                "offensiveSlowTotalSpeed": "56.2% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 80"
+            },
+            {
+                "offensivePhysical": "164 ед. физического урона",
+                "offensiveSlowTotalSpeed": "57.8% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 84"
+            },
+            {
+                "offensivePhysical": "191 ед. физического урона",
+                "offensiveSlowTotalSpeed": "58.9% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 88"
+            },
+            {
+                "offensivePhysical": "223 ед. физического урона",
+                "offensiveSlowTotalSpeed": "59.6% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 92"
+            },
+            {
+                "offensivePhysical": "259 ед. физического урона",
+                "offensiveSlowTotalSpeed": "60.0% замедления на 4.0 секунд(ы)",
+                "skillCooldownTime": "10.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 96"
+            }
+        ],
+        "tag": "xtagSkillDreamName004-1"
+    },
+    "xtagSkillDreamName005-1": {
+        "description": "Усиливает искажающий эффект, позволяя раскалывать доспехи и ломать кости врагов.",
+        "name": "Раскол",
+        "tier": 3,
+        "type": "Modifier",
+        "maximum_level": 8,
+        "cooldown": "none",
+        "parent": "xtagSkillDreamName004-1",
+        "icon": "",
+        "properties": [
+            {
+                "offensivePhysical": "16 ед. физического урона",
+                "offensiveSlowDefensiveReduction": "25.0 ед. уменьшения брони на 5.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 8"
+            },
+            {
+                "offensivePhysical": "23 ед. физического урона",
+                "offensiveSlowDefensiveReduction": "39.0 ед. уменьшения брони на 5.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 10"
+            },
+            {
+                "offensivePhysical": "32 ед. физического урона",
+                "offensiveSlowDefensiveReduction": "55.0 ед. уменьшения брони на 5.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 11"
+            },
+            {
+                "offensivePhysical": "42 ед. физического урона",
+                "offensiveSlowDefensiveReduction": "73.0 ед. уменьшения брони на 5.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 13"
+            },
+            {
+                "offensivePhysical": "56 ед. физического урона",
+                "offensiveSlowDefensiveReduction": "93.0 ед. уменьшения брони на 5.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 14"
+            },
+            {
+                "offensivePhysical": "84 ед. физического урона",
+                "offensiveSlowDefensiveReduction": "115.0 ед. уменьшения брони на 5.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 16"
+            },
+            {
+                "offensivePhysical": "102 ед. физического урона",
+                "offensiveSlowDefensiveReduction": "140.0 ед. уменьшения брони на 5.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 17"
+            },
+            {
+                "offensivePhysical": "120 ед. физического урона",
+                "offensiveSlowDefensiveReduction": "168.0 ед. уменьшения брони на 5.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 19"
+            },
+            {
+                "offensivePhysical": "140 ед. физического урона",
+                "offensiveSlowDefensiveReduction": "200.0 ед. уменьшения брони на 5.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 20"
+            },
+            {
+                "offensivePhysical": "162 ед. физического урона",
+                "offensiveSlowDefensiveReduction": "236.0 ед. уменьшения брони на 5.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 22"
+            },
+            {
+                "offensivePhysical": "186 ед. физического урона",
+                "offensiveSlowDefensiveReduction": "277.0 ед. уменьшения брони на 5.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 23"
+            },
+            {
+                "offensivePhysical": "214 ед. физического урона",
+                "offensiveSlowDefensiveReduction": "323.0 ед. уменьшения брони на 5.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 25"
+            }
+        ],
+        "tag": "xtagSkillDreamName005-1"
+    },
+    "xtagSkillDreamName018": {
+        "description": "Ментальная энергия преобразуется в электрический разряд и на некоторое время воспламеняет противника, нанося огромный урон.",
+        "name": "Ментальное сожжение",
+        "tier": 5,
+        "type": "Modifier",
+        "maximum_level": 12,
+        "cooldown": "none",
+        "parent": "xtagSkillDreamName005-1",
+        "icon": "",
+        "properties": [
+            {
+                "offensiveSlowLightning": "96 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+50% урона Demons",
+                "skillManaCost": "Расход энергии 18"
+            },
+            {
+                "offensiveSlowLightning": "129 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+50% урона Demons",
+                "skillManaCost": "Расход энергии 26"
+            },
+            {
+                "offensiveSlowLightning": "164 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+50% урона Demons",
+                "skillManaCost": "Расход энергии 34"
+            },
+            {
+                "offensiveSlowLightning": "199 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+50% урона Demons",
+                "skillManaCost": "Расход энергии 42"
+            },
+            {
+                "offensiveSlowLightning": "236 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+50% урона Demons",
+                "skillManaCost": "Расход энергии 50"
+            },
+            {
+                "offensiveSlowLightning": "275 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+50% урона Demons",
+                "skillManaCost": "Расход энергии 58"
+            },
+            {
+                "offensiveSlowLightning": "316 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+50% урона Demons",
+                "skillManaCost": "Расход энергии 66"
+            },
+            {
+                "offensiveSlowLightning": "358 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+50% урона Demons",
+                "skillManaCost": "Расход энергии 74"
+            },
+            {
+                "offensiveSlowLightning": "401 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+50% урона Demons",
+                "skillManaCost": "Расход энергии 82"
+            },
+            {
+                "offensiveSlowLightning": "447 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+50% урона Demons",
+                "skillManaCost": "Расход энергии 90"
+            },
+            {
+                "offensiveSlowLightning": "494 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+50% урона Demons",
+                "skillManaCost": "Расход энергии 95"
+            },
+            {
+                "offensiveSlowLightning": "544 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+50% урона Demons",
+                "skillManaCost": "Расход энергии 99"
+            },
+            {
+                "offensiveSlowLightning": "596 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+50% урона Demons",
+                "skillManaCost": "Расход энергии 102"
+            },
+            {
+                "offensiveSlowLightning": "650 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+50% урона Demons",
+                "skillManaCost": "Расход энергии 104"
+            },
+            {
+                "offensiveSlowLightning": "707 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+50% урона Demons",
+                "skillManaCost": "Расход энергии 106"
+            },
+            {
+                "offensiveSlowLightning": "767 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusPercentDamage": "+50% урона Demons",
+                "skillManaCost": "Расход энергии 108"
+            }
+        ],
+        "tag": "xtagSkillDreamName018"
+    },
+ 
+
+    "xtagSkillDreamName010": {
+        "description": "Герой исчезает из материального мира и появляется за спиной врага, чтобы нанести ему сокрушительный удар.",
+        "name": "Призрачная атака",
+        "tier": 2,
+        "type": "Active",
+        "maximum_level": 12,
+        "cooldown": "16 Seconds",
+        "icon": "",
+        "properties": [
+            {
+                "offensiveTotalDamageModifier": "+35% общего урона",
+                "skillCooldownTime": "16.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 50",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveTotalDamageModifier": "+50% общего урона",
+                "skillCooldownTime": "16.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 50",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveTotalDamageModifier": "+65% общего урона",
+                "skillCooldownTime": "16.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 50",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveTotalDamageModifier": "+80% общего урона",
+                "skillCooldownTime": "16.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 50",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveTotalDamageModifier": "+95% общего урона",
+                "skillCooldownTime": "16.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 50",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveTotalDamageModifier": "+109% общего урона",
+                "skillCooldownTime": "16.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 50",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveTotalDamageModifier": "+123% общего урона",
+                "skillCooldownTime": "16.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 50",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveTotalDamageModifier": "+137% общего урона",
+                "skillCooldownTime": "16.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 50",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveTotalDamageModifier": "+151% общего урона",
+                "skillCooldownTime": "16.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 50",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveTotalDamageModifier": "+164% общего урона",
+                "skillCooldownTime": "16.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 50",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveTotalDamageModifier": "+177% общего урона",
+                "skillCooldownTime": "16.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 50",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveTotalDamageModifier": "+190% общего урона",
+                "skillCooldownTime": "16.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 50",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveTotalDamageModifier": "+203% общего урона",
+                "skillCooldownTime": "16.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 50",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveTotalDamageModifier": "+215% общего урона",
+                "skillCooldownTime": "16.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 50",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveTotalDamageModifier": "+227% общего урона",
+                "skillCooldownTime": "16.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 50",
+                "skillProjectileNumber": "1 снаряд(а)"
+            },
+            {
+                "offensiveTotalDamageModifier": "+239% общего урона",
+                "skillCooldownTime": "16.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 50",
+                "skillProjectileNumber": "1 снаряд(а)"
+            }
+        ],
+        "tag": "xtagSkillDreamName010"
+    },
+    "xtagSkillDreamName011": {
+        "description": "Вторгнитесь в разум ваших врагов и лишите их сил, похитив самые сокровенные грёзы.",
+        "name": "Похититель снов",
+        "tier": 3,
+        "type": "Modifier",
+        "maximum_level": 8,
+        "cooldown": "none",
+        "parent": "xxtagSkillDreamName010",
+        "icon": "",
+        "properties": [
+            {
+                "offensivePhysical": "103 ед. физического урона",
+                "offensiveSlowManaLeach": "90 ед. кражи энергии в течении 3.0 секунд(ы)",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillManaCost": "Расход энергии 10",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 3 "
+            },
+            {
+                "offensivePhysical": "118 ед. физического урона",
+                "offensiveSlowManaLeach": "135 ед. кражи энергии в течении 3.0 секунд(ы)",
+                "offensiveStun": "2.0 секунд(ы) оглушения",
+                "skillManaCost": "Расход энергии 12",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 3 "
+            },
+            {
+                "offensivePhysical": "134 ед. физического урона",
+                "offensiveSlowManaLeach": "180 ед. кражи энергии в течении 3.0 секунд(ы)",
+                "offensiveStun": "2.5 секунд(ы) оглушения",
+                "skillManaCost": "Расход энергии 14",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 4 "
+            },
+            {
+                "offensivePhysical": "151 ед. физического урона",
+                "offensiveSlowManaLeach": "225 ед. кражи энергии в течении 3.0 секунд(ы)",
+                "offensiveStun": "3.0 секунд(ы) оглушения",
+                "skillManaCost": "Расход энергии 16",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 4 "
+            },
+            {
+                "offensivePhysical": "170 ед. физического урона",
+                "offensiveSlowManaLeach": "270 ед. кражи энергии в течении 3.0 секунд(ы)",
+                "offensiveStun": "3.4 секунд(ы) оглушения",
+                "skillManaCost": "Расход энергии 18",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 5 "
+            },
+            {
+                "offensivePhysical": "189 ед. физического урона",
+                "offensiveSlowManaLeach": "315 ед. кражи энергии в течении 3.0 секунд(ы)",
+                "offensiveStun": "3.8 секунд(ы) оглушения",
+                "skillManaCost": "Расход энергии 20",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 5 "
+            },
+            {
+                "offensivePhysical": "209 ед. физического урона",
+                "offensiveSlowManaLeach": "360 ед. кражи энергии в течении 3.0 секунд(ы)",
+                "offensiveStun": "4.1 секунд(ы) оглушения",
+                "skillManaCost": "Расход энергии 22",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 6 "
+            },
+            {
+                "offensivePhysical": "229 ед. физического урона",
+                "offensiveSlowManaLeach": "405 ед. кражи энергии в течении 3.0 секунд(ы)",
+                "offensiveStun": "4.5 секунд(ы) оглушения",
+                "skillManaCost": "Расход энергии 24",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 6 "
+            },
+            {
+                "offensivePhysical": "251 ед. физического урона",
+                "offensiveSlowManaLeach": "450 ед. кражи энергии в течении 3.0 секунд(ы)",
+                "offensiveStun": "4.8 секунд(ы) оглушения",
+                "skillManaCost": "Расход энергии 26",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 7 "
+            },
+            {
+                "offensivePhysical": "274 ед. физического урона",
+                "offensiveSlowManaLeach": "495 ед. кражи энергии в течении 3.0 секунд(ы)",
+                "offensiveStun": "5.1 секунд(ы) оглушения",
+                "skillManaCost": "Расход энергии 28",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 7 "
+            },
+            {
+                "offensivePhysical": "297 ед. физического урона",
+                "offensiveSlowManaLeach": "540 ед. кражи энергии в течении 3.0 секунд(ы)",
+                "offensiveStun": "5.4 секунд(ы) оглушения",
+                "skillManaCost": "Расход энергии 30",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 8 "
+            },
+            {
+                "offensivePhysical": "321 ед. физического урона",
+                "offensiveSlowManaLeach": "585 ед. кражи энергии в течении 3.0 секунд(ы)",
+                "offensiveStun": "5.8 секунд(ы) оглушения",
+                "skillManaCost": "Расход энергии 32",
+                "skillTargetAngle": "Угол атаки 360 градусов",
+                "skillTargetNumber": "Количество целей 8 "
+            }
+        ],
+        "tag": "xtagSkillDreamName011"
+    },
+
+    "xtagSkillDreamName016-1": {
+        "description": "Увеличение сознательного контроля за грёзами усиливает ваши способности, черпающие силу из мира грёз.",
+        "name": "Грезы наяву",
+        "tier": 2,
+        "type": "Passive",
+        "maximum_level": 8,
+        "cooldown": "none",
+        "icon": "",
+        "properties": [
+            {
+                "offensiveLifeModifier": "+15% урона здоровью",
+                "offensivePhysicalModifier": "+10% физического урона",
+                "offensiveSlowLightningModifier": "+15% урона электрическим разрядом"
+            },
+            {
+                "offensiveLifeModifier": "+19% урона здоровью",
+                "offensivePhysicalModifier": "+12% физического урона",
+                "offensiveSlowLightningModifier": "+19% урона электрическим разрядом"
+            },
+            {
+                "offensiveLifeModifier": "+23% урона здоровью",
+                "offensivePhysicalModifier": "+15% физического урона",
+                "offensiveSlowLightningModifier": "+23% урона электрическим разрядом"
+            },
+            {
+                "offensiveLifeModifier": "+27% урона здоровью",
+                "offensivePhysicalModifier": "+18% физического урона",
+                "offensiveSlowLightningModifier": "+27% урона электрическим разрядом"
+            },
+            {
+                "offensiveLifeModifier": "+31% урона здоровью",
+                "offensivePhysicalModifier": "+21% физического урона",
+                "offensiveSlowLightningModifier": "+31% урона электрическим разрядом"
+            },
+            {
+                "offensiveLifeModifier": "+35% урона здоровью",
+                "offensivePhysicalModifier": "+23% физического урона",
+                "offensiveSlowLightningModifier": "+35% урона электрическим разрядом"
+            },
+            {
+                "offensiveLifeModifier": "+39% урона здоровью",
+                "offensivePhysicalModifier": "+25% физического урона",
+                "offensiveSlowLightningModifier": "+39% урона электрическим разрядом"
+            },
+            {
+                "offensiveLifeModifier": "+45% урона здоровью",
+                "offensivePhysicalModifier": "+28% физического урона",
+                "offensiveSlowLightningModifier": "+45% урона электрическим разрядом"
+            },
+            {
+                "offensiveLifeModifier": "+48% урона здоровью",
+                "offensivePhysicalModifier": "+30% физического урона",
+                "offensiveSlowLightningModifier": "+48% урона электрическим разрядом"
+            },
+            {
+                "offensiveLifeModifier": "+51% урона здоровью",
+                "offensivePhysicalModifier": "+33% физического урона",
+                "offensiveSlowLightningModifier": "+51% урона электрическим разрядом"
+            },
+            {
+                "offensiveLifeModifier": "+55% урона здоровью",
+                "offensivePhysicalModifier": "+36% физического урона",
+                "offensiveSlowLightningModifier": "+55% урона электрическим разрядом"
+            },
+            {
+                "offensiveLifeModifier": "+60% урона здоровью",
+                "offensivePhysicalModifier": "+39% физического урона",
+                "offensiveSlowLightningModifier": "+60% урона электрическим разрядом"
+            }
+        ],
+        "tag": "xtagSkillDreamName016-1"
+    },
+    "xtagSkillDreamName007": {
+        "description": "Предчувствие надвигающейся опасности позволяет вам предугадывать действия ваших врагов во время боя.",
+        "name": "Предвидение",
+        "tier": 3,
+        "type": "Passive",
+        "maximum_level": 6,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "xtagSkillDreamName016-1",
+        "properties": [
+            {
+                "characterDefensiveAbility": "+31 ед. оборонительной способности",
+                "characterOffensiveAbility": "+31 ед. наступательной способности"
+            },
+            {
+                "characterDefensiveAbility": "+47 ед. оборонительной способности",
+                "characterOffensiveAbility": "+47 ед. наступательной способности"
+            },
+            {
+                "characterDefensiveAbility": "+63 ед. оборонительной способности",
+                "characterOffensiveAbility": "+63 ед. наступательной способности"
+            },
+            {
+                "characterDefensiveAbility": "+79 ед. оборонительной способности",
+                "characterOffensiveAbility": "+79 ед. наступательной способности"
+            },
+            {
+                "characterDefensiveAbility": "+95 ед. оборонительной способности",
+                "characterOffensiveAbility": "+95 ед. наступательной способности"
+            },
+            {
+                "characterDefensiveAbility": "+111 ед. оборонительной способности",
+                "characterOffensiveAbility": "+111 ед. наступательной способности"
+            },
+            {
+                "characterDefensiveAbility": "+127 ед. оборонительной способности",
+                "characterOffensiveAbility": "+127 ед. наступательной способности"
+            },
+            {
+                "characterDefensiveAbility": "+143 ед. оборонительной способности",
+                "characterOffensiveAbility": "+143 ед. наступательной способности"
+            },
+            {
+                "characterDefensiveAbility": "+159 ед. оборонительной способности",
+                "characterOffensiveAbility": "+159 ед. наступательной способности"
+            },
+            {
+                "characterDefensiveAbility": "+175 ед. оборонительной способности",
+                "characterOffensiveAbility": "+175 ед. наступательной способности"
+            }
+        ],
+        "tag": "xtagSkillDreamName007"
+    },
+    "xtagSkillDreamName023": {
+        "description": "Герой немного ускоряет время вокруг себя, что позволяет ему быстрее двигаться, предугадывать атаки противников и не поддаваться вражеским умениям, замедляющим скорость.",
+        "name": "Временной поток",
+        "tier": 5,
+        "type": "Passive",
+        "maximum_level": 6,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "xtagSkillDreamName007",
+        "properties": [
+            {
+                "characterDeflectProjectile": "3% шанс уклониться от летящих снарядов",
+                "characterTotalSpeedModifier": "+2% ко всем показателям скорости",
+                "defensiveTotalSpeed": "8% сопротивления замедлению"
+            },
+            {
+                "characterDeflectProjectile": "5% шанс уклониться от летящих снарядов",
+                "characterTotalSpeedModifier": "+4% ко всем показателям скорости",
+                "defensiveTotalSpeed": "12% сопротивления замедлению"
+            },
+            {
+                "characterDeflectProjectile": "8% шанс уклониться от летящих снарядов",
+                "characterTotalSpeedModifier": "+6% ко всем показателям скорости",
+                "defensiveTotalSpeed": "16% сопротивления замедлению"
+            },
+            {
+                "characterDeflectProjectile": "10% шанс уклониться от летящих снарядов",
+                "characterTotalSpeedModifier": "+8% ко всем показателям скорости",
+                "defensiveTotalSpeed": "20% сопротивления замедлению"
+            },
+            {
+                "characterDeflectProjectile": "12% шанс уклониться от летящих снарядов",
+                "characterTotalSpeedModifier": "+10% ко всем показателям скорости",
+                "defensiveTotalSpeed": "24% сопротивления замедлению"
+            },
+            {
+                "characterDeflectProjectile": "15% шанс уклониться от летящих снарядов",
+                "characterTotalSpeedModifier": "+12% ко всем показателям скорости",
+                "defensiveTotalSpeed": "28% сопротивления замедлению"
+            },
+            {
+                "characterDeflectProjectile": "18% шанс уклониться от летящих снарядов",
+                "characterTotalSpeedModifier": "+14% ко всем показателям скорости",
+                "defensiveTotalSpeed": "32% сопротивления замедлению"
+            },
+            {
+                "characterDeflectProjectile": "21% шанс уклониться от летящих снарядов",
+                "characterTotalSpeedModifier": "+15% ко всем показателям скорости",
+                "defensiveTotalSpeed": "36% сопротивления замедлению"
+            },
+            {
+                "characterDeflectProjectile": "23% шанс уклониться от летящих снарядов",
+                "characterTotalSpeedModifier": "+16% ко всем показателям скорости",
+                "defensiveTotalSpeed": "40% сопротивления замедлению"
+            },
+            {
+                "characterDeflectProjectile": "25% шанс уклониться от летящих снарядов",
+                "characterTotalSpeedModifier": "+18% ко всем показателям скорости",
+                "defensiveTotalSpeed": "45% сопротивления замедлению"
+            }
+        ],
+        "tag": "xtagSkillDreamName023"
+    },
+
+    "xtagSkillDreamName021": {
+        "description": "Установив с врагами телепатическую связь заставьте их почувствовать боль, которую они причиняют вам, установив с ними телепатическую связь и вытягивая из них взамен жизнь.",
+        "name": "Духовная эмпатия",
+        "tier": 2,
+        "type": "Sustained",
+        "maximum_level": 12,
+        "cooldown": "none",
+        "icon": "",
+        "properties": [
+            {
+                "defensiveReflect": "15% отражение урона",
+                "offensiveLifeLeech": "3-10% урона переводится в жизнь",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensiveReflect": "18% отражение урона",
+                "offensiveLifeLeech": "3-10% урона переводится в жизнь",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensiveReflect": "21% отражение урона",
+                "offensiveLifeLeech": "3-10% урона переводится в жизнь",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensiveReflect": "24% отражение урона",
+                "offensiveLifeLeech": "3-10% урона переводится в жизнь",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensiveReflect": "28% отражение урона",
+                "offensiveLifeLeech": "3-10% урона переводится в жизнь",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensiveReflect": "32% отражение урона",
+                "offensiveLifeLeech": "3-10% урона переводится в жизнь",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensiveReflect": "36% отражение урона",
+                "offensiveLifeLeech": "3-10% урона переводится в жизнь",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensiveReflect": "40% отражение урона",
+                "offensiveLifeLeech": "3-10% урона переводится в жизнь",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensiveReflect": "44% отражение урона",
+                "offensiveLifeLeech": "3-10% урона переводится в жизнь",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensiveReflect": "49% отражение урона",
+                "offensiveLifeLeech": "3-10% урона переводится в жизнь",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensiveReflect": "54% отражение урона",
+                "offensiveLifeLeech": "3-10% урона переводится в жизнь",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensiveReflect": "60% отражение урона",
+                "offensiveLifeLeech": "3-10% урона переводится в жизнь",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensiveReflect": "65% отражение урона",
+                "offensiveLifeLeech": "3-10% урона переводится в жизнь",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensiveReflect": "71% отражение урона",
+                "offensiveLifeLeech": "3-10% урона переводится в жизнь",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensiveReflect": "77% отражение урона",
+                "offensiveLifeLeech": "3-10% урона переводится в жизнь",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "defensiveReflect": "85% отражение урона",
+                "offensiveLifeLeech": "3-10% урона переводится в жизнь",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            }
+        ],
+        "tag": "xtagSkillDreamName021"
+    },
+
+    "xtagSkillDreamName020": {
+        "description": "Расслабленное состояние сознания позволяет ускорить регенерацию здоровья героя и его союзников и уменьшить получаемый урон.",
+        "name": "Лечебная медитация",
+        "tier": 4,
+        "type": "Sustained",
+        "maximum_level": 12,
+        "cooldown": "none",
+        "icon": "",
+        "properties": [
+            {
+                "characterLifeRegen": "+1.0 ед. жизни в секунду восстанавливается",
+                "characterManaLimitReserve": "100 ед. энергии снимается на поддержку умения",
+                "characterManaRegen": "+1.0 ед. энергии в секунду восстанавливается",
+                "skillDamageAbsorptionPercent": "3% поглощение урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "characterLifeRegen": "+2.0 ед. жизни в секунду восстанавливается",
+                "characterManaLimitReserve": "100 ед. энергии снимается на поддержку умения",
+                "characterManaRegen": "+1.2 ед. энергии в секунду восстанавливается",
+                "skillDamageAbsorptionPercent": "4% поглощение урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "characterLifeRegen": "+3.0 ед. жизни в секунду восстанавливается",
+                "characterManaLimitReserve": "100 ед. энергии снимается на поддержку умения",
+                "characterManaRegen": "+1.4 ед. энергии в секунду восстанавливается",
+                "skillDamageAbsorptionPercent": "5% поглощение урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "characterLifeRegen": "+4.0 ед. жизни в секунду восстанавливается",
+                "characterManaLimitReserve": "100 ед. энергии снимается на поддержку умения",
+                "characterManaRegen": "+1.6 ед. энергии в секунду восстанавливается",
+                "skillDamageAbsorptionPercent": "6% поглощение урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "characterLifeRegen": "+5.0 ед. жизни в секунду восстанавливается",
+                "characterManaLimitReserve": "100 ед. энергии снимается на поддержку умения",
+                "characterManaRegen": "+1.8 ед. энергии в секунду восстанавливается",
+                "skillDamageAbsorptionPercent": "7% поглощение урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "characterLifeRegen": "+6.0 ед. жизни в секунду восстанавливается",
+                "characterManaLimitReserve": "100 ед. энергии снимается на поддержку умения",
+                "characterManaRegen": "+2.0 ед. энергии в секунду восстанавливается",
+                "skillDamageAbsorptionPercent": "8% поглощение урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "characterLifeRegen": "+7.0 ед. жизни в секунду восстанавливается",
+                "characterManaLimitReserve": "100 ед. энергии снимается на поддержку умения",
+                "characterManaRegen": "+2.2 ед. энергии в секунду восстанавливается",
+                "skillDamageAbsorptionPercent": "9% поглощение урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "characterLifeRegen": "+8.0 ед. жизни в секунду восстанавливается",
+                "characterManaLimitReserve": "100 ед. энергии снимается на поддержку умения",
+                "characterManaRegen": "+2.4 ед. энергии в секунду восстанавливается",
+                "skillDamageAbsorptionPercent": "10% поглощение урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "characterLifeRegen": "+9.0 ед. жизни в секунду восстанавливается",
+                "characterManaLimitReserve": "100 ед. энергии снимается на поддержку умения",
+                "characterManaRegen": "+2.6 ед. энергии в секунду восстанавливается",
+                "skillDamageAbsorptionPercent": "11% поглощение урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "characterLifeRegen": "+10.0 ед. жизни в секунду восстанавливается",
+                "characterManaLimitReserve": "100 ед. энергии снимается на поддержку умения",
+                "characterManaRegen": "+2.8 ед. энергии в секунду восстанавливается",
+                "skillDamageAbsorptionPercent": "12% поглощение урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "characterLifeRegen": "+11.0 ед. жизни в секунду восстанавливается",
+                "characterManaLimitReserve": "100 ед. энергии снимается на поддержку умения",
+                "characterManaRegen": "+3.0 ед. энергии в секунду восстанавливается",
+                "skillDamageAbsorptionPercent": "13% поглощение урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "characterLifeRegen": "+12.0 ед. жизни в секунду восстанавливается",
+                "characterManaLimitReserve": "100 ед. энергии снимается на поддержку умения",
+                "characterManaRegen": "+3.2 ед. энергии в секунду восстанавливается",
+                "skillDamageAbsorptionPercent": "15% поглощение урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "characterLifeRegen": "+13.0 ед. жизни в секунду восстанавливается",
+                "characterManaLimitReserve": "100 ед. энергии снимается на поддержку умения",
+                "characterManaRegen": "+3.4 ед. энергии в секунду восстанавливается",
+                "skillDamageAbsorptionPercent": "16% поглощение урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "characterLifeRegen": "+14.0 ед. жизни в секунду восстанавливается",
+                "characterManaLimitReserve": "100 ед. энергии снимается на поддержку умения",
+                "characterManaRegen": "+3.6 ед. энергии в секунду восстанавливается",
+                "skillDamageAbsorptionPercent": "17% поглощение урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "characterLifeRegen": "+15.0 ед. жизни в секунду восстанавливается",
+                "characterManaLimitReserve": "100 ед. энергии снимается на поддержку умения",
+                "characterManaRegen": "+3.8 ед. энергии в секунду восстанавливается",
+                "skillDamageAbsorptionPercent": "18% поглощение урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            },
+            {
+                "characterLifeRegen": "+16.0 ед. жизни в секунду восстанавливается",
+                "characterManaLimitReserve": "100 ед. энергии снимается на поддержку умения",
+                "characterManaRegen": "+4.0 ед. энергии в секунду восстанавливается",
+                "skillDamageAbsorptionPercent": "20% поглощение урона",
+                "skillTargetRadius": "Радиус 12.0 метра(ов)"
+            }
+        ],
+        "tag": "xtagSkillDreamName020"
+    },
+
+    "xtagSkillDreamName019": {
+        "description": "От игрока исходят волны негативной ментальной энергии, которые вносят сумятицу в умы врагов и обжигают их телесную оболочку.",
+        "name": "Боевой транс",
+        "tier": 6,
+        "type": "Sustained",
+        "maximum_level": 12,
+        "cooldown": "none",
+        "icon": "",
+        "properties": [
+            {
+                "offensiveDisruption": "1.0 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "26 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "10.0% уменьшение сопротивлений на 4.0 секунд(ы)",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 2.8 метра(ов)"
+            },
+            {
+                "offensiveDisruption": "1.0 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "38 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "12.0% уменьшение сопротивлений на 4.0 секунд(ы)",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 3.0 метра(ов)"
+            },
+            {
+                "offensiveDisruption": "1.0 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "49 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "14.0% уменьшение сопротивлений на 4.0 секунд(ы)",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 3.2 метра(ов)"
+            },
+            {
+                "offensiveDisruption": "1.0 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "61 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "16.0% уменьшение сопротивлений на 4.0 секунд(ы)",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 3.4 метра(ов)"
+            },
+            {
+                "offensiveDisruption": "1.0 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "73 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "18.0% уменьшение сопротивлений на 4.0 секунд(ы)",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 3.6 метра(ов)"
+            },
+            {
+                "offensiveDisruption": "1.0 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "86 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "20.0% уменьшение сопротивлений на 4.0 секунд(ы)",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 3.8 метра(ов)"
+            },
+            {
+                "offensiveDisruption": "1.0 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "100 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "22.0% уменьшение сопротивлений на 4.0 секунд(ы)",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 4.0 метра(ов)"
+            },
+            {
+                "offensiveDisruption": "1.0 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "115 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "24.0% уменьшение сопротивлений на 4.0 секунд(ы)",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 4.2 метра(ов)"
+            },
+            {
+                "offensiveDisruption": "1.0 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "130 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "26.0% уменьшение сопротивлений на 4.0 секунд(ы)",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 4.4 метра(ов)"
+            },
+            {
+                "offensiveDisruption": "1.0 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "147 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "28.0% уменьшение сопротивлений на 4.0 секунд(ы)",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 4.6 метра(ов)"
+            },
+            {
+                "offensiveDisruption": "1.0 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "163 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "30.0% уменьшение сопротивлений на 4.0 секунд(ы)",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 4.8 метра(ов)"
+            },
+            {
+                "offensiveDisruption": "1.0 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "182 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "32.0% уменьшение сопротивлений на 4.0 секунд(ы)",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 5.0 метра(ов)"
+            },
+            {
+                "offensiveDisruption": "1.0 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "202 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "34.0% уменьшение сопротивлений на 4.0 секунд(ы)",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 5.2 метра(ов)"
+            },
+            {
+                "offensiveDisruption": "1.0 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "222 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "36.0% уменьшение сопротивлений на 4.0 секунд(ы)",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 5.4 метра(ов)"
+            },
+            {
+                "offensiveDisruption": "1.0 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "244 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "38.0% уменьшение сопротивлений на 4.0 секунд(ы)",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 5.7 метра(ов)"
+            },
+            {
+                "offensiveDisruption": "1.0 секунд(ы) снятия умений",
+                "offensiveSlowLightning": "265 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "offensiveTotalResistanceReductionPercent": "40.0% уменьшение сопротивлений на 4.0 секунд(ы)",
+                "skillActiveManaCost": "%s1 1",
+                "skillTargetRadius": "Радиус 6.0 метра(ов)"
+            }
+        ],
+        "tag": "xtagSkillDreamName019"
+    },
+
+    "xtagSkillDreamName006": {
+        "description": "Силой мысли герой искажает окружающую ткань реальности, уменьшая наносимый врагами урон и причиняя ответный урон атакующим противникам.",
+        "name": "Аура искажения",
+        "tier": 4,
+        "type": "Passive",
+        "maximum_level": 8,
+        "cooldown": "30 Seconds",
+        "icon": "",
+        "properties": [
+            {
+                "retaliationPhysical": "3 ед. ответного урона",
+                "skillActiveDuration": "Длительность 15.0 секунд(а)",
+                "skillCooldownTime": "30.0сек. перезарядки",
+                "skillDamageAbsorption": "18 ед. урона поглощается",
+                "skillDamageAbsorptionPercent": "9% поглощение урона"
+            },
+            {
+                "retaliationPhysical": "7 ед. ответного урона",
+                "skillActiveDuration": "Длительность 15.0 секунд(а)",
+                "skillCooldownTime": "30.0сек. перезарядки",
+                "skillDamageAbsorption": "21 ед. урона поглощается",
+                "skillDamageAbsorptionPercent": "10% поглощение урона"
+            },
+            {
+                "retaliationPhysical": "11 ед. ответного урона",
+                "skillActiveDuration": "Длительность 15.0 секунд(а)",
+                "skillCooldownTime": "30.0сек. перезарядки",
+                "skillDamageAbsorption": "24 ед. урона поглощается",
+                "skillDamageAbsorptionPercent": "12% поглощение урона"
+            },
+            {
+                "retaliationPhysical": "17 ед. ответного урона",
+                "skillActiveDuration": "Длительность 15.0 секунд(а)",
+                "skillCooldownTime": "30.0сек. перезарядки",
+                "skillDamageAbsorption": "27 ед. урона поглощается",
+                "skillDamageAbsorptionPercent": "14% поглощение урона"
+            },
+            {
+                "retaliationPhysical": "23 ед. ответного урона",
+                "skillActiveDuration": "Длительность 15.0 секунд(а)",
+                "skillCooldownTime": "30.0сек. перезарядки",
+                "skillDamageAbsorption": "30 ед. урона поглощается",
+                "skillDamageAbsorptionPercent": "15% поглощение урона"
+            },
+            {
+                "retaliationPhysical": "30 ед. ответного урона",
+                "skillActiveDuration": "Длительность 15.0 секунд(а)",
+                "skillCooldownTime": "30.0сек. перезарядки",
+                "skillDamageAbsorption": "33 ед. урона поглощается",
+                "skillDamageAbsorptionPercent": "16% поглощение урона"
+            },
+            {
+                "retaliationPhysical": "37 ед. ответного урона",
+                "skillActiveDuration": "Длительность 15.0 секунд(а)",
+                "skillCooldownTime": "30.0сек. перезарядки",
+                "skillDamageAbsorption": "36 ед. урона поглощается",
+                "skillDamageAbsorptionPercent": "18% поглощение урона"
+            },
+            {
+                "retaliationPhysical": "45 ед. ответного урона",
+                "skillActiveDuration": "Длительность 15.0 секунд(а)",
+                "skillCooldownTime": "30.0сек. перезарядки",
+                "skillDamageAbsorption": "39 ед. урона поглощается",
+                "skillDamageAbsorptionPercent": "20% поглощение урона"
+            },
+            {
+                "retaliationPhysical": "53 ед. ответного урона",
+                "skillActiveDuration": "Длительность 15.0 секунд(а)",
+                "skillCooldownTime": "30.0сек. перезарядки",
+                "skillDamageAbsorption": "42 ед. урона поглощается",
+                "skillDamageAbsorptionPercent": "21% поглощение урона"
+            },
+            {
+                "retaliationPhysical": "64 ед. ответного урона",
+                "skillActiveDuration": "Длительность 15.0 секунд(а)",
+                "skillCooldownTime": "30.0сек. перезарядки",
+                "skillDamageAbsorption": "45 ед. урона поглощается",
+                "skillDamageAbsorptionPercent": "22% поглощение урона"
+            },
+            {
+                "retaliationPhysical": "75 ед. ответного урона",
+                "skillActiveDuration": "Длительность 15.0 секунд(а)",
+                "skillCooldownTime": "30.0сек. перезарядки",
+                "skillDamageAbsorption": "48 ед. урона поглощается",
+                "skillDamageAbsorptionPercent": "24% поглощение урона"
+            },
+            {
+                "retaliationPhysical": "88 ед. ответного урона",
+                "skillActiveDuration": "Длительность 15.0 секунд(а)",
+                "skillCooldownTime": "30.0сек. перезарядки",
+                "skillDamageAbsorption": "51 ед. урона поглощается",
+                "skillDamageAbsorptionPercent": "26% поглощение урона"
+            }
+        ],
+        "tag": "xtagSkillDreamName006"
+    },
+
+    "xtagSkillDreamName008": {
+        "description": "От героя в все стороны исходит мощная волна искажений, разрывающая ткань реальности и наносящая серьёзный урон застигнутым ею врагам.",
+        "name": "Искажение реальности",
+        "tier": 4,
+        "type": "Active",
+        "maximum_level": 12,
+        "cooldown": "12 Seconds",
+        "icon": "",
+        "properties": [
+            {
+                "offensiveLife": "45 ед. урона здоровью",
+                "offensivePhysical": "57 ед. физического урона",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 100",
+                "skillTargetRadius": "Радиус 8.0 метра(ов)"
+            },
+            {
+                "offensiveLife": "53 ед. урона здоровью",
+                "offensivePhysical": "69 ед. физического урона",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 104",
+                "skillTargetRadius": "Радиус 8.0 метра(ов)"
+            },
+            {
+                "offensiveLife": "61 ед. урона здоровью",
+                "offensivePhysical": "80 ед. физического урона",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 108",
+                "skillTargetRadius": "Радиус 8.0 метра(ов)"
+            },
+            {
+                "offensiveLife": "69 ед. урона здоровью",
+                "offensivePhysical": "92 ед. физического урона",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 112",
+                "skillTargetRadius": "Радиус 8.0 метра(ов)"
+            },
+            {
+                "offensiveLife": "79 ед. урона здоровью",
+                "offensivePhysical": "106 ед. физического урона",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 116",
+                "skillTargetRadius": "Радиус 8.0 метра(ов)"
+            },
+            {
+                "offensiveLife": "89 ед. урона здоровью",
+                "offensivePhysical": "120 ед. физического урона",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 120",
+                "skillTargetRadius": "Радиус 8.0 метра(ов)"
+            },
+            {
+                "offensiveLife": "100 ед. урона здоровью",
+                "offensivePhysical": "135 ед. физического урона",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 124",
+                "skillTargetRadius": "Радиус 8.0 метра(ов)"
+            },
+            {
+                "offensiveLife": "111 ед. урона здоровью",
+                "offensivePhysical": "151 ед. физического урона",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 128",
+                "skillTargetRadius": "Радиус 8.0 метра(ов)"
+            },
+            {
+                "offensiveLife": "123 ед. урона здоровью",
+                "offensivePhysical": "168 ед. физического урона",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 132",
+                "skillTargetRadius": "Радиус 8.0 метра(ов)"
+            },
+            {
+                "offensiveLife": "136 ед. урона здоровью",
+                "offensivePhysical": "186 ед. физического урона",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 136",
+                "skillTargetRadius": "Радиус 8.0 метра(ов)"
+            },
+            {
+                "offensiveLife": "150 ед. урона здоровью",
+                "offensivePhysical": "205 ед. физического урона",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 140",
+                "skillTargetRadius": "Радиус 8.0 метра(ов)"
+            },
+            {
+                "offensiveLife": "164 ед. урона здоровью",
+                "offensivePhysical": "225 ед. физического урона",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 144",
+                "skillTargetRadius": "Радиус 8.0 метра(ов)"
+            },
+            {
+                "offensiveLife": "179 ед. урона здоровью",
+                "offensivePhysical": "246 ед. физического урона",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 148",
+                "skillTargetRadius": "Радиус 8.0 метра(ов)"
+            },
+            {
+                "offensiveLife": "195 ед. урона здоровью",
+                "offensivePhysical": "268 ед. физического урона",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 152",
+                "skillTargetRadius": "Радиус 8.0 метра(ов)"
+            },
+            {
+                "offensiveLife": "211 ед. урона здоровью",
+                "offensivePhysical": "291 ед. физического урона",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 156",
+                "skillTargetRadius": "Радиус 8.0 метра(ов)"
+            },
+            {
+                "offensiveLife": "228 ед. урона здоровью",
+                "offensivePhysical": "315 ед. физического урона",
+                "offensiveStun": "1.5 секунд(ы) оглушения",
+                "skillCooldownTime": "12.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 160",
+                "skillTargetRadius": "Радиус 8.0 метра(ов)"
+            }
+        ],
+        "tag": "xtagSkillDreamName008"
+    },
+    "xtagSkillDreamName022": {
+        "description": "Выброс мысленной энергии значительно увеличивает урон наносимый противникам волной искажений и на некоторое время останавливает для них ход времени.",
+        "name": "Сдвиг времени",
+        "tier": 6,
+        "type": "Modifier",
+        "maximum_level": 12,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "xtagSkillDreamName008",
+        "properties": [
+            {
+                "offensiveManaDrain": "15% уменьшение энергии (45% от сожённой энергии наносит урон)",
+                "offensivePetrify": "1.5 секунд(ы) окаменения",
+                "offensiveSlowLightning": "144 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusAbsoluteDamage": "+27 ед. урона Demons",
+                "skillManaCost": "Расход энергии 3"
+            },
+            {
+                "offensiveManaDrain": "15% уменьшение энергии (45% от сожённой энергии наносит урон)",
+                "offensivePetrify": "1.8 секунд(ы) окаменения",
+                "offensiveSlowLightning": "171 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusAbsoluteDamage": "+38 ед. урона Demons",
+                "skillManaCost": "Расход энергии 4"
+            },
+            {
+                "offensiveManaDrain": "15% уменьшение энергии (45% от сожённой энергии наносит урон)",
+                "offensivePetrify": "2.0 секунд(ы) окаменения",
+                "offensiveSlowLightning": "200 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusAbsoluteDamage": "+49 ед. урона Demons",
+                "skillManaCost": "Расход энергии 5"
+            },
+            {
+                "offensiveManaDrain": "15% уменьшение энергии (45% от сожённой энергии наносит урон)",
+                "offensivePetrify": "2.2 секунд(ы) окаменения",
+                "offensiveSlowLightning": "229 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusAbsoluteDamage": "+60 ед. урона Demons",
+                "skillManaCost": "Расход энергии 6"
+            },
+            {
+                "offensiveManaDrain": "15% уменьшение энергии (45% от сожённой энергии наносит урон)",
+                "offensivePetrify": "2.5 секунд(ы) окаменения",
+                "offensiveSlowLightning": "261 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusAbsoluteDamage": "+72 ед. урона Demons",
+                "skillManaCost": "Расход энергии 7"
+            },
+            {
+                "offensiveManaDrain": "15% уменьшение энергии (45% от сожённой энергии наносит урон)",
+                "offensivePetrify": "2.8 секунд(ы) окаменения",
+                "offensiveSlowLightning": "296 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusAbsoluteDamage": "+85 ед. урона Demons",
+                "skillManaCost": "Расход энергии 8"
+            },
+            {
+                "offensiveManaDrain": "15% уменьшение энергии (45% от сожённой энергии наносит урон)",
+                "offensivePetrify": "3.0 секунд(ы) окаменения",
+                "offensiveSlowLightning": "328 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusAbsoluteDamage": "+97 ед. урона Demons",
+                "skillManaCost": "Расход энергии 9"
+            },
+            {
+                "offensiveManaDrain": "15% уменьшение энергии (45% от сожённой энергии наносит урон)",
+                "offensivePetrify": "3.2 секунд(ы) окаменения",
+                "offensiveSlowLightning": "368 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusAbsoluteDamage": "+112 ед. урона Demons",
+                "skillManaCost": "Расход энергии 10"
+            },
+            {
+                "offensiveManaDrain": "15% уменьшение энергии (45% от сожённой энергии наносит урон)",
+                "offensivePetrify": "3.5 секунд(ы) окаменения",
+                "offensiveSlowLightning": "406 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusAbsoluteDamage": "+126 ед. урона Demons",
+                "skillManaCost": "Расход энергии 11"
+            },
+            {
+                "offensiveManaDrain": "15% уменьшение энергии (45% от сожённой энергии наносит урон)",
+                "offensivePetrify": "3.8 секунд(ы) окаменения",
+                "offensiveSlowLightning": "446 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusAbsoluteDamage": "+141 ед. урона Demons",
+                "skillManaCost": "Расход энергии 12"
+            },
+            {
+                "offensiveManaDrain": "15% уменьшение энергии (45% от сожённой энергии наносит урон)",
+                "offensivePetrify": "4.0 секунд(ы) окаменения",
+                "offensiveSlowLightning": "488 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusAbsoluteDamage": "+157 ед. урона Demons",
+                "skillManaCost": "Расход энергии 12"
+            },
+            {
+                "offensiveManaDrain": "15% уменьшение энергии (45% от сожённой энергии наносит урон)",
+                "offensivePetrify": "4.2 секунд(ы) окаменения",
+                "offensiveSlowLightning": "531 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusAbsoluteDamage": "+173 ед. урона Demons",
+                "skillManaCost": "Расход энергии 12"
+            },
+            {
+                "offensiveManaDrain": "15% уменьшение энергии (45% от сожённой энергии наносит урон)",
+                "offensivePetrify": "4.5 секунд(ы) окаменения",
+                "offensiveSlowLightning": "576 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusAbsoluteDamage": "+190 ед. урона Demons",
+                "skillManaCost": "Расход энергии 12"
+            },
+            {
+                "offensiveManaDrain": "15% уменьшение энергии (45% от сожённой энергии наносит урон)",
+                "offensivePetrify": "4.8 секунд(ы) окаменения",
+                "offensiveSlowLightning": "624 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusAbsoluteDamage":  "+208 ед. урона Demons",
+                "skillManaCost": "Расход энергии 12"
+            },
+            {
+                "offensiveManaDrain": "15% уменьшение энергии (45% от сожённой энергии наносит урон)",
+                "offensivePetrify": "5.0 секунд(ы) окаменения",
+                "offensiveSlowLightning": "672 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusAbsoluteDamage": "+226 ед. урона Demons",
+                "skillManaCost": "Расход энергии 12"
+            },
+            {
+                "offensiveManaDrain": "15% уменьшение энергии (45% от сожённой энергии наносит урон)",
+                "offensivePetrify": "5.2 секунд(ы) окаменения",
+                "offensiveSlowLightning": "723 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+                "racialBonusAbsoluteDamage":  "+245 ед. урона Demons",
+                "skillManaCost": "Расход энергии 12"
+            }
+        ],
+        "tag": "xtagSkillDreamName022"
+    },
+   
+    "xtagSkillDreamName012": {
+        "description": "Призовите себе на помощь кошмарную сущность из мира грёз.",
+        "name": "Кошмар",
+        "tier": 3,
+        "type": "Active",
+        "maximum_level": 16,
+        "cooldown": "60 Seconds",
+        "icon": "",
+        "properties": [
+            {
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 150"
+            },
+            {
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 154"
+            },
+            {
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 158"
+            },
+            {
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 162"
+            },
+            {
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 166"
+            },
+            {
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 170"
+            },
+            {
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 174"
+            },
+            {
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 178"
+            },
+            {
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 182"
+            },
+            {
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 186"
+            },
+            {
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 190"
+            },
+            {
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 194"
+            },
+            {
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 198"
+            },
+            {
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 202"
+            },
+            {
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 206"
+            },
+            {
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 210"
+            },
+            {
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 214"
+            },
+            {
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 218"
+            },
+            {
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 222"
+            },
+            {
+                "skillCooldownTime": "60.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 226"
+            }
+        ],
+        "summons": [
+            {
+                "abilities": [
+                    {
+                        "tagSkillName192": 34,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName029": 1
+                    },
+                    {
+                        "tagSkillName192": 34,
+                        "unnamed-4": 1,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName029": 1
+                    },
+                    {
+                        "tagSkillName192": 34,
+                        "unnamed-4": 2,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName029": 1
+                    }
+                ],
+                "classification": "Common",
+                "level": [
+                    1,
+                    31,
+                    51
+                ],
+                "name": "Кошмар",
+                "properties": {
+                    "characterLife": "105 жизнь",
+                    "characterMana": "930 энергия",
+                    "defensiveCold": "50% сопротивление холоду",
+                    "defensiveFire": "50% сопротивление огню",
+                    "defensiveFreeze": "100% уменьшение длительности заморозки",
+                    "defensiveLightning": "50% сопротивление молниям",
+                    "defensivePetrify": "100% уменьшение длительности окаменения",
+                    "defensivePhysical": "80% сопротивление физическому урону",
+                    "defensivePierce": "80% сопротивление проникающему урону",
+                    "defensivePoison": "100% сопротивление яду",
+                    "defensiveSleep": "100% сопротивление сну",
+                    "defensiveStun": "100% сопротивление оглушению",
+                    "defensiveTrap": "100% уменьшение времени в ловушке"
+                },
+                "race": "Magical",
+                "tag": "xtagMonsterDreamPet002"
+            },
+            {
+                "abilities": [
+                    {
+                        "tagSkillName192": 35,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName029": 2
+                    },
+                    {
+                        "tagSkillName192": 35,
+                        "unnamed-4": 1,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName029": 2
+                    },
+                    {
+                        "tagSkillName192": 35,
+                        "unnamed-4": 2,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName029": 2
+                    }
+                ],
+                "classification": "Common",
+                "level": [
+                    2,
+                    32,
+                    52
+                ],
+                "name": "Кошмар",
+                "properties": {
+                    "characterLife": "120 жизнь",
+                    "characterMana": "960 энергия",
+                    "defensiveCold": "50% сопротивление холоду",
+                    "defensiveFire": "50% сопротивление огню",
+                    "defensiveFreeze": "100% уменьшение длительности заморозки",
+                    "defensiveLightning": "50% сопротивление молниям",
+                    "defensivePetrify": "100% уменьшение длительности окаменения",
+                    "defensivePhysical": "80% сопротивление физическому урону",
+                    "defensivePierce": "80% сопротивление проникающему урону",
+                    "defensivePoison": "100% сопротивление яду",
+                    "defensiveSleep": "100% сопротивление сну",
+                    "defensiveStun": "100% сопротивление оглушению",
+                    "defensiveTrap": "100% уменьшение времени в ловушке"
+                },
+                "race": "Magical",
+                "tag": "xtagMonsterDreamPet002"
+            },
+            {
+                "abilities": [
+                    {
+                        "tagSkillName192": 36,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName029": 3
+                    },
+                    {
+                        "tagSkillName192": 36,
+                        "unnamed-4": 1,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName029": 3
+                    },
+                    {
+                        "tagSkillName192": 36,
+                        "unnamed-4": 2,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName029": 3
+                    }
+                ],
+                "classification": "Common",
+                "level": [
+                    3,
+                    33,
+                    53
+                ],
+                "name": "Кошмар",
+                "properties": {
+                    "characterLife": "136 жизнь",
+                    "characterMana": "990 энергия",
+                    "defensiveCold": "50% сопротивление холоду",
+                    "defensiveFire": "50% сопротивление огню",
+                    "defensiveFreeze": "100% уменьшение длительности заморозки",
+                    "defensiveLightning": "50% сопротивление молниям",
+                    "defensivePetrify": "100% уменьшение длительности окаменения",
+                    "defensivePhysical": "80% сопротивление физическому урону",
+                    "defensivePierce": "80% сопротивление проникающему урону",
+                    "defensivePoison": "100% сопротивление яду",
+                    "defensiveSleep": "100% сопротивление сну",
+                    "defensiveStun": "100% сопротивление оглушению",
+                    "defensiveTrap": "100% уменьшение времени в ловушке"
+                },
+                "race": "Magical",
+                "tag": "xtagMonsterDreamPet002"
+            },
+            {
+                "abilities": [
+                    {
+                        "tagSkillName192": 37,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName029": 4
+                    },
+                    {
+                        "tagSkillName192": 37,
+                        "unnamed-4": 1,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName029": 4
+                    },
+                    {
+                        "tagSkillName192": 37,
+                        "unnamed-4": 2,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName029": 4
+                    }
+                ],
+                "classification": "Common",
+                "level": [
+                    4,
+                    34,
+                    54
+                ],
+                "name": "Кошмар",
+                "properties": {
+                    "characterLife": "153 жизнь",
+                    "characterMana": "1020 энергия",
+                    "defensiveCold": "50% сопротивление холоду",
+                    "defensiveFire": "50% сопротивление огню",
+                    "defensiveFreeze": "100% уменьшение длительности заморозки",
+                    "defensiveLightning": "50% сопротивление молниям",
+                    "defensivePetrify": "100% уменьшение длительности окаменения",
+                    "defensivePhysical": "80% сопротивление физическому урону",
+                    "defensivePierce": "80% сопротивление проникающему урону",
+                    "defensivePoison": "100% сопротивление яду",
+                    "defensiveSleep": "100% сопротивление сну",
+                    "defensiveStun": "100% сопротивление оглушению",
+                    "defensiveTrap": "100% уменьшение времени в ловушке"
+                },
+                "race": "Magical",
+                "tag": "xtagMonsterDreamPet002"
+            },
+            {
+                "abilities": [
+                    {
+                        "tagSkillName192": 38,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 5,
+                        "xtagSkillDreamName029": 5
+                    },
+                    {
+                        "tagSkillName192": 38,
+                        "unnamed-4": 1,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 5,
+                        "xtagSkillDreamName029": 5
+                    },
+                    {
+                        "tagSkillName192": 38,
+                        "unnamed-4": 2,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 5,
+                        "xtagSkillDreamName029": 5
+                    }
+                ],
+                "classification": "Common",
+                "level": [
+                    5,
+                    35,
+                    55
+                ],
+                "name": "Кошмар",
+                "properties": {
+                    "characterLife": "171 жизнь",
+                    "characterMana": "1050 энергия",
+                    "defensiveCold": "50% сопротивление холоду",
+                    "defensiveFire": "50% сопротивление огню",
+                    "defensiveFreeze": "100% уменьшение длительности заморозки",
+                    "defensiveLightning": "50% сопротивление молниям",
+                    "defensivePetrify": "100% уменьшение длительности окаменения",
+                    "defensivePhysical": "80% сопротивление физическому урону",
+                    "defensivePierce": "80% сопротивление проникающему урону",
+                    "defensivePoison": "100% сопротивление яду",
+                    "defensiveSleep": "100% сопротивление сну",
+                    "defensiveStun": "100% сопротивление оглушению",
+                    "defensiveTrap": "100% уменьшение времени в ловушке"
+                },
+                "race": "Magical",
+                "tag": "xtagMonsterDreamPet002"
+            },
+            {
+                "abilities": [
+                    {
+                        "tagSkillName192": 39,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 6,
+                        "xtagSkillDreamName029": 6
+                    },
+                    {
+                        "tagSkillName192": 39,
+                        "unnamed-4": 1,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 6,
+                        "xtagSkillDreamName029": 6
+                    },
+                    {
+                        "tagSkillName192": 39,
+                        "unnamed-4": 2,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 6,
+                        "xtagSkillDreamName029": 6
+                    }
+                ],
+                "classification": "Common",
+                "level": [
+                    6,
+                    36,
+                    56
+                ],
+                "name": "Кошмар",
+                "properties": {
+                    "characterLife": "190 жизнь",
+                    "characterMana": "1080 энергия",
+                    "defensiveCold": "50% сопротивление холоду",
+                    "defensiveFire": "50% сопротивление огню",
+                    "defensiveFreeze": "100% уменьшение длительности заморозки",
+                    "defensiveLightning": "50% сопротивление молниям",
+                    "defensivePetrify": "100% уменьшение длительности окаменения",
+                    "defensivePhysical": "80% сопротивление физическому урону",
+                    "defensivePierce": "80% сопротивление проникающему урону",
+                    "defensivePoison": "100% сопротивление яду",
+                    "defensiveSleep": "100% сопротивление сну",
+                    "defensiveStun": "100% сопротивление оглушению",
+                    "defensiveTrap": "100% уменьшение времени в ловушке"
+                },
+                "race": "Magical",
+                "tag": "xtagMonsterDreamPet002"
+            },
+            {
+                "abilities": [
+                    {
+                        "tagSkillName192": 40,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 7,
+                        "xtagSkillDreamName029": 7
+                    },
+                    {
+                        "tagSkillName192": 40,
+                        "unnamed-4": 1,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 7,
+                        "xtagSkillDreamName029": 7
+                    },
+                    {
+                        "tagSkillName192": 40,
+                        "unnamed-4": 2,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 7,
+                        "xtagSkillDreamName029": 7
+                    }
+                ],
+                "classification": "Common",
+                "level": [
+                    7,
+                    37,
+                    57
+                ],
+                "name": "Кошмар",
+                "properties": {
+                    "characterLife": "210 жизнь",
+                    "characterMana": "1110 энергия",
+                    "defensiveCold": "50% сопротивление холоду",
+                    "defensiveFire": "50% сопротивление огню",
+                    "defensiveFreeze": "100% уменьшение длительности заморозки",
+                    "defensiveLightning": "50% сопротивление молниям",
+                    "defensivePetrify": "100% уменьшение длительности окаменения",
+                    "defensivePhysical": "80% сопротивление физическому урону",
+                    "defensivePierce": "80% сопротивление проникающему урону",
+                    "defensivePoison": "100% сопротивление яду",
+                    "defensiveSleep": "100% сопротивление сну",
+                    "defensiveStun": "100% сопротивление оглушению",
+                    "defensiveTrap": "100% уменьшение времени в ловушке"
+                },
+                "race": "Magical",
+                "tag": "xtagMonsterDreamPet002"
+            },
+            {
+                "abilities": [
+                    {
+                        "tagSkillName192": 41,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 8,
+                        "xtagSkillDreamName029": 8
+                    },
+                    {
+                        "tagSkillName192": 41,
+                        "unnamed-4": 1,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 8,
+                        "xtagSkillDreamName029": 8
+                    },
+                    {
+                        "tagSkillName192": 41,
+                        "unnamed-4": 2,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 8,
+                        "xtagSkillDreamName029": 8
+                    }
+                ],
+                "classification": "Common",
+                "level": [
+                    8,
+                    38,
+                    58
+                ],
+                "name": "Кошмар",
+                "properties": {
+                    "characterLife": "231 жизнь",
+                    "characterMana": "1140 энергия",
+                    "defensiveCold": "50% сопротивление холоду",
+                    "defensiveFire": "50% сопротивление огню",
+                    "defensiveFreeze": "100% уменьшение длительности заморозки",
+                    "defensiveLightning": "50% сопротивление молниям",
+                    "defensivePetrify": "100% уменьшение длительности окаменения",
+                    "defensivePhysical": "80% сопротивление физическому урону",
+                    "defensivePierce": "80% сопротивление проникающему урону",
+                    "defensivePoison": "100% сопротивление яду",
+                    "defensiveSleep": "100% сопротивление сну",
+                    "defensiveStun": "100% сопротивление оглушению",
+                    "defensiveTrap": "100% уменьшение времени в ловушке"
+                },
+                "race": "Magical",
+                "tag": "xtagMonsterDreamPet002"
+            },
+            {
+                "abilities": [
+                    {
+                        "tagSkillName192": 42,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 9,
+                        "xtagSkillDreamName029": 9
+                    },
+                    {
+                        "tagSkillName192": 42,
+                        "unnamed-4": 1,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 9,
+                        "xtagSkillDreamName029": 9
+                    },
+                    {
+                        "tagSkillName192": 42,
+                        "unnamed-4": 2,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 9,
+                        "xtagSkillDreamName029": 9
+                    }
+                ],
+                "classification": "Common",
+                "level": [
+                    9,
+                    39,
+                    59
+                ],
+                "name": "Кошмар",
+                "properties": {
+                    "characterLife": "253 жизнь",
+                    "characterMana": "1170 энергия",
+                    "defensiveCold": "50% сопротивление холоду",
+                    "defensiveFire": "50% сопротивление огню",
+                    "defensiveFreeze": "100% уменьшение длительности заморозки",
+                    "defensiveLightning": "50% сопротивление молниям",
+                    "defensivePetrify": "100% уменьшение длительности окаменения",
+                    "defensivePhysical": "80% сопротивление физическому урону",
+                    "defensivePierce": "80% сопротивление проникающему урону",
+                    "defensivePoison": "100% сопротивление яду",
+                    "defensiveSleep": "100% сопротивление сну",
+                    "defensiveStun": "100% сопротивление оглушению",
+                    "defensiveTrap": "100% уменьшение времени в ловушке"
+                },
+                "race": "Magical",
+                "tag": "xtagMonsterDreamPet002"
+            },
+            {
+                "abilities": [
+                    {
+                        "tagSkillName192": 43,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 10,
+                        "xtagSkillDreamName029": 10
+                    },
+                    {
+                        "tagSkillName192": 43,
+                        "unnamed-4": 1,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 10,
+                        "xtagSkillDreamName029": 10
+                    },
+                    {
+                        "tagSkillName192": 43,
+                        "unnamed-4": 2,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 10,
+                        "xtagSkillDreamName029": 10
+                    }
+                ],
+                "classification": "Common",
+                "level": [
+                    10,
+                    40,
+                    60
+                ],
+                "name": "Кошмар",
+                "properties": {
+                    "characterLife": "277 жизнь",
+                    "characterMana": "1200 энергия",
+                    "defensiveCold": "50% сопротивление холоду",
+                    "defensiveFire": "50% сопротивление огню",
+                    "defensiveFreeze": "100% уменьшение длительности заморозки",
+                    "defensiveLightning": "50% сопротивление молниям",
+                    "defensivePetrify": "100% уменьшение длительности окаменения",
+                    "defensivePhysical": "80% сопротивление физическому урону",
+                    "defensivePierce": "80% сопротивление проникающему урону",
+                    "defensivePoison": "100% сопротивление яду",
+                    "defensiveSleep": "100% сопротивление сну",
+                    "defensiveStun": "100% сопротивление оглушению",
+                    "defensiveTrap": "100% уменьшение времени в ловушке"
+                },
+                "race": "Magical",
+                "tag": "xtagMonsterDreamPet002"
+            },
+            {
+                "abilities": [
+                    {
+                        "tagSkillName192": 44,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 11,
+                        "xtagSkillDreamName029": 11
+                    },
+                    {
+                        "tagSkillName192": 44,
+                        "unnamed-4": 1,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 11,
+                        "xtagSkillDreamName029": 11
+                    },
+                    {
+                        "tagSkillName192": 44,
+                        "unnamed-4": 2,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 11,
+                        "xtagSkillDreamName029": 11
+                    }
+                ],
+                "classification": "Common",
+                "level": [
+                    11,
+                    41,
+                    61
+                ],
+                "name": "Кошмар",
+                "properties": {
+                    "characterLife": "303 жизнь",
+                    "characterMana": "1230 энергия",
+                    "defensiveCold": "50% сопротивление холоду",
+                    "defensiveFire": "50% сопротивление огню",
+                    "defensiveFreeze": "100% уменьшение длительности заморозки",
+                    "defensiveLightning": "50% сопротивление молниям",
+                    "defensivePetrify": "100% уменьшение длительности окаменения",
+                    "defensivePhysical": "80% сопротивление физическому урону",
+                    "defensivePierce": "80% сопротивление проникающему урону",
+                    "defensivePoison": "100% сопротивление яду",
+                    "defensiveSleep": "100% сопротивление сну",
+                    "defensiveStun": "100% сопротивление оглушению",
+                    "defensiveTrap": "100% уменьшение времени в ловушке"
+                },
+                "race": "Magical",
+                "tag": "xtagMonsterDreamPet002"
+            },
+            {
+                "abilities": [
+                    {
+                        "tagSkillName192": 45,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 12,
+                        "xtagSkillDreamName029": 12
+                    },
+                    {
+                        "tagSkillName192": 45,
+                        "unnamed-4": 1,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 12,
+                        "xtagSkillDreamName029": 12
+                    },
+                    {
+                        "tagSkillName192": 45,
+                        "unnamed-4": 2,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 12,
+                        "xtagSkillDreamName029": 12
+                    }
+                ],
+                "classification": "Common",
+                "level": [
+                    12,
+                    42,
+                    62
+                ],
+                "name": "Кошмар",
+                "properties": {
+                    "characterLife": "331 жизнь",
+                    "characterMana": "1260 энергия",
+                    "defensiveCold": "50% сопротивление холоду",
+                    "defensiveFire": "50% сопротивление огню",
+                    "defensiveFreeze": "100% уменьшение длительности заморозки",
+                    "defensiveLightning": "50% сопротивление молниям",
+                    "defensivePetrify": "100% уменьшение длительности окаменения",
+                    "defensivePhysical": "80% сопротивление физическому урону",
+                    "defensivePierce": "80% сопротивление проникающему урону",
+                    "defensivePoison": "100% сопротивление яду",
+                    "defensiveSleep": "100% сопротивление сну",
+                    "defensiveStun": "100% сопротивление оглушению",
+                    "defensiveTrap": "100% уменьшение времени в ловушке"
+                },
+                "race": "Magical",
+                "tag": "xtagMonsterDreamPet002"
+            },
+            {
+                "abilities": [
+                    {
+                        "tagSkillName192": 46,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 13,
+                        "xtagSkillDreamName029": 13
+                    },
+                    {
+                        "tagSkillName192": 46,
+                        "unnamed-4": 1,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 13,
+                        "xtagSkillDreamName029": 13
+                    },
+                    {
+                        "tagSkillName192": 46,
+                        "unnamed-4": 2,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 13,
+                        "xtagSkillDreamName029": 13
+                    }
+                ],
+                "classification": "Common",
+                "level": [
+                    13,
+                    43,
+                    63
+                ],
+                "name": "Кошмар",
+                "properties": {
+                    "characterLife": "361 жизнь",
+                    "characterMana": "1290 энергия",
+                    "defensiveCold": "50% сопротивление холоду",
+                    "defensiveFire": "50% сопротивление огню",
+                    "defensiveFreeze": "100% уменьшение длительности заморозки",
+                    "defensiveLightning": "50% сопротивление молниям",
+                    "defensivePetrify": "100% уменьшение длительности окаменения",
+                    "defensivePhysical": "80% сопротивление физическому урону",
+                    "defensivePierce": "80% сопротивление проникающему урону",
+                    "defensivePoison": "100% сопротивление яду",
+                    "defensiveSleep": "100% сопротивление сну",
+                    "defensiveStun": "100% сопротивление оглушению",
+                    "defensiveTrap": "100% уменьшение времени в ловушке"
+                },
+                "race": "Magical",
+                "tag": "xtagMonsterDreamPet002"
+            },
+            {
+                "abilities": [
+                    {
+                        "tagSkillName192": 47,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 14,
+                        "xtagSkillDreamName029": 14
+                    },
+                    {
+                        "tagSkillName192": 47,
+                        "unnamed-4": 1,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 14,
+                        "xtagSkillDreamName029": 14
+                    },
+                    {
+                        "tagSkillName192": 47,
+                        "unnamed-4": 2,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 14,
+                        "xtagSkillDreamName029": 14
+                    }
+                ],
+                "classification": "Common",
+                "level": [
+                    14,
+                    44,
+                    64
+                ],
+                "name": "Кошмар",
+                "properties": {
+                    "characterLife": "393 жизнь",
+                    "characterMana": "1320 энергия",
+                    "defensiveCold": "50% сопротивление холоду",
+                    "defensiveFire": "50% сопротивление огню",
+                    "defensiveFreeze": "100% уменьшение длительности заморозки",
+                    "defensiveLightning": "50% сопротивление молниям",
+                    "defensivePetrify": "100% уменьшение длительности окаменения",
+                    "defensivePhysical": "80% сопротивление физическому урону",
+                    "defensivePierce": "80% сопротивление проникающему урону",
+                    "defensivePoison": "100% сопротивление яду",
+                    "defensiveSleep": "100% сопротивление сну",
+                    "defensiveStun": "100% сопротивление оглушению",
+                    "defensiveTrap": "100% уменьшение времени в ловушке"
+                },
+                "race": "Magical",
+                "tag": "xtagMonsterDreamPet002"
+            },
+            {
+                "abilities": [
+                    {
+                        "tagSkillName192": 48,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 15,
+                        "xtagSkillDreamName029": 15
+                    },
+                    {
+                        "tagSkillName192": 48,
+                        "unnamed-4": 1,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 15,
+                        "xtagSkillDreamName029": 15
+                    },
+                    {
+                        "tagSkillName192": 48,
+                        "unnamed-4": 2,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 15,
+                        "xtagSkillDreamName029": 15
+                    }
+                ],
+                "classification": "Common",
+                "level": [
+                    15,
+                    45,
+                    65
+                ],
+                "name": "Кошмар",
+                "properties": {
+                    "characterLife": "428 жизнь",
+                    "characterMana": "1350 энергия",
+                    "defensiveCold": "50% сопротивление холоду",
+                    "defensiveFire": "50% сопротивление огню",
+                    "defensiveFreeze": "100% уменьшение длительности заморозки",
+                    "defensiveLightning": "50% сопротивление молниям",
+                    "defensivePetrify": "100% уменьшение длительности окаменения",
+                    "defensivePhysical": "80% сопротивление физическому урону",
+                    "defensivePierce": "80% сопротивление проникающему урону",
+                    "defensivePoison": "100% сопротивление яду",
+                    "defensiveSleep": "100% сопротивление сну",
+                    "defensiveStun": "100% сопротивление оглушению",
+                    "defensiveTrap": "100% уменьшение времени в ловушке"
+                },
+                "race": "Magical",
+                "tag": "xtagMonsterDreamPet002"
+            },
+            {
+                "abilities": [
+                    {
+                        "tagSkillName192": 49,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 16,
+                        "xtagSkillDreamName029": 16
+                    },
+                    {
+                        "tagSkillName192": 49,
+                        "unnamed-4": 1,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 16,
+                        "xtagSkillDreamName029": 16
+                    },
+                    {
+                        "tagSkillName192": 49,
+                        "unnamed-4": 2,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 16,
+                        "xtagSkillDreamName029": 16
+                    }
+                ],
+                "classification": "Common",
+                "level": [
+                    16,
+                    46,
+                    66
+                ],
+                "name": "Кошмар",
+                "properties": {
+                    "characterLife": "466 жизнь",
+                    "characterMana": "1380 энергия",
+                    "defensiveCold": "50% сопротивление холоду",
+                    "defensiveFire": "50% сопротивление огню",
+                    "defensiveFreeze": "100% уменьшение длительности заморозки",
+                    "defensiveLightning": "50% сопротивление молниям",
+                    "defensivePetrify": "100% уменьшение длительности окаменения",
+                    "defensivePhysical": "80% сопротивление физическому урону",
+                    "defensivePierce": "80% сопротивление проникающему урону",
+                    "defensivePoison": "100% сопротивление яду",
+                    "defensiveSleep": "100% сопротивление сну",
+                    "defensiveStun": "100% сопротивление оглушению",
+                    "defensiveTrap": "100% уменьшение времени в ловушке"
+                },
+                "race": "Magical",
+                "tag": "xtagMonsterDreamPet002"
+            },
+            {
+                "abilities": [
+                    {
+                        "tagSkillName192": 50,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 17,
+                        "xtagSkillDreamName029": 17
+                    },
+                    {
+                        "tagSkillName192": 50,
+                        "unnamed-4": 1,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 17,
+                        "xtagSkillDreamName029": 17
+                    },
+                    {
+                        "tagSkillName192": 50,
+                        "unnamed-4": 2,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 17,
+                        "xtagSkillDreamName029": 17
+                    }
+                ],
+                "classification": "Common",
+                "level": [
+                    17,
+                    47,
+                    67
+                ],
+                "name": "Кошмар",
+                "properties": {
+                    "characterLife": "507 жизнь",
+                    "characterMana": "1410 энергия",
+                    "defensiveCold": "50% сопротивление холоду",
+                    "defensiveFire": "50% сопротивление огню",
+                    "defensiveFreeze": "100% уменьшение длительности заморозки",
+                    "defensiveLightning": "50% сопротивление молниям",
+                    "defensivePetrify": "100% уменьшение длительности окаменения",
+                    "defensivePhysical": "80% сопротивление физическому урону",
+                    "defensivePierce": "80% сопротивление проникающему урону",
+                    "defensivePoison": "100% сопротивление яду",
+                    "defensiveSleep": "100% сопротивление сну",
+                    "defensiveStun": "100% сопротивление оглушению",
+                    "defensiveTrap": "100% уменьшение времени в ловушке"
+                },
+                "race": "Magical",
+                "tag": "xtagMonsterDreamPet002"
+            },
+            {
+                "abilities": [
+                    {
+                        "tagSkillName192": 51,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 18,
+                        "xtagSkillDreamName029": 18
+                    },
+                    {
+                        "tagSkillName192": 51,
+                        "unnamed-4": 1,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 18,
+                        "xtagSkillDreamName029": 18
+                    },
+                    {
+                        "tagSkillName192": 51,
+                        "unnamed-4": 2,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 18,
+                        "xtagSkillDreamName029": 18
+                    }
+                ],
+                "classification": "Common",
+                "level": [
+                    18,
+                    48,
+                    68
+                ],
+                "name": "Кошмар",
+                "properties": {
+                    "characterLife": "552 жизнь",
+                    "characterMana": "1440 энергия",
+                    "defensiveCold": "50% сопротивление холоду",
+                    "defensiveFire": "50% сопротивление огню",
+                    "defensiveFreeze": "100% уменьшение длительности заморозки",
+                    "defensiveLightning": "50% сопротивление молниям",
+                    "defensivePetrify": "100% уменьшение длительности окаменения",
+                    "defensivePhysical": "80% сопротивление физическому урону",
+                    "defensivePierce": "80% сопротивление проникающему урону",
+                    "defensivePoison": "100% сопротивление яду",
+                    "defensiveSleep": "100% сопротивление сну",
+                    "defensiveStun": "100% сопротивление оглушению",
+                    "defensiveTrap": "100% уменьшение времени в ловушке"
+                },
+                "race": "Magical",
+                "tag": "xtagMonsterDreamPet002"
+            },
+            {
+                "abilities": [
+                    {
+                        "tagSkillName192": 52,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 19,
+                        "xtagSkillDreamName029": 19
+                    },
+                    {
+                        "tagSkillName192": 52,
+                        "unnamed-4": 1,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 19,
+                        "xtagSkillDreamName029": 19
+                    },
+                    {
+                        "tagSkillName192": 52,
+                        "unnamed-4": 2,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 19,
+                        "xtagSkillDreamName029": 19
+                    }
+                ],
+                "classification": "Common",
+                "level": [
+                    19,
+                    49,
+                    69
+                ],
+                "name": "Кошмар",
+                "properties": {
+                    "characterLife": "601 жизнь",
+                    "characterMana": "1470 энергия",
+                    "defensiveCold": "50% сопротивление холоду",
+                    "defensiveFire": "50% сопротивление огню",
+                    "defensiveFreeze": "100% уменьшение длительности заморозки",
+                    "defensiveLightning": "50% сопротивление молниям",
+                    "defensivePetrify": "100% уменьшение длительности окаменения",
+                    "defensivePhysical": "80% сопротивление физическому урону",
+                    "defensivePierce": "80% сопротивление проникающему урону",
+                    "defensivePoison": "100% сопротивление яду",
+                    "defensiveSleep": "100% сопротивление сну",
+                    "defensiveStun": "100% сопротивление оглушению",
+                    "defensiveTrap": "100% уменьшение времени в ловушке"
+                },
+                "race": "Magical",
+                "tag": "xtagMonsterDreamPet002"
+            },
+            {
+                "abilities": [
+                    {
+                        "tagSkillName192": 53,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 20,
+                        "xtagSkillDreamName029": 20
+                    },
+                    {
+                        "tagSkillName192": 53,
+                        "unnamed-4": 1,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 20,
+                        "xtagSkillDreamName029": 20
+                    },
+                    {
+                        "tagSkillName192": 53,
+                        "unnamed-4": 2,
+                        "xtagSkillDreamName008-1": 1,
+                        "xtagSkillDreamName026": 20,
+                        "xtagSkillDreamName029": 20
+                    }
+                ],
+                "classification": "Common",
+                "level": [
+                    20,
+                    50,
+                    70
+                ],
+                "name": "Кошмар",
+                "properties": {
+                    "characterLife": "656 жизнь",
+                    "characterMana": "1500 энергия",
+                    "defensiveCold": "50% сопротивление холоду",
+                    "defensiveFire": "50% сопротивление огню",
+                    "defensiveFreeze": "100% уменьшение длительности заморозки",
+                    "defensiveLightning": "50% сопротивление молниям",
+                    "defensivePetrify": "100% уменьшение длительности окаменения",
+                    "defensivePhysical": "80% сопротивление физическому урону",
+                    "defensivePierce": "80% сопротивление проникающему урону",
+                    "defensivePoison": "100% сопротивление яду",
+                    "defensiveSleep": "100% сопротивление сну",
+                    "defensiveStun": "100% сопротивление оглушению",
+                    "defensiveTrap": "100% уменьшение времени в ловушке"
+                },
+                "race": "Magical",
+                "tag": "xtagMonsterDreamPet002"
+            }
+        ],
+        "tag": "xtagSkillDreamName012"
+    },
+    "xtagSkillDreamName024": {
+        "description": "Гипнотический взгляд кошмара подчиняет себе слабых чудовищ, вводит их в замешательство и заставляет их бесцельно слоняться и атаковать фантомных противников.",
+        "name": "Гипнотический взгляд",
+        "tier": 4,
+        "type": "Modifier",
+        "maximum_level": 8,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "xtagSkillDreamName012",
+        "properties": [
+            {
+                "offensiveConfusion": "3.0 секунд(ы) смятения",
+                "offensiveTotalResistanceReductionPercent": "6.0% уменьшение сопротивлений на 3.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 72"
+            },
+            {
+                "offensiveConfusion": "3.5 секунд(ы) смятения",
+                "offensiveTotalResistanceReductionPercent": "10.0% уменьшение сопротивлений на 3.5 секунд(ы)",
+                "skillManaCost": "Расход энергии 74"
+            },
+            {
+                "offensiveConfusion": "4.0 секунд(ы) смятения",
+                "offensiveTotalResistanceReductionPercent": "14.0% уменьшение сопротивлений на 4.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 75"
+            },
+            {
+                "offensiveConfusion": "4.5 секунд(ы) смятения",
+                "offensiveTotalResistanceReductionPercent": "18.0% уменьшение сопротивлений на 4.5 секунд(ы)",
+                "skillManaCost": "Расход энергии 77"
+            },
+            {
+                "offensiveConfusion": "5.0 секунд(ы) смятения",
+                "offensiveTotalResistanceReductionPercent": "22.0% уменьшение сопротивлений на 5.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 78"
+            },
+            {
+                "offensiveConfusion": "5.5 секунд(ы) смятения",
+                "offensiveTotalResistanceReductionPercent": "26.0% уменьшение сопротивлений на 5.5 секунд(ы)",
+                "skillManaCost": "Расход энергии 80"
+            },
+            {
+                "offensiveConfusion": "6.0 секунд(ы) смятения",
+                "offensiveTotalResistanceReductionPercent": "30.0% уменьшение сопротивлений на 6.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 82"
+            },
+            {
+                "offensiveConfusion": "6.5 секунд(ы) смятения",
+                "offensiveTotalResistanceReductionPercent": "34.0% уменьшение сопротивлений на 6.5 секунд(ы)",
+                "skillManaCost": "Расход энергии 83"
+            },
+            {
+                "offensiveConfusion": "7.0 секунд(ы) смятения",
+                "offensiveTotalResistanceReductionPercent": "38.0% уменьшение сопротивлений на 7.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 85"
+            },
+            {
+                "offensiveConfusion": "7.5 секунд(ы) смятения",
+                "offensiveTotalResistanceReductionPercent": "42.0% уменьшение сопротивлений на 7.5 секунд(ы)",
+                "skillManaCost": "Расход энергии 86"
+            },
+            {
+                "offensiveConfusion": "8.0 секунд(ы) смятения",
+                "offensiveTotalResistanceReductionPercent": "46.0% уменьшение сопротивлений на 8.0 секунд(ы)",
+                "skillManaCost": "Расход энергии 88"
+            },
+            {
+                "offensiveConfusion": "8.5 секунд(ы) смятения",
+                "offensiveTotalResistanceReductionPercent": "50.0% уменьшение сопротивлений на 8.5 секунд(ы)",
+                "skillManaCost": "Расход энергии 90"
+            }
+        ],
+        "tag": "xtagSkillDreamName024"
+    },
+    "xtagSkillDreamName014": {
+        "description": "Кошмар получает возможность мысленно разговаривать с остальными вашими слугами и координировать их действия, делая их более опасными в бою.",
+        "name": "Стратег",
+        "tier": 6,
+        "type": "Modifier",
+        "maximum_level": 8,
+        "cooldown": "none",
+        "icon": "",
+        "parent": "xtagSkillDreamName024",
+        "properties": [
+            {
+                "petBonus": {
+                    "characterLifeRegenModifier": [
+                        "+30% восстановления жизни",
+                        "+45% восстановления жизни",
+                        "+60% восстановления жизни",
+                        "+75% восстановления жизни",
+                        "+90% восстановления жизни",
+                        "+105% восстановления жизни",
+                        "+120% восстановления жизни",
+                        "+135% восстановления жизни",
+                        "+150% восстановления жизни",
+                        "+165% восстановления жизни",
+                        "+180% восстановления жизни",
+                        "+195% восстановления жизни"
+                    ],
+                    "characterManaRegenModifier": [
+                        "+30% восстановления энергии",
+                        "+45% восстановления энергии",
+                        "+60% восстановления энергии",
+                        "+75% восстановления энергии",
+                        "+90% восстановления энергии",
+                        "+105% восстановления энергии",
+                        "+120% восстановления энергии",
+                        "+135% восстановления энергии",
+                        "+150% восстановления энергии",
+                        "+165% восстановления энергии",
+                        "+180% восстановления энергии",
+                        "+195% восстановления энергии"
+                    ],
+                    "offensiveTotalDamageModifier": [
+                        "+5% общего урона",
+                        "+10% общего урона",
+                        "+15% общего урона",
+                        "+20% общего урона",
+                        "+25% общего урона",
+                        "+30% общего урона",
+                        "+35% общего урона",
+                        "+40% общего урона",
+                        "+45% общего урона",
+                        "+50% общего урона",
+                        "+55% общего урона",
+                        "+60% общего урона"
+                    ]
+                },
+                "skillManaCost": "Расход энергии 50",
+                "skillTargetRadius": "Радиус 15.0 метра(ов)"
+            }
+        ],
+        "tag": "xtagSkillDreamName014"
+    },
+   
+    "x3tagSkillDreamSummonDoppelganger": {
+        "description": "На короткое время призывает из мира грез ваше отражение, которое сражается вместе с вами.",
+        "name": "Образ из грез",
+        "tier": 7,
+        "type": "Active",
+        "maximum_level": 8,
+        "cooldown": "none",
+        "icon": "",
+        "properties": [
+            {
+                "skillCooldownTime": "140.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 150"
+            },
+            {
+                "skillCooldownTime": "140.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 154"
+            },
+            {
+                "skillCooldownTime": "140.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 158"
+            },
+            {
+                "skillCooldownTime": "140.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 162"
+            },
+            {
+                "skillCooldownTime": "140.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 166"
+            },
+            {
+                "skillCooldownTime": "140.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 170"
+            },
+            {
+                "skillCooldownTime": "140.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 174"
+            },
+            {
+                "skillCooldownTime": "140.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 178"
+            },
+            {
+                "skillCooldownTime": "140.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 182"
+            },
+            {
+                "skillCooldownTime": "140.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 186"
+            },
+            {
+                "skillCooldownTime": "140.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 190"
+            },
+            {
+                "skillCooldownTime": "140.0сек. перезарядки",
+                "skillManaCost": "Расход энергии 194"
+            }
+        ],
+        "summons": {
+            "characterLife": "1500 жизнь",
+            "characterMana": "750 энергия",
+            "defensiveCold": "-40% сопротивление холоду",
+            "defensiveFire": "-40% сопротивление огню",
+            "defensiveLife": "-40% сопротивление урону здоровью",
+            "defensiveLightning": "-40% сопротивление молниям",
+            "defensivePierce": "-40% сопротивление проникающему урону",
+            "defensivePoison": "-40% сопротивление яду",
+            "offensivePhysical": "384-480 ед. физического урона",
+            "spawnObjectsTimeToLive": " Время жизни 10.0 секунд(ы)"
+        },
+        "tag": "x3tagSkillDreamSummonDoppelganger"
+    }
+}
