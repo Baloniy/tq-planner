@@ -4,16 +4,17 @@ declare(strict_types=1);
 
 namespace App\Service;
 
+use App\Entity\Mastery;
+use App\Entity\Skill;
 use Doctrine\ORM\EntityManagerInterface;
+use stdClass;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Symfony\Component\HttpKernel\KernelInterface;
-use App\Entity\{Mastery, Skill};
-use stdClass;
 
 class ParseSkillsService
 {
     private static array $characterProperties = [
-        'characterLifeModifier',// "+30% жизни",
+        'characterLifeModifier', // "+30% жизни",
         'characterStrengthModifier', // "+30% силы",
         'characterTotalSpeedModifier', // "-15% ко всем показателям скорости",
         'characterArmorStrengthReqReduction',  // -8% потребностей доспехов в силе
@@ -41,12 +42,12 @@ class ParseSkillsService
     public function __construct(
         private KernelInterface $kernel,
         private EntityManagerInterface $em
-    ) {}
+    ) {
+    }
 
     public function parse(string $filename): void
     {
         $content = $this->getFileContent($filename);
-
 
         $skills = [];
         foreach ($content as $skillItem) {
@@ -71,7 +72,6 @@ class ParseSkillsService
             $skillProperties = [];
             $skillLevel = 1;
             foreach ($skillItem['properties'] as $kk => $properties) {
-
                 foreach ($properties as $name => $value) {
                     $skillProperties[$kk]['level'] = $skillLevel;
                     $skillProperties[$kk][$name] = $value;
@@ -90,7 +90,7 @@ class ParseSkillsService
                     }
                 }
 
-                $skillLevel++;
+                ++$skillLevel;
                 $skill->properties = $skillProperties;
             }
 
@@ -103,7 +103,7 @@ class ParseSkillsService
     private function getFileContent(string $filename): array
     {
         $projectDir = $this->kernel->getProjectDir();
-        $masteryUrl = $projectDir.DIRECTORY_SEPARATOR."assets/data".DIRECTORY_SEPARATOR.$filename.'.json';
+        $masteryUrl = $projectDir.DIRECTORY_SEPARATOR.'assets/data'.DIRECTORY_SEPARATOR.$filename.'.json';
 
         if (!file_exists($masteryUrl)) {
             throw new NotFoundHttpException("File $filename does not exist!\n");
@@ -114,9 +114,9 @@ class ParseSkillsService
 
     private function generateNewPropertyKey(string $key): string
     {
-        $parts = preg_split("/(?=[A-Z])/", $key);
+        $parts = preg_split('/(?=[A-Z])/', $key);
 
-        return implode('_', array_map('strtolower',$parts));
+        return implode('_', array_map('strtolower', $parts));
     }
 
     private function save(array $skills, string $slug)
@@ -124,14 +124,12 @@ class ParseSkillsService
         $this->em->beginTransaction();
 
         try {
-
             $mastery = $this->em->getRepository(Mastery::class)->findOneBy(['slug' => $slug]);
             if (!$mastery) {
                 throw new NotFoundHttpException("Mastery with $slug does not exist!");
             }
 
             foreach ($skills as $skill) {
-
                 $skillItem = new Skill();
                 $skillItem->setMastery($mastery);
                 $skillItem->setName($skill->name);

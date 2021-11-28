@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace App\DataFixtures;
 
+use App\Entity\Mastery;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Persistence\ObjectManager;
-use App\Entity\Mastery;
 
 class MasteryFixtures extends Fixture
 {
@@ -37,7 +37,7 @@ class MasteryFixtures extends Fixture
                 'tag' => 'xtagSkillDreamName001',
                 'image' => 'dream.png',
                 'description' => 'Преврати свой разум в оружие, и используй силу мира грёз для подчинения реальности своей воле.',
-                "properties" => $this->getDreamProperties()
+                'properties' => $this->getDreamProperties(),
             ],
             [
                 'name' => 'Рунное мастерство',
@@ -45,7 +45,7 @@ class MasteryFixtures extends Fixture
                 'tag' => 'x2tagSkillRunesName001',
                 'image' => 'rune.png',
                 'description' => 'Изучите тайны рун и используйте их, чтобы черпать волшебную мощь во время боя.',
-                "properties" => $this->getRuneProperties()
+                'properties' => $this->getRuneProperties(),
             ],
             [
                 'name' => 'Силы воздуха',
@@ -53,7 +53,7 @@ class MasteryFixtures extends Fixture
                 'tag' => 'tagSkillName018',
                 'image' => 'storm.png',
                 'description' => 'Герой обретает ясность мыслей и внутреннюю сосредоточенность, необходимые для того, чтобы освободиться от земных забот и научиться управлять погодой.',
-                "properties" => $this->getStormProperties()
+                'properties' => $this->getStormProperties(),
             ],
             [
                 'name' => 'Силы духа',
@@ -61,7 +61,7 @@ class MasteryFixtures extends Fixture
                 'tag' => 'tagSkillName030',
                 'image' => 'spirit.png',
                 'description' => 'Герой получает магические знания и тренированный ум, необходимые для изучения тёмного искусства управления духами.',
-                "properties" => $this->getSpiritProperties()
+                'properties' => $this->getSpiritProperties(),
             ],
             [
                 'name' => 'Теневое ремесло',
@@ -69,7 +69,7 @@ class MasteryFixtures extends Fixture
                 'tag' => 'tagSkillName050',
                 'image' => 'rogue.png',
                 'description' => 'Герой получает тайные знания, необходимые для развития теневых навыков.',
-                "properties" => $this->getRogueProperties()
+                'properties' => $this->getRogueProperties(),
             ],
             [
                 'name' => 'Силы леса',
@@ -77,7 +77,7 @@ class MasteryFixtures extends Fixture
                 'tag' => 'tagSkillName065',
                 'image' => 'nature.png',
                 'description' => 'Дарует герою внутреннюю гармонию и терпение, необходимые для понимания языка диких животных и управления тайными силами леса.',
-                "properties" => $this->getNatureProperties()
+                'properties' => $this->getNatureProperties(),
             ],
             [
                 'name' => 'Искусство охоты',
@@ -85,7 +85,7 @@ class MasteryFixtures extends Fixture
                 'tag' => 'tagSkillName076',
                 'image' => 'hunting.png',
                 'description' => 'Наделяет героя инстинктами и ловкостью хищника, необходимыми для овладения искусством охоты.',
-                "properties" => $this->getHuntingProperties()
+                'properties' => $this->getHuntingProperties(),
             ],
             [
                 'name' => 'Боевое искусство',
@@ -93,7 +93,7 @@ class MasteryFixtures extends Fixture
                 'tag' => 'tagSkillName001',
                 'image' => 'warfare.png',
                 'description' => 'Тренировки и физические упражнения дают герою возможность овладеть воинскими умениями.',
-                "properties" => $this->getWarfareProperties()
+                'properties' => $this->getWarfareProperties(),
             ],
             [
                 'name' => 'Силы земли',
@@ -101,7 +101,7 @@ class MasteryFixtures extends Fixture
                 'tag' => 'tagSkillName098',
                 'image' => 'earth.png',
                 'description' => 'Древние ритуалы тренировки разума и духа помогают герою получить силу от самой Земли и обрести власть над камнем и огнём.',
-                "properties" => $this->getEarthProperties()
+                'properties' => $this->getEarthProperties(),
             ],
             [
                 'name' => 'Искусство защиты',
@@ -109,8 +109,8 @@ class MasteryFixtures extends Fixture
                 'tag' => 'tagSkillName116',
                 'image' => 'defense.png',
                 'description' => 'Даёт герою крепкое телосложение и силу, необходимые для овладения навыками защиты себя и союзников.',
-                "properties" => $this->getDefenseProperties()
-            ]
+                'properties' => $this->getDefenseProperties(),
+            ],
         ];
     }
 }

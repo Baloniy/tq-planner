@@ -1,8 +1,10 @@
 <?php
+
 declare(strict_types=1);
 
 namespace App\Command;
 
+use App\Entity\Stock;
 use App\Http\FinanceApiInterface;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Console\Attribute\AsCommand;
@@ -11,7 +13,6 @@ use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Serializer\SerializerInterface;
-use App\Entity\Stock;
 
 #[AsCommand(
     name: 'app:refresh-stock-profile',
@@ -36,7 +37,6 @@ class RefreshStockProfileCommand extends Command
         $this
             ->addArgument('symbol', InputArgument::REQUIRED, 'Stock symbol e.g. AMZN for Amazon')
             ->addArgument('region', InputArgument::REQUIRED, 'The region of the company e.g. US for United States');
-        ;
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int
@@ -44,7 +44,6 @@ class RefreshStockProfileCommand extends Command
         $stockProfile = $this->financeApi->fetchStockProfile($input->getArgument('symbol'), $input->getArgument('region'));
 
         if ($stockProfile->getStatusCode() !== 200) {
-
             // Handle non 200 status code responses
         }
 
