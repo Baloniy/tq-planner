@@ -17,13 +17,14 @@ class HomeController extends AbstractController
     {
         $masteries = $masteryRepository->findAll();
         $skills = $masteries[0]->getSkills();
+
         return $this->render('home/index.html.twig', [
             'masteries' => [],
         ]);
     }
 
     #[Route(path: '/parsing', name: 'parsing')]
-    public function parseAction(ParseSkillsService $parseSkillsService)
+    public function parseAction(ParseSkillsService $parseSkillsService): Response
     {
         $parseSkillsService->parse('dream.json');
 

@@ -52,7 +52,7 @@ class Skill
     #[ORM\Column(type: 'json', nullable: true)]
     private ?array $summons;
 
-    #[ORM\Column(type: "datetime", length: 255, nullable: false)]
+    #[ORM\Column(type: 'datetime', length: 255, nullable: false)]
     private \DateTimeInterface $created_at;
 
     public function __construct()

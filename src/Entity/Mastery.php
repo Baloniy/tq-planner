@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace App\Entity;
 
 use App\Repository\MasteryRepository;
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
-use Doctrine\Common\Collections\ArrayCollection;
 
 #[ORM\Entity(repositoryClass: MasteryRepository::class)]
 class Mastery
@@ -17,7 +17,7 @@ class Mastery
     #[ORM\Column(type: 'integer')]
     private int $id;
 
-    #[ORM\OneToMany(mappedBy: "mastery", targetEntity: Skill::class)]
+    #[ORM\OneToMany(mappedBy: 'mastery', targetEntity: Skill::class)]
     private Collection $skills;
 
     #[ORM\Column(type: 'string', length: 255)]
@@ -38,7 +38,7 @@ class Mastery
     #[ORM\Column(type: 'json', nullable: true)]
     private ?array $properties;
 
-    #[ORM\Column(type: "datetime", length: 255, nullable: false)]
+    #[ORM\Column(type: 'datetime', length: 255, nullable: false)]
     private \DateTimeInterface $created_at;
 
     public function __construct()
