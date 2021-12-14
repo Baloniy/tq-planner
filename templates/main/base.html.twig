@@ -20,20 +20,34 @@
                 </a>
 
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="{{ path('character') }}" class="nav-link px-2 text-white">Masteries</a></li>
+                    <li><a href="{{ path('character') }}" class="nav-link px-2 text-white">Build character</a></li>
                     <li><a href="{{ path('character') }}" class="nav-link px-2 text-white">Character Classes</a></li>
                     <li><a href="{{ path('character') }}" class="nav-link px-2 text-white">Items</a></li>
                 </ul>
 
                 <div class="text-end">
-                    <button type="button" class="btn btn-outline-light me-2">Build character</button>
-                    <button type="button" class="btn btn-outline-light me-2">Login</button>
-                    <button type="button" class="btn btn-warning">Sign-up</button>
+                    {% if app.user %}
+                    <div class="dropdown me-1">
+                        <a class="avatar avatar-sm p-0 show" href="#" id="dropdownMenuOffset" role="button" data-bs-auto-close="outside" data-bs-display="static" data-bs-toggle="dropdown" aria-expanded="true">
+                            <img class="avatar-img rounded-circle" src="{{ asset('images.jpeg') }}" alt="avatar" width="45" height="45">
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" href="{{ path('app_logout') }}">Log Out</a></li>
+                        </ul>
+                    </div>
+                    {% else %}
+                        <a href="{{ path('app_login') }}" type="button" class="btn btn-outline-light me-2">Login</a>
+                        <a href="{{ path('app_register') }}" type="button" class="btn btn-warning">Sign-up</a>
+                    {% endif %}
                 </div>
             </div>
         </div>
     </header>
     <div class="container">
+        {% include 'main/_embed/_flash_message.html.twig' %}
+
         {% block body %}{% endblock %}
     </div>
     </body>
