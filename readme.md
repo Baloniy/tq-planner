@@ -1,6 +1,6 @@
 ### TQ Planner
 
-![version](https://img.shields.io/badge/version-0.0.1-blue.svg)
+![version](https://img.shields.io/badge/version-0.0.2-blue.svg)
 ![coverage](https://img.shields.io/badge/coverage-100%25-green.svg)
 ![php](https://img.shields.io/badge/php-%5E8.0-blue.svg)
 
