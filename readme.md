@@ -25,7 +25,7 @@ $ docker-compose exec tq-api-fpm composer run tests
 ### Code Quality Check
 
 ```bash
-$ docker-compose exec participants-api-fpm composer php-cs-fixer
+$ docker-compose exec tq-api-fpm composer php-cs-fixer
 ```
 
 ### Technologies ###
