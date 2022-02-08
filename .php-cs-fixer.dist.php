@@ -1,18 +1,22 @@
 <?php
 
-$finder = (new PhpCsFixer\Finder())
-    ->in(__DIR__)
-    ->exclude('var')
-;
+declare(strict_types=1);
+
+$finder = PhpCsFixer\Finder::create()
+    ->exclude(['vendor', 'var'])
+    ->in(__DIR__);
 
 return (new PhpCsFixer\Config())
     ->setRules([
         '@Symfony' => true,
+        '@PSR12' => true,
         'array_syntax' => ['syntax' => 'short'],
         'single_line_throw' => false,
         'yoda_style' => false,
+        'trailing_comma_in_multiline' => true,
         'single_trait_insert_per_statement' => false,
-        'concat_space' => false,
+        'concat_space' => ['spacing' => 'one'],
+        'array_indentation' => true,
+        'types_spaces' => ['space' => 'single'],
     ])
-    ->setFinder($finder)
-;
+    ->setFinder($finder);

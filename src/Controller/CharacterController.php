@@ -13,6 +13,6 @@ class CharacterController extends AbstractController
     #[Route('/character', name: 'character')]
     public function index(): Response
     {
-        return $this->render('character/index.html.twig');
+        return $this->render('main/character/index.html.twig');
     }
 }

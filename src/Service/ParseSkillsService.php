@@ -84,7 +84,7 @@ class ParseSkillsService
 
                         if (in_array($name, self::$offensiveProperties)) {
                             $valueArray = explode(' ', $value);
-                            $key = 'character_'.$this->generateNewPropertyKey($name);
+                            $key = 'character_' . $this->generateNewPropertyKey($name);
                             $skillProperties[$kk][$key] = reset($valueArray);
                         }
                     }
@@ -103,7 +103,7 @@ class ParseSkillsService
     private function getFileContent(string $filename): array
     {
         $projectDir = $this->kernel->getProjectDir();
-        $masteryUrl = $projectDir.DIRECTORY_SEPARATOR.'assets/data'.DIRECTORY_SEPARATOR.$filename.'.json';
+        $masteryUrl = $projectDir . DIRECTORY_SEPARATOR . 'assets/data' . DIRECTORY_SEPARATOR . $filename . '.json';
 
         if (!file_exists($masteryUrl)) {
             throw new NotFoundHttpException("File $filename does not exist!\n");

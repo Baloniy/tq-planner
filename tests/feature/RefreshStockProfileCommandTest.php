@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace App\Tests\feature;
@@ -27,7 +28,7 @@ class RefreshStockProfileCommandTest extends DatabaseDependantTestCase
         // Do something
         $commandTester->execute([
             'symbol' => 'AMZN',
-            'region' => 'US'
+            'region' => 'US',
         ]);
 
         // MAKE ASSERTIONS //
