@@ -87,7 +87,7 @@ class CharacterClass
         return $this;
     }
 
-    public function getCreatedAt(): \DateTime|\DateTimeInterface
+    public function getCreatedAt(): \DateTime | \DateTimeInterface
     {
         return $this->created_at;
     }

@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace App\Tests;
@@ -8,7 +9,7 @@ use App\Entity\Stock;
 class StockTest extends DatabaseDependantTestCase
 {
     /** @test */
-    public function a_stock_record_can_be_created_in_the_database()
+    public function aStockRecordCanBeCreatedInTheDatabase()
     {
         // Stock
         $stock = new Stock();
@@ -25,7 +26,6 @@ class StockTest extends DatabaseDependantTestCase
         $stock->setPriceChange($priceChange);
         $this->em->persist($stock);
         $this->em->flush();
-
 
         $stockRepo = $this->em->getRepository(Stock::class);
         $stockRecord = $stockRepo->findOneBy(['symbol' => 'AMNZ']);

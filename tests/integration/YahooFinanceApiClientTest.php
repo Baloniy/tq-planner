@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace App\Tests\integration;
@@ -11,7 +12,7 @@ class YahooFinanceApiClientTest extends DatabaseDependantTestCase
      * @test
      * @group integration
      */
-    public function the_yahoo_finance_api_client_returns_the_correct_data()
+    public function theYahooFinanceApiClientReturnsTheCorrectData()
     {
         // Setup
         // Need YahooFinanceApiClient

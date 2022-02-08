@@ -19,7 +19,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 class CharacterClassesCommand extends Command
 {
     public function __construct(
-      private EntityManagerInterface $entityManager
+        private EntityManagerInterface $entityManager
     ) {
         parent::__construct();
     }
