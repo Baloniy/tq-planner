@@ -1,0 +1,66 @@
+version: '3.8'
+
+networks:
+  tq-internal:
+
+services:
+  tq-php:
+    container_name: tq-php
+    build:
+      context: .
+      dockerfile: ./docker/php-fpm/Dockerfile
+    ports:
+      - "9000:9000"
+    environment:
+      DATABASE_URL: mysql://tq:secret@tq-mysql:3306/tq?serverVersion=8.0
+    depends_on:
+      - tq-mysql
+    networks:
+      - tq-internal
+    volumes:
+      - ./:/app
+
+  tq-nginx:
+    image: nginx:stable-alpine
+    container_name: tq-nginx
+    depends_on:
+      - tq-php
+      - tq-mysql
+    networks:
+      - tq-internal
+    ports:
+      - "80:80"
+    volumes:
+      - ./:/app
+      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+
+  tq-mysql:
+    image: mysql:8.0
+    container_name: tq-mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always # always restart unless stopped manually
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_DATABASE: tq
+      MYSQL_USER: tq
+      MYSQL_PASSWORD: secret
+    networks:
+      - tq-internal
+    expose:
+      - 3306
+    ports:
+      - "4306:3306"
+    volumes:
+      - my-tqvolume:/var/lib/mysql
+
+  node-service:
+    image: node:latest
+    container_name: tq-node
+    volumes:
+      - ./:/app
+    working_dir: /app
+    networks:
+      - tq-internal
+
+volumes:
+  my-tqvolume:
