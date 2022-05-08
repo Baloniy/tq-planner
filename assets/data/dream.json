@@ -2,7 +2,9 @@
     "xtagSkillDreamName015": {
         "description": "Враги засыпают и не предпринимают никаких действий пока не проснутся или не будут атакованы.",
         "name": "Пески снов",
+        "original_name": "Sands of Sleep",
         "tier": 1,
+        "column": 3,
         "type": "Active",
         "maximum_level": 8,
         "cooldown": "4 Seconds",
@@ -75,7 +77,9 @@
     "xtagSkillDreamName002": {
         "description": "Энергия разума наполняет ваше оружие и наделяет его способностью вызывать колебания, дробящие кости врагов. Назначьте это умение на левую кнопку мыши.",
         "name": "Резонанс",
+        "original_name": "Psionic Touch",
         "tier": 1,
+        "column": 4,
         "type": "Active",
         "maximum_level": 12,
         "cooldown": "none",
@@ -167,7 +171,9 @@
     "xtagSkillDreamName003": {
         "description": "Ментальная энергия вашего врага возгорается и вырывается наружу, нанося урон всем, кто находится рядом с ним.",
         "name": "Ментальный ожог",
+        "original_name": "Psionic Burn",
         "tier": 3,
+        "column": 4,
         "type": "Modifier",
         "maximum_level": 8,
         "cooldown": "none",
@@ -250,9 +256,11 @@
         "tag": "xtagSkillDreamName003"
     },
     "x3tagSkillDreamStaffBeam": {
-        "description": "Увеличьте концентрацию ментальной энергии вашего магического посоха, чтобы провести серию быстрых атак. {}{}Работает только с посохами.",
+        "description": "Увеличьте концентрацию ментальной энергии вашего магического посоха, чтобы провести серию быстрых атак. Работает только с посохами.",
         "name": "Ментальный луч",
+        "original_name": "Psionic Beam",
         "tier": 7,
+        "column": 4,
         "type": "Modifier",
         "maximum_level": 6,
         "cooldown": "none",
@@ -306,7 +314,9 @@
     "xtagSkillDreamName004-1": {
         "description": "В направлении к противникам распространяется волна искажения, вызывающая разрывы в ткани реальности и наносящая огромный урон телу и разуму врагов.",
         "name": "Волна искажения",
+        "original_name": "Distortion Wave",
         "tier": 1,
+        "column": 6,
         "type": "Active",
         "maximum_level": 12,
         "cooldown": "5 Seconds",
@@ -414,7 +424,9 @@
     "xtagSkillDreamName005-1": {
         "description": "Усиливает искажающий эффект, позволяя раскалывать доспехи и ломать кости врагов.",
         "name": "Раскол",
+        "original_name": "Chaotic Resonance",
         "tier": 3,
+        "column": 6,
         "type": "Modifier",
         "maximum_level": 8,
         "cooldown": "none",
@@ -487,7 +499,9 @@
     "xtagSkillDreamName018": {
         "description": "Ментальная энергия преобразуется в электрический разряд и на некоторое время воспламеняет противника, нанося огромный урон.",
         "name": "Ментальное сожжение",
+        "original_name": "Psionic Immolation",
         "tier": 5,
+        "column": 6,
         "type": "Modifier",
         "maximum_level": 12,
         "cooldown": "none",
@@ -577,12 +591,14 @@
         ],
         "tag": "xtagSkillDreamName018"
     },
- 
+
 
     "xtagSkillDreamName010": {
         "description": "Герой исчезает из материального мира и появляется за спиной врага, чтобы нанести ему сокрушительный удар.",
         "name": "Призрачная атака",
+        "original_name": "Phantom Strike",
         "tier": 2,
+        "column": 5,
         "type": "Active",
         "maximum_level": 12,
         "cooldown": "16 Seconds",
@@ -690,7 +706,9 @@
     "xtagSkillDreamName011": {
         "description": "Вторгнитесь в разум ваших врагов и лишите их сил, похитив самые сокровенные грёзы.",
         "name": "Похититель снов",
+        "original_name": "Dream Stealer",
         "tier": 3,
+        "column": 5,
         "type": "Modifier",
         "maximum_level": 8,
         "cooldown": "none",
@@ -800,7 +818,9 @@
     "xtagSkillDreamName016-1": {
         "description": "Увеличение сознательного контроля за грёзами усиливает ваши способности, черпающие силу из мира грёз.",
         "name": "Грезы наяву",
+        "original_name": "Lucid Dream",
         "tier": 2,
+        "column": 2,
         "type": "Passive",
         "maximum_level": 8,
         "cooldown": "none",
@@ -872,7 +892,9 @@
     "xtagSkillDreamName007": {
         "description": "Предчувствие надвигающейся опасности позволяет вам предугадывать действия ваших врагов во время боя.",
         "name": "Предвидение",
+        "original_name": "Premonition",
         "tier": 3,
+        "column": 2,
         "type": "Passive",
         "maximum_level": 6,
         "cooldown": "none",
@@ -925,7 +947,9 @@
     "xtagSkillDreamName023": {
         "description": "Герой немного ускоряет время вокруг себя, что позволяет ему быстрее двигаться, предугадывать атаки противников и не поддаваться вражеским умениям, замедляющим скорость.",
         "name": "Временной поток",
+        "original_name": "Temporal Flux",
         "tier": 5,
+        "column": 2,
         "type": "Passive",
         "maximum_level": 6,
         "cooldown": "none",
@@ -989,7 +1013,9 @@
     "xtagSkillDreamName021": {
         "description": "Установив с врагами телепатическую связь заставьте их почувствовать боль, которую они причиняют вам, установив с ними телепатическую связь и вытягивая из них взамен жизнь.",
         "name": "Духовная эмпатия",
+        "original_name": "Trance of Empathy",
         "tier": 2,
+        "column": 1,
         "type": "Sustained",
         "maximum_level": 12,
         "cooldown": "none",
@@ -1098,7 +1124,9 @@
     "xtagSkillDreamName020": {
         "description": "Расслабленное состояние сознания позволяет ускорить регенерацию здоровья героя и его союзников и уменьшить получаемый урон.",
         "name": "Лечебная медитация",
+        "original_name": "Trance of Convalescence",
         "tier": 4,
+        "column": 1,
         "type": "Sustained",
         "maximum_level": 12,
         "cooldown": "none",
@@ -1223,7 +1251,9 @@
     "xtagSkillDreamName019": {
         "description": "От игрока исходят волны негативной ментальной энергии, которые вносят сумятицу в умы врагов и обжигают их телесную оболочку.",
         "name": "Боевой транс",
+        "original_name": "Trance of Wrath",
         "tier": 6,
+        "column": 1,
         "type": "Sustained",
         "maximum_level": 12,
         "cooldown": "none",
@@ -1348,7 +1378,9 @@
     "xtagSkillDreamName006": {
         "description": "Силой мысли герой искажает окружающую ткань реальности, уменьшая наносимый врагами урон и причиняя ответный урон атакующим противникам.",
         "name": "Аура искажения",
+        "original_name": "Distortion Field",
         "tier": 4,
+        "column": 4,
         "type": "Passive",
         "maximum_level": 8,
         "cooldown": "30 Seconds",
@@ -1445,7 +1477,9 @@
     "xtagSkillDreamName008": {
         "description": "От героя в все стороны исходит мощная волна искажений, разрывающая ткань реальности и наносящая серьёзный урон застигнутым ею врагам.",
         "name": "Искажение реальности",
+        "original_name": "Distort Reality",
         "tier": 4,
+        "column": 5,
         "type": "Active",
         "maximum_level": 12,
         "cooldown": "12 Seconds",
@@ -1585,7 +1619,9 @@
     "xtagSkillDreamName022": {
         "description": "Выброс мысленной энергии значительно увеличивает урон наносимый противникам волной искажений и на некоторое время останавливает для них ход времени.",
         "name": "Сдвиг времени",
+        "original_name": "Temporal Rift",
         "tier": 6,
+        "column": 5,
         "type": "Modifier",
         "maximum_level": 12,
         "cooldown": "none",
@@ -1707,11 +1743,13 @@
         ],
         "tag": "xtagSkillDreamName022"
     },
-   
+
     "xtagSkillDreamName012": {
         "description": "Призовите себе на помощь кошмарную сущность из мира грёз.",
         "name": "Кошмар",
+        "original_name": "Summon Nightmare",
         "tier": 3,
+        "column": 3,
         "type": "Active",
         "maximum_level": 16,
         "cooldown": "60 Seconds",
@@ -2753,7 +2791,9 @@
     "xtagSkillDreamName024": {
         "description": "Гипнотический взгляд кошмара подчиняет себе слабых чудовищ, вводит их в замешательство и заставляет их бесцельно слоняться и атаковать фантомных противников.",
         "name": "Гипнотический взгляд",
+        "original_name": "Hypnotic Gaze",
         "tier": 4,
+        "column": 3,
         "type": "Modifier",
         "maximum_level": 8,
         "cooldown": "none",
@@ -2826,7 +2866,9 @@
     "xtagSkillDreamName014": {
         "description": "Кошмар получает возможность мысленно разговаривать с остальными вашими слугами и координировать их действия, делая их более опасными в бою.",
         "name": "Стратег",
+        "original_name": "Master Mind",
         "tier": 6,
+        "column": 3,
         "type": "Modifier",
         "maximum_level": 8,
         "cooldown": "none",
@@ -2884,11 +2926,13 @@
         ],
         "tag": "xtagSkillDreamName014"
     },
-   
+
     "x3tagSkillDreamSummonDoppelganger": {
         "description": "На короткое время призывает из мира грез ваше отражение, которое сражается вместе с вами.",
         "name": "Образ из грез",
+        "original_name": "Dream Image",
         "tier": 7,
+        "column": 2,
         "type": "Active",
         "maximum_level": 8,
         "cooldown": "none",

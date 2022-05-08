@@ -1,0 +1,110 @@
+{% extends 'main/base.html.twig' %}
+
+{% block title %} Equipments {% endblock %}
+
+{% block body %}
+    <form action="{{ path('equipments')}}">
+    <div class="row mt-4">
+
+            <div class="col col-sm-4">
+                <div class="input-group mb-3">
+                    <input
+                        type="text"
+                        class="form-control"
+                        name="q" placeholder="Search by name"
+                        value="{{ app.request.query.get('q')}}"
+                    />
+                    <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Button</button>
+                </div>
+            </div>
+            <div class="col col-sm-4">
+                <select class="form-select" name="type">
+                    {% for equipmentType in equipmentTypes %}
+                        <option value="{{ equipmentType.id }}">{{ equipmentType.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col col-sm-4">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+    </div>
+    </form>
+
+    <div class="row">
+        {% for equipment in equipments %}
+            <div class="col col-md-4 mb-2">
+                <div class="card" style="max-width: 540px;">
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="{{ asset('images.jpeg')}}" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ equipment.name }}</h5>
+                                {% for properties in equipment.properties %}
+                                    {% if properties is iterable %}
+                                        {% for property in properties %}
+                                            {% if property is iterable %}
+                                                {% for prop in property %}
+                                                    <div class="card-text p-lg-2">
+                                                        <small class="text-muted">{{ prop }}</small>
+                                                    </div>
+                                                {% endfor %}
+                                            {% else %}
+                                                <div class="card-text">
+                                                    <small class="text-muted">{{ property }}</small>
+                                                </div>
+                                            {% endif %}
+                                        {% endfor %}
+                                    {% else %}
+                                        <div class="card-text">
+                                            <small class="text-muted">{{ properties }}</small>
+                                        </div>
+                                    {% endif %}
+                                {%endfor %}
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card-footer">
+                        Требуемый уровень игрока: {{ equipment.levelRequirement }} <br>
+                        {% if equipment.dexterityRequirement %}
+                            Требуемая ловкость: {{ equipment.dexterityRequirement }} <br>
+                        {% endif %}
+                        {% if equipment.strengthRequirement %}
+                            Требуемая сила: {{ equipment.strengthRequirement }} <br>
+                        {% endif %}
+                        {% if equipment.intelligenceRequirement %}
+                            Требуемий интелект: {{ equipment.intelligenceRequirement }} <br>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+{% endblock %}

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Command;
 
-use App\Service\ParseSkillsService;
+use App\Service\Parsing\SkillsService;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
@@ -19,7 +19,7 @@ use Symfony\Component\Console\Style\SymfonyStyle;
 class ParseSkillsCommand extends Command
 {
     public function __construct(
-        private ParseSkillsService $parseSkillsService
+        private readonly SkillsService $parseSkillsService
     ) {
         parent::__construct();
     }

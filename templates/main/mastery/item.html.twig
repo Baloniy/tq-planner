@@ -1,0 +1,31 @@
+{% extends 'main/base.html.twig' %}
+
+{% block title %} Mastery - {{ mastery.name }}!{% endblock %}
+
+
+{% block body %}
+    <h4>{{ mastery.name }}</h4>
+    <p>{{ mastery.description }}</p>
+    <table class="table">
+        <thead>
+            <th>Level</th>
+            <th>Life</th>
+            <th>Mana</th>
+            <th>Strength</th>
+            <th>Dexterity</th>
+            <th>Intelligence</th>
+        </thead>
+        <tbody>
+            {% for property in mastery.properties %}
+                <tr>
+                    <td>{{ property.level }}</td>
+                    <td>{{ property.life }}</td>
+                    <td>{{ property.mana | default('-') }}</td>
+                    <td>{{ property.strength | default('-') }}</td>
+                    <td>{{ property.dexterity | default('-') }}</td>
+                    <td>{{ property.intelligence | default('-') }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

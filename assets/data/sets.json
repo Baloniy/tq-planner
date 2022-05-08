@@ -1,0 +1,3249 @@
+{
+        "tagSetName001": {
+            "items": [
+                "tagUArmor137",
+                "tagUArmor393",
+                "tagUArmor181",
+                "tagUArmor245",
+                "tagUWeapon069"
+            ],
+            "name": "Фиванские доспехи",
+            "properties": [
+                {
+                    "characterDefensiveAbility": "+44 ед. оборонительной способности",
+                    "characterStrength": "+16 ед. силы"
+                },
+                {
+                    "characterDefensiveAbility": "+64 ед. оборонительной способности",
+                    "characterLife": "+118 ед. жизни",
+                    "characterStrength": "+22 ед. силы"
+                },
+                {
+                    "characterDefensiveAbility": "+84 ед. оборонительной способности",
+                    "characterLife": "+118 ед. жизни",
+                    "characterStrength": "+28 ед. силы",
+                    "defensiveProtectionModifier": "+25% защиты брони"
+                },
+                {
+                    "characterDefensiveAbility": "+84 ед. оборонительной способности",
+                    "characterLife": "+220 ед. жизни",
+                    "characterStrength": "+34 ед. силы",
+                    "defensiveBleeding": "50% сопротивление кровотечению",
+                    "defensiveProtectionModifier": "+50% защиты брони"
+                }
+            ],
+            "tag": "tagSetName001"
+        },
+        "tagSetName002": {
+            "items": [
+                "tagUArmor133",
+                "tagUArmor389",
+                "tagUArmor176",
+                "tagUArmor241",
+                "tagUWeapon325"
+            ],
+            "name": "Легенда Фу Си",
+            "properties": [
+                {
+                    "characterAttackSpeedModifier": "+5% скорости атаки",
+                    "characterRunSpeedModifier": "+5% скорости перемещения",
+                    "retaliationGlobalChance": {
+                        "chance": "15.0% шанс одного из следующего:",
+                        "properties": {
+                            "retaliationFire": "57 ед. ответного урона огнём",
+                            "retaliationSlowPoison": "114-150 ед. ответного урона ядом в течении 3.0 секунд(ы)"
+                        }
+                    }
+                },
+                {
+                    "characterAttackSpeedModifier": "+10% скорости атаки",
+                    "characterRunSpeedModifier": "+10% скорости перемещения",
+                    "defensiveFire": "31% сопротивление огню",
+                    "defensivePoison": "31% сопротивление яду",
+                    "retaliationGlobalChance": {
+                        "chance": "20.0% шанс одного из следующего:",
+                        "properties": {
+                            "retaliationFire": "57 ед. ответного урона огнём",
+                            "retaliationSlowPoison": "114-150 ед. ответного урона ядом в течении 3.0 секунд(ы)"
+                        }
+                    }
+                },
+                {
+                    "characterAttackSpeedModifier": "+10% скорости атаки",
+                    "characterRunSpeedModifier": "+10% скорости перемещения",
+                    "defensiveFire": "31% сопротивление огню",
+                    "defensivePoison": "31% сопротивление яду",
+                    "offensiveFireModifier": "+20% урона от огня",
+                    "offensiveSlowFireModifier": "+20% урона от горения",
+                    "offensiveSlowPoisonModifier": "+20% урона от яда",
+                    "retaliationGlobalChance": {
+                        "chance": "25.0% шанс одного из следующего:",
+                        "properties": {
+                            "retaliationFire": "57 ед. ответного урона огнём",
+                            "retaliationSlowPoison": "114-150 ед. ответного урона ядом в течении 3.0 секунд(ы)"
+                        }
+                    }
+                },
+                {
+                    "characterAttackSpeedModifier": "+10% скорости атаки",
+                    "characterLifeRegen": "+3.0 ед. жизни в секунду восстанавливается",
+                    "characterRunSpeedModifier": "+10% скорости перемещения",
+                    "defensiveFire": "31% сопротивление огню",
+                    "defensivePoison": "31% сопротивление яду",
+                    "defensiveProtectionModifier": "+10% защиты брони",
+                    "offensiveFireModifier": "+40% урона от огня",
+                    "offensiveSlowFireModifier": "+40% урона от горения",
+                    "offensiveSlowPoisonModifier": "+40% урона от яда",
+                    "retaliationGlobalChance": {
+                        "chance": "30.0% шанс одного из следующего:",
+                        "properties": {
+                            "retaliationFire": "57 ед. ответного урона огнём",
+                            "retaliationSlowPoison": "114-150 ед. ответного урона ядом в течении 3.0 секунд(ы)"
+                        }
+                    }
+                }
+            ],
+            "tag": "tagSetName002"
+        },
+        "tagSetName003": {
+            "items": [
+                "tagUArmor068",
+                "tagUArmor401",
+                "tagUArmor177",
+                "tagUArmor253",
+                "tagUWeapon282"
+            ],
+            "name": "Облачение некроманта",
+            "properties": [
+                {
+                    "defensivePoison": "10% сопротивление яду",
+                    "defensiveSlowLifeLeach": "10% защита от кражи жизни",
+                    "offensiveSlowLifeLeachModifier": "+15% кражи жизни"
+                },
+                {
+                    "defensivePoison": "30% сопротивление яду",
+                    "defensiveSlowLifeLeach": "30% защита от кражи жизни",
+                    "offensiveSlowLifeLeachModifier": "+25% кражи жизни"
+                },
+                {
+                    "defensivePoison": "50% сопротивление яду",
+                    "defensiveSlowLifeLeach": "50% защита от кражи жизни",
+                    "offensiveSlowLifeLeachModifier": "+35% кражи жизни"
+                },
+                {
+                    "characterLife": "+130 ед. жизни",
+                    "characterMana": "+110 ед. энергии",
+                    "defensivePoison": "100% сопротивление яду",
+                    "defensiveSlowLifeLeach": "100% защита от кражи жизни",
+                    "offensiveSlowLifeLeachModifier": "+50% кражи жизни"
+                }
+            ],
+            "tag": "tagSetName003"
+        },
+        "tagSetName004": {
+            "items": [
+                "tagUArmor134",
+                "tagUArmor390",
+                "tagUArmor178",
+                "tagUArmor242",
+                "tagUWeapon110"
+            ],
+            "name": "Обсидиановая броня",
+            "properties": [
+                {
+                    "characterLife": "+42 ед. жизни",
+                    "defensiveFire": "15% сопротивление огню",
+                    "defensiveLightning": "15% сопротивление молниям"
+                },
+                {
+                    "characterLife": "+45 ед. жизни",
+                    "defensiveFire": "15% сопротивление огню",
+                    "defensiveLightning": "15% сопротивление молниям",
+                    "offensiveSlowRunSpeed": "35.0% замедления перемещения на 3.0 секунд(ы)"
+                },
+                {
+                    "characterLife": "+45 ед. жизни",
+                    "defensiveElementalResistance": "7% сопротивление силам природы",
+                    "defensiveFire": "15% сопротивление огню",
+                    "defensiveLightning": "15% сопротивление молниям",
+                    "defensivePhysical": "7% сопротивление физическому урону",
+                    "defensivePierce": "7% сопротивление проникающему урону",
+                    "defensivePoison": "7% сопротивление яду",
+                    "offensiveSlowRunSpeed": "35.0% замедления перемещения на 3.0 секунд(ы)"
+                },
+                {
+                    "characterLife": "+100 ед. жизни",
+                    "defensiveElementalResistance": "12% сопротивление силам природы",
+                    "defensiveFire": "15% сопротивление огню",
+                    "defensiveLightning": "15% сопротивление молниям",
+                    "defensivePhysical": "14% сопротивление физическому урону",
+                    "defensivePierce": "12% сопротивление проникающему урону",
+                    "defensivePoison": "12% сопротивление яду",
+                    "offensiveSlowRunSpeed": "35.0% замедления перемещения на 3.0 секунд(ы)"
+                }
+            ],
+            "tag": "tagSetName004"
+        },
+        "tagSetName005": {
+            "items": [
+                "tagUArmor069",
+                "tagUArmor402",
+                "tagUArmor185",
+                "tagUArmor254"
+            ],
+            "name": "Одежды оракула",
+            "properties": [
+                {
+                    "characterMana": "+75 ед. энергии",
+                    "characterManaRegen": "+6.0 ед. энергии в секунду восстанавливается",
+                    "offensiveElementalModifier": "+10% урона силами природы"
+                },
+                {
+                    "characterMana": "+100 ед. энергии",
+                    "characterManaRegen": "+8.0 ед. энергии в секунду восстанавливается",
+                    "offensiveElementalModifier": "+20% урона силами природы"
+                },
+                {
+                    "characterMana": "+125 ед. энергии",
+                    "characterManaRegen": "+10.0 ед. энергии в секунду восстанавливается",
+                    "defensiveElementalResistance": "6% сопротивление силам природы",
+                    "offensiveElementalModifier": "+30% урона силами природы",
+                    "skillCooldownReduction": "-10% времени перезарядки"
+                }
+            ],
+            "tag": "tagSetName005"
+        },
+        "tagSetName006": {
+            "items": [
+                "tagUArmor131",
+                "tagUArmor386",
+                "tagUArmor173",
+                "tagUArmor238",
+                "tagUWeapon323",
+                "tagUWeapon324"
+            ],
+            "name": "Имперское одеяние",
+            "properties": [
+                {
+                    "characterDefensiveAbility": "+75 ед. оборонительной способности",
+                    "offensiveSlowLifeLeachModifier": "+25% кражи жизни"
+                },
+                {
+                    "characterDefensiveAbility": "+75 ед. оборонительной способности",
+                    "defensiveElementalResistance": "10% сопротивление силам природы",
+                    "defensivePierce": "10% сопротивление проникающему урону",
+                    "defensivePoison": "10% сопротивление яду",
+                    "offensiveSlowLifeLeachModifier": "+25% кражи жизни"
+                },
+                {
+                    "characterDefensiveAbility": "+75 ед. оборонительной способности",
+                    "defensiveElementalResistance": "20% сопротивление силам природы",
+                    "defensivePierce": "20% сопротивление проникающему урону",
+                    "defensivePoison": "20% сопротивление яду",
+                    "offensiveSlowLifeLeachModifier": "+25% кражи жизни",
+                    "offensiveSlowManaLeach": "69-102 ед. кражи энергии в течении 3.0 секунд(ы)"
+                },
+                {
+                    "characterDefensiveAbility": "+75 ед. оборонительной способности",
+                    "defensiveElementalResistance": "20% сопротивление силам природы",
+                    "defensivePierce": "20% сопротивление проникающему урону",
+                    "defensivePoison": "20% сопротивление яду",
+                    "offensiveSlowLifeLeachModifier": "+75% кражи жизни",
+                    "offensiveSlowManaLeach": "69-102 ед. кражи энергии в течении 3.0 секунд(ы)"
+                },
+                {
+                    "characterDefensiveAbility": "+75 ед. оборонительной способности",
+                    "defensiveBleeding": "30% сопротивление кровотечению",
+                    "defensiveElementalResistance": "30% сопротивление силам природы",
+                    "defensiveLife": "30% сопротивление урону здоровью",
+                    "defensivePierce": "30% сопротивление проникающему урону",
+                    "defensivePoison": "30% сопротивление яду",
+                    "offensiveSlowLifeLeachModifier": "+100% кражи жизни",
+                    "offensiveSlowManaLeach": "69-102 ед. кражи энергии в течении 3.0 секунд(ы)"
+                }
+            ],
+            "tag": "tagSetName006"
+        },
+        "tagSetName007": {
+            "items": [
+                "tagUArmor136",
+                "tagUArmor392",
+                "tagUArmor180",
+                "tagUArmor244",
+                "tagUWeapon195"
+            ],
+            "name": "Царская броня Рамзеса",
+            "properties": [
+                {
+                    "defensivePierce": "17% сопротивление проникающему урону",
+                    "defensivePoison": "17% сопротивление яду",
+                    "offensiveStun": "10.0% шанс на 1.0-3.0 секунд(ы) оглушения"
+                },
+                {
+                    "defensivePierce": "17% сопротивление проникающему урону",
+                    "defensivePoison": "17% сопротивление яду",
+                    "defensivePoisonDuration": "75% уменьшение урона от яда",
+                    "offensiveSlowPoisonModifier": "+25% урона от яда",
+                    "offensiveStun": "10.0% шанс на 1.0-3.0 секунд(ы) оглушения"
+                },
+                {
+                    "defensivePierce": "17% сопротивление проникающему урону",
+                    "defensivePoison": "17% сопротивление яду",
+                    "defensivePoisonDuration": "75% уменьшение урона от яда",
+                    "offensivePercentCurrentLife": "4% уменьшение жизни противника",
+                    "offensiveSlowPoisonModifier": "+50% урона от яда",
+                    "offensiveStun": "10.0% шанс на 1.0-3.0 секунд(ы) оглушения"
+                },
+                {
+                    "characterLife": "+150 ед. жизни",
+                    "characterMana": "+100 ед. энергии",
+                    "defensivePierce": "17% сопротивление проникающему урону",
+                    "defensivePoison": "17% сопротивление яду",
+                    "defensivePoisonDuration": "75% уменьшение урона от яда",
+                    "offensivePercentCurrentLife": "8% уменьшение жизни противника",
+                    "offensiveSlowPoisonModifier": "+100% урона от яда",
+                    "offensiveStun": "10.0% шанс на 1.0-3.0 секунд(ы) оглушения"
+                }
+            ],
+            "tag": "tagSetName007"
+        },
+        "tagSetName008": {
+            "items": [
+                "tagUArmor070",
+                "tagUArmor035"
+            ],
+            "name": "Подарок Ронзера",
+            "properties": [
+                {
+                    "characterManaRegenModifier": "+25% восстановления энергии",
+                    "offensiveSlowOffensiveReduction": "20.0 ед. уменьшения физического урона на 3.0 секунд(ы)",
+                    "offensiveTotalResistanceReductionAbsolute": "20.0 ед. уменьшения сопротивлений на 3.0 секунд(ы)"
+                }
+            ],
+            "tag": "tagSetName008"
+        },
+        "tagSetName009": {
+            "items": [
+                "tagUArmor132",
+                "tagUArmor388",
+                "tagUArmor175",
+                "tagUArmor240"
+            ],
+            "name": "Броня Лазаря",
+            "properties": [
+                {
+                    "characterDefensiveAbility": "+50 ед. оборонительной способности",
+                    "retaliationLightning": "10.0% шанс на 2-50 ед. ответного урона молнией"
+                },
+                {
+                    "characterDefensiveAbility": "+50 ед. оборонительной способности",
+                    "characterManaRegenModifier": "+35% восстановления энергии",
+                    "defensiveLightning": "20% сопротивление молниям",
+                    "offensiveLightningModifier": "+20% урона от молний",
+                    "retaliationLightning": "10.0% шанс на 2-50 ед. ответного урона молнией"
+                },
+                {
+                    "characterDefensiveAbility": "+50 ед. оборонительной способности",
+                    "characterLife": "+120 ед. жизни",
+                    "characterMana": "+85 ед. энергии",
+                    "characterManaRegenModifier": "+55% восстановления энергии",
+                    "defensiveLightning": "20% сопротивление молниям",
+                    "offensiveLightningModifier": "+20% урона от молний",
+                    "offensiveSlowLightningModifier": "+20% урона электрическим разрядом",
+                    "retaliationLightning": "10.0% шанс на 2-50 ед. ответного урона молнией",
+                    "retaliationLightningModifier": "+20% ответного урона молниями"
+                }
+            ],
+            "tag": "tagSetName009"
+        },
+        "tagSetName010": {
+            "items": [
+                "tagUArmor382",
+                "tagUArmor169",
+                "tagUArmor234"
+            ],
+            "name": "Доспехи Богомола",
+            "properties": [
+                {
+                    "characterDeflectProjectile": "6% шанс уклониться от летящих снарядов",
+                    "characterDodgePercent": "6% шанс уклониться от атаки",
+                    "characterRunSpeedModifier": "+8% скорости перемещения"
+                },
+                {
+                    "characterDefensiveAbility": "+60 ед. оборонительной способности",
+                    "characterDeflectProjectile": "6% шанс уклониться от летящих снарядов",
+                    "characterDexterity": "+45 ед. ловкости",
+                    "characterDodgePercent": "6% шанс уклониться от атаки",
+                    "characterRunSpeedModifier": "+18% скорости перемещения"
+                }
+            ],
+            "tag": "tagSetName010"
+        },
+        "tagSetName011": {
+            "items": [
+                "tagUArmor371",
+                "tagUArmor224",
+                "tagUArmor034",
+                "tagUWeapon320"
+            ],
+            "name": "Одежды Мемнона",
+            "properties": [
+                {
+                    "characterLife": "+50 ед. жизни",
+                    "characterOffensiveAbility": "+36 ед. наступательной способности"
+                },
+                {
+                    "characterLife": "+100 ед. жизни",
+                    "characterOffensiveAbility": "+36 ед. наступательной способности",
+                    "defensiveBleeding": "30% сопротивление кровотечению"
+                },
+                {
+                    "characterLife": "+150 ед. жизни",
+                    "characterOffensiveAbility": "+36 ед. наступательной способности",
+                    "defensiveBleeding": "30% сопротивление кровотечению",
+                    "offensiveLifeLeech": "10% урона переводится в жизнь",
+                    "offensivePercentCurrentLife": "5% уменьшение жизни противника"
+                }
+            ],
+            "tag": "tagSetName011"
+        },
+        "tagSetName012": {
+            "items": [
+                "tagUArmor032",
+                "tagUArmor033"
+            ],
+            "name": "Вера гладиатора",
+            "properties": [
+                {
+                    "characterLife": "+400 ед. жизни",
+                    "defensiveBleeding": "50% сопротивление кровотечению",
+                    "defensivePhysical": "20% сопротивление физическому урону"
+                }
+            ],
+            "tag": "tagSetName012"
+        },
+        "tagSetName013": {
+            "items": [
+                "tagUArmor123",
+                "tagUArmor378",
+                "tagUArmor165",
+                "tagUArmor230",
+                "tagUWeapon237"
+            ],
+            "name": "Броня бессмертного стража",
+            "properties": [
+                {
+                    "characterDexterity": "+30 ед. ловкости",
+                    "characterLife": "+70 ед. жизни"
+                },
+                {
+                    "characterAttackSpeedModifier": "+10% скорости атаки",
+                    "characterDexterity": "+30 ед. ловкости",
+                    "characterLife": "+70 ед. жизни",
+                    "characterRunSpeedModifier": "+10% скорости перемещения"
+                },
+                {
+                    "characterAttackSpeedModifier": "+10% скорости атаки",
+                    "characterDeflectProjectile": "8% шанс уклониться от летящих снарядов",
+                    "characterDexterity": "+30 ед. ловкости",
+                    "characterDodgePercent": "8% шанс уклониться от атаки",
+                    "characterLife": "+70 ед. жизни",
+                    "characterRunSpeedModifier": "+10% скорости перемещения"
+                },
+                {
+                    "characterAttackSpeedModifier": "+10% скорости атаки",
+                    "characterDeflectProjectile": "12% шанс уклониться от летящих снарядов",
+                    "characterDexterity": "+30 ед. ловкости",
+                    "characterDodgePercent": "12% шанс уклониться от атаки",
+                    "characterLife": "+70 ед. жизни",
+                    "characterRunSpeedModifier": "+10% скорости перемещения",
+                    "offensivePierceModifier": "+50% проникающего урона"
+                }
+            ],
+            "tag": "tagSetName013"
+        },
+        "tagSetName014": {
+            "items": [
+                "tagUArmor111",
+                "tagUArmor366",
+                "tagUArmor154",
+                "tagUArmor219"
+            ],
+            "name": "Облик зверя",
+            "properties": [
+                {
+                    "characterLifeRegenModifier": "+40% восстановления жизни",
+                    "characterManaRegenModifier": "+40% восстановления энергии"
+                },
+                {
+                    "characterLifeRegenModifier": "+40% восстановления жизни",
+                    "characterManaRegenModifier": "+40% восстановления энергии",
+                    "defensiveElementalResistance": "33% сопротивление силам природы"
+                },
+                {
+                    "characterLifeRegenModifier": "+40% восстановления жизни",
+                    "characterManaRegenModifier": "+40% восстановления энергии",
+                    "defensiveElementalResistance": "33% сопротивление силам природы",
+                    "skillCooldownReduction": "-25% времени перезарядки",
+                    "skillManaCostReduction": "-25% расхода энергии"
+                }
+            ],
+            "tag": "tagSetName014"
+        },
+        "tagSetName015": {
+            "items": [
+                "tagUArmor374",
+                "tagUWeapon063"
+            ],
+            "name": "Акрополь",
+            "properties": [
+                {
+                    "characterLife": "+150 ед. жизни",
+                    "defensiveProtectionModifier": "+20% защиты брони"
+                }
+            ],
+            "tag": "tagSetName015"
+        },
+        "tagSetName016": {
+            "items": [
+                "tagUArmor112",
+                "tagUArmor367",
+                "tagUArmor155",
+                "tagUArmor220"
+            ],
+            "name": "Костяная броня",
+            "properties": [
+                {
+                    "characterLife": "+150 ед. жизни",
+                    "characterMana": "+150 ед. энергии"
+                },
+                {
+                    "characterLife": "+150 ед. жизни",
+                    "characterMana": "+150 ед. энергии",
+                    "offensiveSlowDefensiveReduction": "30.0 ед. уменьшения брони на 3.0 секунд(ы)",
+                    "offensiveTotalResistanceReductionAbsolute": "20.0 ед. уменьшения сопротивлений на 3.0 секунд(ы)"
+                },
+                {
+                    "characterLife": "+150 ед. жизни",
+                    "characterMana": "+150 ед. энергии",
+                    "defensiveLife": "30% сопротивление урону здоровью",
+                    "defensivePhysical": "10% сопротивление физическому урону",
+                    "offensiveSlowDefensiveReduction": "30.0 ед. уменьшения брони на 3.0 секунд(ы)",
+                    "offensiveTotalResistanceReductionAbsolute": "20.0 ед. уменьшения сопротивлений на 3.0 секунд(ы)"
+                }
+            ],
+            "tag": "tagSetName016"
+        },
+        "tagSetName017": {
+            "items": [
+                "tagUArmor113",
+                "tagUArmor368",
+                "tagUArmor156",
+                "tagUArmor221",
+                "tagUWeapon319"
+            ],
+            "name": "Кристаллическое одеяние",
+            "properties": [
+                {
+                    "characterGlobalReqReduction": "-20% любого вида потребностей",
+                    "characterManaRegen": "+1.0 ед. энергии в секунду восстанавливается",
+                    "defensiveCold": "60% сопротивление холоду"
+                },
+                {
+                    "characterGlobalReqReduction": "-20% любого вида потребностей",
+                    "characterManaRegen": "+1.0 ед. энергии в секунду восстанавливается",
+                    "defensiveCold": "60% сопротивление холоду",
+                    "defensiveElementalResistance": "10% сопротивление силам природы",
+                    "retaliationSlowRunSpeed": "35.0% ответного урона, замедляющего перемещение на 3.0 секунд(ы)"
+                },
+                {
+                    "characterGlobalReqReduction": "-20% любого вида потребностей",
+                    "characterLife": "+170 ед. жизни",
+                    "characterManaRegen": "+1.0 ед. энергии в секунду восстанавливается",
+                    "defensiveCold": "60% сопротивление холоду",
+                    "defensiveElementalResistance": "20% сопротивление силам природы",
+                    "offensiveColdModifier": "+25% урона от холода",
+                    "offensiveSlowColdModifier": "+25% урона обжигающего холода",
+                    "retaliationSlowRunSpeed": "35.0% ответного урона, замедляющего перемещение на 3.0 секунд(ы)"
+                },
+                {
+                    "characterGlobalReqReduction": "-20% любого вида потребностей",
+                    "characterLife": "+270 ед. жизни",
+                    "characterManaRegen": "+1.0 ед. энергии в секунду восстанавливается",
+                    "defensiveCold": "60% сопротивление холоду",
+                    "defensiveElementalResistance": "20% сопротивление силам природы",
+                    "offensiveColdModifier": "+50% урона от холода",
+                    "offensivePercentCurrentLife": "10% уменьшение жизни противника",
+                    "offensiveSlowColdModifier": "+50% урона обжигающего холода",
+                    "retaliationSlowRunSpeed": "35.0% ответного урона, замедляющего перемещение на 3.0 секунд(ы)"
+                }
+            ],
+            "tag": "tagSetName017"
+        },
+        "tagSetName018": {
+            "items": [
+                "tagUArmor064",
+                "tagUArmor396",
+                "tagUArmor248"
+            ],
+            "name": "Защита пироманта",
+            "properties": [
+                {
+                    "defensiveFire": "17% сопротивление огню",
+                    "defensivePierce": "17% сопротивление проникающему урону",
+                    "offensiveFireModifier": "+25% урона от огня",
+                    "offensiveSlowFireModifier": "+25% урона от горения"
+                },
+                {
+                    "characterLife": "+100 ед. жизни",
+                    "defensiveFire": "22% сопротивление огню",
+                    "defensivePierce": "22% сопротивление проникающему урону",
+                    "offensiveFireModifier": "+50% урона от огня",
+                    "offensiveSlowFireModifier": "+50% урона от горения"
+                }
+            ],
+            "tag": "tagSetName018"
+        },
+        "tagSetName019": {
+            "items": [
+                "tagUArmor114",
+                "tagUArmor369",
+                "tagUArmor157",
+                "tagUArmor222"
+            ],
+            "name": "Костюм ходящего по углям",
+            "properties": [
+                {
+                    "characterDefensiveAbility": "+55 ед. оборонительной способности",
+                    "offensiveFireModifier": "+25% урона от огня",
+                    "offensiveSlowFireModifier": "+25% урона от горения",
+                    "retaliationFireModifier": "+25% ответного урона горением"
+                },
+                {
+                    "characterDefensiveAbility": "+75 ед. оборонительной способности",
+                    "offensiveFireModifier": "+35% урона от огня",
+                    "offensiveSlowFireModifier": "+35% урона от горения",
+                    "retaliationFireModifier": "+35% ответного урона горением"
+                },
+                {
+                    "characterDefensiveAbility": "+150 ед. оборонительной способности",
+                    "offensiveFireModifier": "+50% урона от огня",
+                    "offensiveSlowFireModifier": "+50% урона от горения",
+                    "retaliationFireModifier": "+50% ответного урона горением"
+                }
+            ],
+            "tag": "tagSetName019"
+        },
+        "tagSetName020": {
+            "items": [
+                "tagUArmor063",
+                "tagUArmor395",
+                "tagUArmor247",
+                "tagUWeapon280"
+            ],
+            "name": "Облачение друида",
+            "properties": [
+                {
+                    "characterDodgePercent": "2% шанс уклониться от атаки",
+                    "characterLifeRegenModifier": "+25% восстановления жизни",
+                    "characterManaRegenModifier": "+25% восстановления энергии",
+                    "defensiveElementalResistance": "8% сопротивление силам природы"
+                },
+                {
+                    "characterDodgePercent": "4% шанс уклониться от атаки",
+                    "characterLifeRegenModifier": "+50% восстановления жизни",
+                    "characterManaRegenModifier": "+50% восстановления энергии",
+                    "defensiveElementalResistance": "17% сопротивление силам природы"
+                },
+                {
+                    "characterDodgePercent": "6% шанс уклониться от атаки",
+                    "characterLifeRegenModifier": "+75% восстановления жизни",
+                    "characterManaRegenModifier": "+75% восстановления энергии",
+                    "defensiveElementalResistance": "22% сопротивление силам природы",
+                    "offensiveSlowPoisonModifier": "+50% урона от яда"
+                }
+            ],
+            "tag": "tagSetName020"
+        },
+        "tagSetName021": {
+            "items": [
+                "tagUArmor120",
+                "tagUArmor375",
+                "tagUArmor162",
+                "tagUArmor228",
+                "tagUWeapon064",
+                "tagUWeapon194"
+            ],
+            "name": "Сила служителя",
+            "properties": [
+                {
+                    "characterDodgePercent": "2% шанс уклониться от атаки",
+                    "defensiveBleeding": "12% сопротивление кровотечению",
+                    "defensiveElementalResistance": "12% сопротивление силам природы",
+                    "defensivePierce": "12% сопротивление проникающему урону"
+                },
+                {
+                    "characterDodgePercent": "4% шанс уклониться от атаки",
+                    "defensiveBleeding": "17% сопротивление кровотечению",
+                    "defensiveElementalResistance": "17% сопротивление силам природы",
+                    "defensivePierce": "17% сопротивление проникающему урону"
+                },
+                {
+                    "characterDodgePercent": "4% шанс уклониться от атаки",
+                    "defensiveBleeding": "27% сопротивление кровотечению",
+                    "defensiveBlockModifier": "+5% к шансу блокировки щитом",
+                    "defensiveElementalResistance": "27% сопротивление силам природы",
+                    "defensivePierce": "27% сопротивление проникающему урону"
+                },
+                {
+                    "characterDodgePercent": "6% шанс уклониться от атаки",
+                    "defensiveBleeding": "27% сопротивление кровотечению",
+                    "defensiveBlockModifier": "+5% к шансу блокировки щитом",
+                    "defensiveElementalResistance": "27% сопротивление силам природы",
+                    "defensivePierce": "27% сопротивление проникающему урону",
+                    "offensiveElementalModifier": "+15% урона силами природы"
+                },
+                {
+                    "characterDodgePercent": "6% шанс уклониться от атаки",
+                    "characterEnergyAbsorptionPercent": "10% поглощения энергии от заклятий",
+                    "defensiveBleeding": "27% сопротивление кровотечению",
+                    "defensiveBlockModifier": "+8% к шансу блокировки щитом",
+                    "defensiveElementalResistance": "27% сопротивление силам природы",
+                    "defensivePierce": "27% сопротивление проникающему урону",
+                    "offensiveElementalModifier": "+15% урона силами природы",
+                    "offensivePercentCurrentLife": "7-14% уменьшение жизни противника"
+                }
+            ],
+            "tag": "tagSetName021"
+        },
+        "tagSetName022": {
+            "items": [
+                "tagUArmor066",
+                "tagUArmor398",
+                "tagUArmor250",
+                "tagUWeapon265"
+            ],
+            "name": "Теневое одеяние",
+            "properties": [
+                {
+                    "characterMana": "+80 ед. энергии",
+                    "defensiveLife": "17% сопротивление урону здоровью",
+                    "defensiveLightning": "17% сопротивление молниям",
+                    "defensiveSlowLifeLeach": "20% защита от кражи жизни"
+                },
+                {
+                    "characterMana": "+140 ед. энергии",
+                    "defensiveLife": "25% сопротивление урону здоровью",
+                    "defensiveLightning": "25% сопротивление молниям",
+                    "defensiveSlowLifeLeach": "40% защита от кражи жизни",
+                    "offensiveLifeModifier": "+25% урона здоровью",
+                    "offensiveSlowLifeLeachModifier": "+25% кражи жизни"
+                },
+                {
+                    "characterMana": "+200 ед. энергии",
+                    "defensiveLife": "33% сопротивление урону здоровью",
+                    "defensiveLightning": "33% сопротивление молниям",
+                    "defensiveSlowLifeLeach": "60% защита от кражи жизни",
+                    "offensiveLifeModifier": "+50% урона здоровью",
+                    "offensivePercentCurrentLife": "7-9% уменьшение жизни противника",
+                    "offensiveSlowLifeLeachModifier": "+50% кражи жизни"
+                }
+            ],
+            "tag": "tagSetName022"
+        },
+        "tagSetName023": {
+            "items": [
+                "tagUArmor117",
+                "tagUArmor373",
+                "tagUArmor160",
+                "tagUArmor226",
+                "tagUWeapon062",
+                "tagUWeapon109"
+            ],
+            "name": "Теневая защита",
+            "properties": [
+                {
+                    "defensiveBleeding": "10% сопротивление кровотечению",
+                    "defensiveLife": "10% сопротивление урону здоровью",
+                    "defensivePoison": "10% сопротивление яду",
+                    "defensiveSlowLifeLeach": "10% защита от кражи жизни"
+                },
+                {
+                    "defensiveBleeding": "20% сопротивление кровотечению",
+                    "defensiveLife": "20% сопротивление урону здоровью",
+                    "defensivePoison": "20% сопротивление яду",
+                    "defensiveSlowLifeLeach": "20% защита от кражи жизни"
+                },
+                {
+                    "defensiveBleeding": "30% сопротивление кровотечению",
+                    "defensiveLife": "30% сопротивление урону здоровью",
+                    "defensivePoison": "30% сопротивление яду",
+                    "defensiveSlowLifeLeach": "30% защита от кражи жизни",
+                    "offensiveLifeModifier": "+25% урона здоровью",
+                    "offensiveSlowLifeLeachModifier": "+25% кражи жизни"
+                },
+                {
+                    "characterOffensiveAbility": "+40 ед. наступательной способности",
+                    "characterStrength": "+28 ед. силы",
+                    "defensiveBleeding": "40% сопротивление кровотечению",
+                    "defensiveLife": "40% сопротивление урону здоровью",
+                    "defensivePoison": "40% сопротивление яду",
+                    "defensiveSlowLifeLeach": "40% защита от кражи жизни",
+                    "offensiveLifeModifier": "+25% урона здоровью",
+                    "offensiveSlowLifeLeachModifier": "+25% кражи жизни"
+                },
+                {
+                    "characterOffensiveAbility": "+80 ед. наступательной способности",
+                    "characterStrength": "+48 ед. силы",
+                    "defensiveBleeding": "50% сопротивление кровотечению",
+                    "defensiveLife": "50% сопротивление урону здоровью",
+                    "defensivePoison": "50% сопротивление яду",
+                    "defensiveSlowLifeLeach": "50% защита от кражи жизни",
+                    "offensiveLifeModifier": "+50% урона здоровью",
+                    "offensiveSlowLifeLeachModifier": "+50% кражи жизни"
+                }
+            ],
+            "tag": "tagSetName023"
+        },
+        "tagSetName024": {
+            "items": [
+                "tagUArmor065",
+                "tagUArmor397",
+                "tagUArmor249",
+                "tagUWeapon281"
+            ],
+            "name": "Одежды гроз",
+            "properties": [
+                {
+                    "characterMana": "+55 ед. энергии",
+                    "defensiveCold": "17% сопротивление холоду",
+                    "defensiveLightning": "17% сопротивление молниям"
+                },
+                {
+                    "characterMana": "+100 ед. энергии",
+                    "defensiveCold": "17% сопротивление холоду",
+                    "defensiveLightning": "17% сопротивление молниям",
+                    "offensiveColdModifier": "+25% урона от холода",
+                    "offensiveLightningModifier": "+25% урона от молний",
+                    "offensiveSlowColdModifier": "+25% урона обжигающего холода",
+                    "offensiveSlowLightningModifier": "+25% урона электрическим разрядом"
+                },
+                {
+                    "characterMana": "+200 ед. энергии",
+                    "defensiveCold": "22% сопротивление холоду",
+                    "defensiveLightning": "22% сопротивление молниям",
+                    "offensiveColdModifier": "+50% урона от холода",
+                    "offensiveLightningModifier": "+50% урона от молний",
+                    "offensiveSlowColdModifier": "+50% урона обжигающего холода",
+                    "offensiveSlowLightningModifier": "+50% урона электрическим разрядом"
+                }
+            ],
+            "tag": "tagSetName024"
+        },
+        "tagSetName025": {
+            "items": [
+                "tagUArmor118",
+                "tagUArmor364",
+                "tagUArmor161",
+                "tagUArmor227",
+                "tagUWeapon192"
+            ],
+            "name": "Буря",
+            "properties": [
+                {
+                    "characterLife": "+55 ед. жизни",
+                    "defensiveCold": "17% сопротивление холоду",
+                    "defensiveLightning": "17% сопротивление молниям"
+                },
+                {
+                    "characterLife": "+100 ед. жизни",
+                    "characterStrength": "+25 ед. силы",
+                    "defensiveCold": "22% сопротивление холоду",
+                    "defensiveLightning": "22% сопротивление молниям",
+                    "offensiveStunModifier": "+20% времени оглушения"
+                },
+                {
+                    "characterLife": "+145 ед. жизни",
+                    "characterStrength": "+35 ед. силы",
+                    "defensiveCold": "33% сопротивление холоду",
+                    "defensiveLightning": "33% сопротивление молниям",
+                    "offensiveManaDrain": "10% уменьшение энергии (50% от сожённой энергии наносит урон)",
+                    "offensiveStunModifier": "+20% времени оглушения"
+                },
+                {
+                    "characterLife": "+190 ед. жизни",
+                    "characterStrength": "+45 ед. силы",
+                    "defensiveCold": "33% сопротивление холоду",
+                    "defensiveLightning": "33% сопротивление молниям",
+                    "offensiveManaDrain": "33% уменьшение энергии (100% от сожённой энергии наносит урон)",
+                    "offensiveStunModifier": "+20% времени оглушения"
+                }
+            ],
+            "tag": "tagSetName025"
+        },
+        "tagSetName026": {
+            "items": [
+                "tagUArmor110",
+                "tagUArmor365",
+                "tagUArmor153",
+                "tagUArmor218"
+            ],
+            "name": "Броня Трои",
+            "properties": [
+                {
+                    "characterDefensiveAbility": "+42 ед. оборонительной способности",
+                    "characterLife": "+50 ед. жизни",
+                    "defensiveBleeding": "33% сопротивление кровотечению"
+                },
+                {
+                    "characterDefensiveAbility": "+42 ед. оборонительной способности",
+                    "characterLife": "+100 ед. жизни",
+                    "characterLifeRegenModifier": "+50% восстановления жизни",
+                    "defensiveBleeding": "33% сопротивление кровотечению",
+                    "defensiveProtectionModifier": "+10% защиты брони"
+                },
+                {
+                    "characterDefensiveAbility": "+58 ед. оборонительной способности",
+                    "characterLife": "+150 ед. жизни",
+                    "characterLifeRegenModifier": "+50% восстановления жизни",
+                    "defensiveBleeding": "33% сопротивление кровотечению",
+                    "defensiveLightning": "33% сопротивление молниям",
+                    "defensivePierce": "33% сопротивление проникающему урону",
+                    "defensiveProtectionModifier": "+10% защиты брони"
+                }
+            ],
+            "tag": "tagSetName026"
+        },
+        "tagSetName027": {
+            "items": [
+                "tagUArmor119",
+                "tagUArmor399",
+                "tagUArmor183",
+                "tagUArmor251"
+            ],
+            "name": "Облачение боевого мага",
+            "properties": [
+                {
+                    "defensivePierce": "37% сопротивление проникающему урону",
+                    "defensiveProtectionModifier": "+20% защиты брони"
+                },
+                {
+                    "defensivePierce": "37% сопротивление проникающему урону",
+                    "defensivePoison": "37% сопротивление яду",
+                    "defensiveProtectionModifier": "+40% защиты брони"
+                },
+                {
+                    "defensiveElementalResistance": "37% сопротивление силам природы",
+                    "defensivePierce": "37% сопротивление проникающему урону",
+                    "defensivePoison": "37% сопротивление яду",
+                    "defensiveProtectionModifier": "+60% защиты брони"
+                }
+            ],
+            "tag": "tagSetName027"
+        },
+        "tagSetName028": {
+            "items": [
+                "tagUWeapon107",
+                "tagUWeapon108"
+            ],
+            "name": "Погибель Мессины",
+            "properties": [
+                {
+                    "characterOffensiveAbility": "+100 ед. наступательной способности",
+                    "offensiveLifeLeech": "7% урона переводится в жизнь",
+                    "offensivePhysicalModifier": "15.0% шанс на +100% физического урона"
+                }
+            ],
+            "tag": "tagSetName028"
+        },
+        "tagSetName029": {
+            "items": [
+                "tagUArmor128",
+                "tagUArmor383",
+                "tagUArmor170",
+                "tagUArmor235"
+            ],
+            "name": "Шкура немейского льва",
+            "properties": [
+                {
+                    "defensivePhysical": "10.0% шанс на 100% сопротивление физическому урону"
+                },
+                {
+                    "characterStrengthModifier": "+20% силы",
+                    "defensivePhysical": "15.0% шанс на 100% сопротивление физическому урону"
+                },
+                {
+                    "characterStrengthModifier": "+20% силы",
+                    "defensiveBleeding": "50% сопротивление кровотечению",
+                    "defensivePhysical": "20.0% шанс на 100% сопротивление физическому урону",
+                    "defensivePierce": "50% сопротивление проникающему урону"
+                }
+            ],
+            "tag": "tagSetName029"
+        },
+        "tagSetName030": {
+            "items": [
+                "tagUArmor108",
+                "tagUArmor362",
+                "tagUArmor151",
+                "tagUArmor216",
+                "tagUWeapon061",
+                "tagUWeapon236"
+            ],
+            "name": "Доспехи Александра",
+            "properties": [
+                {
+                    "characterStrengthModifier": "+10% силы"
+                },
+                {
+                    "characterLife": "+300 ед. жизни",
+                    "characterStrengthModifier": "+10% силы"
+                },
+                {
+                    "characterDefensiveAbility": "+85 ед. оборонительной способности",
+                    "characterLife": "+300 ед. жизни",
+                    "characterStrengthModifier": "+10% силы"
+                },
+                {
+                    "characterDefensiveAbility": "+85 ед. оборонительной способности",
+                    "characterLife": "+300 ед. жизни",
+                    "characterStrengthModifier": "+10% силы",
+                    "defensiveBlockModifier": "+6% к шансу блокировки щитом",
+                    "defensiveProtectionModifier": "+20% защиты брони"
+                },
+                {
+                    "characterDefensiveAbility": "+120 ед. оборонительной способности",
+                    "characterDeflectProjectile": "8% шанс уклониться от летящих снарядов",
+                    "characterDodgePercent": "8% шанс уклониться от атаки",
+                    "characterLife": "+600 ед. жизни",
+                    "characterStrengthModifier": "+10% силы",
+                    "defensiveBlockModifier": "+6% к шансу блокировки щитом",
+                    "defensiveProtectionModifier": "+20% защиты брони"
+                }
+            ],
+            "tag": "tagSetName030"
+        },
+        "tagSetName031": {
+            "items": [
+                "tagUArmor122",
+                "tagUArmor377",
+                "tagUArmor164",
+                "tagUWeapon065"
+            ],
+            "name": "Магматическая броня",
+            "properties": [
+                {
+                    "characterDefensiveAbility": "+65 ед. оборонительной способности",
+                    "characterLifeRegenModifier": "+50% восстановления жизни",
+                    "characterManaRegenModifier": "+50% восстановления энергии",
+                    "defensiveSlowLifeLeach": "25% защита от кражи жизни",
+                    "defensiveSlowManaLeach": "25% защита от кражи энергии"
+                },
+                {
+                    "characterDefensiveAbility": "+90 ед. оборонительной способности",
+                    "characterEnergyAbsorptionPercent": "10% поглощения энергии от заклятий",
+                    "characterLifeRegenModifier": "+50% восстановления жизни",
+                    "characterManaRegenModifier": "+50% восстановления энергии",
+                    "defensivePhysical": "10% сопротивление физическому урону",
+                    "defensiveSlowLifeLeach": "25% защита от кражи жизни",
+                    "defensiveSlowManaLeach": "25% защита от кражи энергии"
+                },
+                {
+                    "characterDefensiveAbility": "+115 ед. оборонительной способности",
+                    "characterEnergyAbsorptionPercent": "10% поглощения энергии от заклятий",
+                    "characterLifeRegenModifier": "+50% восстановления жизни",
+                    "characterManaRegenModifier": "+50% восстановления энергии",
+                    "defensiveBlockModifier": "+4% к шансу блокировки щитом",
+                    "defensiveElementalResistance": "50% сопротивление силам природы",
+                    "defensivePhysical": "10% сопротивление физическому урону",
+                    "defensivePierce": "50% сопротивление проникающему урону",
+                    "defensivePoison": "50% сопротивление яду",
+                    "defensiveSlowLifeLeach": "25% защита от кражи жизни",
+                    "defensiveSlowManaLeach": "25% защита от кражи энергии"
+                }
+            ],
+            "tag": "tagSetName031"
+        },
+        "tagSetName032": {
+            "items": [
+                "tagUArmor125",
+                "tagUWeapon066",
+                "tagUWeapon321"
+            ],
+            "name": "Дитя Ареса",
+            "properties": [
+                {
+                    "offensiveLifeLeech": "10% урона переводится в жизнь"
+                },
+                {
+                    "characterAttackSpeedModifier": "+20% скорости атаки",
+                    "offensiveLifeLeech": "15% урона переводится в жизнь",
+                    "offensivePhysicalModifier": "+20% физического урона"
+                }
+            ],
+            "tag": "tagSetName032"
+        },
+        "tagSetName033": {
+            "items": [
+                "tagUArmor130",
+                "tagUArmor387",
+                "tagUArmor174",
+                "tagUArmor239",
+                "tagUWeapon068"
+            ],
+            "name": "Лабиринтные доспехи",
+            "properties": [
+                {
+                    "characterStrength": "+10 ед. силы",
+                    "defensivePierce": "16% сопротивление проникающему урону",
+                    "defensiveStun": "16% сопротивление оглушению"
+                },
+                {
+                    "characterStrength": "+10 ед. силы",
+                    "defensiveBlockModifier": "+9% к шансу блокировки щитом",
+                    "defensivePierce": "32% сопротивление проникающему урону",
+                    "defensiveStun": "32% сопротивление оглушению"
+                },
+                {
+                    "characterStrength": "+10 ед. силы",
+                    "defensiveBlockModifier": "+15% к шансу блокировки щитом",
+                    "defensivePierce": "32% сопротивление проникающему урону",
+                    "defensiveProtectionModifier": "+10% защиты брони",
+                    "defensiveStun": "32% сопротивление оглушению"
+                },
+                {
+                    "characterLife": "+100 ед. жизни",
+                    "characterStrength": "+10 ед. силы",
+                    "defensiveBlockModifier": "+24% к шансу блокировки щитом",
+                    "defensivePierce": "32% сопротивление проникающему урону",
+                    "defensiveProtectionModifier": "+10% защиты брони",
+                    "defensiveStun": "32% сопротивление оглушению"
+                }
+            ],
+            "tag": "tagSetName033"
+        },
+        "tagSetName034": {
+            "items": [
+                "tagUArmor135",
+                "tagUArmor391",
+                "tagUArmor179",
+                "tagUArmor243",
+                "tagUWeapon153"
+            ],
+            "name": "Гордость нефритового чертога",
+            "properties": [
+                {
+                    "characterDexterity": "+17 ед. ловкости",
+                    "defensivePierce": "30% сопротивление проникающему урону"
+                },
+                {
+                    "characterAttackSpeedModifier": "+25% скорости атаки",
+                    "characterDexterity": "+17 ед. ловкости",
+                    "defensivePierce": "30% сопротивление проникающему урону",
+                    "offensivePhysicalModifier": "+15% физического урона"
+                },
+                {
+                    "characterAttackSpeedModifier": "+25% скорости атаки",
+                    "characterDexterity": "+17 ед. ловкости",
+                    "defensiveBleeding": "30% сопротивление кровотечению",
+                    "defensivePierce": "30% сопротивление проникающему урону",
+                    "offensivePhysicalModifier": "+25% физического урона",
+                    "offensivePierceModifier": "+25% проникающего урона"
+                },
+                {
+                    "characterAttackSpeedModifier": "+25% скорости атаки",
+                    "characterDexterity": "+17 ед. ловкости",
+                    "defensiveBleeding": "30% сопротивление кровотечению",
+                    "defensivePierce": "30% сопротивление проникающему урону",
+                    "offensivePercentCurrentLife": "10% уменьшение жизни противника",
+                    "offensivePhysicalModifier": "+25% физического урона",
+                    "offensivePierceModifier": "+50% проникающего урона",
+                    "skillProjectileSpeedModifier": "25% скорости полёта снарядов"
+                }
+            ],
+            "tag": "tagSetName034"
+        },
+        "tagSetName035": {
+            "items": [
+                "tagUArmor109",
+                "tagUArmor363",
+                "tagUArmor152",
+                "tagUArmor217",
+                "tagUWeapon191"
+            ],
+            "name": "Сфинкс",
+            "properties": [
+                {
+                    "defensiveBleeding": "23% сопротивление кровотечению",
+                    "defensivePoison": "23% сопротивление яду"
+                },
+                {
+                    "characterLifeRegenModifier": "+25% восстановления жизни",
+                    "characterManaRegenModifier": "+25% восстановления энергии",
+                    "defensiveBleeding": "23% сопротивление кровотечению",
+                    "defensivePoison": "23% сопротивление яду",
+                    "defensivePoisonDuration": "50% уменьшение урона от яда"
+                },
+                {
+                    "characterDefensiveAbility": "+65 ед. оборонительной способности",
+                    "characterLifeRegenModifier": "+50% восстановления жизни",
+                    "characterManaRegenModifier": "+50% восстановления энергии",
+                    "defensiveBleeding": "23% сопротивление кровотечению",
+                    "defensiveElementalResistance": "23% сопротивление силам природы",
+                    "defensivePoison": "23% сопротивление яду",
+                    "defensivePoisonDuration": "50% уменьшение урона от яда"
+                },
+                {
+                    "characterDefensiveAbility": "+100 ед. оборонительной способности",
+                    "characterLifeRegenModifier": "+100% восстановления жизни",
+                    "characterManaRegenModifier": "+100% восстановления энергии",
+                    "defensiveBleeding": "33% сопротивление кровотечению",
+                    "defensiveElementalResistance": "33% сопротивление силам природы",
+                    "defensivePoison": "33% сопротивление яду",
+                    "defensivePoisonDuration": "50% уменьшение урона от яда"
+                }
+            ],
+            "tag": "tagSetName035"
+        },
+        "tagSetName036": {
+            "items": [
+                "tagUArmor127",
+                "tagUArmor381",
+                "tagUArmor168",
+                "tagUArmor233",
+                "tagUWeapon322"
+            ],
+            "name": "Реликвии Хуо Чубинга",
+            "properties": [
+                {
+                    "characterLife": "+150 ед. жизни",
+                    "retaliationLife": "13-21 ед. ответного урона здоровью"
+                },
+                {
+                    "characterLife": "+230 ед. жизни",
+                    "defensiveLife": "42% сопротивление урону здоровью",
+                    "offensiveLifeLeech": "5% урона переводится в жизнь",
+                    "retaliationLife": "13-21 ед. ответного урона здоровью"
+                },
+                {
+                    "characterLife": "+230 ед. жизни",
+                    "defensiveLife": "42% сопротивление урону здоровью",
+                    "offensiveLifeLeech": "10% урона переводится в жизнь",
+                    "offensiveSlowLifeLeachModifier": "+50% кражи жизни",
+                    "retaliationLife": "13-21 ед. ответного урона здоровью"
+                },
+                {
+                    "characterLife": "+230 ед. жизни",
+                    "defensiveLife": "42% сопротивление урону здоровью",
+                    "defensivePierce": "50% сопротивление проникающему урону",
+                    "defensivePoison": "50% сопротивление яду",
+                    "offensiveLifeLeech": "10% урона переводится в жизнь",
+                    "offensiveSlowLifeLeachModifier": "+100% кражи жизни",
+                    "retaliationLife": "13-21 ед. ответного урона здоровью"
+                }
+            ],
+            "tag": "tagSetName036"
+        },
+        "tagSetName037": {
+            "items": [
+                "tagUArmor385",
+                "tagUArmor172",
+                "tagUArmor237",
+                "tagUWeapon067",
+                "tagUWeapon238"
+            ],
+            "name": "Вавилонские одежды",
+            "properties": [
+                {
+                    "characterRunSpeedModifier": "+10% скорости перемещения",
+                    "defensiveElementalResistance": "15% сопротивление силам природы"
+                },
+                {
+                    "characterDexterity": "+33 ед. ловкости",
+                    "characterLife": "+82 ед. жизни",
+                    "characterRunSpeedModifier": "+10% скорости перемещения",
+                    "defensiveElementalResistance": "15% сопротивление силам природы"
+                },
+                {
+                    "characterDexterity": "+33 ед. ловкости",
+                    "characterLife": "+82 ед. жизни",
+                    "characterRunSpeedModifier": "+10% скорости перемещения",
+                    "defensiveBleeding": "10% сопротивление кровотечению",
+                    "defensiveElementalResistance": "15% сопротивление силам природы",
+                    "defensivePoison": "10% сопротивление яду",
+                    "defensiveProtectionModifier": "+10% защиты брони"
+                },
+                {
+                    "characterDefensiveAbility": "+45 ед. оборонительной способности",
+                    "characterDexterity": "+33 ед. ловкости",
+                    "characterLife": "+82 ед. жизни",
+                    "characterRunSpeedModifier": "+10% скорости перемещения",
+                    "defensiveBleeding": "25% сопротивление кровотечению",
+                    "defensiveElementalResistance": "15% сопротивление силам природы",
+                    "defensivePoison": "25% сопротивление яду",
+                    "defensiveProtectionModifier": "+10% защиты брони"
+                }
+            ],
+            "tag": "tagSetName037"
+        },
+        "tagSetName038": {
+            "items": [
+                "tagUArmor116",
+                "tagUArmor372",
+                "tagUArmor159",
+                "tagUArmor225"
+            ],
+            "name": "Покров разбойника",
+            "properties": [
+                {
+                    "characterLife": "+200 ед. жизни"
+                },
+                {
+                    "characterLife": "+300 ед. жизни",
+                    "offensiveSlowBleedingModifier": "+50% урона от кровотечения",
+                    "offensiveSlowPoisonModifier": "+50% урона от яда"
+                },
+                {
+                    "characterDeflectProjectile": "10% шанс уклониться от летящих снарядов",
+                    "characterDodgePercent": "10% шанс уклониться от атаки",
+                    "characterLife": "+400 ед. жизни",
+                    "offensiveSlowBleedingModifier": "+50% урона от кровотечения",
+                    "offensiveSlowPoisonModifier": "+50% урона от яда"
+                }
+            ],
+            "tag": "tagSetName038"
+        },
+        "tagSetName039": {
+            "items": [
+                "tagUArmor124",
+                "tagUArmor379",
+                "tagUArmor166",
+                "tagUArmor231"
+            ],
+            "name": "Покров убийцы",
+            "properties": [
+                {
+                    "characterLife": "+300 ед. жизни"
+                },
+                {
+                    "characterLife": "+400 ед. жизни",
+                    "offensiveSlowBleedingModifier": "+100% урона от кровотечения",
+                    "offensiveSlowPoisonModifier": "+100% урона от яда"
+                },
+                {
+                    "characterDeflectProjectile": "15% шанс уклониться от летящих снарядов",
+                    "characterDodgePercent": "15% шанс уклониться от атаки",
+                    "characterLife": "+500 ед. жизни",
+                    "offensiveSlowBleedingModifier": "+100% урона от кровотечения",
+                    "offensiveSlowPoisonModifier": "+100% урона от яда"
+                }
+            ],
+            "tag": "tagSetName039"
+        },
+        "tagSetName040": {
+            "items": [
+                "tagUArmor115",
+                "tagUArmor370",
+                "tagUArmor158",
+                "tagUArmor223"
+            ],
+            "name": "Броня охотника",
+            "properties": [
+                {
+                    "characterDexterity": "+35 ед. ловкости",
+                    "defensiveBleeding": "24% сопротивление кровотечению"
+                },
+                {
+                    "characterDexterity": "+45 ед. ловкости",
+                    "defensiveBleeding": "24% сопротивление кровотечению",
+                    "offensivePierceModifier": "+50% проникающего урона"
+                },
+                {
+                    "characterDexterity": "+55 ед. ловкости",
+                    "characterLife": "+75 ед. жизни",
+                    "defensiveBleeding": "24% сопротивление кровотечению",
+                    "defensivePierce": "24% сопротивление проникающему урону",
+                    "offensivePierceModifier": "+50% проникающего урона",
+                    "skillProjectileSpeedModifier": "50% скорости полёта снарядов"
+                }
+            ],
+            "tag": "tagSetName040"
+        },
+        "tagSetName041": {
+            "items": [
+                "tagUArmor129",
+                "tagUArmor384",
+                "tagUArmor171",
+                "tagUArmor236"
+            ],
+            "name": "Броня филёра",
+            "properties": [
+                {
+                    "characterDexterity": "+60 ед. ловкости",
+                    "defensiveBleeding": "40% сопротивление кровотечению"
+                },
+                {
+                    "characterDexterity": "+70 ед. ловкости",
+                    "defensiveBleeding": "40% сопротивление кровотечению",
+                    "offensivePierceModifier": "+100% проникающего урона"
+                },
+                {
+                    "characterDexterity": "+80 ед. ловкости",
+                    "characterLife": "+150 ед. жизни",
+                    "defensiveBleeding": "40% сопротивление кровотечению",
+                    "defensivePierce": "40% сопротивление проникающему урону",
+                    "offensivePierceModifier": "+100% проникающего урона",
+                    "skillProjectileSpeedModifier": "100% скорости полёта снарядов"
+                }
+            ],
+            "tag": "tagSetName041"
+        },
+        "tagSetName042": {
+            "items": [
+                "tagUArmor121",
+                "tagUArmor376",
+                "tagUArmor163",
+                "tagUArmor229"
+            ],
+            "name": "Доспехи воина",
+            "properties": [
+                {
+                    "characterDefensiveAbility": "+50 ед. оборонительной способности",
+                    "characterOffensiveAbility": "+50 ед. наступательной способности",
+                    "defensiveBleeding": "20% сопротивление кровотечению"
+                },
+                {
+                    "characterDefensiveAbility": "+100 ед. оборонительной способности",
+                    "characterOffensiveAbility": "+100 ед. наступательной способности",
+                    "defensiveBleeding": "40% сопротивление кровотечению"
+                },
+                {
+                    "characterDefensiveAbility": "+200 ед. оборонительной способности",
+                    "characterLife": "+200 ед. жизни",
+                    "characterOffensiveAbility": "+200 ед. наступательной способности",
+                    "defensiveBleeding": "40% сопротивление кровотечению",
+                    "offensivePhysicalModifier": "+20% физического урона"
+                }
+            ],
+            "tag": "tagSetName042"
+        },
+        "tagSetName043": {
+            "items": [
+                "tagUArmor126",
+                "tagUArmor380",
+                "tagUArmor167",
+                "tagUArmor232"
+            ],
+            "name": "Доспехи завоевателя",
+            "properties": [
+                {
+                    "characterDefensiveAbility": "+75 ед. оборонительной способности",
+                    "characterOffensiveAbility": "+75 ед. наступательной способности",
+                    "defensiveBleeding": "30% сопротивление кровотечению"
+                },
+                {
+                    "characterDefensiveAbility": "+150 ед. оборонительной способности",
+                    "characterOffensiveAbility": "+150 ед. наступательной способности",
+                    "defensiveBleeding": "60% сопротивление кровотечению"
+                },
+                {
+                    "characterDefensiveAbility": "+300 ед. оборонительной способности",
+                    "characterLife": "+400 ед. жизни",
+                    "characterOffensiveAbility": "+300 ед. наступательной способности",
+                    "defensiveBleeding": "60% сопротивление кровотечению",
+                    "offensivePhysicalModifier": "+40% физического урона"
+                }
+            ],
+            "tag": "tagSetName043"
+        },
+        "tagSetName044": {
+            "items": [
+                "tagUArmor062",
+                "tagUArmor394",
+                "tagUArmor182",
+                "tagUArmor246"
+            ],
+            "name": "Регалии посвященного",
+            "properties": [
+                {
+                    "characterLife": "+120 ед. жизни",
+                    "characterMana": "+120 ед. энергии"
+                },
+                {
+                    "characterLife": "+200 ед. жизни",
+                    "characterMana": "+200 ед. энергии",
+                    "defensiveElementalResistance": "10% сопротивление силам природы"
+                },
+                {
+                    "characterLife": "+200 ед. жизни",
+                    "characterMana": "+400 ед. энергии",
+                    "characterManaRegenModifier": "+100% восстановления энергии",
+                    "defensiveElementalResistance": "10% сопротивление силам природы",
+                    "defensivePhysical": "10% сопротивление физическому урону"
+                }
+            ],
+            "tag": "tagSetName044"
+        },
+        "tagSetName045": {
+            "items": [
+                "tagUArmor067",
+                "tagUArmor400",
+                "tagUArmor184",
+                "tagUArmor252"
+            ],
+            "name": "Регалии архимага",
+            "properties": [
+                {
+                    "characterLife": "+180 ед. жизни",
+                    "characterMana": "+180 ед. энергии"
+                },
+                {
+                    "characterLife": "+300 ед. жизни",
+                    "characterMana": "+300 ед. энергии",
+                    "defensiveElementalResistance": "15% сопротивление силам природы"
+                },
+                {
+                    "characterLife": "+300 ед. жизни",
+                    "characterMana": "+600 ед. энергии",
+                    "characterManaRegenModifier": "+200% восстановления энергии",
+                    "defensiveElementalResistance": "15% сопротивление силам природы",
+                    "defensivePhysical": "15% сопротивление физическому урону"
+                }
+            ],
+            "tag": "tagSetName045"
+        },
+        "tagSetName046": {
+            "items": [
+                "tagUArmor404",
+                "tagUArmor403",
+                "tagUArmor405",
+                "tagUArmor406"
+            ],
+            "name": "Гебель Джаути",
+            "properties": [
+                {
+                    "defensivePierce": "22% сопротивление проникающему урону",
+                    "defensivePoison": "22% сопротивление яду"
+                },
+                {
+                    "characterDodgePercent": "3% шанс уклониться от атаки",
+                    "defensivePierce": "22% сопротивление проникающему урону",
+                    "defensivePoison": "22% сопротивление яду",
+                    "offensiveSlowBleedingModifier": "+25% урона от кровотечения",
+                    "offensiveSlowPoisonModifier": "+25% урона от яда"
+                },
+                {
+                    "characterDefensiveAbility": "+75 ед. оборонительной способности",
+                    "characterDodgePercent": "6% шанс уклониться от атаки",
+                    "defensivePierce": "32% сопротивление проникающему урону",
+                    "defensivePoison": "32% сопротивление яду",
+                    "offensiveSlowBleedingModifier": "+25% урона от кровотечения",
+                    "offensiveSlowPoisonModifier": "+25% урона от яда"
+                }
+            ],
+            "tag": "tagSetName046"
+        },
+        "tagSetName047": {
+            "items": [
+                "tagUArmor409",
+                "tagUArmor407",
+                "tagUArmor410",
+                "tagUArmor408"
+            ],
+            "name": "Вечная опека Тартара",
+            "properties": [
+                {
+                    "characterDefensiveAbility": "+50 ед. оборонительной способности",
+                    "characterLife": "+135 ед. жизни",
+                    "defensiveBleeding": "15% сопротивление кровотечению",
+                    "defensiveElementalResistance": "15% сопротивление силам природы",
+                    "defensiveLife": "15% сопротивление урону здоровью",
+                    "defensivePierce": "15% сопротивление проникающему урону",
+                    "defensivePoison": "15% сопротивление яду"
+                },
+                {
+                    "characterDefensiveAbility": "+100 ед. оборонительной способности",
+                    "characterLife": "+185 ед. жизни",
+                    "defensiveBleeding": "30% сопротивление кровотечению",
+                    "defensiveElementalResistance": "30% сопротивление силам природы",
+                    "defensiveLife": "30% сопротивление урону здоровью",
+                    "defensivePierce": "30% сопротивление проникающему урону",
+                    "defensivePoison": "30% сопротивление яду"
+                },
+                {
+                    "characterDefensiveAbility": "+200 ед. оборонительной способности",
+                    "characterLife": "+235 ед. жизни",
+                    "defensiveBleeding": "45% сопротивление кровотечению",
+                    "defensiveElementalResistance": "45% сопротивление силам природы",
+                    "defensiveLife": "45% сопротивление урону здоровью",
+                    "defensivePierce": "45% сопротивление проникающему урону",
+                    "defensivePoison": "45% сопротивление яду"
+                }
+            ],
+            "tag": "tagSetName047"
+        },
+        "tagSetNameLE1": {
+            "items": [
+                "tagUArmorFix1",
+                "tagUWeapon033",
+                "tagUWeapon201"
+            ],
+            "name": "Бронзовый доспех Гектора",
+            "properties": [
+                {
+                    "characterAttackSpeedModifier": "+15% скорости атаки",
+                    "defensiveElementalResistance": "15% сопротивление силам природы"
+                },
+                {
+                    "characterAttackSpeedModifier": "+30% скорости атаки",
+                    "defensiveElementalResistance": "30% сопротивление силам природы"
+                }
+            ],
+            "tag": "tagSetNameLE1"
+        },
+        "tagSetNameLE10": {
+            "items": [
+                "tagUArmor040",
+                "tagUArmor006",
+                "tagUArmor075"
+            ],
+            "name": "Ледяные кристаллы",
+            "properties": [
+                {
+                    "characterLifeRegen": "+3.0 ед. жизни в секунду восстанавливается",
+                    "characterManaRegen": "+3.0 ед. энергии в секунду восстанавливается",
+                    "offensiveFreeze": "5.0% шанс на 2.0-3.0 секунд(ы) заморозки"
+                },
+                {
+                    "characterLifeRegen": "+5.0 ед. жизни в секунду восстанавливается",
+                    "characterManaRegen": "+5.0 ед. энергии в секунду восстанавливается",
+                    "offensiveFreeze": "10.0% шанс на 2.0-3.0 секунд(ы) заморозки"
+                }
+            ],
+            "tag": "tagSetNameLE10"
+        },
+        "tagSetNameLE2": {
+            "items": [
+                "tagSetSecretoHelm",
+                "tagSetSecretoTorso",
+                "tagSetSecretoLegs",
+                "tagSetSecretoShield",
+                "tagSetSecretoClub"
+            ],
+            "name": "Адепт тайного ордена",
+            "properties": [
+                {
+                    "characterManaModifier": "+20% энергии"
+                },
+                {
+                    "characterLifeModifier": "+20% жизни",
+                    "characterManaModifier": "+20% энергии"
+                },
+                {
+                    "characterDexterityModifier": "+20% ловкости",
+                    "characterIntelligenceModifier": "+20% интеллекта",
+                    "characterLifeModifier": "+20% жизни",
+                    "characterManaModifier": "+20% энергии",
+                    "characterStrengthModifier": "+20% силы"
+                },
+                {
+                    "characterAttackSpeedModifier": "+40% скорости атаки",
+                    "characterDexterityModifier": "+20% ловкости",
+                    "characterIntelligenceModifier": "+20% интеллекта",
+                    "characterLifeModifier": "+20% жизни",
+                    "characterManaModifier": "+20% энергии",
+                    "characterStrengthModifier": "+20% силы",
+                    "offensivePercentCurrentLife": "10% уменьшение жизни противника"
+                }
+            ],
+            "tag": "tagSetNameLE2"
+        },
+        "tagSetNameLE3": {
+            "items": [
+                "tagUArmor014",
+                "tagUArmor305"
+            ],
+            "name": "Благоволение Тота",
+            "properties": [
+                {
+                    "defensiveBleeding": "50% сопротивление кровотечению",
+                    "defensiveLife": "50% сопротивление урону здоровью"
+                }
+            ],
+            "tag": "tagSetNameLE3"
+        },
+        "tagSetNameLE4": {
+            "items": [
+                "xtagUArmor110",
+                "xtagUArmor032"
+            ],
+            "name": "Тамплиер",
+            "properties": [
+                {
+                    "characterLifeModifier": "+20% жизни",
+                    "defensiveDisruption": "40% защита от снятия умений",
+                    "defensiveStun": "40% сопротивление оглушению"
+                }
+            ],
+            "tag": "tagSetNameLE4"
+        },
+        "tagSetNameLE5": {
+            "items": [
+                "tagUArmor343",
+                "tagUArmor048"
+            ],
+            "name": "Мантия пифий",
+            "properties": [
+                {
+                    "characterIntelligenceModifier": "+20% интеллекта",
+                    "characterSpellCastSpeedModifier": "+20% скорости заклинаний"
+                }
+            ],
+            "tag": "tagSetNameLE5"
+        },
+        "tagSetNameLE6": {
+            "items": [
+                "tagUArmor293",
+                "tagUWeapon214",
+                "tagUWeapon025"
+            ],
+            "name": "Одежда Патрокла",
+            "properties": [
+                {
+                    "characterLifeModifier": "+25% жизни"
+                },
+                {
+                    "characterLifeModifier": "+25% жизни",
+                    "defensiveElementalResistance": "25% сопротивление силам природы"
+                }
+            ],
+            "tag": "tagSetNameLE6"
+        },
+        "tagSetNameLE7": {
+            "items": [
+                "tagUArmor050",
+                "tagUArmor018",
+                "tagUArmor090"
+            ],
+            "name": "Проклятые жемчуга",
+            "properties": [
+                {
+                    "offensiveSlowLifeLeach": "150 ед. кражи жизни в течении 3.0 секунд(ы)",
+                    "offensiveSlowTotalSpeed": "20.0% замедления на 3.0 секунд(ы)"
+                },
+                {
+                    "offensiveSlowLifeLeach": "300 ед. кражи жизни в течении 3.0 секунд(ы)",
+                    "offensiveSlowTotalSpeed": "40.0% замедления на 3.0 секунд(ы)"
+                }
+            ],
+            "tag": "tagSetNameLE7"
+        },
+        "tagSetNameLE8": {
+            "items": [
+                "xtagUArmor058",
+                "xtagUArmor086"
+            ],
+            "name": "Аргонавт",
+            "properties": [
+                {
+                    "characterTotalSpeedModifier": "+10% ко всем показателям скорости"
+                }
+            ],
+            "tag": "tagSetNameLE8"
+        },
+        "tagSetNameLE9": {
+            "items": [
+                "tagUArmor058",
+                "tagUArmor026",
+                "tagUArmor098"
+            ],
+            "name": "Нефритовые украшения",
+            "properties": [
+                {
+                    "defensiveElementalResistance": "7% сопротивление силам природы",
+                    "offensiveSlowPoisonModifier": "10.0% шанс на +100% урона от яда"
+                },
+                {
+                    "defensiveElementalResistance": "15% сопротивление силам природы",
+                    "offensiveSlowPoisonModifier": "20.0% шанс на +100% урона от яда"
+                }
+            ],
+            "tag": "tagSetNameLE9"
+        },
+        "x2tagSet001": {
+            "items": [
+                "x2tagUArmor004",
+                "x2tagUArmor005",
+                "x2tagUArmor006",
+                "x2tagUWeapon001",
+                "x2tagUArmor110"
+            ],
+            "name": "Одеяние Одина",
+            "properties": [
+                {
+                    "characterIntelligence": "+50 ед. интеллекта",
+                    "defensiveProtection": "50 ед. защиты"
+                },
+                {
+                    "characterIntelligence": "+100 ед. интеллекта",
+                    "defensiveProtection": "100 ед. защиты"
+                },
+                {
+                    "characterIntelligence": "+150 ед. интеллекта",
+                    "defensiveProtection": "150 ед. защиты"
+                },
+                {
+                    "characterIntelligence": "+200 ед. интеллекта",
+                    "defensiveProtection": "200 ед. защиты"
+                }
+            ],
+            "tag": "x2tagSet001"
+        },
+        "x2tagSet002": {
+            "items": [
+                "x2tagUArmor008",
+                "x2tagUArmor009",
+                "x2tagUArmor010",
+                "x2tagUArmor011",
+                "x2tagUArmor122"
+            ],
+            "name": "Доспехи Фрейи",
+            "properties": [
+                {
+                    "characterAttackSpeedModifier": "+10% скорости атаки",
+                    "characterIncreasedExperience": "+5% увеличения опыта",
+                    "characterLife": "+100 ед. жизни",
+                    "characterSpellCastSpeedModifier": "+10% скорости заклинаний"
+                },
+                {
+                    "characterAttackSpeedModifier": "+20% скорости атаки",
+                    "characterIncreasedExperience": "+10% увеличения опыта",
+                    "characterLife": "+200 ед. жизни",
+                    "characterSpellCastSpeedModifier": "+20% скорости заклинаний"
+                },
+                {
+                    "characterAttackSpeedModifier": "+30% скорости атаки",
+                    "characterIncreasedExperience": "+15% увеличения опыта",
+                    "characterLife": "+300 ед. жизни",
+                    "characterSpellCastSpeedModifier": "+30% скорости заклинаний"
+                },
+                {
+                    "characterAttackSpeedModifier": "+40% скорости атаки",
+                    "characterIncreasedExperience": "+20% увеличения опыта",
+                    "characterLife": "+400 ед. жизни",
+                    "characterSpellCastSpeedModifier": "+40% скорости заклинаний"
+                }
+            ],
+            "tag": "x2tagSet002"
+        },
+        "x2tagSet003": {
+            "items": [
+                "x2tagUArmor012",
+                "x2tagUArmor013",
+                "x2tagUArmor014"
+            ],
+            "name": "Сила Тора",
+            "properties": [
+                {
+                    "characterStrength": "+50 ед. силы",
+                    "defensiveLightning": "50% сопротивление молниям"
+                },
+                {
+                    "characterStrength": "+100 ед. силы",
+                    "defensiveLightning": "100% сопротивление молниям"
+                }
+            ],
+            "tag": "x2tagSet003"
+        },
+        "x2tagSet004": {
+            "items": [
+                "x2tagUArmor001",
+                "x2tagUArmor002",
+                "x2tagUArmor121",
+                "x2tagUArmor003"
+            ],
+            "name": "Личина Рогатого бога",
+            "properties": [
+                {
+                    "characterManaModifier": "+10% энергии",
+                    "defensiveElementalResistance": "10% сопротивление силам природы"
+                },
+                {
+                    "characterManaModifier": "+20% энергии",
+                    "defensiveElementalResistance": "25% сопротивление силам природы"
+                },
+                {
+                    "characterManaModifier": "+30% энергии",
+                    "defensiveElementalResistance": "45% сопротивление силам природы"
+                }
+            ],
+            "tag": "x2tagSet004"
+        },
+        "x2tagSet005": {
+            "items": [
+                "x2tagUArmor016",
+                "x2tagUArmor015",
+                "x2tagUArmor017",
+                "x2tagUArmor018"
+            ],
+            "name": "Гордость Бренна",
+            "properties": [
+                {
+                    "characterStrengthModifier": "+10% силы",
+                    "offensivePhysicalModifier": "+15% физического урона"
+                },
+                {
+                    "characterStrengthModifier": "+20% силы",
+                    "offensivePhysicalModifier": "+30% физического урона"
+                },
+                {
+                    "characterStrengthModifier": "+30% силы",
+                    "offensivePhysicalModifier": "+45% физического урона"
+                }
+            ],
+            "tag": "x2tagSet005"
+        },
+        "x2tagSet006": {
+            "items": [
+                "x2tagUArmor044",
+                "x2tagUArmor073",
+                "x2tagUArmor088"
+            ],
+            "name": "Шипованое снаряжение Тьялфи",
+            "properties": [
+                {
+                    "defensiveElementalResistance": "12% сопротивление силам природы"
+                },
+                {
+                    "defensiveElementalResistance": "30% сопротивление силам природы"
+                }
+            ],
+            "tag": "x2tagSet006"
+        },
+        "x2tagSet007": {
+            "items": [
+                "x2tagUArmor019",
+                "x2tagUArmor020"
+            ],
+            "name": "Пряжка Суцелла",
+            "properties": [
+                {
+                    "characterTotalSpeedModifier": "+10% ко всем показателям скорости",
+                    "defensiveLife": "50% сопротивление урону здоровью"
+                }
+            ],
+            "tag": "x2tagSet007"
+        },
+        "x2tagSet008": {
+            "items": [
+                "x2tagUArmor022",
+                "x2tagUArmor021",
+                "x2tagUArmor023",
+                "x2tagUArmor024",
+                "x2tagUArmor025",
+                "x2tagUArmor026",
+                "x2tagUArmor027"
+            ],
+            "name": "Тень",
+            "properties": [
+                {},
+                {
+                    "defensiveBleeding": "7% сопротивление кровотечению",
+                    "defensiveElementalResistance": "-14% сопротивление силам природы",
+                    "defensiveLife": "-14% сопротивление урону здоровью",
+                    "defensivePhysical": "7% сопротивление физическому урону",
+                    "defensivePierce": "7% сопротивление проникающему урону",
+                    "defensivePoison": "7% сопротивление яду"
+                },
+                {
+                    "defensiveBleeding": "16% сопротивление кровотечению",
+                    "defensiveElementalResistance": "-32% сопротивление силам природы",
+                    "defensiveLife": "-32% сопротивление урону здоровью",
+                    "defensivePhysical": "16% сопротивление физическому урону",
+                    "defensivePierce": "16% сопротивление проникающему урону",
+                    "defensivePoison": "16% сопротивление яду"
+                },
+                {
+                    "defensiveBleeding": "27% сопротивление кровотечению",
+                    "defensiveElementalResistance": "-54% сопротивление силам природы",
+                    "defensiveLife": "-54% сопротивление урону здоровью",
+                    "defensivePhysical": "27% сопротивление физическому урону",
+                    "defensivePierce": "27% сопротивление проникающему урону",
+                    "defensivePoison": "27% сопротивление яду"
+                },
+                {
+                    "defensiveBleeding": "40% сопротивление кровотечению",
+                    "defensiveElementalResistance": "-80% сопротивление силам природы",
+                    "defensiveLife": "-80% сопротивление урону здоровью",
+                    "defensivePhysical": "40% сопротивление физическому урону",
+                    "defensivePierce": "40% сопротивление проникающему урону",
+                    "defensivePoison": "40% сопротивление яду"
+                }
+            ],
+            "tag": "x2tagSet008"
+        },
+        "x2tagSet009": {
+            "items": [
+                "x2tagZArmor002",
+                "x2tagZArmor001",
+                "x2tagZArmor003",
+                "x2tagZArmor004"
+            ],
+            "name": "Следопыт",
+            "properties": [
+                {
+                    "characterTotalSpeedModifier": "+10% ко всем показателям скорости"
+                },
+                {
+                    "characterTotalSpeedModifier": "+25% ко всем показателям скорости"
+                },
+                {
+                    "characterTotalSpeedModifier": "+45% ко всем показателям скорости"
+                }
+            ],
+            "tag": "x2tagSet009"
+        },
+        "x2tagSet010": {
+            "items": [
+                "x2tagUWeapon059",
+                "x2tagUWeapon060"
+            ],
+            "name": "Солнце и луна",
+            "properties": [
+                {
+                    "offensiveTotalDamageModifier": "+40% общего урона"
+                }
+            ],
+            "tag": "x2tagSet010"
+        },
+        "x3tagSetName01": {
+            "items": [
+                "x3tagUArmor111",
+                "x3tagUArmor211",
+                "x3tagUArmor311",
+                "x3tagUArmor511",
+                "x3tagU_Club05",
+                "x3tagU_Bow05"
+            ],
+            "name": "Наследие Филиппа",
+            "properties": [
+                {
+                    "offensivePhysicalModifier": "10.0% шанс на +200% физического урона",
+                    "offensivePierce": "20 ед. проникающего урона"
+                },
+                {
+                    "offensivePhysicalModifier": "20.0% шанс на +200% физического урона",
+                    "offensivePierce": "40 ед. проникающего урона"
+                },
+                {
+                    "offensivePhysicalModifier": "30.0% шанс на +200% физического урона",
+                    "offensivePierce": "60 ед. проникающего урона"
+                },
+                {
+                    "offensiveLifeLeech": "10% урона переводится в жизнь",
+                    "offensivePhysicalModifier": "40.0% шанс на +200% физического урона",
+                    "offensivePierce": "80 ед. проникающего урона"
+                }
+            ],
+            "tag": "x3tagSetName01"
+        },
+        "x3tagSetName02": {
+            "items": [
+                "x3tagUArmor112",
+                "x3tagUArmor212",
+                "x3tagUArmor312",
+                "x3tagUArmor512"
+            ],
+            "name": "Снаряжение акванавта",
+            "properties": [
+                {
+                    "characterMana": "+200 ед. энергии",
+                    "characterManaRegen": "+5.0 ед. энергии в секунду восстанавливается"
+                },
+                {
+                    "characterMana": "+400 ед. энергии",
+                    "characterManaRegen": "+10.0 ед. энергии в секунду восстанавливается",
+                    "defensiveBleeding": "50% сопротивление кровотечению"
+                },
+                {
+                    "characterMana": "+600 ед. энергии",
+                    "characterManaRegen": "+15.0 ед. энергии в секунду восстанавливается",
+                    "characterPhysToElementalRatio": "Урон оружия на 100% становится стихийным",
+                    "defensiveBleeding": "50% сопротивление кровотечению"
+                }
+            ],
+            "tag": "x3tagSetName02"
+        },
+        "x3tagSetName03": {
+            "items": [
+                "x3tagUArmor113",
+                "x3tagUArmor213",
+                "x3tagUArmor513",
+                "x3tagUArmor013"
+            ],
+            "name": "Костюм короля бандитов",
+            "properties": [
+                {
+                    "defensivePoison": "66% сопротивление яду"
+                },
+                {
+                    "defensiveLife": "66% сопротивление урону здоровью",
+                    "defensivePoison": "66% сопротивление яду"
+                },
+                {
+                    "characterTotalSpeedModifier": "+33% ко всем показателям скорости",
+                    "defensiveLife": "66% сопротивление урону здоровью",
+                    "defensivePoison": "66% сопротивление яду"
+                }
+            ],
+            "tag": "x3tagSetName03"
+        },
+        "x3tagSetName04": {
+            "items": [
+                "x3tagUArmor114",
+                "x3tagUArmor214",
+                "x3tagUArmor314",
+                "x3tagUArmor514"
+            ],
+            "name": "Меловой панцирь",
+            "properties": [
+                {
+                    "characterLifeRegen": "+10.0 ед. жизни в секунду восстанавливается"
+                },
+                {
+                    "characterLifeRegen": "+20.0 ед. жизни в секунду восстанавливается",
+                    "characterLifeRegenModifier": "+50% восстановления жизни"
+                },
+                {
+                    "characterLifeRegen": "+30.0 ед. жизни в секунду восстанавливается",
+                    "characterLifeRegenModifier": "+100% восстановления жизни",
+                    "defensiveElementalResistance": "20% сопротивление силам природы"
+                }
+            ],
+            "tag": "x3tagSetName04"
+        },
+        "x3tagSetName05": {
+            "items": [
+                "x3tagUArmor115",
+                "x3tagUArmor215",
+                "x3tagUArmor315",
+                "x3tagUArmor515",
+                "x3tagU_Staff03"
+            ],
+            "name": "Ультраабиссальные одежды",
+            "properties": [
+                {
+                    "characterAttackSpeedModifier": "+12% скорости атаки"
+                },
+                {
+                    "characterAttackSpeedModifier": "+25% скорости атаки",
+                    "defensivePierce": "20% сопротивление проникающему урону"
+                },
+                {
+                    "characterAttackSpeedModifier": "+37% скорости атаки",
+                    "defensivePierce": "40% сопротивление проникающему урону",
+                    "offensivePercentCurrentLife": "5% уменьшение жизни противника"
+                },
+                {
+                    "characterAttackSpeedModifier": "+50% скорости атаки",
+                    "defensivePierce": "60% сопротивление проникающему урону",
+                    "offensivePercentCurrentLife": "10% уменьшение жизни противника"
+                }
+            ],
+            "tag": "x3tagSetName05"
+        },
+        "x3tagSetName06": {
+            "items": [
+                "x3tagUArmor116",
+                "x3tagUArmor216",
+                "x3tagUArmor316",
+                "x3tagUArmor516"
+            ],
+            "name": "Доспех Солона",
+            "properties": [
+                {
+                    "defensiveBleeding": "30% сопротивление кровотечению"
+                },
+                {
+                    "characterDefensiveAbilityModifier": "+10% оборонительной способности",
+                    "defensiveBleeding": "60% сопротивление кровотечению"
+                },
+                {
+                    "characterDefensiveAbilityModifier": "+20% оборонительной способности",
+                    "defensiveBleeding": "90% сопротивление кровотечению",
+                    "skillCooldownReduction": "-40% времени перезарядки"
+                }
+            ],
+            "tag": "x3tagSetName06"
+        },
+        "x3tagSetName07": {
+            "items": [
+                "x3tagUArmor117",
+                "x3tagUArmor217",
+                "x3tagUArmor317",
+                "x3tagUArmor517",
+                "x3tagU_Shield06"
+            ],
+            "name": "Золоченые пластины короля Агенора",
+            "properties": [
+                {},
+                {},
+                {
+                    "characterDefensiveAbility": "+200 ед. оборонительной способности",
+                    "characterDefensiveBlockRecoveryReduction": "40% времени восстановления щита",
+                    "characterOffensiveAbility": "+200 ед. наступательной способности",
+                    "defensiveBlockModifier": "+20% к шансу блокировки щитом",
+                    "offensiveTotalDamageModifier": "+77% общего урона"
+                }
+            ],
+            "tag": "x3tagSetName07"
+        },
+        "x3tagSetName08": {
+            "items": [
+                "x3tagUArmor118",
+                "x3tagUArmor218"
+            ],
+            "name": "Конечности рептилида",
+            "properties": [
+                {
+                    "characterDefensiveAbility": "+200 ед. оборонительной способности",
+                    "offensiveConfusion": "10.0% шанс на 1.0-3.0 секунд(ы) смятения"
+                }
+            ],
+            "tag": "x3tagSetName08"
+        },
+        "x3tagSetName09": {
+            "items": [
+                "x3tagUArmor119",
+                "x3tagUArmor319",
+                "x3tagUArmor419"
+            ],
+            "name": "Жрец Баал-Хаммона",
+            "properties": [
+                {
+                    "defensivePhysical": "20% сопротивление физическому урону",
+                    "offensiveFear": "10.0% шанс на 2.0 секунд(ы) страха"
+                },
+                {
+                    "defensivePhysical": "30% сопротивление физическому урону",
+                    "offensiveFear": "20.0% шанс на 2.0 секунд(ы) страха",
+                    "offensivePercentCurrentLife": "10% уменьшение жизни противника"
+                }
+            ],
+            "tag": "x3tagSetName09"
+        },
+        "x3tagSetName10": {
+            "items": [
+                "x3tagUArmor120",
+                "x3tagUArmor220",
+                "x3tagUArmor320",
+                "x3tagUArmor520"
+            ],
+            "name": "Турдульское снаряжение",
+            "properties": [
+                {
+                    "defensiveBleeding": "15% сопротивление кровотечению",
+                    "defensiveLife": "15% сопротивление урону здоровью"
+                },
+                {
+                    "defensiveBleeding": "30% сопротивление кровотечению",
+                    "defensiveLife": "30% сопротивление урону здоровью"
+                },
+                {
+                    "defensiveBleeding": "45% сопротивление кровотечению",
+                    "defensiveLife": "45% сопротивление урону здоровью",
+                    "skillCooldownReduction": "-33% времени перезарядки"
+                }
+            ],
+            "tag": "x3tagSetName10"
+        },
+        "x3tagSetName11": {
+            "items": [
+                "x3tagUArmor318",
+                "x3tagUArmor518"
+            ],
+            "name": "Смертельная шутка",
+            "properties": [
+                {
+                    "offensiveConfusion": "1.0 секунд(ы) смятения",
+                    "offensiveSleep": "5.0-7.0 сек. сна",
+                    "offensiveSlowPoison": "150-450 ед. урона от яда в течении 3.0 секунд(ы)"
+                }
+            ],
+            "tag": "x3tagSetName11"
+        },
+        "x3tagSetName12": {
+            "items": [
+                "x3tagU_Club08",
+                "x3tagU_Shield05"
+            ],
+            "name": "Моллюск",
+            "properties": [
+                {
+                    "offensiveSlowManaLeach": "30-36 ед. кражи энергии"
+                }
+            ],
+            "tag": "x3tagSetName12"
+        },
+        "x3tagSetName13": {
+            "items": [
+                "x3tagU_Bow07",
+                "x3tagU_Spear06"
+            ],
+            "name": "Лоза нимфы",
+            "properties": [
+                {}
+            ],
+            "tag": "x3tagSetName13"
+        },
+        "x4tagU_Set_01": {
+            "items": [
+                "x4tagU_Armor_58",
+                "x4tagU_Armor_59",
+                "x4tagU_Armor_57",
+                "x4tagU_Armor_60"
+            ],
+            "name": "Эдикт Хуанди",
+            "properties": [
+                {
+                    "characterIntelligence": "+30 ед. интеллекта",
+                    "characterLife": "+200 ед. жизни",
+                    "skillCooldownReduction": "-10% времени перезарядки"
+                },
+                {
+                    "characterIntelligence": "+50 ед. интеллекта",
+                    "characterLife": "+300 ед. жизни",
+                    "skillCooldownReduction": "-15% времени перезарядки"
+                },
+                {
+                    "characterDefensiveAbility": "+100 ед. оборонительной способности",
+                    "characterIntelligence": "+65 ед. интеллекта",
+                    "characterLife": "+350 ед. жизни",
+                    "skillCooldownReduction": "-20% времени перезарядки"
+                }
+            ],
+            "tag": "x4tagU_Set_01"
+        },
+        "x4tagU_Set_02": {
+            "items": [
+                "x4tagU_Armor_62",
+                "x4tagU_Armor_61",
+                "x4tagU_Armor_64",
+                "x4tagU_Armor_63"
+            ],
+            "name": "Убийца титанов",
+            "properties": [
+                {
+                    "characterAttackSpeedModifier": "+15% скорости атаки",
+                    "characterLife": "+150 ед. жизни",
+                    "characterMana": "+300 ед. энергии"
+                },
+                {
+                    "characterAttackSpeedModifier": "+22% скорости атаки",
+                    "characterLife": "+150 ед. жизни",
+                    "characterMana": "+350 ед. энергии",
+                    "defensiveBleeding": "15% сопротивление кровотечению",
+                    "defensiveElementalResistance": "15% сопротивление силам природы",
+                    "defensiveLife": "15% сопротивление урону здоровью",
+                    "defensivePhysical": "15% сопротивление физическому урону",
+                    "defensivePierce": "15% сопротивление проникающему урону",
+                    "defensivePoison": "15% сопротивление яду"
+                },
+                {
+                    "characterAttackSpeedModifier": "+30% скорости атаки",
+                    "characterLife": "+200 ед. жизни",
+                    "characterMana": "+400 ед. энергии",
+                    "defensiveBleeding": "30% сопротивление кровотечению",
+                    "defensiveElementalResistance": "30% сопротивление силам природы",
+                    "defensiveLife": "30% сопротивление урону здоровью",
+                    "defensivePhysical": "30% сопротивление физическому урону",
+                    "defensivePierce": "30% сопротивление проникающему урону",
+                    "defensivePoison": "30% сопротивление яду",
+                    "offensiveSlowLifeLeachModifier": "+50% кражи жизни",
+                    "offensiveTotalDamageModifier": "5.0% шанс на +150% общего урона"
+                }
+            ],
+            "tag": "x4tagU_Set_02"
+        },
+        "x4tagU_Set_03": {
+            "items": [
+                "x4tagU_Armor_67",
+                "x4tagU_Armor_65",
+                "x4tagU_Armor_68",
+                "x4tagU_Armor_66",
+                "x4tagU_Amulet_10",
+                "x4tagU_Shield03"
+            ],
+            "name": "Объятия Чию",
+            "properties": [
+                {
+                    "characterMana": "+400 ед. энергии",
+                    "offensiveSlowBleedingModifier": "+10% урона от кровотечения"
+                },
+                {
+                    "characterDodgePercent": "15% шанс уклониться от атаки",
+                    "characterMana": "+500 ед. энергии",
+                    "defensiveElementalResistance": "30% сопротивление силам природы",
+                    "offensiveSlowBleedingModifier": "+30% урона от кровотечения"
+                },
+                {
+                    "characterDodgePercent": "20% шанс уклониться от атаки",
+                    "characterLife": "+300 ед. жизни",
+                    "characterMana": "+500 ед. энергии",
+                    "defensiveElementalResistance": "50% сопротивление силам природы",
+                    "offensiveSlowBleedingModifier": "+41% урона от кровотечения"
+                },
+                {
+                    "characterDodgePercent": "20% шанс уклониться от атаки",
+                    "characterLife": "+500 ед. жизни",
+                    "characterMana": "+500 ед. энергии",
+                    "defensiveElementalResistance": "50% сопротивление силам природы",
+                    "offensiveSlowBleedingModifier": "+41% урона от кровотечения"
+                },
+                {
+                    "characterDodgePercent": "20% шанс уклониться от атаки",
+                    "characterLife": "+500 ед. жизни",
+                    "characterMana": "+500 ед. энергии",
+                    "defensiveElementalResistance": "50% сопротивление силам природы",
+                    "defensiveTotalSpeed": "15% сопротивления замедлению",
+                    "offensiveSlowBleedingModifier": "+41% урона от кровотечения"
+                }
+            ],
+            "tag": "x4tagU_Set_03"
+        },
+        "x4tagU_Set_04": {
+            "items": [
+                "x4tagU_Armor_70",
+                "x4tagU_Armor_71",
+                "x4tagU_Armor_69",
+                "x4tagU_Armor_72"
+            ],
+            "name": "Пшент Тутмоса",
+            "properties": [
+                {
+                    "characterIntelligenceModifier": "+8% интеллекта",
+                    "characterLife": "+200 ед. жизни",
+                    "defensiveCold": "30% сопротивление холоду",
+                    "defensiveFire": "30% сопротивление огню"
+                },
+                {
+                    "characterIntelligenceModifier": "+8% интеллекта",
+                    "characterLife": "+400 ед. жизни",
+                    "defensiveCold": "40% сопротивление холоду",
+                    "defensiveFire": "30% сопротивление огню"
+                }
+            ],
+            "tag": "x4tagU_Set_04"
+        },
+        "x4tagU_Set_05": {
+            "items": [
+                "x4tagU_Armor_73",
+                "x4tagU_Armor_76",
+                "x4tagU_Armor_75",
+                "x4tagU_Armor_74"
+            ],
+            "name": "Обмотки Кийи",
+            "properties": [
+                {
+                    "characterManaRegenModifier": "+10% восстановления энергии",
+                    "characterSpellCastSpeedModifier": "+10% скорости заклинаний",
+                    "offensiveElementalModifier": "+20% урона силами природы"
+                },
+                {
+                    "characterManaRegenModifier": "+10% восстановления энергии",
+                    "characterSpellCastSpeedModifier": "+10% скорости заклинаний",
+                    "offensiveElementalModifier": "+25% урона силами природы",
+                    "skillCooldownReduction": "-10% времени перезарядки"
+                },
+                {
+                    "characterManaRegenModifier": "+30% восстановления энергии",
+                    "characterSpellCastSpeedModifier": "+20% скорости заклинаний",
+                    "offensiveElementalModifier": "+50% урона силами природы",
+                    "skillCooldownReduction": "-30% времени перезарядки"
+                }
+            ],
+            "tag": "x4tagU_Set_05"
+        },
+        "x4tagU_Set_06": {
+            "items": [
+                "x4tagU_Armor_79",
+                "x4tagU_Armor_78",
+                "x4tagU_Armor_80",
+                "x4tagU_Armor_77"
+            ],
+            "name": "Честь Гуань Юя",
+            "properties": [
+                {
+                    "characterLife": "+200 ед. жизни",
+                    "defensiveElementalResistance": "-5% сопротивление силам природы",
+                    "defensiveProtectionModifier": "+10% защиты брони"
+                },
+                {
+                    "characterDeflectProjectile": "5% шанс уклониться от летящих снарядов",
+                    "characterLife": "+300 ед. жизни",
+                    "defensiveElementalResistance": "-10% сопротивление силам природы",
+                    "defensiveProtectionModifier": "+10% защиты брони"
+                },
+                {
+                    "characterDeflectProjectile": "8% шанс уклониться от летящих снарядов",
+                    "characterLife": "+450 ед. жизни",
+                    "defensiveElementalResistance": "-20% сопротивление силам природы",
+                    "defensiveProtectionModifier": "+15% защиты брони",
+                    "offensiveLifeLeech": "10% урона переводится в жизнь",
+                    "offensivePhysicalModifier": "-30% физического урона"
+                }
+            ],
+            "tag": "x4tagU_Set_06"
+        },
+        "x4tagU_Set_07": {
+            "items": [
+                "x4tagU_Armor_82",
+                "x4tagU_Armor_84",
+                "x4tagU_Armor_85",
+                "x4tagU_Armor_81",
+                "x4tagU_Armor_83"
+            ],
+            "name": "Одежды Сюань-У",
+            "properties": [
+                {
+                    "characterMana": "+150 ед. энергии",
+                    "characterRunSpeedModifier": "+10% скорости перемещения"
+                },
+                {
+                    "characterIntelligence": "+30 ед. интеллекта",
+                    "characterMana": "+200 ед. энергии",
+                    "characterRunSpeedModifier": "+15% скорости перемещения",
+                    "defensiveSlowManaLeach": "20% защита от кражи энергии"
+                },
+                {
+                    "characterIntelligence": "+40 ед. интеллекта",
+                    "characterMana": "+250 ед. энергии",
+                    "characterRunSpeedModifier": "+15% скорости перемещения",
+                    "defensiveSlowManaLeach": "20% защита от кражи энергии"
+                },
+                {
+                    "characterIntelligence": "+50 ед. интеллекта",
+                    "characterMana": "+350 ед. энергии",
+                    "characterRunSpeedModifier": "+20% скорости перемещения",
+                    "defensivePhysical": "15% сопротивление физическому урону",
+                    "defensiveSlowManaLeach": "25% защита от кражи энергии",
+                    "retaliationCold": "10.0% шанс на 120 ед. ответного урона холодом",
+                    "retaliationFire": "10.0% шанс на 120 ед. ответного урона огнём",
+                    "retaliationLightning": "10.0% шанс на 120 ед. ответного урона молнией"
+                }
+            ],
+            "tag": "x4tagU_Set_07"
+        },
+        "x4tagU_Set_08": {
+            "items": [
+                "x4tagU_Armor_90",
+                "x4tagU_Armor_89",
+                "x4tagU_Armor_87",
+                "x4tagU_Armor_88",
+                "x4tagU_Armor_86"
+            ],
+            "name": "Искусство войны",
+            "properties": [
+                {
+                    "characterDefensiveAbility": "+100 ед. оборонительной способности",
+                    "defensivePierce": "10% сопротивление проникающему урону"
+                },
+                {
+                    "characterDefensiveAbility": "+100 ед. оборонительной способности",
+                    "defensiveElementalResistance": "10% сопротивление силам природы",
+                    "defensivePierce": "10% сопротивление проникающему урону"
+                },
+                {
+                    "characterDefensiveAbility": "+200 ед. оборонительной способности",
+                    "characterDexterity": "+10 ед. ловкости",
+                    "characterStrength": "+20 ед. силы",
+                    "defensiveElementalResistance": "20% сопротивление силам природы",
+                    "defensivePierce": "25% сопротивление проникающему урону",
+                    "offensiveTotalDamageModifier": "+10% общего урона"
+                },
+                {
+                    "characterDefensiveAbility": "+300 ед. оборонительной способности",
+                    "characterDexterity": "+25 ед. ловкости",
+                    "characterStrength": "+30 ед. силы",
+                    "defensiveElementalResistance": "40% сопротивление силам природы",
+                    "defensivePierce": "30% сопротивление проникающему урону",
+                    "offensiveTotalDamageModifier": "+15% общего урона"
+                }
+            ],
+            "tag": "x4tagU_Set_08"
+        },
+        "x4tagU_Set_09": {
+            "items": [
+                "x4tagU_Sword06",
+                "x4tagU_Sword02"
+            ],
+            "name": "Рожденный править",
+            "properties": [
+                {
+                    "offensiveTotalDamageModifier": "+30% общего урона"
+                }
+            ],
+            "tag": "x4tagU_Set_09"
+        },
+        "xtagArtifactDescription062": {
+            "items": [
+                "tagUWeapon171",
+                "tagUWeapon034",
+                "tagUArmor021"
+            ],
+            "name": "Сила Гефеста",
+            "properties": [
+                {
+                    "defensivePierce": "30% сопротивление проникающему урону",
+                    "defensiveProtection": "30 ед. защиты"
+                },
+                {
+                    "characterDefensiveBlockRecoveryReduction": "20% времени восстановления щита",
+                    "defensivePierce": "50% сопротивление проникающему урону",
+                    "defensiveProtection": "50 ед. защиты"
+                }
+            ],
+            "tag": "xtagArtifactDescription062"
+        },
+        "xtagSetName001": {
+            "items": [
+                "xtagUArmor070",
+                "xtagUArmor098",
+                "xtagUArmor122",
+                "xtagUArmor044",
+                "xtagUWeapon007",
+                "xtagUWeapon067"
+            ],
+            "name": "Доспехи Мойр",
+            "properties": [
+                {
+                    "characterDefensiveAbility": "+70 ед. оборонительной способности",
+                    "characterDexterity": "+10 ед. ловкости",
+                    "characterStrength": "+10 ед. силы"
+                },
+                {
+                    "characterDefensiveAbility": "+140 ед. оборонительной способности",
+                    "characterDexterity": "+20 ед. ловкости",
+                    "characterStrength": "+20 ед. силы"
+                },
+                {
+                    "characterDefensiveAbility": "+210 ед. оборонительной способности",
+                    "characterDexterity": "+30 ед. ловкости",
+                    "characterStrength": "+30 ед. силы"
+                },
+                {
+                    "characterDefensiveAbility": "+210 ед. оборонительной способности",
+                    "characterDexterity": "+30 ед. ловкости",
+                    "characterStrength": "+30 ед. силы",
+                    "offensivePhysicalModifier": "+30% физического урона",
+                    "offensivePierceModifier": "+30% проникающего урона"
+                },
+                {
+                    "characterDefensiveAbility": "+210 ед. оборонительной способности",
+                    "characterDexterity": "+30 ед. ловкости",
+                    "characterStrength": "+30 ед. силы",
+                    "defensiveBlockModifier": "+5% к шансу блокировки щитом",
+                    "defensiveElementalResistance": "30% сопротивление силам природы",
+                    "offensiveLifeLeech": "5% урона переводится в жизнь",
+                    "offensivePhysicalModifier": "+30% физического урона",
+                    "offensivePierceModifier": "+30% проникающего урона"
+                }
+            ],
+            "tag": "xtagSetName001"
+        },
+        "xtagSetName002": {
+            "items": [
+                "xtagUArmor075",
+                "xtagUArmor103",
+                "xtagUArmor128",
+                "xtagUArmor050",
+                "xtagUWeapon083"
+            ],
+            "name": "Одеяния Эреба",
+            "properties": [
+                {
+                    "characterDexterity": "+12 ед. ловкости",
+                    "characterIntelligence": "+12 ед. интеллекта",
+                    "characterManaRegenModifier": "+20% восстановления энергии",
+                    "offensiveElementalModifier": "+15% урона силами природы"
+                },
+                {
+                    "characterDexterity": "+24 ед. ловкости",
+                    "characterIntelligence": "+24 ед. интеллекта",
+                    "characterLife": "+130 ед. жизни",
+                    "characterManaRegenModifier": "+20% восстановления энергии",
+                    "offensiveElementalModifier": "+15% урона силами природы"
+                },
+                {
+                    "characterDexterity": "+24 ед. ловкости",
+                    "characterIntelligence": "+24 ед. интеллекта",
+                    "characterLife": "+130 ед. жизни",
+                    "characterManaRegenModifier": "+20% восстановления энергии",
+                    "offensiveElementalModifier": "+15% урона силами природы",
+                    "offensiveLifeLeech": "5% урона переводится в жизнь",
+                    "offensivePercentCurrentLife": "5% уменьшение жизни противника",
+                    "offensiveSlowLifeLeachModifier": "+25% кражи жизни"
+                },
+                {
+                    "characterDexterity": "+24 ед. ловкости",
+                    "characterEnergyAbsorptionPercent": "7% поглощения энергии от заклятий",
+                    "characterIntelligence": "+24 ед. интеллекта",
+                    "characterLife": "+520 ед. жизни",
+                    "characterManaRegenModifier": "+20% восстановления энергии",
+                    "offensiveElementalModifier": "+15% урона силами природы",
+                    "offensiveLifeLeech": "5% урона переводится в жизнь",
+                    "offensivePercentCurrentLife": "10% уменьшение жизни противника",
+                    "offensiveSlowLifeLeachModifier": "+25% кражи жизни"
+                }
+            ],
+            "tag": "xtagSetName002"
+        },
+        "xtagSetName003": {
+            "items": [
+                "xtagUArmor071",
+                "xtagUArmor123",
+                "xtagUArmor045"
+            ],
+            "name": "Доспехи Атридов",
+            "properties": [
+                {
+                    "defensiveProtectionModifier": "+15% защиты брони",
+                    "offensivePhysicalModifier": "+20% физического урона"
+                },
+                {
+                    "characterDefensiveAbility": "+250 ед. оборонительной способности",
+                    "characterLife": "+450 ед. жизни",
+                    "characterStrength": "+30 ед. силы",
+                    "defensiveProtectionModifier": "+15% защиты брони",
+                    "offensivePhysicalModifier": "+20% физического урона"
+                }
+            ],
+            "tag": "xtagSetName003"
+        },
+        "xtagSetName004": {
+            "items": [
+                "xtagUArmor099",
+                "xtagUArmor124",
+                "xtagUArmor046"
+            ],
+            "name": "Броня Диомеда",
+            "properties": [
+                {
+                    "characterDefensiveAbility": "+200 ед. оборонительной способности",
+                    "characterDodgePercent": "3% шанс уклониться от атаки",
+                    "characterEnergyAbsorptionPercent": "3% поглощения энергии от заклятий"
+                },
+                {
+                    "characterDefensiveAbility": "+200 ед. оборонительной способности",
+                    "characterDexterity": "+22 ед. ловкости",
+                    "characterDodgePercent": "3% шанс уклониться от атаки",
+                    "characterEnergyAbsorptionPercent": "3% поглощения энергии от заклятий",
+                    "characterLifeRegen": "+5.0 ед. жизни в секунду восстанавливается",
+                    "characterStrength": "+22 ед. силы",
+                    "defensiveElementalResistance": "30% сопротивление силам природы"
+                }
+            ],
+            "tag": "xtagSetName004"
+        },
+        "xtagSetName005": {
+            "items": [
+                "xtagUWeapon008",
+                "xtagUWeapon098"
+            ],
+            "name": "Проклятие каркиноса",
+            "properties": [
+                {
+                    "characterLife": "+600 ед. жизни",
+                    "defensiveFire": "40% сопротивление огню",
+                    "defensivePoison": "40% сопротивление яду"
+                }
+            ],
+            "tag": "xtagSetName005"
+        },
+        "xtagSetName006": {
+            "items": [
+                "xtagUArmor074",
+                "xtagUArmor102",
+                "xtagUArmor127",
+                "xtagUArmor049",
+                "xtagUWeapon082"
+            ],
+            "name": "Регалии Навевающего сны",
+            "properties": [
+                {
+                    "characterDefensiveAbility": "+100 ед. оборонительной способности",
+                    "characterLife": "+250 ед. жизни",
+                    "offensiveSlowLightningModifier": "+25% урона электрическим разрядом"
+                },
+                {
+                    "characterDefensiveAbility": "+100 ед. оборонительной способности",
+                    "characterIntelligenceModifier": "+10% интеллекта",
+                    "characterLife": "+250 ед. жизни",
+                    "characterLifeModifier": "+10% жизни",
+                    "offensiveSlowLightningModifier": "+25% урона электрическим разрядом"
+                },
+                {
+                    "characterDefensiveAbility": "+200 ед. оборонительной способности",
+                    "characterIntelligenceModifier": "+10% интеллекта",
+                    "characterLife": "+250 ед. жизни",
+                    "characterLifeModifier": "+10% жизни",
+                    "defensiveElementalResistance": "20% сопротивление силам природы",
+                    "defensivePierce": "20% сопротивление проникающему урону",
+                    "defensivePoison": "20% сопротивление яду",
+                    "offensiveSlowLightningModifier": "+25% урона электрическим разрядом"
+                },
+                {
+                    "characterDefensiveAbility": "+200 ед. оборонительной способности",
+                    "characterIntelligenceModifier": "+10% интеллекта",
+                    "characterLife": "+250 ед. жизни",
+                    "characterLifeModifier": "+10% жизни",
+                    "defensiveElementalResistance": "30% сопротивление силам природы",
+                    "defensivePierce": "30% сопротивление проникающему урону",
+                    "defensivePoison": "30% сопротивление яду",
+                    "offensiveSlowLightningModifier": "+25% урона электрическим разрядом",
+                    "offensiveTotalDamageModifier": "+10% общего урона",
+                    "offensiveTotalResistanceReductionAbsolute": "30.0 ед. уменьшения сопротивлений на 3.0 секунд(ы)"
+                }
+            ],
+            "tag": "xtagSetName006"
+        },
+        "xtagSetName007": {
+            "items": [
+                "xtagUArmor069",
+                "xtagUArmor097",
+                "xtagUArmor121",
+                "xtagUArmor043",
+                "xtagUWeapon097"
+            ],
+            "name": "Доспехи Предвестника",
+            "properties": [
+                {
+                    "characterDefensiveAbility": "+100 ед. оборонительной способности",
+                    "characterLife": "+250 ед. жизни",
+                    "offensiveSlowLightningModifier": "+25% урона электрическим разрядом"
+                },
+                {
+                    "characterDefensiveAbility": "+200 ед. оборонительной способности",
+                    "characterIntelligenceModifier": "+10% интеллекта",
+                    "characterLife": "+250 ед. жизни",
+                    "characterStrengthModifier": "+10% силы",
+                    "offensiveSlowLightningModifier": "+25% урона электрическим разрядом"
+                },
+                {
+                    "characterDefensiveAbility": "+200 ед. оборонительной способности",
+                    "characterIntelligenceModifier": "+10% интеллекта",
+                    "characterLife": "+250 ед. жизни",
+                    "characterStrengthModifier": "+10% силы",
+                    "defensiveBleeding": "15% сопротивление кровотечению",
+                    "defensiveElementalResistance": "15% сопротивление силам природы",
+                    "defensiveLife": "15% сопротивление урону здоровью",
+                    "defensivePierce": "15% сопротивление проникающему урону",
+                    "defensivePoison": "15% сопротивление яду",
+                    "offensiveSlowLightningModifier": "+25% урона электрическим разрядом"
+                },
+                {
+                    "characterDefensiveAbility": "+200 ед. оборонительной способности",
+                    "characterIntelligenceModifier": "+10% интеллекта",
+                    "characterLife": "+250 ед. жизни",
+                    "characterStrengthModifier": "+10% силы",
+                    "defensiveBleeding": "23% сопротивление кровотечению",
+                    "defensiveElementalResistance": "23% сопротивление силам природы",
+                    "defensiveLife": "23% сопротивление урону здоровью",
+                    "defensivePierce": "23% сопротивление проникающему урону",
+                    "defensivePoison": "23% сопротивление яду",
+                    "offensiveSlowLightningModifier": "+25% урона электрическим разрядом",
+                    "offensiveTotalDamageModifier": "+15% общего урона",
+                    "offensiveTotalResistanceReductionAbsolute": "30.0 ед. уменьшения сопротивлений на 3.0 секунд(ы)"
+                }
+            ],
+            "tag": "xtagSetName007"
+        },
+        "xtagSetName008": {
+            "items": [
+                "xtagUArmor072",
+                "xtagUArmor010",
+                "xtagUWeapon039"
+            ],
+            "name": "Орда",
+            "properties": [
+                {
+                    "characterAttackSpeedModifier": "+5% скорости атаки",
+                    "defensivePhysical": "2% сопротивление физическому урону",
+                    "defensivePierce": "35% сопротивление проникающему урону",
+                    "skillProjectileSpeedModifier": "25% скорости полёта снарядов"
+                },
+                {
+                    "characterAttackSpeedModifier": "+10% скорости атаки",
+                    "defensivePhysical": "5% сопротивление физическому урону",
+                    "defensivePierce": "35% сопротивление проникающему урону",
+                    "offensivePercentCurrentLife": "8% уменьшение жизни противника",
+                    "skillProjectileSpeedModifier": "75% скорости полёта снарядов"
+                }
+            ],
+            "tag": "xtagSetName008"
+        },
+        "xtagSetName009": {
+            "items": [
+                "xtagUArmor100",
+                "xtagUArmor125",
+                "xtagUArmor047",
+                "xtagUWeapon068"
+            ],
+            "name": "Броня Посейдона",
+            "properties": [
+                {
+                    "characterDexterity": "+32 ед. ловкости",
+                    "characterStrength": "+32 ед. силы"
+                },
+                {
+                    "characterDefensiveAbility": "+300 ед. оборонительной способности",
+                    "characterDexterity": "+32 ед. ловкости",
+                    "characterLifeRegen": "+2.0 ед. жизни в секунду восстанавливается",
+                    "characterStrength": "+32 ед. силы"
+                },
+                {
+                    "characterDefensiveAbility": "+300 ед. оборонительной способности",
+                    "characterDexterity": "+32 ед. ловкости",
+                    "characterLifeRegen": "+2.0 ед. жизни в секунду восстанавливается",
+                    "characterStrength": "+32 ед. силы",
+                    "defensiveBleeding": "30% сопротивление кровотечению",
+                    "defensiveElementalResistance": "30% сопротивление силам природы",
+                    "defensiveLife": "30% сопротивление урону здоровью",
+                    "defensivePierce": "30% сопротивление проникающему урону",
+                    "defensivePoison": "30% сопротивление яду"
+                }
+            ],
+            "tag": "xtagSetName009"
+        },
+        "xtagSetName010": {
+            "items": [
+                "xtagUArmor073",
+                "xtagUArmor101",
+                "xtagUArmor048",
+                "xtagUArmor126",
+                "xtagUArmor025"
+            ],
+            "name": "Облачение Плутона",
+            "properties": [
+                {
+                    "defensiveElementalResistance": "10% сопротивление силам природы",
+                    "retaliationSlowLifeLeach": "45 ед. кражи жизни в течении 3.0 секунд(ы)",
+                    "retaliationSlowManaLeach": "45 ед. кражи энергии в течении 3.0 секунд(ы)"
+                },
+                {
+                    "characterLifeModifier": "+5% жизни",
+                    "characterManaModifier": "+5% энергии",
+                    "defensiveElementalResistance": "20% сопротивление силам природы",
+                    "retaliationSlowLifeLeach": "45 ед. кражи жизни в течении 3.0 секунд(ы)",
+                    "retaliationSlowManaLeach": "45 ед. кражи энергии в течении 3.0 секунд(ы)"
+                },
+                {
+                    "characterEnergyAbsorptionPercent": "25% поглощения энергии от заклятий",
+                    "characterIntelligence": "+40 ед. интеллекта",
+                    "characterLifeModifier": "+5% жизни",
+                    "characterManaModifier": "+5% энергии",
+                    "defensiveElementalResistance": "30% сопротивление силам природы",
+                    "retaliationSlowLifeLeach": "45 ед. кражи жизни в течении 3.0 секунд(ы)",
+                    "retaliationSlowManaLeach": "45 ед. кражи энергии в течении 3.0 секунд(ы)"
+                },
+                {
+                    "characterEnergyAbsorptionPercent": "25% поглощения энергии от заклятий",
+                    "characterIntelligence": "+40 ед. интеллекта",
+                    "characterLifeModifier": "+5% жизни",
+                    "characterManaModifier": "+5% энергии",
+                    "characterManaRegen": "+4.0 ед. энергии в секунду восстанавливается",
+                    "defensiveElementalResistance": "40% сопротивление силам природы",
+                    "offensiveTotalDamageModifier": "+10% общего урона",
+                    "retaliationSlowLifeLeach": "45 ед. кражи жизни в течении 3.0 секунд(ы)",
+                    "retaliationSlowManaLeach": "45 ед. кражи энергии в течении 3.0 секунд(ы)"
+                }
+            ],
+            "tag": "xtagSetName010"
+        },
+        "xtagSetName011": {
+            "items": [
+                "xtagUArmor068",
+                "xtagUArmor096",
+                "xtagUArmor120",
+                "xtagUArmor042",
+                "xtagUWeapon052",
+                "xtagUWeapon006"
+            ],
+            "name": "Броня Пламенного Легиона",
+            "properties": [
+                {
+                    "characterDexterity": "+33 ед. ловкости",
+                    "characterStrength": "+33 ед. силы"
+                },
+                {
+                    "characterDefensiveAbility": "+200 ед. оборонительной способности",
+                    "characterDexterity": "+33 ед. ловкости",
+                    "characterStrength": "+33 ед. силы",
+                    "defensiveProtectionModifier": "+5% защиты брони"
+                },
+                {
+                    "characterDefensiveAbility": "+200 ед. оборонительной способности",
+                    "characterDexterity": "+33 ед. ловкости",
+                    "characterLife": "+350 ед. жизни",
+                    "characterStrength": "+33 ед. силы",
+                    "defensiveProtectionModifier": "+10% защиты брони"
+                },
+                {
+                    "characterDefensiveAbility": "+200 ед. оборонительной способности",
+                    "characterDeflectProjectile": "5% шанс уклониться от летящих снарядов",
+                    "characterDexterity": "+33 ед. ловкости",
+                    "characterLife": "+350 ед. жизни",
+                    "characterStrength": "+33 ед. силы",
+                    "defensiveProtectionModifier": "+15% защиты брони"
+                },
+                {
+                    "characterDefensiveAbility": "+200 ед. оборонительной способности",
+                    "characterDeflectProjectile": "5% шанс уклониться от летящих снарядов",
+                    "characterDexterity": "+33 ед. ловкости",
+                    "characterLife": "+350 ед. жизни",
+                    "characterStrength": "+33 ед. силы",
+                    "defensiveElementalResistance": "40% сопротивление силам природы",
+                    "defensivePierce": "40% сопротивление проникающему урону",
+                    "defensivePoison": "40% сопротивление яду",
+                    "defensiveProtectionModifier": "+20% защиты брони"
+                }
+            ],
+            "tag": "xtagSetName011"
+        },
+        "xtagSetName012": {
+            "items": [
+                "xtagUArmor076",
+                "xtagUArmor129",
+                "xtagUArmor051",
+                "xtagUArmor104",
+                "xtagUWeapon084"
+            ],
+            "name": "Одеяния Карнуса",
+            "properties": [
+                {
+                    "characterIntelligence": "+20 ед. интеллекта",
+                    "offensiveSlowLifeLeachModifier": "+20% кражи жизни",
+                    "offensiveSlowLightningModifier": "+50% урона электрическим разрядом"
+                },
+                {
+                    "characterIntelligence": "+40 ед. интеллекта",
+                    "defensiveBleeding": "40% сопротивление кровотечению",
+                    "offensiveSlowLifeLeachModifier": "+20% кражи жизни",
+                    "offensiveSlowLightningModifier": "+50% урона электрическим разрядом",
+                    "offensiveTotalDamageModifier": "+5% общего урона"
+                },
+                {
+                    "characterDefensiveAbility": "+200 ед. оборонительной способности",
+                    "characterIntelligence": "+40 ед. интеллекта",
+                    "characterOffensiveAbility": "+200 ед. наступательной способности",
+                    "defensiveBleeding": "40% сопротивление кровотечению",
+                    "offensiveSlowLifeLeachModifier": "+20% кражи жизни",
+                    "offensiveSlowLightningModifier": "+50% урона электрическим разрядом",
+                    "offensiveTotalDamageModifier": "+10% общего урона"
+                },
+                {
+                    "characterDefensiveAbility": "+200 ед. оборонительной способности",
+                    "characterIntelligence": "+40 ед. интеллекта",
+                    "characterOffensiveAbility": "+200 ед. наступательной способности",
+                    "defensiveBleeding": "40% сопротивление кровотечению",
+                    "defensiveElementalResistance": "40% сопротивление силам природы",
+                    "defensiveLife": "40% сопротивление урону здоровью",
+                    "defensivePhysical": "40% сопротивление физическому урону",
+                    "defensivePoison": "40% сопротивление яду",
+                    "offensiveSlowLifeLeachModifier": "+20% кражи жизни",
+                    "offensiveSlowLightningModifier": "+100% урона электрическим разрядом",
+                    "offensiveTotalDamageModifier": "+15% общего урона"
+                }
+            ],
+            "tag": "xtagSetName012"
+        },
+        "xtagSetName013": {
+            "items": [
+                "xtagUArmor041",
+                "xtagUArmor067",
+                "xtagUArmor095",
+                "xtagUArmor134",
+                "xtagUWeapon054"
+            ],
+            "name": "Одежда детектива с Бейкер-стрит",
+            "properties": [
+                {
+                    "characterDexterityModifier": "+5% ловкости",
+                    "defensiveCold": "70% сопротивление холоду"
+                },
+                {
+                    "characterDexterityModifier": "+5% ловкости",
+                    "characterLifeModifier": "+5% жизни",
+                    "characterManaModifier": "+5% энергии",
+                    "defensiveCold": "70% сопротивление холоду",
+                    "defensiveElementalResistance": "30% сопротивление силам природы",
+                    "defensivePierce": "30% сопротивление проникающему урону",
+                    "defensivePoison": "30% сопротивление яду"
+                },
+                {
+                    "characterDexterityModifier": "+5% ловкости",
+                    "characterLifeModifier": "+5% жизни",
+                    "characterManaModifier": "+5% энергии",
+                    "defensiveCold": "70% сопротивление холоду",
+                    "defensiveElementalResistance": "60% сопротивление силам природы",
+                    "defensivePierce": "60% сопротивление проникающему урону",
+                    "defensivePoison": "60% сопротивление яду"
+                },
+                {
+                    "characterDexterityModifier": "+10% ловкости",
+                    "characterLifeModifier": "+10% жизни",
+                    "characterManaModifier": "+10% энергии",
+                    "defensiveCold": "70% сопротивление холоду",
+                    "defensiveElementalResistance": "60% сопротивление силам природы",
+                    "defensivePierce": "60% сопротивление проникающему урону",
+                    "defensivePoison": "60% сопротивление яду"
+                }
+            ],
+            "tag": "xtagSetName013"
+        },
+        "xtagSetName014": {
+            "items": [
+                "xtagUArmor055",
+                "xtagUArmor108",
+                "xtagUArmor133"
+            ],
+            "name": "Костюм пирата",
+            "properties": [
+                {
+                    "characterLife": "+300 ед. жизни",
+                    "characterOffensiveAbility": "+200 ед. наступательной способности",
+                    "offensiveTotalDamageModifier": "+5% общего урона"
+                },
+                {
+                    "characterLife": "+600 ед. жизни",
+                    "characterOffensiveAbility": "+400 ед. наступательной способности",
+                    "offensiveTotalDamageModifier": "+10% общего урона"
+                }
+            ],
+            "tag": "xtagSetName014"
+        },
+        "xtagSetName015": {
+            "items": [
+                "xtagUArmor077",
+                "xtagUArmor052",
+                "xtagUArmor105",
+                "xtagUArmor130",
+                "xtagUWeapon101",
+                "xtagUWeapon102"
+            ],
+            "name": "Шиноби Шозоку",
+            "properties": [
+                {},
+                {},
+                {},
+                {
+                    "characterDexterity": "+10 ед. ловкости",
+                    "characterRunSpeedModifier": "+5% скорости перемещения"
+                }
+            ],
+            "tag": "xtagSetName015"
+        },
+        "xtagSetName016": {
+            "items": [
+                "xtagUArmor053",
+                "xtagUArmor131",
+                "xtagUArmor078",
+                "xtagUArmor106",
+                "xtagUWeapon056",
+                "xtagUWeapon011"
+            ],
+            "name": "Наряд Санты",
+            "properties": [
+                {
+                    "defensiveProtectionModifier": "+15% защиты брони"
+                },
+                {
+                    "characterLifeRegen": "+3.0 ед. жизни в секунду восстанавливается",
+                    "characterManaRegen": "+3.0 ед. энергии в секунду восстанавливается",
+                    "defensiveProtectionModifier": "+15% защиты брони"
+                },
+                {
+                    "characterLife": "+200 ед. жизни",
+                    "characterLifeRegen": "+3.0 ед. жизни в секунду восстанавливается",
+                    "characterManaRegen": "+3.0 ед. энергии в секунду восстанавливается",
+                    "defensiveProtectionModifier": "+15% защиты брони"
+                },
+                {
+                    "characterLife": "+400 ед. жизни",
+                    "characterLifeRegen": "+3.0 ед. жизни в секунду восстанавливается",
+                    "characterManaRegen": "+3.0 ед. энергии в секунду восстанавливается",
+                    "defensiveElementalResistance": "20% сопротивление силам природы",
+                    "defensiveProtectionModifier": "+15% защиты брони"
+                },
+                {
+                    "characterIncreasedExperience": "+10% увеличения опыта",
+                    "characterLife": "+600 ед. жизни",
+                    "characterLifeRegen": "+3.0 ед. жизни в секунду восстанавливается",
+                    "characterManaRegen": "+3.0 ед. энергии в секунду восстанавливается",
+                    "defensiveElementalResistance": "40% сопротивление силам природы",
+                    "defensiveProtectionModifier": "+15% защиты брони"
+                }
+            ],
+            "tag": "xtagSetName016"
+        },
+        "xtagSetName017": {
+            "items": [
+                "xtagUWeapon057",
+                "xtagUArmor079",
+                "xtagUArmor054"
+            ],
+            "name": "Одежды великого торговца",
+            "properties": [
+                {
+                    "characterOffensiveAbility": "+20 ед. наступательной способности",
+                    "defensiveFire": "10% сопротивление огню"
+                }
+            ],
+            "tag": "xtagSetName017"
+        },
+        "xtagSetName018": {
+            "items": [
+                "xtagUWeapon055",
+                "xtagUWeapon009"
+            ],
+            "name": "Броня германцев",
+            "properties": [
+                {
+                    "defensiveCold": "20% сопротивление холоду",
+                    "defensivePierce": "20% сопротивление проникающему урону"
+                }
+            ],
+            "tag": "xtagSetName018"
+        },
+        "xtagSetName019": {
+            "items": [
+                "xtagUWeapon010",
+                "xtagUWeapon024"
+            ],
+            "name": "Броня галлов",
+            "properties": [
+                {
+                    "defensivePierce": "20% сопротивление проникающему урону",
+                    "offensivePhysicalModifier": "+10% физического урона"
+                }
+            ],
+            "tag": "xtagSetName019"
+        },
+        "xtagSetName020": {
+            "items": [
+                "xtagUArmor132",
+                "xtagUArmor107"
+            ],
+            "name": "Костюм техасца",
+            "properties": [
+                {
+                    "characterDefensiveAbility": "+220 ед. оборонительной способности",
+                    "characterStrength": "+20 ед. силы",
+                    "defensiveElementalResistance": "30% сопротивление силам природы",
+                    "defensiveProtectionModifier": "+20% защиты брони"
+                }
+            ],
+            "tag": "xtagSetName020"
+        }
+
+}

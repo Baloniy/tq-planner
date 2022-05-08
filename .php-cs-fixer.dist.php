@@ -12,7 +12,11 @@ return (new PhpCsFixer\Config())
         '@PSR12' => true,
         'array_syntax' => ['syntax' => 'short'],
         'single_line_throw' => false,
-        'yoda_style' => false,
+        'yoda_style' => [
+            'equal' => false,
+            'identical' => false,
+            'less_and_greater' => false,
+        ],
         'trailing_comma_in_multiline' => true,
         'single_trait_insert_per_statement' => false,
         'concat_space' => ['spacing' => 'one'],

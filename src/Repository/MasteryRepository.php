@@ -1,17 +1,13 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Repository;
 
 use App\Entity\Mastery;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 
-/**
- * @method Mastery|null find($id, $lockMode = null, $lockVersion = null)
- * @method Mastery|null findOneBy(array $criteria, array $orderBy = null)
- * @method Mastery[]    findAll()
- * @method Mastery[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
- */
 class MasteryRepository extends ServiceEntityRepository
 {
     public function __construct(ManagerRegistry $registry)

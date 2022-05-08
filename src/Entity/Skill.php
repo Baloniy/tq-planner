@@ -4,8 +4,11 @@ declare(strict_types=1);
 
 namespace App\Entity;
 
+use DateTime;
+use DateTimeInterface;
 use App\Repository\SkillRepository;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Serializer\Annotation\Groups;
 
 #[ORM\Table(name: 'skills')]
 #[ORM\Entity(repositoryClass: SkillRepository::class)]
@@ -14,19 +17,26 @@ class Skill
     #[ORM\Id]
     #[ORM\GeneratedValue]
     #[ORM\Column(type: 'integer')]
-    private int $id;
+    private readonly int $id;
 
+    #[Groups('mastery_skills')]
     #[ORM\ManyToOne(targetEntity: Mastery::class, inversedBy: 'skills')]
     private ?Mastery $mastery;
 
     #[ORM\Column(type: 'string', length: 255)]
     private string $name;
 
+    #[ORM\Column(name: 'original_name', type: 'string', length: 255)]
+    private string $originalName;
+
     #[ORM\Column(type: 'string', length: 255)]
     private string $tag;
 
     #[ORM\Column(type: 'integer')]
     private int $tier;
+
+    #[ORM\Column(type: 'integer')]
+    private int $column;
 
     #[ORM\Column(name: 'maximum_level', type: 'integer')]
     private int $maximumLevel;
@@ -53,11 +63,11 @@ class Skill
     private ?array $summons;
 
     #[ORM\Column(type: 'datetime', length: 255, nullable: false)]
-    private \DateTimeInterface $created_at;
+    private DateTimeInterface $created_at;
 
     public function __construct()
     {
-        $this->created_at = new \DateTime();
+        $this->created_at = new DateTime();
     }
 
     public function getId(): ?int
@@ -85,6 +95,16 @@ class Skill
         $this->name = $name;
     }
 
+    public function getOriginalName(): string
+    {
+        return $this->originalName;
+    }
+
+    public function setOriginalName(string $originalName): void
+    {
+        $this->originalName = $originalName;
+    }
+
     public function getTag(): string
     {
         return $this->tag;
@@ -103,6 +123,16 @@ class Skill
     public function setTier(int $tier): void
     {
         $this->tier = $tier;
+    }
+
+    public function getColumn(): int
+    {
+        return $this->column;
+    }
+
+    public function setColumn(int $column): void
+    {
+        $this->column = $column;
     }
 
     public function getMaximumLevel(): int
@@ -175,14 +205,9 @@ class Skill
         $this->properties = $properties;
     }
 
-    public function getCreatedAt(): \DateTimeInterface
+    public function getCreatedAt(): DateTimeInterface
     {
         return $this->created_at;
-    }
-
-    public function setCreatedAt(\DateTimeInterface $created_at): void
-    {
-        $this->created_at = $created_at;
     }
 
     public function getSummons(): ?array

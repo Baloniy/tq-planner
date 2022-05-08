@@ -4,10 +4,13 @@ declare(strict_types=1);
 
 namespace App\Entity;
 
+use DateTime;
+use DateTimeInterface;
 use App\Repository\MasteryRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Serializer\Annotation\Groups;
 
 #[ORM\Entity(repositoryClass: MasteryRepository::class)]
 class Mastery
@@ -15,8 +18,9 @@ class Mastery
     #[ORM\Id]
     #[ORM\GeneratedValue]
     #[ORM\Column(type: 'integer')]
-    private int $id;
+    private readonly int $id;
 
+    #[Groups('mastery')]
     #[ORM\OneToMany(mappedBy: 'mastery', targetEntity: Skill::class)]
     private Collection $skills;
 
@@ -39,11 +43,11 @@ class Mastery
     private ?array $properties;
 
     #[ORM\Column(type: 'datetime', length: 255, nullable: false)]
-    private \DateTimeInterface $created_at;
+    private DateTimeInterface $created_at;
 
     public function __construct()
     {
-        $this->created_at = new \DateTime();
+        $this->created_at = new DateTime();
         $this->skills = new ArrayCollection();
     }
 

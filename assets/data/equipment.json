@@ -1,0 +1,1547 @@
+{
+    "ArmorJewelry_Amulet": [
+      {
+        "classification": "Легенда",
+        "itemLevel": 69,
+        "levelRequirement": 47,
+        "name": "Полидегмон",
+        "properties": {
+          "characterEnergyAbsorptionPercent": "30% поглощения энергии от заклятий",
+          "characterIntelligence": "+80 ед. интеллекта",
+          "characterLifeModifier": "+20% жизни",
+          "characterManaRegen": "+4.0 ед. энергии в секунду восстанавливается",
+          "characterManaRegenModifier": "+100% восстановления энергии",
+          "offensiveTotalDamageModifier": "+20% общего урона",
+          "skillCooldownReduction": "-10% времени перезарядки",
+          "skillProjectileSpeedModifier": "50% скорости полёта снарядов"
+        },
+        "set": "xtagSetName010",
+        "tag": "xtagUArmor025"
+      },
+      {
+        "classification": "Легенда",
+        "itemLevel": 56,
+        "levelRequirement": 40,
+        "name": "Руна Найо-Я",
+        "properties": {
+          "augmentMasteryName1": {
+            "name": "+2 очка(ов) к умению Сила Грёз",
+            "tag": "xtagSkillDreamName001"
+          },
+          "characterIntelligence": "+24 ед. интеллекта",
+          "characterOffensiveAbility": "+175 ед. наступательной способности",
+          "characterStrength": "+24 ед. силы",
+          "offensiveLifeModifier": "+15% урона здоровью",
+          "offensiveSleepModifier": "+25% времени сна",
+          "offensiveSlowLightningModifier": "+15% урона электрическим разрядом"
+        },
+        "tag": "xtagUArmor019"
+      },
+      {
+        "classification": "Легенда",
+        "itemLevel": 56,
+        "levelRequirement": 40,
+        "name": "Камень Иксиона",
+        "properties": {
+          "characterDefensiveAbility": "+200 ед. оборонительной способности",
+          "characterDodgePercent": "14% шанс уклониться от атаки",
+          "characterTotalSpeedModifier": "+10% ко всем показателям скорости",
+          "defensiveSleep": "40% сопротивление сну",
+          "defensiveStun": "40% сопротивление оглушению",
+          "offensiveTotalDamageModifier": "+10% общего урона",
+          "retaliationFire": "22 ед. ответного урона огнём",
+          "retaliationSlowOffensiveAbility": "22.0 % уменьшения ответной наступательной способности на 3.0 секунд(ы)"
+        },
+        "tag": "xtagUArmor020"
+      }
+    ],
+    "ArmorJewelry_Ring": [
+      {
+        "classification": "Эпос",
+        "itemLevel": 53,
+        "levelRequirement": 37,
+        "name": "Перст орды",
+        "properties": {
+          "characterAttackSpeedModifier": "+15% скорости атаки",
+          "characterDexterity": "+25 ед. ловкости",
+          "characterLife": "+100 ед. жизни",
+          "characterOffensiveAbility": "+55 ед. наступательной способности",
+          "offensiveSlowDefensiveReduction": "60.0 ед. уменьшения брони на 3.0 секунд(ы)"
+        },
+        "set": "xtagSetName008",
+        "tag": "xtagUArmor010"
+      },
+      {
+        "classification": "Легенда",
+        "itemLevel": 56,
+        "levelRequirement": 41,
+        "name": "Кольцо Арбру",
+        "properties": {
+          "augmentSkillName1": {
+            "name": "+2 очка(ов) к умению Резонанс",
+            "tag": "xtagSkillDreamName002"
+          },
+          "augmentSkillName2": {
+            "name": "+2 очка(ов) к умению Ментальный ожог",
+            "tag": "xtagSkillDreamName003"
+          },
+          "characterIntelligence": "+24 ед. интеллекта",
+          "characterOffensiveAbility": "+105 ед. наступательной способности",
+          "characterStrength": "+24 ед. силы",
+          "offensiveLifeModifier": "+30% урона здоровью",
+          "offensiveSlowLifeLeach": "69 ед. кражи жизни в течении 3.0 секунд(ы)",
+          "offensiveSlowLifeLeachModifier": "+25% кражи жизни",
+          "offensiveSlowLightningModifier": "+30% урона электрическим разрядом"
+        },
+        "tag": "xtagUArmor004"
+      },
+      {
+        "classification": "Легенда",
+        "itemLevel": 56,
+        "levelRequirement": 40,
+        "name": "Знак Владыки",
+        "properties": {
+          "characterDefensiveAbility": "+200 ед. оборонительной способности",
+          "characterEnergyAbsorptionPercent": "9% поглощения энергии от заклятий",
+          "characterLife": "+400 ед. жизни",
+          "defensiveBleeding": "50% сопротивление кровотечению",
+          "defensivePhysical": "9.0% шанс на 100% сопротивление физическому урону",
+          "defensiveProtection": "50 ед. защиты",
+          "defensiveSleep": "30% сопротивление сну"
+        },
+        "tag": "xtagUArmor005"
+      }
+    ],
+    "ArmorProtective_Forearm": [
+      {
+        "classification": "Редкая",
+        "dexterityRequirement": 158,
+        "dropsIn": "Эпос",
+        "intelligenceRequirement": 361,
+        "itemLevel": 55,
+        "name": "Наручи знахаря",
+        "properties": {
+          "characterManaRegenModifier": "+30% восстановления энергии",
+          "defensiveProtection": "172 ед. защиты",
+          "offensiveGlobalChance": {
+            "chance": "20.0% шанс на: ",
+            "properties": {
+              "offensiveTotalDamageReductionPercent": "20.0% уменьшение урона на 3.0 секунд(ы)",
+              "offensiveTotalResistanceReductionPercent": "20.0% уменьшение сопротивлений на 3.0 секунд(ы)"
+            }
+          }
+        },
+        "tag": "xtagMIArmor001"
+      },
+      {
+        "classification": "Редкая",
+        "dropsIn": "Эпос",
+        "itemLevel": 55,
+        "name": "Лягушачьи наручи",
+        "properties": {
+          "defensivePoison": "60% сопротивление яду",
+          "defensiveProtection": "292 ед. защиты",
+          "defensiveProtectionModifier": "+12% защиты брони"
+        },
+        "strengthRequirement": 320,
+        "tag": "xtagMIArmor002"
+      },
+      {
+        "classification": "Редкая",
+        "dexterityRequirement": 162,
+        "dropsIn": "Эпос",
+        "intelligenceRequirement": 372,
+        "itemLevel": 57,
+        "name": "Наручи ночной госпожи",
+        "properties": {
+          "characterManaRegenModifier": "+30% восстановления энергии",
+          "defensiveProtection": "176 ед. защиты",
+          "defensiveSleep": "60% сопротивление сну",
+          "offensiveSleepModifier": "+30% времени сна"
+        },
+        "tag": "xtagMIArmor003"
+      }
+    ],
+    "ArmorProtective_Head": [
+      {
+        "classification": "Редкая",
+        "dexterityRequirement": 162,
+        "dropsIn": "Эпос",
+        "intelligenceRequirement": 372,
+        "itemLevel": 57,
+        "name": "Корона ночной госпожи",
+        "properties": {
+          "characterEnergyAbsorptionPercent": "7% поглощения энергии от заклятий",
+          "characterManaRegenModifier": "+30% восстановления энергии",
+          "defensiveProtection": "176 ед. защиты",
+          "offensiveElementalModifier": "+15% урона силами природы"
+        },
+        "tag": "xtagMIArmor022"
+      },
+      {
+        "classification": "Редкая",
+        "dexterityRequirement": 156,
+        "dropsIn": "Эпос",
+        "intelligenceRequirement": 355,
+        "itemLevel": 54,
+        "name": "Корона Мирмигки",
+        "properties": {
+          "characterDefensiveAbility": "+60 ед. оборонительной способности",
+          "characterManaRegenModifier": "+30% восстановления энергии",
+          "defensiveLightning": "60% сопротивление молниям",
+          "defensiveProtection": "164 ед. защиты"
+        },
+        "tag": "xtagMIArmor023"
+      },
+      {
+        "classification": "Редкая",
+        "dexterityRequirement": 158,
+        "dropsIn": "Эпос",
+        "intelligenceRequirement": 361,
+        "itemLevel": 55,
+        "name": "Корона Ч'кра",
+        "properties": {
+          "characterDefensiveAbility": "+60 ед. оборонительной способности",
+          "characterManaRegenModifier": "+30% восстановления энергии",
+          "defensiveProtection": "174 ед. защиты",
+          "offensiveLightningModifier": "+25% урона от молний"
+        },
+        "tag": "xtagMIArmor024"
+      }
+    ],
+    "ArmorProtective_LowerBody": [
+      {
+        "classification": "Редкая",
+        "dexterityRequirement": 158,
+        "dropsIn": "Эпос",
+        "intelligenceRequirement": 361,
+        "itemLevel": 55,
+        "name": "Поножи знахаря",
+        "properties": {
+          "characterManaRegenModifier": "+30% восстановления энергии",
+          "characterRunSpeedModifier": "+10% скорости перемещения",
+          "defensiveElementalResistance": "20% сопротивление силам природы",
+          "defensiveProtection": "172 ед. защиты"
+        },
+        "tag": "xtagMIArmor010"
+      },
+      {
+        "classification": "Редкая",
+        "dropsIn": "Эпос",
+        "itemLevel": 55,
+        "name": "Лягушачьи поножи",
+        "properties": {
+          "characterDefensiveAbility": "+80 ед. оборонительной способности",
+          "characterDodgePercent": "5% шанс уклониться от атаки",
+          "defensiveProtection": "292 ед. защиты"
+        },
+        "strengthRequirement": 320,
+        "tag": "xtagMIArmor011"
+      },
+      {
+        "classification": "Редкая",
+        "dexterityRequirement": 162,
+        "dropsIn": "Эпос",
+        "intelligenceRequirement": 372,
+        "itemLevel": 57,
+        "name": "Поножи ночной госпожи",
+        "properties": {
+          "characterManaRegenModifier": "+30% восстановления энергии",
+          "characterRunSpeedModifier": "+10% скорости перемещения",
+          "defensiveProtection": "176 ед. защиты",
+          "defensiveProtectionModifier": "+15% защиты брони"
+        },
+        "tag": "xtagMIArmor012"
+      }
+    ],
+    "ArmorProtective_UpperBody": [
+      {
+        "classification": "Редкая",
+        "dexterityRequirement": 158,
+        "dropsIn": "Эпос",
+        "intelligenceRequirement": 361,
+        "itemLevel": 55,
+        "name": "Облачение знахаря",
+        "properties": {
+          "characterDefensiveAbility": "+100 ед. оборонительной способности",
+          "characterManaRegenModifier": "+50% восстановления энергии",
+          "defensiveLife": "25% сопротивление урону здоровью",
+          "defensivePierce": "25% сопротивление проникающему урону",
+          "defensiveProtection": "172 ед. защиты"
+        },
+        "tag": "xtagMIArmor035"
+      },
+      {
+        "classification": "Редкая",
+        "dropsIn": "Эпос",
+        "itemLevel": 55,
+        "name": "Лягушачий нагрудник",
+        "properties": {
+          "characterDeflectProjectile": "5% шанс уклониться от летящих снарядов",
+          "defensivePierce": "90% сопротивление проникающему урону",
+          "defensiveProtection": "292 ед. защиты"
+        },
+        "strengthRequirement": 320,
+        "tag": "xtagMIArmor036"
+      },
+      {
+        "classification": "Редкая",
+        "dexterityRequirement": 162,
+        "dropsIn": "Эпос",
+        "intelligenceRequirement": 372,
+        "itemLevel": 57,
+        "name": "Корсет ночной госпожи",
+        "properties": {
+          "characterManaRegenModifier": "+50% восстановления энергии",
+          "defensivePierce": "50% сопротивление проникающему урону",
+          "defensiveProtection": "176 ед. защиты",
+          "defensiveReflect": "7.0% шанс на 50% отражение урона"
+        },
+        "tag": "xtagMIArmor037"
+      }
+    ],
+    "ItemArtifact": [
+      {
+        "classification": "Священный артефакт",
+        "dropsIn": "Эпос",
+        "levelRequirement": 50,
+        "name": "Кровь Ареса",
+        "properties": {
+          "characterAttackSpeedModifier": "+15% скорости атаки",
+          "characterOffensiveAbility": "+40 ед. наступательной способности",
+          "itemSkillName": {
+            "level": 1,
+            "tag": "xtagSkillArtifactName016",
+            "trigger": " (Активируется при получении урона)"
+          },
+          "offensivePhysical": "25 ед. физического урона",
+          "offensivePhysicalModifier": "+20% физического урона",
+          "offensiveSlowBleedingModifier": "+40% урона от кровотечения"
+        },
+        "tag": "xtagArtifactDescription063"
+      },
+      {
+        "classification": "Священный артефакт",
+        "dropsIn": "Эпос",
+        "levelRequirement": 50,
+        "name": "Полумесяц Артемиды",
+        "properties": {
+          "characterLifeRegenModifier": "+30% восстановления жизни",
+          "characterManaRegenModifier": "+30% восстановления энергии",
+          "itemSkillName": {
+            "level": 1,
+            "tag": "xtagSkillArtifactName012",
+            "trigger": " (Активируется при получении урона)"
+          },
+          "offensivePierceModifier": "+14% проникающего урона",
+          "racialBonusPercentDamage": [
+            "+20% урона Demons"
+          ],
+          "retaliationPierce": "33.0% шанс на 40 ед. ответного проникающего урона"
+        },
+        "tag": "xtagArtifactDescription059"
+      },
+      {
+        "classification": "Священный артефакт",
+        "dropsIn": "Эпос",
+        "levelRequirement": 50,
+        "name": "Жезл Осириса",
+        "properties": {
+          "defensiveLife": "100% сопротивление урону здоровью",
+          "defensiveSlowManaLeach": "25% защита от кражи энергии",
+          "itemSkillName": {
+            "level": 1,
+            "tag": "xtagSkillArtifactName017"
+          },
+          "offensiveSlowManaLeach": "50 ед. кражи энергии в течении 2.0 секунд(ы)",
+          "racialBonusAbsoluteDefense": [
+            "+50 ед. снижения урона от Undead"
+          ],
+          "racialBonusPercentDamage": [
+            "+30% урона Undead"
+          ]
+        },
+        "tag": "xtagArtifactDescription064"
+      }
+    ],
+    "ItemCharm": [
+      {
+        "act": "act1",
+        "bonus": [
+          {
+            "chance": 7.59,
+            "option": {
+              "offensiveFire": "4-6 ед. урона от огня"
+            }
+          },
+          {
+            "chance": 15.19,
+            "option": {
+              "racialBonusPercentDamage": [
+                "+50% урона Demons"
+              ]
+            }
+          },
+          {
+            "chance": 15.19,
+            "option": {
+              "offensivePhysical": "4-6 ед. физического урона"
+            }
+          },
+          {
+            "chance": 45.57,
+            "option": {
+              "offensiveSlowManaLeach": "24 ед. кражи энергии в течении 3.0 секунд(ы)"
+            }
+          },
+          {
+            "chance": 11.39,
+            "option": {
+              "offensiveSlowAttackSpeed": "33.0% замедление скорости атаки на 3.0 секунд(ы)"
+            }
+          },
+          {
+            "chance": 1.27,
+            "option": {
+              "offensiveSlowAttackSpeed": "50.0% замедление скорости атаки на 3.0 секунд(ы)"
+            }
+          },
+          {
+            "chance": 3.8,
+            "option": {
+              "characterAttackSpeedModifier": "+8% скорости атаки"
+            }
+          }
+        ],
+        "classification": "Норма",
+        "description": "Полый зуб пещерной летучей мыши. С его помощью можно улучшить оружие любого вида.",
+        "levelRequirement": 3,
+        "name": "Клык летучей мыши",
+        "properties": [
+          {
+            "offensiveSlowLifeLeach": "6 ед. кражи жизни в течении 3.0 секунд(ы)"
+          },
+          {
+            "offensiveSlowLifeLeach": "12 ед. кражи жизни в течении 3.0 секунд(ы)"
+          },
+          {
+            "offensiveSlowLifeLeach": "18 ед. кражи жизни в течении 3.0 секунд(ы)"
+          },
+          {
+            "offensiveSlowLifeLeach": "24 ед. кражи жизни в течении 3.0 секунд(ы)"
+          },
+          {
+            "offensiveSlowLifeLeach": "30 ед. кражи жизни в течении 3.0 секунд(ы)"
+          }
+        ],
+        "tag": "tagAnimalPart002"
+      },
+      {
+        "act": "act1",
+        "bonus": [
+          {
+            "chance": 42.86,
+            "option": {
+              "defensiveProtection": "4 ед. защиты"
+            }
+          },
+          {
+            "chance": 14.29,
+            "option": {
+              "defensiveCold": "10% сопротивление холоду"
+            }
+          },
+          {
+            "chance": 14.29,
+            "option": {
+              "defensivePierce": "8% сопротивление проникающему урону"
+            }
+          },
+          {
+            "chance": 14.29,
+            "option": {
+              "characterDefensiveAbility": "+25 ед. оборонительной способности"
+            }
+          },
+          {
+            "chance": 14.29,
+            "option": {
+              "defensiveBleeding": "15% сопротивление кровотечению"
+            }
+          }
+        ],
+        "classification": "Норма",
+        "description": "Прочная шкура дикого вепря. С её помощью можно улучшить доспехи любого вида.",
+        "levelRequirement": 3,
+        "name": "Шкура вепря",
+        "properties": [
+          {
+            "defensiveBleeding": "2% сопротивление кровотечению",
+            "defensiveProtection": "1 ед. защиты"
+          },
+          {
+            "defensiveBleeding": "4% сопротивление кровотечению",
+            "defensiveProtection": "2 ед. защиты"
+          },
+          {
+            "defensiveBleeding": "6% сопротивление кровотечению",
+            "defensiveProtection": "3 ед. защиты"
+          },
+          {
+            "defensiveBleeding": "8% сопротивление кровотечению",
+            "defensiveProtection": "4 ед. защиты"
+          },
+          {
+            "defensiveBleeding": "10% сопротивление кровотечению",
+            "defensiveProtection": "5 ед. защиты"
+          }
+        ],
+        "tag": "tagAnimalPart003"
+      },
+      {
+        "act": "act1",
+        "bonus": [
+          {
+            "chance": 16.67,
+            "option": {
+              "characterDefensiveAbility": "+15 ед. оборонительной способности"
+            }
+          },
+          {
+            "chance": 16.67,
+            "option": {
+              "defensiveProtection": "4 ед. защиты"
+            }
+          },
+          {
+            "chance": 16.67,
+            "option": {
+              "characterDexterity": "+5 ед. ловкости"
+            }
+          },
+          {
+            "chance": 16.67,
+            "option": {
+              "characterOffensiveAbility": "+15 ед. наступательной способности"
+            }
+          },
+          {
+            "chance": 16.67,
+            "option": {
+              "defensivePoison": "8% сопротивление яду"
+            }
+          },
+          {
+            "chance": 16.67,
+            "option": {
+              "defensiveBleeding": "15% сопротивление кровотечению"
+            }
+          }
+        ],
+        "classification": "Норма",
+        "description": "Высококачественные перья. С их помощью можно улучшить доспехи любого вида.",
+        "levelRequirement": 3,
+        "name": "Чистое перо",
+        "properties": [
+          {
+            "defensivePoison": "4% сопротивление яду"
+          },
+          {
+            "defensivePoison": "8% сопротивление яду"
+          },
+          {
+            "defensivePoison": "12% сопротивление яду"
+          },
+          {
+            "defensivePoison": "16% сопротивление яду"
+          },
+          {
+            "defensivePoison": "20% сопротивление яду"
+          }
+        ],
+        "tag": "tagAnimalPart050"
+      }
+    ],
+    "ItemRelic": [
+      {
+        "act": "act1",
+        "bonus": [
+          {
+            "chance": 18.18,
+            "option": {
+              "characterDefensiveAbility": "+25 ед. оборонительной способности"
+            }
+          },
+          {
+            "chance": 18.18,
+            "option": {
+              "characterLife": "+95 ед. жизни"
+            }
+          },
+          {
+            "chance": 18.18,
+            "option": {
+              "characterStrength": "+11 ед. силы"
+            }
+          },
+          {
+            "chance": 18.18,
+            "option": {
+              "offensiveStun": "5.0% шанс на 2.0 секунд(ы) оглушения"
+            }
+          },
+          {
+            "chance": 18.18,
+            "option": {
+              "defensiveLife": "15% сопротивление урону здоровью"
+            }
+          },
+          {
+            "chance": 9.09,
+            "option": {
+              "defensiveBleeding": "15% сопротивление кровотечению"
+            }
+          }
+        ],
+        "classification": "Норма",
+        "description": "Эгида - щит Афины, греческой богини войны. С помощью этой реликвии можно сделать щиты лучше.",
+        "levelRequirement": 3,
+        "name": "Сущность эгиды Афины",
+        "properties": [
+          {
+            "defensiveLife": "9% сопротивление урону здоровью",
+            "defensivePetrify": "9% уменьшение длительности окаменения"
+          },
+          {
+            "defensiveLife": "18% сопротивление урону здоровью",
+            "defensivePetrify": "18% уменьшение длительности окаменения"
+          },
+          {
+            "defensiveLife": "27% сопротивление урону здоровью",
+            "defensivePetrify": "27% уменьшение длительности окаменения"
+          }
+        ],
+        "tag": "tagRelicName004"
+      },
+      {
+        "act": "act1",
+        "bonus": [
+          {
+            "chance": 5.56,
+            "option": {
+              "defensiveCold": "10% сопротивление холоду"
+            }
+          },
+          {
+            "chance": 1.11,
+            "option": {
+              "defensiveCold": "23% сопротивление холоду"
+            }
+          },
+          {
+            "chance": 5.56,
+            "option": {
+              "defensiveFire": "10% сопротивление огню"
+            }
+          },
+          {
+            "chance": 1.11,
+            "option": {
+              "defensiveFire": "23% сопротивление огню"
+            }
+          },
+          {
+            "chance": 5.56,
+            "option": {
+              "defensiveLightning": "10% сопротивление молниям"
+            }
+          },
+          {
+            "chance": 1.11,
+            "option": {
+              "defensiveLightning": "23% сопротивление молниям"
+            }
+          },
+          {
+            "chance": 3.33,
+            "option": {
+              "defensivePierce": "8% сопротивление проникающему урону"
+            }
+          },
+          {
+            "chance": 3.33,
+            "option": {
+              "defensivePierce": "16% сопротивление проникающему урону"
+            }
+          },
+          {
+            "chance": 3.33,
+            "option": {
+              "defensivePoison": "8% сопротивление яду"
+            }
+          },
+          {
+            "chance": 3.33,
+            "option": {
+              "defensivePoison": "16% сопротивление яду"
+            }
+          },
+          {
+            "chance": 6.67,
+            "option": {
+              "characterLife": "+95 ед. жизни"
+            }
+          },
+          {
+            "chance": 6.67,
+            "option": {
+              "characterStrength": "+11 ед. силы"
+            }
+          },
+          {
+            "chance": 20.0,
+            "option": {
+              "retaliationPierce": "15.0% шанс на 9-30 ед. ответного проникающего урона"
+            }
+          },
+          {
+            "chance": 6.67,
+            "option": {
+              "characterDefensiveAbility": "+25 ед. оборонительной способности"
+            }
+          },
+          {
+            "chance": 6.67,
+            "option": {
+              "characterStrength": "+5 ед. силы"
+            }
+          },
+          {
+            "chance": 20.0,
+            "option": {
+              "retaliationSlowLifeLeach": "15.0% шанс на 14-22 ед. кражи жизни в течении 1.0 секунд(ы)"
+            }
+          }
+        ],
+        "classification": "Норма",
+        "description": "Архимед - один из величайших философов и ученых Греции. С помощью его реликвии можно сделать щиты более крепкими.",
+        "levelRequirement": 3,
+        "name": "Сущность зеркала Архимеда",
+        "properties": [
+          {
+            "defensiveReflect": "4.0% шанс на 100% отражение урона"
+          }
+        ],
+        "tag": "tagRelicName011"
+      },
+      {
+        "act": "act1",
+        "bonus": [
+          {
+            "chance": 9.23,
+            "option": {
+              "offensivePhysicalModifier": "+10% физического урона"
+            }
+          },
+          {
+            "chance": 8.46,
+            "option": {
+              "offensiveSlowPoison": "9-18 ед. урона от яда в течении 3.0 секунд(ы)"
+            }
+          },
+          {
+            "chance": 0.77,
+            "option": {
+              "offensiveSlowPoison": "12-24 ед. урона от яда в течении 3.0 секунд(ы)"
+            }
+          },
+          {
+            "chance": 8.46,
+            "option": {
+              "offensivePhysical": "4-6 ед. физического урона"
+            }
+          },
+          {
+            "chance": 0.77,
+            "option": {
+              "offensivePhysical": "5-9 ед. физического урона"
+            }
+          },
+          {
+            "chance": 6.92,
+            "option": {
+              "offensiveSlowAttackSpeed": "33.0% замедление скорости атаки на 3.0 секунд(ы)"
+            }
+          },
+          {
+            "chance": 0.77,
+            "option": {
+              "offensiveSlowAttackSpeed": "50.0% замедление скорости атаки на 3.0 секунд(ы)"
+            }
+          },
+          {
+            "chance": 9.23,
+            "option": {
+              "characterDexterity": "+11 ед. ловкости"
+            }
+          },
+          {
+            "chance": 27.69,
+            "option": {
+              "characterAttackSpeedModifier": "+8% скорости атаки"
+            }
+          },
+          {
+            "chance": 27.69,
+            "option": {
+              "offensivePierce": "4-6 ед. проникающего урона"
+            }
+          }
+        ],
+        "classification": "Норма",
+        "description": "Артемида - греческая богиня охоты, знаменитая искусством владения луком. С помощью её реликвии можно сделать луки лучше.",
+        "levelRequirement": 3,
+        "name": "Сущность меткости Артемиды",
+        "properties": [
+          {
+            "characterAttackSpeedModifier": "+2% скорости атаки",
+            "offensivePierce": "3 ед. проникающего урона",
+            "skillProjectileSpeedModifier": "2% скорости полёта снарядов"
+          },
+          {
+            "characterAttackSpeedModifier": "+4% скорости атаки",
+            "offensivePierce": "6 ед. проникающего урона",
+            "skillProjectileSpeedModifier": "4% скорости полёта снарядов"
+          },
+          {
+            "characterAttackSpeedModifier": "+6% скорости атаки",
+            "offensivePierce": "9 ед. проникающего урона",
+            "skillProjectileSpeedModifier": "6% скорости полёта снарядов"
+          }
+        ],
+        "tag": "tagRelicName003"
+      }
+    ],
+    "OneShot_Scroll": [
+      {
+        "classification": "Норма",
+        "description": "Герой получает доступ к чистой энергии мира богов и начинает эффективнее управлять своими магическими способностями.",
+        "levelRequirement": 7,
+        "name": "Свиток Магической силы",
+        "properties": {
+          "characterManaRegen": "+40.0 ед. энергии в секунду восстанавливается",
+          "characterSpellCastSpeedModifier": "+100% скорости заклинаний",
+          "offensiveElemental": "15 ед. урона силами природы",
+          "skillActiveDuration": "Длительность 90.0 секунд(а)"
+        },
+        "tag": "xtagScroll014"
+      },
+      {
+        "classification": "Норма",
+        "description": "Герой призывает на помощь могучих циклопов. Однако, железная воля циклопов не позволяет контролировать их долгое время.",
+        "levelRequirement": 24,
+        "name": "Свиток Циклопов",
+        "summons": {
+          "abilities": [
+            {
+              "tagSkillName113": 1,
+              "unnamed-2": 1
+            },
+            {
+              "tagSkillName113": 1,
+              "unnamed-2": 1
+            },
+            {
+              "tagSkillName113": 1,
+              "unnamed-2": 1
+            }
+          ],
+          "classification": "Champion",
+          "level": [
+            33,
+            52,
+            67
+          ],
+          "name": "Призванные циклопы",
+          "properties": {
+            "characterLife": "3200 жизнь",
+            "characterMana": "5000 энергия",
+            "defensiveCold": "10% сопротивление холоду",
+            "defensiveFire": "30% сопротивление огню",
+            "defensiveFreeze": "100% уменьшение длительности заморозки",
+            "defensivePetrify": "100% уменьшение длительности окаменения",
+            "defensivePoison": "30% сопротивление яду",
+            "defensiveSleep": "100% сопротивление сну",
+            "defensiveStun": "100% сопротивление оглушению",
+            "defensiveTrap": "100% уменьшение времени в ловушке",
+            "offensivePhysical": "200-250 ед. физического урона",
+            "spawnObjectsTimeToLive": "    Время жизни 25.0 секунд(ы)"
+          },
+          "race": "Magical",
+          "tag": "xtagScrollPet07"
+        },
+        "tag": "xtagScroll050"
+      },
+      {
+        "classification": "Норма",
+        "description": "Герой призывает небесные силы пролить смертоносный дождь на близстоящих врагов.",
+        "levelRequirement": 27,
+        "name": "Свиток Ярости небес",
+        "summons": {
+          "abilities": [
+            {
+              "tagSkillName025": 1,
+              "tagSkillName026": 1
+            },
+            {
+              "tagSkillName025": 1,
+              "tagSkillName026": 1
+            },
+            {
+              "tagSkillName025": 1,
+              "tagSkillName026": 1
+            }
+          ],
+          "classification": "Common",
+          "level": [
+            1
+          ],
+          "name": "Гроза",
+          "properties": {
+            "characterLife": "200000 жизнь",
+            "characterMana": "5000 энергия",
+            "defensiveCold": "15% сопротивление холоду",
+            "defensiveFire": "15% сопротивление огню",
+            "defensiveFreeze": "100% уменьшение длительности заморозки",
+            "defensiveLife": "100% сопротивление урону здоровью",
+            "defensiveLightning": "15% сопротивление молниям",
+            "defensivePetrify": "100% уменьшение длительности окаменения",
+            "defensivePhysical": "30% сопротивление физическому урону",
+            "defensivePierce": "30% сопротивление проникающему урону",
+            "defensivePoison": "100% сопротивление яду",
+            "defensiveStun": "100% сопротивление оглушению",
+            "defensiveTrap": "100% уменьшение времени в ловушке",
+            "spawnObjectsTimeToLive": "    Время жизни 15.0 секунд(ы)"
+          },
+          "race": "Magical",
+          "tag": "xtagScrollPet11"
+        },
+        "tag": "xtagScroll013"
+      }
+    ],
+    "WeaponArmor_Shield": [
+      {
+        "classification": "Легенда",
+        "itemLevel": 75,
+        "levelRequirement": 51,
+        "name": "Щит Пламенного Легиона",
+        "properties": {
+          "augmentSkillName1": {
+            "name": "+2 очка(ов) к умению Яростный натиск",
+            "tag": "tagSkillName005"
+          },
+          "augmentSkillName2": {
+            "name": "+2 очка(ов) к умению Стена",
+            "tag": "tagSkillName120"
+          },
+          "characterDeflectProjectile": "10% шанс уклониться от летящих снарядов",
+          "characterDexterity": "+33 ед. ловкости",
+          "defensiveBlock": "59% шанс блокировать 904 ед. урона",
+          "defensiveLife": "80% сопротивление урону здоровью",
+          "defensiveProtectionModifier": "+5% защиты брони",
+          "defensiveReflect": "10.0% шанс на 50% отражение урона",
+          "offensivePhysical": "270 ед. физического урона"
+        },
+        "set": "xtagSetName011",
+        "strengthRequirement": 528,
+        "tag": "xtagUWeapon006"
+      },
+      {
+        "classification": "Эпос",
+        "itemLevel": 33,
+        "levelRequirement": 29,
+        "name": "Щит страданий",
+        "properties": {
+          "defensiveBlock": "21% шанс блокировать 166 ед. урона",
+          "defensiveBlockModifier": "+4% к шансу блокировки щитом",
+          "defensiveElementalResistance": "17% сопротивление силам природы",
+          "defensiveLife": "30% сопротивление урону здоровью",
+          "offensivePhysical": "82 ед. физического урона",
+          "retaliationLife": "10.0% шанс на 45 ед. ответного урона здоровью"
+        },
+        "set": "xtagSetName001",
+        "strengthRequirement": 242,
+        "tag": "xtagUWeapon007"
+      },
+      {
+        "classification": "Легенда",
+        "itemLevel": 59,
+        "levelRequirement": 43,
+        "name": "Независимый",
+        "properties": {
+          "characterDexterity": "+20 ед. ловкости",
+          "characterStrength": "+24 ед. силы",
+          "defensiveBlock": "49% шанс блокировать 593 ед. урона",
+          "defensiveBlockModifier": "+3% к шансу блокировки щитом",
+          "defensiveLife": "66% сопротивление урону здоровью",
+          "defensiveLightning": "66% сопротивление молниям",
+          "defensiveSlowManaLeach": "100% защита от кражи энергии",
+          "offensivePhysical": "214 ед. физического урона",
+          "offensivePhysicalModifier": "+15% физического урона",
+          "retaliationElemental": "15.0% шанс на 56 ед. ответного урона силами природы"
+        },
+        "strengthRequirement": 429,
+        "tag": "xtagUWeapon003"
+      }
+    ],
+    "WeaponHunting_Bow": [
+      {
+        "classification": "Легенда",
+        "dexterityRequirement": 398,
+        "itemLevel": 59,
+        "levelRequirement": 44,
+        "name": "Лук из черного дерева",
+        "properties": {
+          "characterAttackSpeed": "Скорость: Очень медленная",
+          "characterAttackSpeedModifier": "+30% скорости атаки",
+          "characterDefensiveAbility": "+80 ед. оборонительной способности",
+          "characterDexterity": "+32 ед. ловкости",
+          "itemSkillName": {
+            "level": 8,
+            "tag": "tagSkillName068"
+          },
+          "offensiveLifeLeech": "9% урона переводится в жизнь",
+          "offensivePhysical": "162-182 ед. физического урона",
+          "offensivePierceModifier": "+15% проникающего урона",
+          "offensivePierceRatio": "30% доля проникающего урона",
+          "offensiveSlowLifeLeachModifier": "+45% кражи жизни",
+          "skillProjectileSpeedModifier": "50% скорости полёта снарядов"
+        },
+        "strengthRequirement": 142,
+        "tag": "xtagUWeapon034"
+      },
+      {
+        "classification": "Легенда",
+        "dexterityRequirement": 398,
+        "itemLevel": 59,
+        "levelRequirement": 44,
+        "name": "Удар молнии",
+        "properties": {
+          "characterAttackSpeed": "Скорость: Очень медленная",
+          "characterAttackSpeedModifier": "+20% скорости атаки",
+          "characterDexterity": "+25 ед. ловкости",
+          "characterIntelligence": "+25 ед. интеллекта",
+          "characterStrength": "+25 ед. силы",
+          "defensiveLightning": "80% сопротивление молниям",
+          "offensiveGlobalChance": {
+            "chance": "20.0% шанс на: ",
+            "properties": {
+              "offensiveSlowLightning": "171-312 ед. урона электрическим разрядом в течении 3.0 секунд(ы)",
+              "offensiveSlowLightningModifier": "+20% урона электрическим разрядом",
+              "offensiveStun": "1.0-2.0 секунд(ы) оглушения"
+            }
+          },
+          "offensiveLightning": "17-144 ед. урона от молний",
+          "offensiveLightningModifier": "+20% урона от молний",
+          "offensivePhysical": "157-167 ед. физического урона",
+          "offensivePierceRatio": "25% доля проникающего урона"
+        },
+        "strengthRequirement": 142,
+        "tag": "xtagUWeapon035"
+      },
+      {
+        "classification": "Легенда",
+        "dexterityRequirement": 488,
+        "itemLevel": 75,
+        "levelRequirement": 52,
+        "name": "Жало",
+        "properties": {
+          "characterAttackSpeed": "Скорость: Очень медленная",
+          "characterDefensiveAbility": "+150 ед. оборонительной способности",
+          "characterDexterity": "+33 ед. ловкости",
+          "offensiveLifeLeech": "11% урона переводится в жизнь",
+          "offensivePhysical": "207-225 ед. физического урона",
+          "offensivePhysicalModifier": "+15% физического урона",
+          "offensivePierce": "49-69 ед. проникающего урона",
+          "offensivePierceModifier": "+15% проникающего урона",
+          "offensivePierceRatio": "25% доля проникающего урона",
+          "offensiveSlowLifeLeachModifier": "+50% кражи жизни",
+          "retaliationPhysical": "30.0% шанс на 190 ед. ответного урона"
+        },
+        "strengthRequirement": 161,
+        "tag": "xtagUWeapon036"
+      }
+    ],
+    "WeaponHunting_RangedOneHand": [
+      {
+        "classification": "Легенда",
+        "itemLevel": 45,
+        "levelRequirement": 43,
+        "name": "Пасть Ладона",
+        "properties": {
+          "characterAttackSpeed": "Скорость: Быстрая",
+          "characterLife": "+200 ед. жизни",
+          "defensiveStun": "25% сопротивление оглушению",
+          "offensiveLifeLeech": "10% урона переводится в жизнь",
+          "offensivePercentCurrentLife": "10% уменьшение жизни противника",
+          "offensivePhysical": "74-78 ед. физического урона",
+          "offensivePierce": "35 ед. проникающего урона",
+          "offensivePierceModifier": "10.0% шанс на +200% проникающего урона",
+          "offensivePierceRatio": "10% доля проникающего урона",
+          "offensiveSlowBleeding": "360-540 ед. урона от кровотечения в течении 3.0 секунд(ы)",
+          "offensiveSlowDefensiveReduction": "7.0-70.0 ед. уменьшения брони на 3.0 секунд(ы)"
+        },
+        "tag": "x2tagUWeapon067"
+      },
+      {
+        "classification": "Легенда",
+        "itemLevel": 45,
+        "levelRequirement": 45,
+        "name": "Воля Нейт",
+        "properties": {
+          "characterAttackSpeed": "Скорость: Быстрая",
+          "characterAttackSpeedModifier": "+30% скорости атаки",
+          "characterMana": "+200 ед. энергии",
+          "defensiveDisruption": "50% защита от снятия умений",
+          "defensiveLife": "50% сопротивление урону здоровью",
+          "defensiveStun": "50% сопротивление оглушению",
+          "offensiveGlobalChance": {
+            "chance": "7.0% шанс на: ",
+            "properties": {
+              "offensivePetrify": "4.0 секунд(ы) окаменения",
+              "offensiveSlowLightning": "100 ед. урона электрическим разрядом в течении 4.0 секунд(ы)"
+            }
+          },
+          "offensiveLife": "170 ед. урона здоровью",
+          "offensivePhysical": "86-91 ед. физического урона",
+          "offensivePierceRatio": "10% доля проникающего урона",
+          "offensiveTotalDamageModifier": "+25% общего урона",
+          "skillCooldownReduction": "-15% времени перезарядки"
+        },
+        "tag": "x2tagUWeapon069"
+      },
+      {
+        "classification": "Эпос",
+        "itemLevel": 45,
+        "levelRequirement": 46,
+        "name": "Касание Ра",
+        "properties": {
+          "augmentAllLevel": "+1 очка(ов) ко всем умениям",
+          "characterAttackSpeed": "Скорость: Быстрая",
+          "characterAttackSpeedModifier": "+30% скорости атаки",
+          "defensiveFire": "30% сопротивление огню",
+          "defensivePoison": "30% сопротивление яду",
+          "itemSkillName": {
+            "level": 1,
+            "tag": "tagAESkillName001",
+            "trigger": " (Активируется при атаке)"
+          },
+          "offensivePhysical": "92-98 ед. физического урона",
+          "offensivePhysicalModifier": "+30% физического урона",
+          "offensivePierceRatio": "10% доля проникающего урона",
+          "retaliationSlowFire": "45-60 ед. ответного урона горением в течении 3.0 секунд(ы)"
+        },
+        "tag": "x2tagUWeapon070"
+      }
+    ],
+    "WeaponHunting_Spear": [
+      {
+        "classification": "Легенда",
+        "dexterityRequirement": 432,
+        "itemLevel": 70,
+        "levelRequirement": 49,
+        "name": "Сотрясатель тверди",
+        "properties": {
+          "augmentMasteryName1": {
+            "name": "+1 очка(ов) к умению Искусство охоты",
+            "tag": "tagSkillName076"
+          },
+          "augmentSkillName1": {
+            "name": "+2 очка(ов) к умению Пронзание",
+            "tag": "tagSkillName172"
+          },
+          "characterAttackSpeed": "Скорость: Медленная",
+          "characterDexterity": "+32 ед. ловкости",
+          "characterStrength": "+32 ед. силы",
+          "offensivePhysical": "255-269 ед. физического урона",
+          "offensivePierceRatio": "25% доля проникающего урона",
+          "offensiveSlowOffensiveAbility": "60.0% уменьшения наступательной способности на 1.0 секунд(ы)",
+          "offensiveSlowTotalSpeed": "20.0% замедления на 1.0 секунд(ы)",
+          "offensiveTotalResistanceReductionPercent": "30.0% уменьшение сопротивлений на 1.0 секунд(ы)"
+        },
+        "set": "xtagSetName009",
+        "strengthRequirement": 176,
+        "tag": "xtagUWeapon068"
+      },
+      {
+        "classification": "Эпос",
+        "dexterityRequirement": 242,
+        "itemLevel": 33,
+        "levelRequirement": 31,
+        "name": "Шип духа",
+        "properties": {
+          "characterAttackSpeed": "Скорость: Медленная",
+          "characterAttackSpeedModifier": "+15% скорости атаки",
+          "characterOffensiveAbility": "+40 ед. наступательной способности",
+          "offensiveLife": "15 ед. урона здоровью",
+          "offensiveLifeLeech": "8% урона переводится в жизнь",
+          "offensivePercentCurrentLife": "15% уменьшение жизни противника",
+          "offensivePhysical": "78-89 ед. физического урона",
+          "offensivePierceRatio": "25% доля проникающего урона",
+          "offensiveSlowLifeLeachModifier": "+40% кражи жизни"
+        },
+        "set": "xtagSetName001",
+        "strengthRequirement": 114,
+        "tag": "xtagUWeapon067"
+      },
+      {
+        "classification": "Легенда",
+        "dexterityRequirement": 371,
+        "itemLevel": 59,
+        "levelRequirement": 44,
+        "name": "Рука Гелиоса",
+        "properties": {
+          "characterAttackSpeed": "Скорость: Медленная",
+          "characterAttackSpeedModifier": "+20% скорости атаки",
+          "characterLife": "+290 ед. жизни",
+          "characterLifeRegen": "+2.0 ед. жизни в секунду восстанавливается",
+          "defensiveFire": "40% сопротивление огню",
+          "defensiveLightning": "40% сопротивление молниям",
+          "offensiveFire": "33.0% шанс на 190 ед. урона от огня",
+          "offensiveLifeLeech": "9% урона переводится в жизнь",
+          "offensivePhysical": "211-231 ед. физического урона",
+          "offensivePierceRatio": "30% доля проникающего урона",
+          "racialBonusPercentDamage": [
+            "+45% урона Demons"
+          ]
+        },
+        "strengthRequirement": 156,
+        "tag": "xtagUWeapon063"
+      }
+    ],
+    "WeaponMagical_Staff": [
+      {
+        "classification": "Легенда",
+        "intelligenceRequirement": 566,
+        "itemLevel": 70,
+        "levelRequirement": 48,
+        "name": "Скипетр Карнуса",
+        "properties": {
+          "augmentSkillName1": {
+            "name": "+2 очка(ов) к умению Волна искажения",
+            "tag": "xtagSkillDreamName004-1"
+          },
+          "augmentSkillName2": {
+            "name": "+2 очка(ов) к умению Трезубец",
+            "tag": "tagSkillName213"
+          },
+          "characterAttackSpeed": "Скорость: Очень медленная",
+          "characterIntelligence": "+20 ед. интеллекта",
+          "characterManaRegen": "+1.6 ед. энергии в секунду восстанавливается",
+          "offensiveBaseLightning": "167-266 ед. базового урона от молний",
+          "offensiveSlowLightning": "136-216 ед. урона электрическим разрядом в течении 4.0 секунд(ы)",
+          "offensiveTotalDamageModifier": "+20% общего урона",
+          "skillProjectileSpeedModifier": "50% скорости полёта снарядов"
+        },
+        "set": "xtagSetName012",
+        "tag": "xtagUWeapon084"
+      },
+      {
+        "classification": "Эпос",
+        "intelligenceRequirement": 322,
+        "itemLevel": 33,
+        "levelRequirement": 30,
+        "name": "Скипетр Эреба",
+        "properties": {
+          "characterAttackSpeed": "Скорость: Очень медленная",
+          "characterAttackSpeedModifier": "+10% скорости атаки",
+          "characterIntelligence": "+24 ед. интеллекта",
+          "offensiveBaseFire": "60 ед. базового урона от огня",
+          "offensiveElementalModifier": "+30% урона силами природы",
+          "offensiveLifeLeech": "7% урона переводится в жизнь",
+          "offensiveSlowLifeLeachModifier": "+35% кражи жизни",
+          "racialBonusPercentDefense": [
+            "+20% снижения урона от Demons"
+          ]
+        },
+        "set": "xtagSetName002",
+        "tag": "xtagUWeapon083"
+      },
+      {
+        "classification": "Легенда",
+        "intelligenceRequirement": 488,
+        "itemLevel": 59,
+        "levelRequirement": 45,
+        "name": "Привратник",
+        "properties": {
+          "characterAttackSpeed": "Скорость: Очень медленная",
+          "characterAttackSpeedModifier": "+30% скорости атаки",
+          "characterDexterity": "+30 ед. ловкости",
+          "characterIntelligence": "+10 ед. интеллекта",
+          "characterLife": "+340 ед. жизни",
+          "characterManaRegen": "+1.4 ед. энергии в секунду восстанавливается",
+          "defensivePhysical": "5% сопротивление физическому урону",
+          "defensiveProtection": "40 ед. защиты",
+          "itemSkillName": {
+            "level": 6,
+            "tag": "tagSkillName213"
+          },
+          "offensiveBaseFire": "84 ед. базового урона от огня",
+          "offensiveSlowPoison": "138-276 ед. урона от яда в течении 3.0 секунд(ы)",
+          "offensiveTotalDamageModifier": "+20% общего урона"
+        },
+        "tag": "xtagUWeapon078"
+      }
+    ],
+    "WeaponMelee_Axe": [
+      {
+        "classification": "Легенда",
+        "dexterityRequirement": 156,
+        "itemLevel": 59,
+        "levelRequirement": 45,
+        "name": "Ключ к Элизиуму",
+        "properties": {
+          "augmentAllLevel": "+1 очка(ов) ко всем умениям",
+          "characterAttackSpeed": "Скорость: Средняя",
+          "characterAttackSpeedModifier": "+20% скорости атаки",
+          "characterDexterity": "+25 ед. ловкости",
+          "characterIntelligence": "+25 ед. интеллекта",
+          "characterLife": "+350 ед. жизни",
+          "characterLifeRegen": "+2.0 ед. жизни в секунду восстанавливается",
+          "characterMana": "+350 ед. энергии",
+          "characterStrength": "+25 ед. силы",
+          "itemSkillName": {
+            "level": 17,
+            "tag": "tagMonsterName1326",
+            "trigger": " (Активируется при атаке)"
+          },
+          "offensivePhysical": "183-194 ед. физического урона",
+          "offensiveSlowManaLeach": "120 ед. кражи энергии в течении 3.0 секунд(ы)"
+        },
+        "strengthRequirement": 429,
+        "tag": "xtagUWeapon020"
+      },
+      {
+        "classification": "Легенда",
+        "dexterityRequirement": 183,
+        "itemLevel": 75,
+        "levelRequirement": 51,
+        "name": "Пито",
+        "properties": {
+          "characterAttackSpeed": "Скорость: Средняя",
+          "characterLife": "+200 ед. жизни",
+          "characterMana": "+500 ед. энергии",
+          "characterManaRegen": "+4.0 ед. энергии в секунду восстанавливается",
+          "offensiveFumble": "10.0% шанс на 100.0% шанс на неудачную вражескую атаку на 3.0 секунд(ы)",
+          "offensiveLifeLeech": "9% урона переводится в жизнь",
+          "offensivePhysical": "219-227 ед. физического урона",
+          "offensiveSlowLife": "220 ед. снижения здоровья в течении 10.0 секунд(ы)",
+          "offensiveSlowPoison": "270 ед. урона от яда в течении 3.0 секунд(ы)",
+          "offensiveSlowPoisonModifier": "+35% урона от яда"
+        },
+        "strengthRequirement": 528,
+        "tag": "xtagUWeapon021"
+      },
+      {
+        "classification": "Легенда",
+        "dexterityRequirement": 183,
+        "itemLevel": 75,
+        "levelRequirement": 51,
+        "name": "Пламенный секач",
+        "properties": {
+          "characterAttackSpeed": "Скорость: Средняя",
+          "characterDexterity": "+24 ед. ловкости",
+          "characterIntelligence": "+24 ед. интеллекта",
+          "defensiveFire": "25% сопротивление огню",
+          "offensiveFire": "42 ед. урона от огня",
+          "offensiveFireModifier": "+35% урона от огня",
+          "offensivePhysical": "229-239 ед. физического урона",
+          "offensiveSlowFire": "180 ед. урона от горения в течении 3.0 секунд(ы)",
+          "offensiveSlowFireModifier": "15.0% шанс на +300% урона от горения",
+          "offensiveTotalResistanceReductionAbsolute": "20.0 ед. уменьшения сопротивлений на 3.0 секунд(ы)"
+        },
+        "strengthRequirement": 528,
+        "tag": "xtagUWeapon022"
+      }
+    ],
+    "WeaponMelee_Mace": [
+      {
+        "classification": "Легенда",
+        "dexterityRequirement": 161,
+        "itemLevel": 75,
+        "levelRequirement": 50,
+        "name": "Кулак Пламенного легиона",
+        "properties": {
+          "augmentSkillName1": {
+            "name": "+2 очка(ов) к умению Сотрясающий удар",
+            "tag": "tagSkillName203-1"
+          },
+          "augmentSkillName2": {
+            "name": "+2 очка(ов) к умению Мастерство владения оружием",
+            "tag": "tagSkillName017"
+          },
+          "characterAttackSpeed": "Скорость: Медленная",
+          "characterStrength": "+33 ед. силы",
+          "defensiveProtectionModifier": "+5% защиты брони",
+          "offensivePhysical": "280-314 ед. физического урона",
+          "offensivePhysicalModifier": "20.0% шанс на +50% физического урона",
+          "offensiveSlowDefensiveAbility": "60.0% уменьшения оборонительной способности на 3.0 секунд(ы)"
+        },
+        "set": "xtagSetName011",
+        "strengthRequirement": 584,
+        "tag": "xtagUWeapon052"
+      },
+      {
+        "classification": "Легенда",
+        "dexterityRequirement": 142,
+        "itemLevel": 59,
+        "levelRequirement": 43,
+        "name": "Колотушка Мербиуса",
+        "properties": {
+          "characterAttackSpeed": "Скорость: Медленная",
+          "characterAttackSpeedModifier": "+20% скорости атаки",
+          "characterLifeRegenModifier": "+50% восстановления жизни",
+          "characterManaLimitReserveReduction": "20 ед. снятой энергии возвращается",
+          "characterOffensiveAbility": "+220 ед. наступательной способности",
+          "characterStrength": "+28 ед. силы",
+          "itemSkillName": {
+            "level": 1,
+            "tag": "xtagSkillEquipmentName007",
+            "trigger": " (Активируется при атаке)"
+          },
+          "offensivePhysical": "228-260 ед. физического урона",
+          "offensivePhysicalModifier": "+10% физического урона",
+          "offensivePierce": "35-65 ед. проникающего урона"
+        },
+        "strengthRequirement": 476,
+        "tag": "xtagUWeapon049"
+      },
+      {
+        "classification": "Легенда",
+        "dexterityRequirement": 142,
+        "itemLevel": 59,
+        "levelRequirement": 43,
+        "name": "Палица смертника",
+        "properties": {
+          "augmentAllLevel": "+1 очка(ов) ко всем умениям",
+          "characterAttackSpeed": "Скорость: Медленная",
+          "characterAttackSpeedModifier": "+25% скорости атаки",
+          "characterStrength": "+28 ед. силы",
+          "defensiveDisruption": "50% защита от снятия умений",
+          "offensiveGlobalChance": {
+            "chance": "6.0% шанс на: ",
+            "properties": {
+              "offensiveBonusPhysical": "300 ед. бонусного урона",
+              "offensiveStun": "1.0-3.0 секунд(ы) оглушения"
+            }
+          },
+          "offensivePhysical": "216-245 ед. физического урона",
+          "offensivePhysicalModifier": "+10% физического урона",
+          "racialBonusPercentDamage": [
+            "+15% урона Undead",
+            "+15% урона Demons",
+            "+15% урона Titans"
+          ]
+        },
+        "strengthRequirement": 476,
+        "tag": "xtagUWeapon050"
+      }
+    ],
+    "WeaponMelee_Sword": [
+      {
+        "classification": "Легенда",
+        "dexterityRequirement": 335,
+        "itemLevel": 77,
+        "levelRequirement": 64,
+        "name": "Грам",
+        "properties": {
+          "augmentSkillName1": {
+            "name": "+2 очка(ов) к умению Пренебрежение болью",
+            "tag": "tagSkillName007"
+          },
+          "augmentSkillName2": {
+            "name": "+2 очка(ов) к умению Безрассудство",
+            "tag": "x2tagSkillRunesName010"
+          },
+          "characterAttackSpeed": "Скорость: Очень быстрая",
+          "characterAttackSpeedModifier": "+25% скорости атаки",
+          "characterDefensiveAbility": "+160 ед. оборонительной способности",
+          "itemSkillName": {
+            "level": 5,
+            "tag": "tagSkillName061"
+          },
+          "offensiveGlobalChance": {
+            "chance": "10.0% шанс на: ",
+            "properties": {
+              "offensivePierce": "400 ед. проникающего урона",
+              "offensiveSlowBleeding": "1000 ед. урона от кровотечения в течении 3.0 секунд(ы)"
+            }
+          },
+          "offensivePhysical": "198-202 ед. физического урона",
+          "offensivePhysicalModifier": "+35% физического урона",
+          "offensivePierceRatio": "10% доля проникающего урона",
+          "racialBonusPercentDamage": [
+            "+25% урона Magical",
+            "+25% урона Telkines"
+          ]
+        },
+        "strengthRequirement": 411,
+        "tag": "x2tagUWeapon015"
+      },
+      {
+        "classification": "Легенда",
+        "dexterityRequirement": 343,
+        "itemLevel": 79,
+        "levelRequirement": 62,
+        "name": "Тюрфинг",
+        "properties": {
+          "augmentAllLevel": "+1 очка(ов) ко всем умениям",
+          "characterAttackSpeed": "Скорость: Очень быстрая",
+          "characterAttackSpeedModifier": "+40% скорости атаки",
+          "defensiveElementalResistance": "30% сопротивление силам природы",
+          "itemSkillName": {
+            "level": 2,
+            "tag": "x2tagSkillOther18-1",
+            "trigger": " (Активируется при атаке)"
+          },
+          "offensivePhysical": "211-215 ед. физического урона",
+          "offensivePierceRatio": "20% доля проникающего урона",
+          "offensiveTotalDamageModifier": "20.0% шанс на +100% общего урона",
+          "skillCooldownReduction": "-10% времени перезарядки"
+        },
+        "strengthRequirement": 421,
+        "tag": "x2tagUWeapon016"
+      },
+      {
+        "classification": "Легенда",
+        "dexterityRequirement": 343,
+        "itemLevel": 79,
+        "levelRequirement": 63,
+        "name": "Лаватейн",
+        "properties": {
+          "augmentMasteryName1": {
+            "name": "+2 очка(ов) к умению Силы земли",
+            "tag": "tagSkillName098"
+          },
+          "characterAttackSpeed": "Скорость: Быстрая",
+          "characterLifeRegen": "+5.0 ед. жизни в секунду восстанавливается",
+          "defensiveFire": "50% сопротивление огню",
+          "defensiveFreeze": "50% уменьшение длительности заморозки",
+          "itemSkillName": {
+            "level": 7,
+            "tag": "x2tagSkillOther04"
+          },
+          "offensiveFire": "110 ед. урона от огня",
+          "offensiveFireModifier": "+40% урона от огня",
+          "offensivePhysical": "224-228 ед. физического урона",
+          "offensivePhysicalModifier": "+40% физического урона",
+          "offensivePierceRatio": "10% доля проникающего урона",
+          "offensiveSlowFire": "660 ед. урона от горения в течении 3.0 секунд(ы)",
+          "offensiveSlowFireModifier": "+40% урона от горения",
+          "offensiveTotalResistanceReductionPercent": "20.0% уменьшение сопротивлений на 3.0 секунд(ы)"
+        },
+        "strengthRequirement": 421,
+        "tag": "x2tagUWeapon017"
+      }
+    ]
+}

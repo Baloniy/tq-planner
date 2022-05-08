@@ -2,17 +2,26 @@
 
 declare(strict_types=1);
 
-namespace App\Service;
+namespace App\Service\Parsing;
 
 use App\Entity\Mastery;
 use App\Entity\Skill;
+use App\Exception\Mastery\NotFound;
+use App\Utils\ParseTrait;
 use Doctrine\ORM\EntityManagerInterface;
 use stdClass;
-use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Symfony\Component\HttpKernel\KernelInterface;
+use function array_map;
+use function explode;
+use function in_array;
+use function preg_split;
+use function reset;
+use function sprintf;
 
-class ParseSkillsService
+class SkillsService
 {
+    use ParseTrait;
+
     private static array $characterProperties = [
         'characterLifeModifier', // "+30% жизни",
         'characterStrengthModifier', // "+30% силы",
@@ -36,24 +45,26 @@ class ParseSkillsService
         'offensivePhysicalModifier', // +10% физического урона
         'defensivePhysical', // 3% сопротивление физическому урону
         'defensivePierce', // 3% сопротивление проникающему урону
-        'defensiveProtection', //4 ед. защиты
+        'defensiveProtection', // 4 ед. защиты
     ];
 
     public function __construct(
-        private KernelInterface $kernel,
-        private EntityManagerInterface $em
+        private readonly KernelInterface $kernel,
+        private readonly EntityManagerInterface $em
     ) {
     }
 
     public function parse(string $filename): void
     {
-        $content = $this->getFileContent($filename);
+        $content = $this->getContentFromFile($this->kernel, $filename);
 
         $skills = [];
         foreach ($content as $skillItem) {
             $skill = new stdClass();
             $skill->name = $skillItem['name'];
+            $skill->original_name = $skillItem['original_name'];
             $skill->tier = $skillItem['tier'];
+            $skill->column = $skillItem['column'];
             $skill->type = $skillItem['type'];
             $skill->maximum_level = $skillItem['maximum_level'];
             $skill->cooldown = $skillItem['cooldown'];
@@ -100,18 +111,6 @@ class ParseSkillsService
         $this->save($skills, $filename);
     }
 
-    private function getFileContent(string $filename): array
-    {
-        $projectDir = $this->kernel->getProjectDir();
-        $masteryUrl = $projectDir . DIRECTORY_SEPARATOR . 'assets/data' . DIRECTORY_SEPARATOR . $filename . '.json';
-
-        if (!file_exists($masteryUrl)) {
-            throw new NotFoundHttpException("File $filename does not exist!\n");
-        }
-
-        return json_decode(file_get_contents($masteryUrl), true);
-    }
-
     private function generateNewPropertyKey(string $key): string
     {
         $parts = preg_split('/(?=[A-Z])/', $key);
@@ -119,21 +118,24 @@ class ParseSkillsService
         return implode('_', array_map('strtolower', $parts));
     }
 
-    private function save(array $skills, string $slug)
+    private function save(array $skills, string $slug): void
     {
         $this->em->beginTransaction();
 
         try {
             $mastery = $this->em->getRepository(Mastery::class)->findOneBy(['slug' => $slug]);
+
             if (!$mastery) {
-                throw new NotFoundHttpException("Mastery with $slug does not exist!");
+                throw new NotFound(sprintf('Mastery with %s does not exist!', $slug));
             }
 
             foreach ($skills as $skill) {
                 $skillItem = new Skill();
                 $skillItem->setMastery($mastery);
                 $skillItem->setName($skill->name);
+                $skillItem->setOriginalName($skill->original_name);
                 $skillItem->setTier($skill->tier);
+                $skillItem->setColumn($skill->column);
                 $skillItem->setType($skill->type);
                 $skillItem->setMaximumLevel($skill->maximum_level);
                 $skillItem->setCoolDown($skill->cooldown);
